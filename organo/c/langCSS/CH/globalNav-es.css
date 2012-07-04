@@ -1,0 +1,184 @@
+/* global navigation */
+#global-nav {
+	height: 120px;
+}
+#global-nav #menu {
+	list-style: none;
+	margin: 2px 0 0 0;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	left: -40px;
+	left: -52px;
+	left: 106px;
+	z-index: 2;
+	top: -74px;
+}
+#global-nav #menu li ul {
+	position: absolute;
+	left: -9999em;
+	-moz-box-shadow: 0px 2px 6px 1px #ccc;
+	-webkit-box-shadow: 0px 2px 6px 1px #ccc;
+	box-shadow: 0px 2px 6px 1px #ccc;
+}
+#global-nav #menu li{
+	float:left;
+	position:relative;
+	display:block;
+}
+#global-nav #menu li a{
+	display:block;
+	height: 28px;
+	color:#000;
+	font-size: 9px;
+	letter-spacing: 2px;
+	letter-spacing: 0;
+	text-decoration:none;
+}
+#global-nav #menu li a:hover{
+	color:#000;
+}
+
+/* dropdown menu */
+#global-nav #menu ul li{
+	float: none;
+	width: 150px;
+	/*background: url(../images/bg_imgs/menu-bg-2.png) 0 0 repeat;
+	background: url(../images/bg_imgs/ogm_bar.png) 0 0 repeat;*/
+	background: url(../images/bg_imgs/menu-bg-3.png) 0 0 repeat;
+	padding: 0 10px;
+	position: relative;
+}
+#global-nav #menu li:hover ul{ /* Display the dropdown on hover */
+	top: 28px;
+	left: 0; /* Bring back on-screen when needed */
+}
+#global-nav #menu li:hover a{ /* Set styles for top level when dropdown is hovered */
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	width: 138px;
+}
+#global-nav #menu li:hover ul a{ /* Override some top level styles when dropdown is hovered */
+	text-decoration: none;
+	display: block;
+	width: 130px;
+	padding: 10px 10px 0 10px;
+	border-bottom: 0.75px dotted #fff;
+}
+#global-nav #menu li:hover ul li.last a { /* eliminates the border on the last item */
+	border-bottom: none;
+}
+#global-nav #menu li:hover ul li a:hover{ /* Set styles for dropdown when items are hovered */
+	display: block;
+	width: 130px;
+	padding: 10px 10px 0 10px;
+	color: #9B1112;
+	color: #fff;
+}
+
+/* individual items on global navigation */
+#global-nav #menu li a#home,
+#global-nav #menu li a#company,
+#global-nav #menu li a#products,
+#global-nav #menu li a#business,
+#global-nav #menu li a#join,
+#global-nav #menu li a#buy,
+#global-nav #menu li a#events {
+	display: block;
+	height: 28px;
+	text-indent: -999em;
+}
+
+/* global navigation normal state */
+#global-nav #menu li a#home {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -128px 0 no-repeat;
+	width: 136px;
+}
+#global-nav #menu li a#company {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -264px 0 no-repeat;
+	width: 98px;
+}
+#global-nav #menu li a#products {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -362px 0 no-repeat;
+	width: 114px;
+}
+#global-nav #menu li a#business {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -476px 0 no-repeat;
+	width: 90px;
+}
+#global-nav #menu li a#events {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -566px 0 no-repeat;
+	width: 88px;
+}
+#global-nav #menu li a#join {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -654px 0 no-repeat;
+	width: 116px;
+}
+#global-nav #menu li a#buy {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -770px 0 no-repeat;
+	width: 170px;
+}
+
+/* global navigation selected state */
+#global-nav #menu li.home a.selected,
+#global-nav #menu li.company a.selected,
+#global-nav #menu li.products a.selected,
+#global-nav #menu li.business a.selected,
+#global-nav #menu li.events a.selected,
+#global-nav #menu li.join a.selected,
+#global-nav #menu li.buy a.selected {
+	text-indent: -999em;
+}
+#global-nav #menu li.home a.selected {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -128px -28px no-repeat;
+	width: 137px;
+}
+#global-nav #menu li.company a.selected {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -265px -28px no-repeat;
+	width: 98px;
+}
+#global-nav #menu li.products a.selected {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -363px -28px no-repeat;
+	width: 114px;
+}
+#global-nav #menu li.business a.selected {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -476px -28px no-repeat;
+	width: 90px;
+}
+#global-nav #menu li.events a.selected {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -566px -28px no-repeat;
+	width: 88px;
+}
+#global-nav #menu li.join a.selected {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -655px -28px no-repeat;
+	width: 115px;
+}
+#global-nav #menu li.buy a.selected {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -771px -28px no-repeat;
+	width: 170px;
+}
+
+/* global navigation hover state */
+#global-nav #menu li a#home:hover {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -128px -28px no-repeat;
+}
+#global-nav #menu li a#company:hover {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -265px -28px no-repeat;
+}
+#global-nav #menu li a#products:hover {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -363px -28px no-repeat;
+}
+#global-nav #menu li a#business:hover {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -476px -28px no-repeat;
+}
+#global-nav #menu li a#events:hover {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -566px -28px no-repeat;
+}
+#global-nav #menu li a#join:hover {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -655px -28px no-repeat;
+}
+#global-nav #menu li a#buy:hover {
+	background: url(../images/bg_imgs/btn/es-main-nav-bg.png) -771px -28px no-repeat;
+}

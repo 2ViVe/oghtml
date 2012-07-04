@@ -1,0 +1,91 @@
+<div id="outer-wrapper-footer-menu">   
+<style type="text/css">
+	.slide {
+		height: 220px;
+		width: 948px;
+	}
+</style>
+      <div id="mbar">
+		<div class="media-bar">
+			<a id="mediabar" class="png_bg">Run Effect</a>
+                <div class="slide">
+             
+                </div><!-- /slide -->
+            </div><!-- /media-bar -->
+    
+            
+		<div class="og-university">	
+			<p><a href="http://www.oguniversity.com" target="_blank" id="oguniversity" class="png_bg">oguniveristy</a></p>
+		</div><!-- /og-university -->
+    </div><!-- /mbar -->
+<div id="inner-wrapper" class="clear">
+		<div class="col-1">
+			<h1>Other Sites</h1>
+			<ul>
+				<li><a href="http://www.organogold.com" target="_blank">Organo Gold</a></li>
+				<li><a href="http://www.oguniversity.com" target="_blank">OG University</a></li>
+				<li><a href="http://www.organogoldmedia.com/" target="_blank">OG Media Center</a></li>
+			</ul>
+		</div>
+		<!-- /col-1 -->
+		<div class="col-2">
+			<h1>Products</h1>
+			<ul>
+				<li><a href="c_beverages.asp">Beverages</a></li>
+				<li><a href="c_nutraceuticals.asp">Nutraceuticals</a></li>
+				<li><a href="c_personal-care.asp">Personal Care</a></li>
+			</ul>
+		</div>
+		<!-- /col-2 -->
+	<%if site<>"Corp" then%>
+			<div class="col-3">
+			<h1>Business</h1>
+			<ul>
+            	<li><a href="c_contact-general.asp">Contact Us</a></li>
+                <li><a href="c_executive-team.asp">Executive Team</a></li>
+                <!-- #include virtual ="/c_EN_Footer_Inc_Compensation.asp" -->
+                <li><a href="javascript:;">Privacy Policy</a></li>
+			</ul>
+		</div>
+	<%end if%>
+		<!-- /col-3 -->
+		<div class="col-4">
+			<h1>Media</h1>
+			<ul>
+				<li><a href="c_testimonials.asp">Testimonials</a></li>
+				<li><a href="http://www.organogoldmedia.com/photos" target="_blank">Photos</a></li>
+				<li><a href="http://www.organogoldmedia.com/ogtv" target="_blank">Videos</a></li>
+			</ul>
+		</div>
+		<!-- /col-4 -->
+		<div class="col-5">
+			<div class="socialmedia">
+				<p><a id="fb" href="http://www.facebook.com/organogold" class="png_bg" target="_blank">Facebook</a></p>
+				<p><a id="twitter" href="http://twitter.com/organogoldtv" class="png_bg" target="_blank">Twitter</a></p>
+				<p><a id="yt" href="http://youtube.com/organogoldtv" class="png_bg" target="_blank">Youtube</a></p>
+			</div><!-- /socialmedia -->
+	<%if site<>"corp" then%>
+			<div class="click-to-action clear">
+				<p><a id="buy-products" href="imx_ordernow.asp" class="png_bg" target="_blank">Buy Products</a></p>
+				<p><a id="join-now" href="imx_signup.asp" class="png_bg" target="_blank">Join Now</a></p>
+			</div><!-- /click-to-action -->
+		</div>
+     	<%end if%>
+
+		<!-- /col-5 -->
+	</div>
+	<!-- /inner-wrapper -->
+	<div class="copyright clear">
+		<p>&copy; 2011 Organo Gold. All Rights Reserved</p>
+	</div><!-- /copyright -->
+</div><!-- /outer-wrapper-footer-menu -->
+
+<!-- #include virtual ="/c_EN_general_scripts_inc.asp" -->
+<script type="text/javascript" src="/langCSS/EN/scripts/slideshow.js"></script>
+<script src="/langCSS/EN/scripts/foo.js"></script>
+<script src="/langCSS/EN/scripts/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="/langCSS/EN/scripts/global.js"></script>
+<!--Mas Test-->
+
+</body>
+</html>

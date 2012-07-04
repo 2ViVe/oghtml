@@ -1,0 +1,48 @@
+.events #outer-wrapper {
+	background: #fff;
+}
+.events #outer-content .left,
+.events #outer-content .right {
+	display: inline-block;	
+}
+.events #outer-content .left {
+	float: left;
+	width: 458px;
+	padding: 55px 0 0 57px;
+	margin: 6px 0 0 0;
+	position: relative;
+	z-index: 0;
+}
+.events #outer-content .right {
+	float: right;
+	width: 260px;
+	padding: 55px 145px 0 0;
+}
+.events #outer-content .right .right_header {
+	position: relative;
+	margin: 0;
+	top: -40px;
+	left: -111px;
+	line-height: 40px;
+	font-size: 29px;
+	color: #999;
+	z-index: 1;
+}
+.events #outer-content .right .right_header h1 {
+	background: url(/c/langCSS/IT/images/bg_imgs/we_are.png) 0 0 no-repeat;
+	width: 375px;
+	height: 75px;
+	z-index: 1;
+	text-indent: -999em;
+}
+.events #outer-content .right .right_content {
+	position: relative;
+	top: -30px;
+	text-align: justify;
+}
+.events #outer-content .right .right_content p {
+	margin: 0 0 2em 0;
+}
+.events #outer-content {
+	min-height: 630px;
+}

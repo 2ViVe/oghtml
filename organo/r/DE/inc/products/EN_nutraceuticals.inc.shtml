@@ -1,0 +1,62 @@
+ <div class="items">  
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Revered over 5,000 years as the highest ranking "Superior Herb" in the ancient books of herbs and medicine. Scientifically proven worldwide as nature's most potent health booster and overall conditioner. Ganoderma is often associated with longevity, youthfulness, and vitality.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Grapeseed Oil Extract</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>This incredibly versatile natural oil is extracted from the seeds of grapes.  Hailed for millenia and naturally rich in phytochemicals and polyunsaturated fatty acids, this oil contains many of the important building blocks of life.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum Mycelium</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Extracted from an 18-day old Ganoderma Lucidum mushroom with a naturally high concentration of Germanium and Polysaccharides such as beta-glucan.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Ganoderma Spore Powder</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Derived from the seeds of Ganoderma Lucidum, cultivated from natural log wood, extracted through low-temperature shell-broken technology reaching as high as 99.9% purity and Certified Organic by China, USA, Japan, and the E.U. The Spore Powder is naturally rich in Ganoderma Lucidum Polysaccharides, Triterpenes, Germanium and Selenium.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->

@@ -1,0 +1,62 @@
+   <div class="items">  
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Nấm Linh Chi</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Được sùng bái hơn 5.000 năm như một loại "Thảo Dược Cao Cấp" hàng đầu trong các sách cổ về thảo dược và y học. Nấm Linh Chi còn được công nhận về mặt khoa học trên toàn thế giới là chất tăng cường sức khỏe và điều tiết toàn diện hiệu nghiệm nhất của tự nhiên. Linh chi gắn liền với tuổi thọ, sức trẻ và sức sống.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Chiết Xuất Dầu Hạt Nho</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Chứa các hóa chất thực vật được biết đến nhờ tác dụng kháng viêm, bảo vệ gốc tự do và cải thiện sắc thái da. Kết hợp với một lượng đáng kể chất resveratrol, một chất khác có thế sử dụng làm chất chống viêm. Gồm cả các chất flavanoid hay Oligomeric Procyanidin (OPC), được biết tới với tác dụng chống ô xi hóa mạnh gấp 50 mươi lần so với Vitamin C hoặc Vitamin E.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Hệ Nấm Linh Chi</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Được chiết xuất từ nấm Linh Chi 18 ngày tuổi có độ tập trung cao các nguyên tố Germanium và Polysaccharide Hữu Cơ. Hệ Nấm Linh Chi còn được biết đến có tác dụng tăng cường hệ tuần hoàn khỏe mạnh và cung cấp ô xi.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Bột Bào Tử Nấm Linh Chi</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Bắt nguồn từ hạt Nấm Linh Chi, được trồng từ gỗ tự nhiên, chiết xuất thông qua công nghệ tách vỏ dưới nhiệt độ thấp với độ tinh khiết lên đến 99,9% và đã được Chứng Nhận Hữu Cơ tại Trung Quốc, Hoa Kỳ, Nhật Bản, và Liên Minh Châu Âu. Trong tự nhiên, Bột Bào Tử Nấm Linh Chi này rất giàu các chất Polysaccharide, Triterpene, Germanium và Selenium Hữu Cơ.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->

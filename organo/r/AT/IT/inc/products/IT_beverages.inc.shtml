@@ -1,0 +1,131 @@
+   <div class="items">  
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Dove la Cina antica incontra la scienza moderna"</h1>
+			<h2 class="info_second_header">Gourmet Cafe Supreme</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Prodotto utilizzando la pianta di ginseng Superior Panax, che era considerata un'erba di così grande valore nel mondo antico, che era disponibile solamente alle persone con grande potere e grandi privilegi.</p>
+                <p>&nbsp;</p>
+                <p>In Asia il ginseng è ancora considerato prezioso e di alto valore come fonte chiave di salute e benessere.</p>
+                <p>&nbsp;</p>
+                <p>Il Gourmet Café Supreme di Organo Gold combina la potenza del Ginseng e del Ganoderma biologico certificato al 100%, per un amabile abbinamento, perfetto per i bevitori di caffè che cercano un tonico naturale per la loro giornata.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Caffè Black</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Il Gourmet Black Coffee di Organo Gold attrarrà e risveglierà sicuramente i tuoi sensi. Il suo sapore scuro e amaro e il profondo aroma infuso dal Ganoderma biologico certificato 100% offre agli amanti del caffè un'alternativa salutare. Con il caffè Black di OG, gusta immediatamente l'aroma del caffè appena preparato.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Mocha</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Il nostro caffè aromatico, unito al miglior cacao, ci consegna un "dessert in tazza" senza preoccupazioni per la dieta. Il Gourmet Mocha di OG unisce un dolce e ricco sapore di caffè con il Ganoderma Lucidum biologico 100%, per la perfetta bevanda energizzante da dopo cena.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Latte</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Uno dei preferiti della casa, Gourmet Latte di OG fonde aromatici chicchi di caffè di qualità arabica con l'estratto di Ganoderma biologico 100%. Perfetto a colazione o come bevanda rilassante, il sapore leggero, dolce e cremoso di questo caffè, unito all'effetto energizzante del Ganoderma, lo rende il modo ideale con cui cominciare ogni mattinata.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Cioccolata calda Gourmet</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Un'unica miscela di cioccolato dal sapore ricco e rotondo, e di estratto di Ganoderma biologico 100%, scalda il tuo corpo mentre aiuta il tuo sistema immunitario durante i giorni più freddi. Molto richiesto, OG è fiera di presentare una bevanda dal sapore eccelso che chiunque può gustare.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Tè verde biologico</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Il carattere eccezionalmente calmante e saporito del tè verde, unito ai salutari vantaggi del Ganoderma Biologico 100%, fornisce una bevanda ricca di antiossidanti.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Re del caffè</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Prodotto esclusivamente da Organo Gold, il "King of Coffee" include orgogliosamente Caffè Premium Biologico certificato 100%, miscelato con l'estratto di polvere di spore di Ganoderma certificato 100%. I chicchi di caffè di altà qualita e il Ganoderma, ricco di antiossidanti, sono solo parte di questo grande caffè. Ottimo se abbinato a qualsiasi tipo di cibo, il suo leggero sapore di caffè e il fresco aroma sono destinati a renderlo una salutare parentesi di tutti i giorni.
+Premium Gourmet 
+</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Premium Gourmet Royal Brewed</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>La Giamaica sta perfezionando la coltivazione del proprio caffè da oltre 100 anni. I lavoratori selezionano a mano i migliori chicchi di arabica, una maniera naturale per assicurarsi la migliore qualità. Il caffè è trattato attraverso alcuni dei più rigorosi standard di qualità al mondo, portando a un sapore fresco e un aroma ricco secondo a nessuno.</p>
+                <p>&nbsp;</p>
+                <p>Il caffè Jamaica Blue Mountain® ora ha al suo interno l'estratto di polvere di spore Ganoderma biologico certificato 100% da Organo Gold. Utilizzando solamente gli ingredienti della più alta qualità disponibile, il caffè Premium Gourmet Royal Brewed di Organo Gold è una miscela indicata per i reali.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

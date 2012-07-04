@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<playlist version='1' xmlns='http://xspf.org/ns/0/'>
+  <trackList>
+    <track>
+      <creator>Artist</creator>
+      <title>Video 1</title>
+      <location>https://s3.amazonaws.com/OrganoGoldMedia/OrganoGold.com/OG+COMP+v2_SD.flv</location>
+      <image>https://s3.amazonaws.com/OrganoGoldMedia/OrganoGold.com/OG+COMP+v2_SD.jpg</image>
+    </track>
+    
+    <track>
+      <creator>Artist</creator>
+      <title>Video 2</title>
+      <location>https://s3.amazonaws.com/OrganoGoldMedia/OrganoGold.com/OG+OPP+v3_SD.flv</location>
+      <image>https://s3.amazonaws.com/OrganoGoldMedia/OrganoGold.com/OG+OPP+v3_SD.jpg</image>
+    </track>
+  </trackList>
+</playlist>

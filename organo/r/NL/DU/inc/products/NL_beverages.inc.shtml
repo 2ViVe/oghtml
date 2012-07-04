@@ -1,0 +1,129 @@
+   <div class="items">  
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Cafe Supreme</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Met de superieure Panax Ginseng plant, dat in vroegere jaren als zo'n waardevol kruid werd beschouwd dat het alleen beschikbaar was voor het oppermachtige, bevoorrechte volk.</p>
+                <p>&nbsp;</p>
+                <p>Ginseng wordt in Azië nog steeds geprezen en gekoesterd als hoofdbron van gezondheid en welbevinden.</p>
+                <p>&nbsp;</p>
+                <p>Gourmet Caf&eacute; Supr&ecirc;me van Organo Gold combineert de kracht van Ginseng en 100% Gecertificeerde Organische Ganoderma voor een soepele latte blend, die perfect is voor koffiedrinkers die hun normale dag een natuurlijke opkikker willen geven.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Black Coffee</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Gourmet Black Coffee van Organo Gold zal uw smaakpapillen doen ontwaken. Deze koffie heeft een donkere, bittere smaak en diep aroma, getrokken van 100% Organische Ganoderma voor koffieliefhebbers die een gezond alternatief willen. Met de Black Coffee van OG kunt u meteen genieten van de smaak van versgezette koffie.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Mocha</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Onze aromatische koffie, gecombineerd met de beste kokos, brengt ons "Dessert in een kopje" teweeg waar u zich absoluut niet schuldig over hoeft te voelen. De Gourmet Mocha van OG combineert een zoete, rijke koffiesmaak en 100% Organische Ganoderma Lucidum voor het perfecte verkwikkende drankje na het eten.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Latte</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>OG Gourmet Latte, een favoriet van het huis, mengt aromatische Arabica koffiebonen van hoge kwaliteit met 100% Organisch Ganoderma extract. De licht zoete en romige smaak van de koffie, gecombineerd met de energieke Ganoderma maakt deze koffie perfect voor elke ochtend of als ontspannend drankje.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Hot Chocolate</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Een unieke blend van een soepele, rijke chocoladesmaak en 100% Organisch Ganoderma extract verwarmt uw lichaam, terwijl uw immuunsysteem wordt ondersteund tijdens de koude dagen van het jaar. OG is zeer trots om een drankje te kunnen presenteren dat geweldig smaakt en waar iedereen van kan genieten, een drankje dat dan ook zeer in trek is.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Organic Green Tea</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Het zeer kalmerende en smaakvolle karakter van Green Tea, gecombineerd met de gezonde voordelen van 100% Organische Ganoderma, biedt een drank die rijk is aan antioxidanten.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">King of Coffee</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Exclusief geproduceerd door Organo Gold, bestaat de "King of Coffee" uit de beste 100% Gecertificeerde Organische Koffie, getrokken van 100% Gecertificeerde Ganoderma Sporenpoeder Extract. Koffiebonen van hoge kwaliteit en Ganoderma rijk aan antioxidanten zijn slechts deel van deze geweldige koffie. Een fantastische combinatie met elke soort eten, vormt deze lichtere koffie met haar rijke smaak en frisse aroma een gezond onderdeel van elke dag.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Premium Gourmet Royal Brewed</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Jamaica is al 100 jaar bezig met het perfectioneren van de koffieverbouwing. Arbeiders sorteren Arabica bonen met de hand, de natuurlijke manier om voor de beste kwaliteit te zorgen. De koffie wordt verwerkt met de meest rigoureuze kwaliteitsstandaarden ter wereld, wat resulteert in een frisse smaak en een rijk aroma dat niemand kan evenaren.</p>
+                <p>&nbsp;</p>
+                <p>Jamaica Blue Mountain&reg; Coffee wordt getrokken van het 100% Gecertificeerde Organische Ganoderma Poederextract van Organo Gold. Door alleen ingrediënten van de allerhoogste kwaliteit te gebruiken, is de Premium Gourmet Royal Brewed van Organo Gold een koffie voor de koninklijken.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

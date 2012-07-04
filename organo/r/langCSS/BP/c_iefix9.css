@@ -1,0 +1,199 @@
+/* styles for ie8 */
+#logo a#logo {
+	position: relative;
+	z-index: 6;
+}
+#dist-info {
+	height: 82px;
+	left: 25px;
+}
+#lang-region {
+	position: relative;
+	left: 26px;
+}
+#dist-info {
+	margin: 10px 0 0 0;
+}
+#dist-info {
+    letter-spacing: 0px;
+}
+.business #global-nav {
+	height: 0px;
+}
+.business #outer-content .business {
+	background: url(/langCSS/EN/images/bg_imgs/business_page.jpg) 0 5px no-repeat;
+}
+.business #tabs {
+	margin: 15px 0 0 0;
+}
+#global-nav #menu {
+	/*background: url(../images/bg_imgs/header50_bg.png) 0 -92px repeat-x;*/
+	margin: 0 0 0 0px;
+	z-index: 1;
+	top: 0;
+}
+.home #global-nav {
+	height: 0px;
+}
+.home #outer-content {
+	position: relative;
+	top: -8px;
+}
+.business #outer-wrapper,
+.home #outer-wrapper,
+.company #outer-wrapper,
+.contact-general #outer-wrapper {
+	z-index: -1;
+}
+.home .content .content_header {
+	font-size: 30px;
+	width: 338px;
+}
+
+.business #outer-content {
+    border: 1px solid transparent;
+}
+.company #outer-content .left {
+    padding-top: 0;
+}
+.company #outer-content {
+	padding: 55px 0 0 0;	
+}
+.company #outer-content .right .right_header {
+	width: 350px;
+	left: -110px;
+}
+.company #outer-content .right {
+	width: 240px;
+	padding: 0 165px 0 0;
+}
+.products #outer-wrapper #inner-wrapper #outer-content .items .right {
+    padding-right: 95px;
+    width: 335px;
+}
+.products #outer-content {
+    padding: 0;
+}
+.business #outer-content .business {
+	margin-top: 0px;
+}
+.business #business_content {
+	
+}
+.contact #outer-content {
+	padding: 0 0 0 0;
+}
+.contact .sub_text .sub_left, .contact .sub_text .sub_right {
+    width: 140px;
+}
+.contact .sub_text .sub_left p {
+    width: 130px;
+}
+#about_popup {
+  bottom:30px;
+}
+#contact_popup {
+	width: 883px;
+}
+#contact_popup .footerUp .footer-section-1,
+#contact_popup .footerUp .footer-section-2,
+#contact_popup .footerUp .footer-section-3,
+#contact_popup .footerUp .footer-section-4 {
+    width: 200px;
+}
+/* global navigation normal state */
+#global-nav #menu li a#home {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -128px 0 no-repeat;
+	width: 121px;
+}
+#global-nav #menu li a#company {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -250px 0 no-repeat;
+	width: 135px;
+}
+#global-nav #menu li a#products {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -386px 0 no-repeat;
+	width: 90px;
+}
+#global-nav #menu li a#business {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -477px 0 no-repeat;
+	width: 96px;
+}
+#global-nav #menu li a#events {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -574px 0 no-repeat;
+	width: 77px;
+}
+#global-nav #menu li a#login {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -972px 0 no-repeat;
+	width: 90px;
+}
+#global-nav #menu li a#join {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -615px 0 no-repeat;
+	width: 158px;
+}
+#global-nav #menu li a#buy {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -773px 0 no-repeat;
+	width: 162px;
+}
+
+/* global navigation selected state */
+#global-nav #menu li.home a.selected {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -128px -28px no-repeat;
+	width: 122px;
+}
+#global-nav #menu li.company a.selected,
+#global-nav #menu li a#company.selected {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -252px -28px no-repeat;
+	width: 135px;
+}
+#global-nav #menu li.products a.selected,
+#global-nav #menu li a#products.selected {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -387px -28px no-repeat;
+	width: 90px;
+}
+#global-nav #menu li.business a.selected,
+#global-nav #menu li a#business.selected {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -479px -28px no-repeat;
+	width: 96px;
+}
+#global-nav #menu li.events a.selected {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -575px -28px no-repeat;
+	width: 77px;
+}
+#global-nav #menu li.login a.selected {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -973px -28px no-repeat;
+	width: 90px;
+}
+#global-nav #menu li.join a.selected {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -615px -28px no-repeat;
+	width: 158px;
+}
+#global-nav #menu li.buy a.selected {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -773px -28px no-repeat;
+	width: 162px;
+}
+
+/* global navigation hover state */
+#global-nav #menu li a#home:hover {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -128px -28px no-repeat;
+}
+#global-nav #menu li a#company:hover {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -252px -28px no-repeat;
+}
+#global-nav #menu li a#products:hover {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -387px -28px no-repeat;
+}
+#global-nav #menu li a#business:hover {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -479px -28px no-repeat;
+}
+#global-nav #menu li a#events:hover {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -575px -28px no-repeat;
+}
+#global-nav #menu li a#login:hover {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -973px -28px no-repeat;
+}
+#global-nav #menu li a#join:hover {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -844px -28px no-repeat;
+}
+#global-nav #menu li a#buy:hover {
+	background: url(/langCSS/BP/images/bg_imgs/btn/bp-main-nav-bg.png) -774px -28px no-repeat;
+}

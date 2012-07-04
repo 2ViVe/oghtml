@@ -1,0 +1,86 @@
+<div id="outer-wrapper-footer-menu">
+<style type="text/css">
+	.slide {
+		height: 220px;
+		width: 948px;
+	}
+</style>
+      <div id="mbar">
+		<div class="media-bar">
+			<a id="mediabar" class="png_bg">Run Effect</a>
+                <div class="slide">
+                </div><!-- /slide -->
+            </div><!-- /media-bar -->
+    
+            
+		<div class="og-university">	
+			<p><a href="http://www.oguniversity.com" target="_blank" id="oguniversity" class="png_bg">oguniveristy</a></p>
+		</div><!-- /og-university -->
+    </div><!-- /mbar -->
+<div id="inner-wrapper" class="clear">
+		<div class="col-1">
+			<h1>Other Sites</h1>
+			<ul>
+				<li><a href="http://www.organogold.com" target="_blank">Organo Gold</a></li>
+				<li><a href="http://www.oguniversity.com" target="_blank">OG University</a></li>
+				<li><a href="http://www.organogoldmedia.com/" target="_blank">OG Media Center</a></li>
+				<li><a href="http://ogbusinesstools.com" target="_blank">OG Business Tools</a></li>
+				<li><a href="http://ogcoffeeconcierge.com" target="_blank">OG Coffee Concierge</a></li>
+			</ul>
+		</div>
+		<!-- /col-1 -->
+		<div class="col-2">
+			<h1>產品</h1>
+			<ul>
+				<li><a href="beverages.html">飲品</a></li>
+				<li><a href="nutraceuticals.html">營養劑</a></li>
+				<li><a href="personal-care.html">個人護理</a></li>
+			</ul>
+		</div>
+		<!-- /col-2 -->
+			<div class="col-3">
+			<h1>業務</h1>
+			<ul>
+				<li><a href="https://demo.myorganogold.com/signup" target="_blank">立即加入</a></li>
+				<li><a href="https://demo.myorganogold.com/login" target="_blank">購買產品</a></li>
+				<li><a href="contact-general.html">聯絡我們</a></li>
+                <li><a href="executive-team.html">Executive Team</a></li>
+                <!-- #include virtual ="/r_CH_Footer_Inc_Compensation.asp" -->
+                <li><a href="terms.html">條款和條件</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+			</ul>
+		</div>
+		<!-- /col-3 -->
+		<div class="col-4">
+			<h1>媒體</h1>
+			<ul>
+				<li><a href="testimonials.html">感言</a></li>
+				<li><a href="http://www.organogoldmedia.com/photos" target="_blank">相片</a></li>
+				<li><a href="http://www.organogoldmedia.com/ogtv" target="_blank">視訊</a></li>
+			</ul>
+		</div>
+		<!-- /col-4 -->
+		<div class="col-5">
+			<div class="socialmedia">
+				<p><a id="fb" href="http://www.facebook.com/organogold" class="png_bg" target="_blank">Facebook</a></p>
+				<p><a id="twitter" href="http://twitter.com/organogold" class="png_bg" target="_blank">Twitter</a></p>
+				<p><a id="yt" href="http://youtube.com/organogoldtv" class="png_bg" target="_blank">Youtube</a></p>
+			</div><!-- /socialmedia -->
+			<div class="click-to-action clear">
+				<p><a id="buy-products" href="" class="png_bg" target="_blank">Buy Products</a></p>
+				<p><a id="join-now" href="" class="png_bg" target="_blank">cach</a></p>
+			</div><!-- /click-to-action -->
+		</div>
+
+		<!-- /col-5 -->
+	</div>
+	<!-- /inner-wrapper -->
+	<div class="copyright clear">
+		<p>&copy; 2012 Organo Gold。保留所有權利</p>
+	</div><!-- /copyright -->
+</div><!-- /outer-wrapper-footer-menu -->
+<script type="text/javascript" src="/r/langCSS/scripts/global.js"></script>
+<!--Mas Test-->
+
+</body>
+</html>

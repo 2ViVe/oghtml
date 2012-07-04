@@ -1,0 +1,31 @@
+   <div class="items">
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/smile.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">OG Smile</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Eine Zahnpasta mit 100 % organischem Ganoderma und dem frischen Geschmack der Minze, entwickelt für die besondere Pflege von Zähnen und Zahnfleisch. OG Smile enthält natürliche Produkte, die die Gesundheit des Mundraums fördern und Ihnen weißere Zähne sowie einen frischeren Atem verleihen.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/soap.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">G3 Premium Beauty Soap</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Eine spezielle Kombination aus Glutathion, Traubenkernen und dem Extrakt von Ganoderma lucidum. Reinigt, sendet Feuchtigkeit und ist dank ihrer speziellen Formulierung hypoallergen. Regelmäßiger Gebrauch fördert die jugendliche Ausstrahlung Ihrer Haut.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

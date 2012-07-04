@@ -1,0 +1,62 @@
+<div class="items">  
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>El Ganoderma Lucidum ha sido venerado durante m&aacute;s de 5000 a&ntilde;os como la "Hierba superior" de mayor jerarqu&iacute;a en los antiguos libros de hierbas y medicinas. Est&aacute; cient&iacute;ficamente probado en todo el mundo que es el refuerzo m&aacute;s potente de la salud que ofrece la naturaleza y un acondicionador general. El ganoderma suele asociarse con la longevidad, la juventud y la vitalidad.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Extracto de aceite de semillas de uva</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Este incre&iacute;blemente vers&aacute;til aceite natural es extra&iacute;do de las semillas de las uvas. Alabado por los milenios y naturalmente rico  en fitoqu&iacute;micos y &aacute;cidos grasos poliinsaturados, este aceite contiene muchos de los componentes b&aacute;sicos de la vida.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum Mycelium</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Ganoderma Lucidum Mycelium se extrae de un hongo de Ganoderma Lucidum de 18 d&iacute;as, conteniendo una alta concentraci&oacute;n de germanio y polisac&aacute;ridos tal y como el beta-glucan.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="c/langCSS/products/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Polvo de esporas de ganoderma</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Derivado de las semillas de Ganoderma Lucidum. Se cultiva a partir de madera natural y se extrae mediante una tecnolog&iacute;a de rotura de c&aacute;psulas a baja temperatura, lo que permite lograr un producto con una pureza del 99,9%.  Certificado en China, Estados Unidos, Jap&oacute;n y la Comunidad Europea, las esporas de Ganoderma son naturalmente ricas en polisac&aacute;ridos Ganoderma Lucidum, triterpenos, germanio y selenio.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->

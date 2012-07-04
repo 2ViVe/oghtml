@@ -1,0 +1,126 @@
+   <div class="items">  
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">高級精選咖啡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>以高級人參植物製成，在古代，這種藥用植物價值極高，只有高官權貴才能享用。</p>
+                <p>在亞洲，人參依然是珍貴之物，是健康和福祉的重要之源。</p>
+                <p>Organo Gold 的高級精選咖啡結合人參和 100% 有機認證靈芝之功效，再融入柔滑的拿鐵，是咖啡愛好者理想的天然提神飲品。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">黑咖啡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Organo Gold 的精選黑咖啡一定能吸引和喚醒您的感官。它鬱苦而芬芳，再加上 100% 有機靈芝，給咖啡愛好者提供健康選擇。有了 OG 黑咖啡，就可以立即享受現煮咖啡的美味了。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">精選摩卡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>香濃咖啡加上最好的可可粉，帶來無上的「杯中甜點」。香甜濃郁的咖啡風味加上 100% 有機靈芝，使 OG 的精選摩卡成為理想的餐後提神飲品。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">精選拿鐵</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>OG 精選拿鐵結合了香濃的優質阿拉比卡咖啡豆和 100% 有機靈芝精華，是最受喜愛的家居飲品。它非常適合作為早餐或休閒飲品，咖啡的清淡、香甜和奶油風味與提神的靈芝相結合，使其成為開始新一天的理想飲品。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">精選熱巧克力</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>柔滑豐富的巧克力口感與 100% 有機靈芝精華相交融，在寒冷天氣裡給您帶來溫暖，強健您的身體。高品質源於高要求，OG 以能夠為大家提供美味可口的飲品而自豪。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">有機綠茶</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>格外舒緩美味的綠茶特質加上有益健康的 100% 有機靈芝，造就了這一富含抗氧化劑的飲品。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">至尊咖啡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>「至尊咖啡」由 Organo Gold 獨家生產，含 100% 經有機認證的高級咖啡及 100% 經認證的靈芝孢子粉精華。高品質咖啡豆和富含抗氧化劑的靈芝只是這款絕妙咖啡的一部份優點。它能與任何食物完美搭配，淡雅的咖啡口感和清香使它注定成為每日健康生活的必備飲品。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">高級精選皇家煮磨咖啡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>100 多年來，牙買加在咖啡豆種植方面的技術日益完善。工人手工分揀大量阿拉比卡咖啡豆，以天然方法保證其一流品質。該咖啡按照世界上最嚴格的品質標準進行處理，其新鮮口感和濃香無與倫比。</p>
+                <p>牙買加藍山咖啡現在已加入了 Organo Gold 的 100% 有機認證靈芝孢子粉精華。因為只採用最好的原料，Organo Gold 的高級精選皇家煮磨咖啡是您的至尊選擇。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

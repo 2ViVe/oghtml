@@ -1,0 +1,62 @@
+   <div class="items">  
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Rispettato per oltre 5.000 anni come la più grande "Erba superiore" negli antichi testi di erboristeria e medicina. È stato dimostrato scientificamente come sia il miglior supporto e aiuto per la salute in natura. Il Ganoderma è spesso associato alla longevità, alla giovinezza e alla vitalità.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Estratto d'olio di vinacciolo</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>È composto da fitochimici noti per la loro azione antiinfiammatoria e di protezione dai radicali liberi, nonchè della loro capacità di migliorare il tono cutaneo. Contiene importanti quantità di resveratrolo, un'altra sostanza che agisce come elemento antiinfiammatorio. Contiene flavonoidi o procianidine oligomeriche (OPC), conosciuti per fornire una protezione antiossidante più potente di 50 volte rispetto ad altre vitamine C ed E.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Micelio di Ganoderma Lucidum</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Estratto da un fungo Ganoderma lucidum di 18 giorni con un'alta concentrazione naturale di germanio organico e polisaccaridi. Il micelio di Ganoderma è noto anche per migliorare la circolazione e l'apporto di ossigeno.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Polvere di spore di Ganoderma</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Derivata dai semi di Ganoderma Lucidum, coltivato da ceppi di legno naturale, estratta con tecnologie di apertura del guscio a bassa temperatura, raggiungendo una purezza del 99,9% e certificata biologica da Cina, Stati Uniti, Giappone e Unione Europea, la polvere di spore è naturalmente ricca di polisaccaridi, triterpeni, germanio organico e selenio di Ganoderma Lucidum.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->

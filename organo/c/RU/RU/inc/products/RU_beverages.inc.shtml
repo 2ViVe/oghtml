@@ -1,0 +1,126 @@
+<div class="items">  
+      <div class="item" style="display:none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Gourmet Cafe Supreme</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Featuring the Superior Panax Ginseng plant, which was considered an herb of such great value in the ancient world that it was only available to people of great power and privilege.</p>
+                <p>Ginseng is still highly prized and treasured in Asia as a key source of health and well-being.</p>
+                <p>Organo Gold's Gourmet Caf&eacute; Supreme combines the power of Ginseng and 100% Certified Organic Ganoderma, for a smooth latte blend perfect for coffee drinkers looking for a natural lift to their day.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Чёрный кофе</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Чёрный кофе марки Gourmet Black Coffee от Organo Gold наверняка привлечёт Ваше внимание и разбудит Ваши чувства. Благодаря глубокому мягкому вкусу, приятному аромату и насыщенности органическим экстрактом Ганодерма этот напиток является отличной альтернативой для всех кофеманов. Сделав выбор в пользу OG Black Coffee, Вы сможете постоянно наслаждаться превосходными вкусовыми качествами свежеприготовленного кофе.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Кофе Gourmet Cafe Mocha (мокко)</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Наш ароматный кофе, дополненный нежным какао – это замечательный десертный напиток. Сорт Gourmet Mocha сочетает в себе насыщенный, богатый кофейный вкус и органическую добавку – экстракт на основе гриба из рода Ганодерма (Ganoderma Lucidum). Чашка такого кофе после обеда придаст Вам сил и энергии.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Кофе Gourmet Latte (латте)</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Этот продукт пользуется у покупателей большим спросом. OG Gourmet Latte – это высококачественный ароматный кофе сорта «Арабика» плюс органический экстракт Ганодерма. Данный напиток отлично подходит для завтрака. Лёгкий, сладко-сливочный вкус, в сочетании с придающим энергию экстрактом Ганодерма поможет Вам наилучшим образом начинать каждый новый день.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Напиток Gourmet Hot Chocolate (горячий шоколад)</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Уникальная комбинация мягкого насыщенного вкуса шоколада и органического экстракта Ганодерма поддержит иммунную систему Вашего организма и согреет Вас в холодные дни. Organo Gold с большим удовлетворением предлагает всем насладиться этим замечательным напитком, который уже собрал превосходные отзывы от потребителей.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Органический зелёный чай</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Исключительный мягкий вкус и богатый аромат зелёного чая в сочетании с полезным для здоровья органическим экстрактом Ганодерма. Этот напиток содержит большое количество антиоксидантов.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display:none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">King of Coffee</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Exclusively produced by Organo Gold, the "King of Coffee" proudly features Premium 100% Certified Organic Coffee infused with 100% Certfified Ganoderma Spore Powder Extract". High quality coffee beans and Ganoderma rich with anti-oxidants are just part of this great coffee. Fantastic paired with any food, its lighter coffee taste and fresh aroma is bound to make it a healthy part of every day.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display:none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Premium Gourmet Royal Brewed</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Jamaica has been perfecting their coffee bean farming for over 100 years. Workers individually hand sort rich Arabica beans, the natural way to ensure premium quality. The coffee is processed with some of the most rigorous quality standards in the world, resulting in a fresh taste and rich aroma that is second to none.</p>
+                <p>Jamaica Blue Mountain&reg; Coffee is now infused with Organo Gold's 100% Certified Organic Ganoderma Spore Powder Extract. By using only the highest quality ingredients available, Organo Gold's Premium Gourmet Royal Brewed Coffee is a brew fit for royalty.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

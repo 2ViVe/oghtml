@@ -1,0 +1,151 @@
+<!-- #include virtual ="/r_GR_Dist_Inc.asp" -->
+<%menupage="business"
+	if r="" then 
+		rtrn=r
+	else 
+		rtrn=r&"/"
+	end if 
+%>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Organo Gold, Network Marketing" />
+<meta name="description" content="Organo Gold's mission is to improve the health, wealth, and balance in people's lives by sharing the knowledge of a healthy alternative to regular coffee. By partnering with thousands of people along the way, we have become a global family growing and thriving as we take part in a better future." />
+<title>Contact | Organo Gold</title>
+<link rel="stylesheet" href="/langCSS/GR/global.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/GR/globalNav-gr.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/GR/contact.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/GR/scrollable.css" type="text/css" />
+<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+<script src="/langCSS/GR/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+<script src="/langCSS/EN/scripts/foo.js"></script>
+<script type="text/javascript" src="/langCSS/EN/scripts/json.js" /></script>
+<!--[if (IE 8)&(IE 9)]>
+	<link rel="stylesheet" href="/langCSS/EN/iefix.css" type="text/css" />	
+<![endif]-->
+<!--[if lte IE 7]>
+	<link rel="stylesheet" href="/langCSS/GR/iefix7.css" type="text/css" />
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="/langCSS/GR/scripts/DD_belatedPNG.js"></script>
+	<script>
+		DD_belatedPNG.fix('.png_bg');
+	</script>
+<![endif]-->
+</head>
+<body class="contact">
+<div id="top-wrapper" class="png_bg">
+<div id="header">
+			<div id="logo"> <a id="logo" class="png_bg" href="r_default.asp"></a> </div>
+			<!-- /logo -->
+			<div id="dist-info">
+<!-- #include virtual ="/r_GR_Dist_Info_Inc.asp" -->	
+			</div>
+			<!-- /dist-info -->
+		<!-- lang-region -->
+		<!-- #include virtual ="/r_GR_Lang_Inc.asp" -->
+
+			<!-- /lang-region -->
+				<!-- global-nav -->
+		<!-- #include virtual ="/r_GR_Nav_Inc.asp" -->
+
+		</div>
+		<!-- /header -->
+		
+</div><!-- /top-wrapper -->
+<div id="outer-wrapper" class="png_bg">
+	<div id="inner-wrapper">
+		<div id="outer-content" class="toggler clear">
+    		<div class="contact">
+			<h1 class="png_bg">Send the distributor a message.</h1>
+                <div class="sub_text form_top">
+                    <p>Send me a message to learn more.</p>
+                </div><!-- /sub_text -->
+
+                <form action="http://secure4.office2office.com/imx_contact_form_post.asp" method="POST" style="font-family: Verdana; font-size: 9pt">
+                
+                <input name="ACTION" type="hidden" value="CONTACTDist" />
+                <input name="CL" type="hidden" value="ZLF" />
+                <input name="ID" type="hidden" value="<%=distributor_id%>" />
+                
+                <input name="REQUIREFIELDS" type="hidden" value="TAGPASS2:First Name,TAGPASS3:Email Address" />
+                <input name="REQUIREDTEXT" type="hidden" value="Required Field not found!  -  %REQ_NAME% is required!" />
+                
+                <input name="ERROR_HEADER" type="hidden" value="Your contact form had errors.<BR><BR>Please review below and then press back to re-submit." />
+                <input name="ERROR_PAGE_TITLE" type="hidden" value="Form Had Errors!" />
+                
+                <input name="REDIRECT_SUCCESS" type="hidden" value="http://<%=host%>.organogold.com/<%=rtrn%>r_ThankYou.asp" />
+                <input name="RETURN_LINK_URL" type="hidden" value="http://<%=host%>.organogold.com/<%=rtrn%>r_contact.asp" />
+                <input name="RETURN_LINK_TEXT" type="hidden" value="click here to return to the contact form" />
+
+        <div class="section">
+                <div class="label">
+                    <label for="username">Name</label>
+                </div><!-- /label -->
+                <div class="input">
+                    <input name="TAGPASS2" type="text" size="48" id="name" />
+                </div><!-- /input -->
+                </div><!-- /section -->
+            <div class="section">
+                <div class="label">
+                    <label for="email">E-mail *</label>
+                </div><!-- /label -->
+                <div class="input">
+                    <input name="TAGPASS3" type="text" size="48" id="email" />
+                </div><!-- /input -->
+            </div><!-- /section -->
+            <div class="section">
+                <div class="label">
+                    <label for="comments">Message</label>
+                </div><!-- /label -->
+                <div class="input">
+                    <textarea rows="9" name="TAGPASSLONG1" cols="38" id="comment"></textarea>
+                </div><!-- /input -->
+            </div><!-- /section -->
+            <div class="reset">
+                <div class="label">
+                    <input name="reset" type="reset" style="background: url(/langCSS/EN/images/bg_imgs/btn/contact_btn.png); border: none; width: 17px; height: 17px; text-indent: -999em; cursor: pointer;" value="Clear" id="reset" class="png_bg" />
+                </div><!-- /label -->
+                <div class="input">
+                    <label for="cancel">Cancel</label>
+                </div><!-- /input -->
+            
+        
+                </div><!-- /section submit -->
+                <div class="submit">
+                <div class="label">
+                    <input name="submit" type="submit" style="background: url(/langCSS/EN/images/bg_imgs/btn/contact_btn.png); border: none; width: 17px; height: 17px; text-indent: -999em; cursor: pointer;" value="Submit" id="submit" class="png_bg" />
+                </div><!-- /label -->
+                <div class="input">
+                    <label for="submit">Submit</label>
+                </div>
+	
+
+		<!-- /input -->
+	</div><!-- /section submit -->
+	<div class="clear"></div>
+
+
+	<div class="section form_text">
+		<p>Thank you for taking the time to send the distributor a message. He
+will contact you as soon as he receives this message. In the mean
+time, if you have urgent concerns; please call us at 1 (877) 674-2661
+and we willl try to assist you the best we can.</p>
+</form>
+	</div><!-- /form_text -->
+  </div><!-- /contact -->
+    
+		</div>
+		<!-- /outer-content -->
+	</div>
+	<!-- /inner-wrapper -->
+</div>
+<!-- /outer-wrapper -->
+
+<!-- #include virtual ="/r_GR_Footer_Inc.asp" -->

@@ -1,0 +1,101 @@
+<%
+
+'response.write now()&"<HR>"
+
+
+site="rep"
+	fdomain=Request.ServerVariables("SERVER_NAME")
+	MysArray = Split(fdomain,".",-1,1)
+	place=ubound(MysArray,1)
+	Mypage = Split(Request.ServerVariables("SCRIPT_NAME"),"/",-1,1)
+	page=ubound(Mypage,1)
+	if page=1 then
+		pn=1
+	elseif page=2 then
+		r=ucase(Mypage(1))		
+	
+	elseif page=3 then
+		r=ucase(Mypage(1))&"/"&ucase(Mypage(2))
+	else
+		pn=1
+	end if
+	
+
+	if place<2 then
+		site="corp"
+	else
+		host=MysArray(place-2)
+	end if
+	if lcase(host)="www" then site="corp"
+
+
+
+If host="" or lcase(host)="www" then
+site="corp"
+
+	'response.redirect("http://organogold.com/DISTRIBUTOR_REPLICATING_SITE/r_InvalidUser.asp")
+	'response.end
+else
+
+
+'response.write host
+
+'response.end
+
+
+
+'Dim xmlDoc
+'Set xmlDoc = Server.CreateObject("MSXML.DOMDocument")
+'
+'xmlDoc.async = False
+'xmlDoc.validateOnParse = False
+'xmlDoc.setProperty "ServerHTTPRequest", true
+'
+'
+'xmlDoc.load("https://secure4.office2office.com/designcenter/api/imx_api_call.asp?APIACTION=MEMLOOKUP&VAL_SRCH="&lcase(host)&"&EXACT=Y&DATATYPE=XML&XRF_TYPE=4&cl=zlf&lc=88196&api=Uj2a7Df8wn3cK&LIVE=Y")
+'
+'
+''redirect or clear if invalid site
+'
+'If xmlDoc.selectSingleNode("//DATA/COUNT") IS NOTHING Then
+'
+'response.redirect("http://www.organogold.com/r_InvalidUser.asp")
+'site="corp"
+'
+'end if
+'
+'distributor_country = xmlDoc.selectSingleNode("//DATA/DSM_COU_1").Text
+'
+'
+'urlx="https://secure4.office2office.com/designcenter/api/imx_api_call.asp?APIACTION=SITEDATA&SITENAME="&host&"&BINARY=N&STORY=N&DATATYPE=XML&cl=zlf&lc=88196&api=Uj2a7Df8wn3cK&LIVE=Y"
+'
+'xmlDoc.load(urlx)
+'
+'distributor_id = xmlDoc.selectSingleNode("//DATA/MEMBERNUMBER1").Text
+'distributor_name = " "
+'distributor_email = " "
+'distributor_Phone = " "
+'
+'
+'
+'SHOWNAME1_flg = xmlDoc.selectSingleNode("//DATA/SHOWNAME1").Text
+'SHOWEMAIL1_flg = xmlDoc.selectSingleNode("//DATA/SHOWEMAIL1").Text
+'SHOWPHONE1_flg = xmlDoc.selectSingleNode("//DATA/SHOWPHONE1").Text
+'
+'
+'if SHOWNAME1_flg="Y" then distributor_name = xmlDoc.selectSingleNode("//DATA/SITENAME1").Text
+'
+'if SHOWEMAIL1_flg="Y" then distributor_email = xmlDoc.selectSingleNode("//DATA/SITEEMAIL1").Text
+'
+'if SHOWPHONE1_flg="Y" then distributor_Phone = xmlDoc.selectSingleNode("//DATA/SITEPHONE1").Text
+'
+'
+'Set xmlDoc = Nothing
+'
+end if
+
+%>
+
+
+
+

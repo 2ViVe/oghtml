@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<!---- image replacement ----->
+
+#largeImg {
+	border: solid 1px #ccc;
+	width: 550px;
+	height: 400px;
+	padding: 5px;
+}
+.thumbs img {
+	border: solid 1px #ccc;
+	width: 100px;
+	height: 100px;
+	padding: 4px;
+}
+.thumbs img:hover {
+	border-color: #FF9900;
+}
+
+
+<!---- button slide ----->
+
+a:focus {
+	outline: none;
+}
+#panel {
+	background: #DDD;
+	height: 100px;
+	display: none;
+}
+.slide1 {
+	margin: 0;
+	padding: 0;
+	border-top: solid 4px #DDD;
+}
+.btn-slide1 {	
+	text-align: center;
+	width: 144px;
+	height: 31px;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	width:100px;
+	background:#9B1111;
+}
+.active {
+	background-position: right 12px;
+}
+#box {	
+	position:absolute;
+	z-index:3;
+}
+

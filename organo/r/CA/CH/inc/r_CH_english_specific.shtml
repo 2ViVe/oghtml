@@ -1,0 +1,14 @@
+<script type="text/javascript">
+	$(document).ready(function(){
+		var signupen = "https://demo.myorganogold.com/signup";
+		var loginen = "https://demo.myorganogold.com/login";
+		/**** Business section of footer - Taiwan Chinese *****/
+		$(".col-5 a:contains('立即加入')").attr("href", signupen);
+		$(".col-5 a:contains('購買產品')").attr("href", login);
+		$(".col-3 ul li a:contains('立即加入')").attr("href", signupen);
+		$(".col-3 ul li a:contains('購買產品')").attr("href", login);
+		$("#global-nav ul li a:contains('登入')").attr("href", login);
+		$("#global-nav ul li a:contains('購買產品')").attr("href", login);
+		$("#global-nav ul li a:contains('立即加入')").attr("href", signupen);
+	});
+</script>

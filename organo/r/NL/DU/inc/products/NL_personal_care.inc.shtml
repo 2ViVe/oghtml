@@ -1,0 +1,31 @@
+   <div class="items">
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/smile.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">OG Smile</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Een tandpasta met 100% Organische Ganoderma en de frisse smaak van mint, ontwikkeld voor de speciale zorg van uw tanden en tandvlees. OG Smile bevat natuurlijke producten voor de mondzorg en zorgen voor wittere tanden en een frissere adem.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/soap.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">G3 Premium Beauty Soap</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Een unieke combinatie van Glutathion, druivenpitjes en Ganoderma Lucidum Extract. Haar speciale formule reinigt, brengt vocht in en is hypoallergeen. Regelmatig gebruik bevordert een jeugdig uiterlijk van de huid.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

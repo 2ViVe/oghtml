@@ -1,0 +1,62 @@
+   <div class="items">  
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Wordt in de oude boeken der kruiden en medicijnen al meer dan 5.000 jaar bewonderd als "Superieur Kruid". Wereldwijd wetenschappelijk bewezen als de krachtigste gezondheidsverbeteraar der natuur en algemeen kruid ter behoud. Ganoderma wordt vaak gekoppeld aan een lang leven, jeugdigheid en vitaliteit.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Druivenpitolie extract</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Bestaande uit fytochemicaliën die bekend staan om hun antiontstekende werking, vrije radicale bescherming en het verbeteren van de huid. Bevat grote hoeveelheden resveratrol, nog een stof die een antiontstekende werking heeft. Bevat flavonoïden of proanthocyanidine (OPC), wat bekend staat als 50 maal meer antioxidanten bescherming te bevatten dan andere Vitamine C of Vitamine E.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum Mycelium</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Geëxtraheerd uit een 18-dagen oude Ganoderma Lucidum paddenstoel met een natuurlijk hoge concentratie Organische Germanium en Polysachhariden. Ganoderma Mycelium staat tevens bekend om het bevorderen van de gezonde circulatie en zuurstoftoevoer.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Sporenpoeder</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Onttrokken aan de zaadjes van Ganoderma Lucidum, verbouwd door natuurlijk hout, geëxtraheerd door een technologie op lage temperatuur waarmee een zuiverheid van 99,9% wordt bereikt en Gecertificeerde Organische Ganoderma in China, de VS, Japan en de E.U. Het Sporenpoeder is van nature rijk aan Ganoderma Lucidum Polysachhariden, terpeen, Organisch Germanium en Selenium.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->

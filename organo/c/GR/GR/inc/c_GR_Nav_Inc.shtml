@@ -1,0 +1,32 @@
+
+		<div id="global-nav">
+			<ul id="menu" class="sf-menu">
+
+				<li class="menu1"><a id="home" href="index.html">Αρχική</a></li>
+				<li class="menu2"><a id="company" href="javascript:;">Εταιρία</a>
+					<ul>
+						<li><a href="company.html">About Organo Gold</a></li>
+						<li class="last"><a href="napoleon.html">Napoleon Hill</a></li>
+					</ul>
+				</li>
+
+				<li class="menu3"><a id="products" href="javascript:;">Προϊόντα</a>
+					<ul>
+						<li class="last"><a href="beverages.html">Ποτά</a></li>
+						<!--<li><a href="nutraceuticals.html">Φαρμακοτρόφιμα</a></li>
+						<li><a href="personal-care.html">Ατομική φροντίδα</a></li>-->
+					</ul>
+				</li>
+
+				<li class="menu4"><a id="business" href="javascript:;">Η επιχείρηση</a>
+					<ul>
+						<li class="last"><a href="business.html">Η επιχείρηση</a></li>
+						<li style="display:none;"><a href="http://ogbenzclub.com" target="_blank">Benz Club</a></li>
+					</ul>
+				</li>
+                <li class="menu5"><a id="events" href="events.html">Εκδηλώσεις</a></li>
+                <li class="menu6"><a id="login" href="" target="_blank">Σύνδεση</a></li>
+
+			</ul>
+		</div>
+		<!-- /global-nav -->

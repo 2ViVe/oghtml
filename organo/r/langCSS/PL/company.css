@@ -1,0 +1,56 @@
+.company #outer-wrapper {
+	background: #fff;
+}
+.company #outer-content .left,
+.company #outer-content .right {
+	display: inline-block;	
+}
+.company #outer-content .left {
+	float: left;
+	width: 458px;
+	padding: 55px 0 0 57px;
+	margin: 6px 0 0 0;
+	position: relative;
+	z-index: 0;
+}
+.company #outer-content .right {
+	float: right;
+	width: 260px;
+	padding: 55px 145px 0 0;
+}
+.company #outer-content .right .right_header {
+	position: relative;
+	margin: 0;
+	top: -40px;
+	left: -382px;
+	line-height: 40px;
+	font-size: 34px;
+	color: #999;
+	z-index: 1;
+}
+.company #outer-content .right .right_header h1 {
+	background: url(/r/langCSS/PL/images/bg_imgs/we_are.png) 0 0 no-repeat;
+	width: 641px;
+	height: 38px;
+	z-index: 1;
+	text-indent: -999em;
+	/*text-align: right;
+	line-height: 38px;
+	width: 380px;
+	color: #999999;
+	font-family: 'HelveticaNeueLTStd45Light';*/
+}
+.company #outer-content .right .right_content {
+	position: relative;
+	top: -30px;
+	text-align: justify;
+}
+.company #outer-content .right .right_content p {
+	margin: 0 0 2em 0;
+}
+.company #outer-content {
+	position: relative;	
+}
+.company #outer-content {
+	min-height: 630px;
+}

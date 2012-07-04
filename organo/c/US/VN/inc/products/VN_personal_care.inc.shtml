@@ -1,0 +1,31 @@
+   <div class="items">
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/smile.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Kem Đánh Răng OG Smile</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Kem đánh răng với Linh Chi Hữu Cơ 100% và vị bạc hà tươi mát được phát triển nhằm chăm sóc đặc biệt răng và lợi của bạn. OG Smile chứa các sản phẩm tự nhiên, giúp tăng cường sức khỏe răng miệng và mang lại cho bạn hàm răng trắng hơn và hơi thở tươi mát hơn.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/soap.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Xà Phòng Tắm G3 Premium Beauty</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Sự kết hợp đặc biệt giữa Glutathione, Hạt Nho và Chiết Xuất Nấm Linh Chi. Công thức đặc biệt của loại xà phòng này giúp làm sạch, dưỡng ẩm và ít gây dị ứng. Việc sử dụng thường xuyên sẽ giúp tăng cường sức sống trẻ trung cho làn da.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

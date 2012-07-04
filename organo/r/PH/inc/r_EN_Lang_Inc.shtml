@@ -1,0 +1,59 @@
+<script type="text/javascript">
+	$(document).ready(function(){
+	$(".chzn-select").chosen();
+	$(".chzn-select-deselect").chosen({allow_single_deselect:true});
+	$("a#change").bind('click', function(){
+			$.cookie('language', null, { path: '/' });
+		});
+  });
+</script>
+		<div id="lang-region">
+		<p style="text-align: right; margin: 10px 0 0 0;"><a id="change" style="color: #9B1112; text-decoration: none;" href="/">Change Country/Language Selection</a></p>
+		<form method="POST" action="#" name="language" id="lang" style="position: absolute; top: 3em; right:0;">
+			<select data-placeholder="Select Your Country" style="width:250px;" class="chzn-select" size="1" name="Language" onChange="if(this.value) window.location.href=this.value+location.pathname.substr(location.pathname.lastIndexOf('/')+1,location.pathname.length)">
+			
+			<optgroup style="text-align:left" label="THE AMERICAS">
+                    <option value="/r/US/">USA - English</option>
+                    <option value="/r/US/ES/">USA - Español</option>
+                    <option value="/r/US/VN/">USA - Việt</option>
+                    <option value="/r/CA/">Canada - English</option>
+                    <option value="/r/CA/FR/">Canada - Français</option>
+                    <option value="/r/CA/CH/">Canada - 中文</option>
+                    <option value="/r/DO/ES/">Dominican Republic - Español</option>
+                    <option value="/r/EC/ES/">Ecuador - Español</option>
+                    <option value="/r/JM/">Jamaica - English</option>
+                    <option value="/r/MX/">Mexico - Español</option>
+                    <option value="/r/MX/ENG/">Mexico - English</option>
+                    <option value="/r/PE/ES/">Peru - Español</option>
+                    <option value="/r/PE/">Peru - English</option>
+                </optgroup>
+				<optgroup style="text-align:left" label="EUROPE">
+                    <option value="/r/AT/DE/">Austria - Deutsch</option>
+                    <option value="/r/AT/">Austria - English</option>
+                    <option value="/r/AT/IT/">Austria - Italian</option>
+                    <option value="/r/CY/GR/">Cyprus - Ελληνικά</option>
+                    <option value="/r/CY/">Cyprus - English</option>
+                    <option value="/r/DE/DE/">Germany - Deutsch</option>
+                    <option value="/r/DE/">Germany - English</option>
+                    <option value="/r/GR/GR/">Greece - Ελληνικά</option>
+                    <option value="/r/GR/">Greece - English</option>
+                    <option value="/r/IE/">Ireland - English</option>
+                    <option value="/r/NL/DU/">Netherlands - Nederlands</option>
+                    <option value="/r/NL/">Netherlands - English</option>
+                    <option value="/r/PL/PL/">Poland - Polski</option>
+                    <option value="/r/PL/">Poland - English</option>
+                    <option value="/r/UK/">United Kingdom - English</option>
+                    <option value="/r/ES/ES/">Spain - Español</option>
+                    <option value="/r/ES/">Spain - English</option>
+                </optgroup>
+				<optgroup style="text-align:left" label="ASIA">
+					<option selected=selected value="/r/PH/">Philippines - English</option>
+					<option value="/r/TW/CH/">Taiwan - 中文</option>
+				</optgroup>
+			</select>
+			<!--<p style="text-align: right; position: relative; top: 25px; margin-right: 48px; clear: both; font-size: 12px; letter-spacing: 1px;"><a style="color: #9B1112; text-transform: uppercase; text-decoration: none;" href="imx_login.asp">Login</a></p>-->
+
+		</form>
+
+		</div>
+		<!-- /lang-region -->

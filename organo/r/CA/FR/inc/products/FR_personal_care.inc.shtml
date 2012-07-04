@@ -1,0 +1,31 @@
+   <div class="items">
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/smile.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">OG Smile</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Un dentifrice avec Ganoderma 100% Organique et le go&ucirc;t de menthe fra&icirc;che d&eacute;velopp&eacute; sp&eacute;cialement pour le soin de vos dents et de vos gencives.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/soap.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Savon de beaut&eacute; haut de gamme G3</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Une combinaison unique de Ganoderma, Glutathion et d'extrait d'huile de P&eacute;pins de Raisin.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

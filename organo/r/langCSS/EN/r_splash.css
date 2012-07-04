@@ -1,0 +1,204 @@
+/* tab pane styling */
+.panes {
+	margin: 0 0 0 22em;
+	width: auto;
+	position: relative;
+	height: 20px;
+}
+.panes div {
+	display:none;		
+	padding:0 10px;
+	text-align: left;
+	color: #666;
+}
+.panes div a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0 10px;
+	padding: 0 2px;
+	line-height: 16px;
+	color: #000;
+	letter-spacing: 0px;
+	/*border-right: 1px solid #ccc;*/
+}
+.panes div a#last {
+	border-right: none;
+}
+.panes div a:hover {
+	text-decoration: none;
+	color: #9B1112;
+	font-size: 14px;
+	font-size: 18px;
+}
+
+/* root element for tabs  */
+div.tabs.countries { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;	
+}
+
+/* single link */
+div.tabs.countries {
+	color: #666;	
+}
+div.tabs.countries a { 
+	padding:0 10px;
+	padding: 0 6px 0 2px;
+	/*border-right: 1px solid #ccc;*/
+	line-height: 12px;
+	text-align:center;
+	text-align:left;
+	text-decoration:none;
+	color:#000;
+	letter-spacing: 0px;
+	margin:0 !important; 
+	display: block;
+}
+div.tabs.countries a.last {
+	border-right: none;
+}
+
+/* when mouse hovers the link */
+div.tabs.countries a:hover {
+	color: #9B1112;
+	font-size: 14px;
+	font-size: 18px;
+
+}
+
+/* active tab with class name "current" */
+div.tabs.countries a.current,
+div.tabs.countries a.current:hover,
+div.tabs.countries li.current a {		
+	cursor:default !important; 
+	color:#9B1112 !important;
+	font-size: 14px;
+	font-size: 18px;
+}
+
+/* active sub tab with class name "current" */
+.panes div  a.current,
+.panes div  a.current:hover {
+	cursor:default !important; 
+	color:#9B1112 !important;
+	font-size: 14px;
+	font-size: 18px;
+}
+
+/* initially all panes are hidden */ 
+.panes .pane {
+	display:none;		
+}
+.languages .us {
+	position: relative;
+	top: 6px;
+}
+.languages .canada {
+	position: relative;
+	top: 31px;
+}
+.languages .jamaica {
+	position: relative;
+	top: 56px;
+}
+.languages .mexico {
+	position: relative;
+	top: 81px;
+}
+.languages .austria {
+	position: relative;
+	top: 106px;
+}
+.languages .germany {
+	position: relative;
+	top: 131px;
+}
+.languages .greece {
+	position: relative;
+	top: 156px;
+}
+.languages .netherlands {
+	position: relative;
+	top: 181px;
+}
+.languages .uk {
+	position: relative;
+	top: 206px;
+}
+.languages .phillipines {
+	position: relative;
+	top: 231px;
+}
+.languages .peru {
+	position: relative;
+	top: 256px;
+}
+.languages .taiwan {
+	position: relative;
+	top: 280px;
+}
+.languages .dominican {
+	position: relative;
+	top: 306px;
+}
+.clear {
+	clear: both;
+}
+.country_lang_selections {
+	position: absolute;
+	top: 77px;
+}
+.flag {
+	border: 0;
+	position: relative;
+	top: 3px;
+	left: -3px
+}
+a#us {
+	height: 25px;
+}
+a#canada {
+	height: 25px;
+}
+a#jamaica {
+	height: 25px;
+}
+a#mexico {
+	height: 25px;
+}
+a#austria {
+	height: 25px;
+}
+a#germany {
+	height: 25px;
+}
+a#greece {
+	height: 25px;
+}
+a#netherlands {
+	height: 25px;
+}
+a#uk {
+	height: 25px;
+}
+a#phillipines {
+	height: 25px;
+}
+a#peru {
+	height: 25px;
+}
+a#taiwan {
+	height: 25px;
+}
+a#dominican {
+	height: 25px;
+}
+a#chile {
+	height: 25px;
+}
+.testimonials #quotes {
+	height: 540px;
+	overflow: hidden;
+}

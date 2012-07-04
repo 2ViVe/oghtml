@@ -1,0 +1,646 @@
+/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul, dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object, a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span, strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+img, fieldset {
+	border: 0;
+}
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+body {
+	background: #000;
+	font: .81em/150% Arial, Helvetica, sans-serif;
+	color: #666;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin:16px 0 1.2em;
+	padding: 0;
+}
+/* list */
+ul, ol {
+	margin: 1em 0 1.4em 1.846em;
+	padding: 0;
+	line-height: 140%;
+}
+li {
+	margin: 0 auto;
+	padding: 0;
+}
+/* headings */
+h1, h2, h3, h5, h6 {
+	line-height: 1.4em;
+	margin: 1px 0 .4em;
+	color: #fff;
+}
+h1 {
+	font-size: 1.2em;
+}
+h2 {
+	font-size: 1em;
+	font-weight:100;
+}
+h3 {
+	font-size: 1.1em;
+	font-weight:100;
+}
+h4 {
+	font-size: 1em;
+	text-decoration:underline;
+	font-weight:100;
+}
+h6 {
+	font-size: 1.2em;
+	font-weight:normal;
+}
+
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+
+#pagewrap {
+	width: 980px;
+	width: 1024px;
+	margin: 0 auto;	
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+
+#header {
+	position: relative;
+	height: 160px;
+	height: 107px;
+	background:url(images/topheader.jpg);
+}
+/* site logo */
+#site-logo {
+	position: absolute;
+	top: 10px;
+	top: 0;
+	margin-top: 0;
+	display:block;
+	margin-left:20px;
+}
+#site-logo a {
+	height: 80px;
+	width: 309px;
+	font: bold 2.308em/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-indent: -999em;
+	text-decoration: none;
+}
+#site-logo-bmw {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	display:block;
+	margin-right:20px;
+}
+#site-logo-bmw a {
+	height: 65px;
+	width: 234px;
+	font: bold 2.308em/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-indent: -999em;
+	text-decoration: none;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+
+#main-nav {  
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 45px;
+	bottom: 13px;
+	z-index: 100;/* gradient 
+	background: #6a6a6a url(images/nav-bar-bg.png) repeat-x;
+	background: -webkit-gradient(linear, left top, left bottom, from(#b9b9b9), to(#6a6a6a));
+	background: -moz-linear-gradient(top,  #b9b9b9,  #6a6a6a);
+	background: linear-gradient(-90deg, #b9b9b9, #6a6a6a);
+	/* rounded corner 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow 
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);*/
+}
+#main-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	display: inline;
+	list-style-type: none;
+	padding-right: 30px;
+	border-right: 1px solid #fff;
+	padding-left:30px;
+	font:1.154em 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-weight:100;
+}
+#main-nav li:first-child {
+	margin-left: 10px;
+}
+#main-nav a {
+	line-height: 100%;
+	color: #fff;
+	display: block;
+	padding:2px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+}
+#main-nav a:hover {
+	color: #fff;/*background: #474747;*//* gradient 
+	background: -webkit-gradient(linear, left top, left bottom, from(#282828), to(#4f4f4f));
+	background: -moz-linear-gradient(top,  #282828,  #4f4f4f);
+	background: linear-gradient(-90deg, #282828, #4f4f4f);*/
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+
+#content {
+	background: #fff;
+	margin: 30px 0 30px;
+	padding: 20px 35px;	
+	width: 910px;
+	width: 1024px;
+	float: right;
+	/* rounded corner
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);*/
+	position:relative;
+	background: transparent;
+	padding: 0;
+	margin:0 auto;
+	border:0;
+}
+#content1 {
+	background: #fff;
+	margin: 30px 0 30px;
+	padding: 20px 35px;
+	width: 910px;
+	width: 1024px;
+	float: right;
+	height:343px;
+	/* rounded corner
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);*/
+	position:relative;
+	background: transparent;
+	padding: 0;
+	margin:0 auto;
+}
+/* post */
+.post {
+	margin-bottom: 40px;
+	margin-bottom: 0;
+}
+.post-title {
+	margin: 0 0 5px;
+	padding: 0;
+	font: bold 2em/120% Arial, Helvetica, sans-serif;
+}
+.post-title a {
+	text-decoration: none;
+	color: #000;
+}
+.post-meta {
+	margin: 0 0 10px;
+	font-size: 90%;
+}
+/* post image */
+.post-image {
+	margin: 0 0 15px;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+
+#footer {
+	background: url(images/botheader.jpg) no-repeat;
+	color: #ccc;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 100%;
+	display: inline-block;
+	padding: 20px 0;
+}
+#footer1 {
+	background: url(images/botheader.jpg) no-repeat;
+	color: #ccc;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 100%;
+	display: inline-block;
+	padding: 20px 0;
+	margin-top:-5px;
+}
+#footer4 {
+	background: url(images/botheader.jpg) no-repeat;
+	color: #ccc;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 100%;
+	display: inline-block;
+	padding-top:38px;
+	margin-top:-5px;
+}
+#footer3 {
+	background: #000;
+	color: #ccc;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 100%;
+	display: inline-block;
+	padding: 20px 0;
+	margin-top:-12px;
+}
+#footer a {
+	color: #fff;
+}
+#content_footer {
+	clear: both;
+	margin: 0 auto;
+	width: 1024px;
+}
+#content_footer #footer_left {
+	float: left;
+	width: 16%;
+	margin-left:20px;
+}
+#content_footer #footer_right {
+	float: right;
+	width: 80%;
+	text-align: right;
+	margin-right:20px;
+}
+/************************************************************************************
+CLEARFIX
+*************************************************************************************/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+	zoom: 1;
+}
+/************************ home page styles ****************************/
+.flexslider {
+	background: none !important;
+	border: none !important;
+	border-radius: 0 !important;
+}
+.flex-caption {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	bottom: -35px;
+	color: #FFFFFF;
+	font-size: 1.3em;
+	height: auto;
+	left: 0;
+	line-height: 1.33;
+	position: absolute;
+	text-shadow: none;
+	width: 1024px;
+	z-index: 500;
+}
+.flex-caption h1 {
+	color: #FFFFFF;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-size: 1.692em;
+	font-weight: 100;
+	line-height: 1.175em;
+	width:50%;
+	margin-left:40px;
+}
+.flex-caption p {
+	color: #A1A1A1;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-size: 0.923em/120%;
+	font-weight: 100;
+	line-height: 1.375em;
+	margin-top: 10px;
+	width:50%;
+	margin-left:40px;
+}
+.flex-caption p.qualify a {
+	color: #666666;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-size: 1.3em;
+	font-weight: 100;
+}
+.flex-caption p.qualify {
+	margin-top: -12px;
+}
+.flex-control-nav, .flex-direction-nav {
+	display: none;
+}
+/*************** qualify page styles ******************/
+.qualify .content_desc {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	left: 0;
+	line-height: 1.33;
+	position: absolute;
+	padding-left: 43px;
+	padding-top:40px;
+	height:500px;
+	font-weight:100;
+}
+.qualify .content_desc h1, {
+	color: #fff;
+	font: 500 1.3em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	padding-bottom:10px;
+}
+.qualify .content_desc p {
+	font: 100 0.875em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	color:#A1A1A1;
+	letter-spacing:.3mm;
+	float:left;
+	margin-top:0;
+}
+.qualify .content_desc p.rank {
+		margin:0 auto;
+		float:right;
+		width:120px;
+}
+.qualify .content_desc p.rank1 {
+		margin:0 auto;
+		float:left;
+		width:150px;
+		margin-left:10px;
+}
+
+.qualify .content_desc p.last {
+	font: 100 1em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	margin-left:17px;
+}
+/*************** elite page styles ********************/
+.elite .elite_caption {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	top: 0;
+	color: #FFFFFF;
+	font: 100 1em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	left: 0;
+	line-height: 1.33;
+	padding: 5px 20px 0 65px;
+	position: absolute;
+	text-shadow: none;
+	width: 100%;
+	z-index: 500;
+}
+.elite .elite_caption1 {
+	background: none repeat scroll 0 0;
+	top: 0;
+	color: #FFFFFF;
+	font: 100 1em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	left: 0;
+	line-height: 1.33;
+	padding: 35px 20px 0 80px;
+	position: absolute;
+	text-shadow: none;
+	width: 80%;
+	z-index: 500;
+}
+.elite .elite_caption h1 {
+	margin-top: 0;
+	color: #fff;
+	font: 100 2em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+}
+.elite .elite_caption1 h1 {
+	margin-top: 0;
+	color: #fff;
+	font: 100 2em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+}
+/************** info page styles ***************/
+
+.info .content_desc {
+	bottom: 0;
+	color: #FFFFFF;
+	font: 100 1em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	left: 0;
+	line-height: 1.33;
+	padding: 5px 0 20px 55px;
+	position: relative;
+	z-index: 500;
+	width:88%;
+}
+.info .content_desc h1 {
+	margin-top: 0;
+	width: 100%;
+	color: #fff;
+	font: 600 1.3em/145% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	width:100%;
+}
+.info .content_desc h5 {
+	margin-top: 0;
+	width: 100%;
+	color: #fff;
+	font: 500 1.3em/145% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	width:100%;
+	font-style:italic;
+}
+.info .content_desc p {
+	margin-top: 0;
+	width: 100%;
+	color: #fff;
+	font: 100 1.1em/120% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	width:100%;
+	letter-spacing: 0.5mm;
+}
+.info .content_desc p.guidelines {
+	color:grey;
+}
+
+/********* members page styles *****************/
+/* root element for tabs  */
+
+.tabs {
+	position: absolute;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+	height:575px;
+	float:left;
+}
+ul.css-tabs {
+	margin:10px !important;
+	padding:0;
+}
+/* single tab */
+ul.css-tabs li {
+	float:left;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+/* link inside the tab. uses a background image */
+ul.css-tabs a {
+	float:left;
+	font-size:1em;
+	display:block;
+	padding:5px 30px;
+	text-decoration:none;
+	border-bottom:0px;
+	height:18px;
+	color:#9e0b0f;
+	margin-right:2px;
+	position:relative;
+	top:1px;
+	outline:0;
+}
+ul.css-tabs li.noborder a {
+	border-right: none;
+}
+ul.css-tabs a:hover {
+	color:#9e0b0f;
+}
+/* selected tab */
+ul.css-tabs a.current {
+	color:#9e0b0f;
+	cursor:default;
+}
+/* tab pane */
+.css-panes {
+	display: block;
+	position: relative;
+	top: 0;
+	left: 30px;
+	width: 90%;
+}
+.css-panes div {
+	display:none;
+	border-width:0 1px 1px 1px;
+	padding:15px 0;
+	width: 36%;
+	width: 100%;
+	height:4700px;
+}
+.css-panes div ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.css-panes div ul li, .css-panes div ul li a, .css-panes div p {
+	color: grey;
+}
+.scroll-pane {
+	width: 95%;
+	overflow: auto;
+	outline: none;
+}
+.scroll-pane1 {
+	width: 100%;
+	overflow: auto;
+	outline: none;
+}
+
+/************************************************************************************
+MISC 
+*************************************************************************************/
+p.rights {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-size:1em;
+	font-weight:100;	
+	font-style:italic;
+	margin:0 auto;
+	letter-spacing: 0.3mm;
+}
+p.rights1 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-size:1em;
+	font-weight:100;	
+	margin:0 auto;
+	letter-spacing: 0.3mm;
+}
+p.elite {
+	font-size:1.154em;
+}
+p.dot {
+	color:#F00;
+	margin:0 auto;
+	padding-right:8px;
+	float:left;
+}
+p.last {
+	margin:0 0 0 14px;
+	padding: 0;
+}
+p.space {
+	margin:0 auto;
+	padding:0;
+}
+p.home {
+	font-size: 1em;
+}
+#tabs-right {
+	float:right;
+	background:url(images/_members.gif) no-repeat center top;
+	width:100%;
+	height:575px;
+}
+#tabs-right {
+	background-position:top center -575px; 
+	cursor:default;
+}
+#wrap {
+	min-height: 100%;
+	margin-top:-50px;
+	text-indent: -99999px;
+	background:url('../images/car.gif') no-repeat center top;
+}
+#wrap:hover {
+	background-position: center -726px;
+	cursor:default;
+}
+img#members {
+	padding-right:10px;
+}
+

@@ -1,0 +1,76 @@
+   <div class="items">
+   	<div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/Nutra_Canada.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Nutraceutiques</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Organo Gold offre des produits de sant&eacute; naturels tels que Ganoderma Certifi&eacute; 100% Biologique, Spore Powder Certifi&eacute; 100% Biologique, Ganoderma Lucidum Mycelium, et Extrait d'Huile Grapeseed.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display: none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Polypore luisant</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>R&eacute;v&eacute;r&eacute;e pendant plus de 5000 ans comme « l'herbe sup&eacute;rieure » la mieux class&eacute;e dans les anciens livres d'herbes et de m&eacute;dicaments. Scientifiquement prouv&eacute; dans le monde entier comme renfor&ccedil;ateur de sant&eacute; le plus puissant de la nature et conditionneur global. Le ganoderme est souvent associ&eacute; &agrave; la long&eacute;vit&eacute;, la jeunesse et la vitalit&eacute;.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display: none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Extrait d'huile de p&eacute;pins de raisin</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Compos&eacute; de phytochimiques connus pour leur action anti-inflammatoire, protection sans radicaux libres et am&eacute;liorant la tonicit&eacute; de la peau. Int&egrave;gre des quantit&eacute;s importantes de resv&eacute;ratrol, une autre substance qui agit comme un agent anti-inflammatoire. Il comprend les flavono&iuml;des ou proanthocyanidine oligom&eacute;rique (OPC), qui sont connus pour avoir une protection antioxydante 50 fois plus puissante que les autres vitamines C ou E.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display: none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Myc&eacute;lium de polypore luisant</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Extrait d'un champignon polypore luisant de 18 jours avec une concentration naturellement &eacute;lev&eacute;e de germanium biologique et des polysaccharides. Le myc&eacute;lium de polypore est &eacute;galement connu pour favoriser une saine circulation et l'approvisionnement en oxyg&egrave;ne.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display: none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Poudre de spore de ganoderme</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>D&eacute;riv&eacute; de la graine de polypore luisant, cultiv&eacute; &agrave; partir de bois en rondin naturel, extrait par une technologie de coquilles cass&eacute;es par basse temp&eacute;rature atteignant jusqu'&agrave; 99,9% de puret&eacute; et certifi&eacute; biologique par la Chine, les &Eacute;-U, le Japon et l'UE. La poudre de spore est naturellement riche en polysaccharides de polypore luisant, triterp&egrave;ne, germanium et s&eacute;l&eacute;nium organiques.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->

@@ -1,0 +1,16 @@
+
+<%if site <>"corp" then %>
+			<p class="name"><%=distributor_name%></p>
+			<p class="distributor">Eigenst&uuml;ndiger Distributor</p>
+			<p class="ID">ID <%=distributor_id%>&nbsp;&nbsp;&nbsp;<%=distributor_country %></p>
+			<p class="email"><a alt="Nachricht senden" title="Nachricht senden" href="r_contact.asp"><%=distributor_email%></a></p>
+			<p class="sendEmail">Phone: <%=distributor_Phone%></p>
+<%else%>
+			<p class="name"> </p>
+			<p class="distributor"> </p>
+			<p class="ID"> </p>
+			<p class="email"> </p>
+			<p class="sendEmail"> </p>
+
+
+<% end if%>

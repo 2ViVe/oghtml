@@ -1,0 +1,62 @@
+   <div class="items">  
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Κατέχει για περισσότερο από 5.000 χρόνια την υψηλότερη θέση στα “Κορυφαία βότανα” στους αρχαίους τόμους βοτάνων και ιατρικής. Είναι επιστημονικά αποδεδειγμένο ότι είναι το πιο δυνατό ενισχυτικό της υγείας στη φύση και ρυθμιστής ευεξίας. Το γανόδερμα συνδέεται συχνά με τη μακροζωία, τη νεανικότητα, και τη ζωτικότητα .</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Απόσταγμα λαδιού από σπόρους σταφυλιού</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Αποτελείται από φυτοχημικά γνωστά για την αντιφλεγμονώδη δράση τους, για την απεριόριστη ριζική προστασία και για τη βελτίωση της χροιάς του δέρματος. Ενσωματώνει σημαντικά ποσά ρεσβερατρόλης, μίας άλλης ουσίας που δρα ως αντιφλεγμονώδης παράγοντας. Περιλαμβάνει φλαβονοειδή ή ολιγομερείς προκυανιδίνες (OPCs), που είναι γνωστό ότι προσφέρουν 50 φορές περισσότερη αντιοξειδωτική προστασία από άλλες βιταμίνες C ή βιταμίνες E.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum Mycelium</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Από μανιτάρι Ganoderma Lucidum 18 ημερών με φυσική υψηλή συγκέντρωση οργανικού γερμάνιου και πολυσακχαριδών. Το γανόδερμα μυκήλιο είναι επίσης γνωστό ότι προάγει την υγεία του κυκλοφοριακού και την παροχή οξυγόνου.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Σκόνη σπόρων γανοδέρματος</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Από σπόρους Ganoderma Lucidum, καλλιεργημένους σε φυσικό κορμό ξύλου, με απόσταξη μέσω τεχνολογίας σπασμένου κελύφους σε χαμηλή θερμοκρασία που αποδίδει έως 99.9% αγνότητα και πιστοποιημένο οργανικά στην Κίνα, ΗΠΑ, Ιαπωνία, και την ΕΕ. Η σκόνη του σπόρων είναι από τη φύση της πλούσια σε πολυσακχαρίτες Ganoderma Lucidum,  τριτερπένια, οργανικό γερμάνιο και σελήνιο.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->

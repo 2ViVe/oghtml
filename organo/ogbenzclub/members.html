@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+		<head>
+		<meta charset="utf-8">
+                
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" >
+
+		<!-- disable iPhone inital scale -->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<title>OG Benz Club Members</title>
+
+		<!-- main css -->
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="thickbox.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
+
+		<!-- media queries css -->
+		<link href="media-queries.css" rel="stylesheet" type="text/css">
+
+		<!-- styles needed by jScrollPane -->
+		<link type="text/css" href="jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+		<!-- javascript -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+		$("#tabs-right").hover(function(){
+			$(this).css("background-position","center -575px");
+		},function(){
+			$(this).css("background-position","center top");
+		});
+		});
+		</script>
+		<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
+		</script>
+
+		<!-- the mousewheel plugin - optional to provide mousewheel support -->
+		<script type="text/javascript" src="jquery.mousewheel.js"></script>
+
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="jquery.jscrollpane.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".scroll-pane").css({"height":"480px","width":"339px"});
+			});
+		</script>
+
+		<!-- html5.js for IE less than 9 -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- css3-mediaqueries.js for IE less than 9 -->
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+        
+        <!--[if IE 9]>
+        	<style type="text/css">
+            	.TB_overlayBG {background-color:#000;}
+                </style>
+        <![endif]-->
+
+		<!--[if IE 8]>
+			<style type="text/css">
+    			.info .content_desc {width:90%;}
+    			.qualify . content_desc {width:50%;height:418px;}
+    			.scroll-pane {width: 100% !important;}
+    			#TB_window {top:60%;}
+                .tabs {width: 50%; background:#000;}
+            	.jspContainer {width:100%;}
+            	.jspPane {width:100%;}
+                .TB_overlayBG {background-color:#000;}
+    		</style>
+		<![endif]-->
+
+		<!--[if IE 7]>
+			<style type="text/css">
+    			#pagewrap {display:block;}
+    			IMG {display:block;}
+    			.css-panes {overflow:auto; overflow-x:hidden; height:500px;}
+    			.tabs {background:url(images/back.png);}
+				.scroll-pane {overflow:hidden !important;width: 50% !important;}
+                .TB_overlayBG {background-color:#000;}
+                P.elite {margin-top:25px;}
+                img#members {float:left;}
+    		</style>
+		<![endif]-->
+
+		</head>
+
+		<body>
+<div id="pagewrap">
+          <header id="header">
+    <hgroup>
+              <h1 id="site-logo"><a href="http://ogbenzclub.com/"><img src="images/oglogo.png"/></a></h1>
+              <h2 id="site-logo-bmw"><a href="http://www3.mercedes-benz.com/" target="_blank"><img src="images/mercedes.png"/></a></h2>
+            </hgroup>
+    <nav>
+              <ul id="main-nav" class="clearfix">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="qualify.html">Qualify</a></li>
+        <li><a href="members.html">Members</a> </li>
+        <li><a href="elite.html">Elite Car Program</a></li>
+        <li><a href="info.html">Information</a></li>
+      </ul>
+              <!-- /#main-nav --> 
+            </nav>
+  </header>
+          <!-- /#header -->
+          
+          <div id="content">
+    <article class="post clearfix">
+              <div class="content_wrapper">
+        <div class="tabs">
+                  <ul class="css-tabs">
+            <li><a href="members1.html"></a></li>
+          </ul>
+                  <div class="scroll-pane"> 
+            <!-- single pane. it is always visible -->
+            <div class="css-panes">
+                      <div style="display:block"></div>
+                    </div>
+          </div>
+                </div>
+        <div id="tabs-right"></div>
+      </div>
+              <!-- content_wrapper --> 
+              
+            </article>
+    <!-- /.post --> 
+    
+  </div>
+          <!-- /#content -->
+          
+          <footer id="footer">
+    <div id="content_footer">
+              <div id="footer_left"> <a href="http://organogold.com/"><img src="images/og_logo.png" id="logo2"	/></a> </div>
+              <div id="footer_right">
+        <p class="rights">The OG Benz Club program is only available to qualified OG distributors who reside in the USA or Canada.</p>
+        <p class="rights1">&copy; 2012 Organo Gold. All Rights Reserved</p>
+      </div>
+            </div>
+  </footer>
+          <!-- /#footer --> 
+          
+        </div>
+<!-- /#pagewrap --> 
+
+<!-- activate tabs with JavaScript --> 
+<script type="text/javascript">
+	$(function() {
+		$("ul.css-tabs").tabs("div.css-panes > div", {effect: 'ajax'});
+	});
+	</script> 
+<script type="text/javascript" id="sourcecode">
+			$(function()
+{
+	var pane = $('.scroll-pane');
+	pane.jScrollPane(
+		{
+			showArrows: true,
+		}
+	);
+	var api = pane.data('jsp');
+
+	$('#but-scroll-to').bind(
+		'click',
+		function()
+		{
+			// Note, there is also scrollToX and scrollToY methods if you only
+			// want to scroll in one dimension
+			api.scrollTo(parseInt($('#toX').val()), parseInt($('#toY').val()));
+			return false;
+		}
+	);
+
+	$('#but-scroll-by').bind(
+		'click',
+		function()
+		{
+			// Note, there is also scrollByX and scrollByY methods if you only
+			// want to scroll in one dimension
+			api.scrollBy(parseInt($('#byX').val()), parseInt($('#byY').val()));
+			return false;
+		}
+	);
+});
+		</script>
+</body>
+</html>

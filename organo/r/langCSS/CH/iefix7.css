@@ -1,0 +1,224 @@
+/* global header styles for ie7 and ie6 */
+#logo a#logo {
+	position: relative;
+}
+#header {
+	height: 90px;	
+}
+#dist-info {
+	position: relative;
+	left: 25px;
+}
+#lang-region {
+	position: relative;
+	left: 26px;
+}
+#global-nav {
+	z-index: 0;
+}
+.business #global-nav {
+	top: 0;
+}
+.home #top-wrapper,
+.company #top-wrapper,
+.products #top-wrapper,
+.contact #top-wrapper,
+.InvalidUser #top-wrapper,
+.napoleon #top-wrapper {
+	position: absolute;
+	z-index: 1;
+}
+.home #global-nav #menu,
+.company #global-nav #menu,
+.products #global-nav #menu,
+.contact #global-nav #menu,
+.napoleon #global-nav #menu {
+	/*background: url(../images/bg_imgs/header50_bg.png) 0 -92px repeat-x;*/
+	margin: 0;
+	width: 821px;
+	width: 833px;
+	margin-left: 162px;
+	margin-left: 5px;
+	margin-top: 92px;
+	margin-top: 166px;
+	position: absolute;
+	z-index: 1!important;
+}
+.business #global-nav #menu {
+	margin-left: 162px;
+	_margin-top: -74px;
+	margin-left: 5px;
+	margin-top: 76px;
+}
+.events #global-nav #menu,
+.InvalidUser #global-nav #menu {
+	position: absolute;
+	z-index: 1!important;
+	width: 833px;
+	margin-left: 162px;
+	_margin-top: -74px;
+	margin-left: 5px;
+	margin-top: 166px;
+}
+#global-nav #menu li.menu1 {
+	width: 139px;	
+}
+#global-nav #menu li.menu2 {
+	width: 116px;
+}
+#global-nav #menu li.menu3 {
+	width: 107px;
+}
+#global-nav #menu li.menu4 {
+	width: 105px;
+}
+#global-nav #menu li.menu5 {
+	width: 87px;
+}
+#global-nav #menu li.menu6 {
+	width: 146px;
+	width: 105px;
+}
+#global-nav #menu li.menu7 {
+	width: 140px;
+}
+
+/* content styles for ie7 */
+.home #global-nav {
+	height: 0px;
+}
+.home #outer-wrapper #outer-content {
+	_height: 630px;
+}
+.home .content .content_header {
+	font-size: 28px;
+}
+.products #outer-content,
+.company #outer-content,
+.napoleon #outer-content {
+    padding: 55px 0 0 0;
+}
+.InvalidUser #outer-content {
+	padding: 20em 0 0 0;
+}
+.company #outer-content {
+	_height: 600px;
+}
+.home #outer-wrapper #inner-wrapper,
+.products #outer-wrapper #inner-wrapper,
+.contact #outer-wrapper #inner-wrapper {
+	margin-top: 160px;
+}
+.company #outer-wrapper #inner-wrapper,
+.napoleon #outer-wrapper #inner-wrapper {
+	margin-top: 100px;
+}
+.company #global-nav,
+.products #global-nav,
+.contact #global-nav,
+.napoleon #global-nav {
+    height: 90px;
+}
+.business #global-nav {
+    height: 30px;
+}
+.business #inner-wrapper {
+	width: 934px;	
+}
+.business #outer-wrapper #inner-wrapper #outer-content {
+	background: #fff;
+}
+.business #outer-content {
+    top: 0px;
+    width: 800px;
+    _top: -76px;
+}
+.business #outer-content .business {
+	_width: 828px;
+}
+.business #business_content {
+	margin-top: 10px;
+	_margin-top: -100px;
+	_margin-bottom: 50px;
+	_height: 155px;
+}
+.business #bottom_bar ul li a#button {
+   _margin-top: -17px;
+}
+.business .ui-tabs .ui-tabs-nav {
+	_margin-left: -7px;
+}
+.company #outer-content .right {
+	_padding: 0;
+	_width: 260px;
+	_position: relative;
+	_top: 50px;
+}
+.company #outer-content .right .right_header {
+	width: 393px;
+	font-size: 28px;
+	top: -42px;
+	z-index: 1;
+}
+.contact #inner-wrapper {
+	background: #fff;
+}
+.contact #outer-wrapper-footer-menu #inner-wrapper {
+	background: transparent;
+}
+.contact #outer-content {
+	padding: 0;
+	_height: 600px;
+}
+.contact .reset {
+	_margin-left: 60px;
+}
+.contact .submit .label input#submit {
+	_background: url(/langCSS/FR/images/bg_imgs/btn/contact_btn.png) 0 0 no-repeat;
+	_background-attachment: fixed;
+	_width: 17px;
+	_height: 17px;
+	_text-indent: -999em;
+}
+.contact .sub_text .sub_left, .contact .sub_text .sub_right {
+    width: 140px;
+}
+.contact .sub_text .sub_left p {
+    width: 130px;
+}
+.products #outer-content,
+.products #outer-content .scrollable {
+	_height: 575px;
+}
+.products #outer-wrapper #inner-wrapper #outer-content .items .left {
+	_float: left;
+}
+.products #outer-wrapper #inner-wrapper #outer-content .items .right {
+    _padding: 0;
+}
+.nivoSlider {
+	bottom: 0px;
+	_bottom: -3px;
+}
+#about_popup {
+    bottom: 30px;
+    left: 35px;
+    _bottom: 46px;
+}
+#contact_popup {
+  bottom:-6px;
+  width: 884px;
+   padding: 0 0 5px 0;
+}
+#contact_popup .footerUp .footer-section-1,
+#contact_popup .footerUp .footer-section-2,
+#contact_popup .footerUp .footer-section-3,
+#contact_popup .footerUp .footer-section-4 {
+    width: 200px;
+}
+#outer-wrapper-footer-menu #mbar .media-bar {
+   _margin-right: 510px;
+}
+.slide {
+	bottom: 24px;
+}

@@ -1,0 +1,59 @@
+<script type="text/javascript">
+	$(document).ready(function(){
+	$(".chzn-select").chosen();
+	$(".chzn-select-deselect").chosen({allow_single_deselect:true});
+	$("a#change").bind('click', function(){
+			$.cookie('language', null, { path: '/' });
+			});
+  });
+</script>
+		<div id="lang-region">
+		<p style="text-align: right; margin: 10px 0 0 0;"><a id="change" style="color: #9B1112; text-decoration: none;" href="/">Change Country/Language Selection</a></p>
+		<form method="POST" action="#" name="language" style="position: absolute; top: 3em; right:0;">
+			<select data-placeholder="Select Your Country" style="width:250px;" class="chzn-select" size="1" name="Language" OnChange="if(this.value) window.location.href=this.value+location.pathname.substr(location.pathname.lastIndexOf('/')+1,location.pathname.length)">
+			
+				<optgroup style="text-align:left" label="THE AMERICAS">
+                    <option value="/c/US/">USA - English</option>
+                    <option value="/c/US/ES/">USA - Español</option>
+                    <option value="/c/US/VN/">USA - Việt</option>
+                    <option value="/c/CA/">Canada - English</option>
+                    <option value="/c/CA/FR/">Canada - Français</option>
+                    <option value="/c/CA/CH/">Canada - 中文</option>
+                    <option value="/c/DO/ES/">Dominican Republic - Español</option>
+                    <option value="/c/EC/ES/">Ecuador - Español</option>
+                    <option value="/c/JM/">Jamaica - English</option>
+                    <option value="/c/MX/">Mexico - Español</option>
+                    <option value="/c/MX/ENG/">Mexico - English</option>
+                    <option value="/c/PE/ES/">Peru - Español</option>
+                    <option value="/c/PE/">Peru - English</option>
+                </optgroup>
+				<optgroup style="text-align:left" label="EUROPE">
+                    <option value="/c/AT/DE/">Austria - Deutsch</option>
+                    <option value="/c/AT/">Austria - English</option>
+                    <option value="/c/AT/IT/">Austria - Italian</option>
+                    <option value="/c/CY/GR/">Cyprus - Ελληνικά</option>
+                    <option selected=selected value="/c/CY/">Cyprus - English</option>
+                    <option value="/c/DE/DE/">Germany - Deutsch</option>
+                    <option value="/c/DE/">Germany - English</option>
+                    <option value="/c/GR/GR/">Greece - Ελληνικά</option>
+                    <option value="/c/GR/">Greece - English</option>
+                    <option value="/c/IE/">Ireland - English</option>
+                    <option value="/c/NL/DU/">Netherlands - Nederlands</option>
+                    <option value="/c/NL/">Netherlands - English</option>
+                    <option value="/c/PL/PL/">Poland - Polski</option>
+                    <option value="/c/PL/">Poland - English</option>
+                    <option value="/c/UK/">United Kingdom - English</option>
+                    <option value="/c/ES/">Spain - English</option>
+                    <option value="/c/ES/ES/">Spain - Español</option>
+                </optgroup>
+				<optgroup style="text-align:left" label="ASIA">
+					<option value="http://multicosmique.com.my">Malaysia - English</option>
+					<option value="/c/PH/">Philippines - English</option>
+					<option value="/c/TW/CH/">Taiwan - 中文</option>
+				</optgroup>
+			</select>
+
+		</form>
+
+		</div>
+		<!-- /lang-region -->

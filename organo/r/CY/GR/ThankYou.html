@@ -1,0 +1,72 @@
+<!-- #include virtual ="/r_GR_Dist_Inc.asp" -->
+<%if request("act")="gotore" then
+	response.redirect("http://"&request("Site")&".OrGanoGold.com/na/biz/")
+end if
+%>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Thank You | Organo Gold</title>
+<link rel="stylesheet" href="/langCSS/GR/global.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/GR/globalNav-gr.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/GR/InvalidUser.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/GR/scrollable.css" type="text/css" />
+<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+<script src="/langCSS/GR/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+<script type="text/javascript" src="/langCSS/GR/scripts/getdeletecookie.js" /></script>
+<script src="/langCSS/EN/scripts/foo.js"></script>
+<script type="text/javascript" src="/langCSS/EN/scripts/json.js" /></script>
+<!--[if (IE 8)&(IE 9)]>
+	<link rel="stylesheet" href="/langCSS/EN/iefix.css" type="text/css" />	
+<![endif]-->
+<!--[if lte IE 7]>
+	<link rel="stylesheet" href="/langCSS/GR/iefix7.css" type="text/css" />
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="/langCSS/GR/scripts/DD_belatedPNG.js"></script>
+	<script>
+		DD_belatedPNG.fix('.png_bg');
+	</script>
+<![endif]-->
+</head>
+<body class="InvalidUser">
+<div id="top-wrapper" class="png_bg">
+	<div id="header">
+		<div id="logo"> <a id="logo" class="png_bg" href="r_default.asp"></a> </div>
+		<!-- /logo -->
+		<div id="dist-info">
+<!-- #include virtual ="/r_GR_Dist_Info_Inc.asp" -->
+		</div>
+		<!-- /dist-info -->
+		
+		<!-- #include virtual ="/r_GR_Lang_Inc.asp" -->
+		<!-- /lang-region -->
+		
+		<!-- #include virtual ="/r_gR_Nav_Inc.asp" -->
+		</div>
+		<!-- /global-nav -->
+	</div>
+	<!-- /header -->
+</div>
+<!-- /top-wrapper -->
+<div id="outer-wrapper" class="png_bg">
+	<div id="inner-wrapper">
+		<div id="outer-content" class="clear">
+			<div id="effect" class="clear">
+				<h1 class="invalid_header">Thank You</h1>
+				<p>Thank you for taking the time to send the distributor a message. He will contact you as soon as he receives this message. In the mean time, if you have urgent concerns, please call us at 1 (877) 674-2661 and we willl try to assist you the best we can.</p>
+			</div>
+			<!-- /effect -->
+		</div>
+		<!-- /outer-content -->
+	</div>
+	<!-- /inner-wrapper -->
+</div>
+<!-- /outer-wrapper -->
+<!-- #include virtual ="/r_GR_Footer_Inc.asp" -->
+</body>
+</html>

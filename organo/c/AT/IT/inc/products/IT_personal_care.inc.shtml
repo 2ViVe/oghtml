@@ -1,0 +1,31 @@
+   <div class="items">
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/smile.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">OG Smile</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Un dentifricio con Ganoderma biologico 100% e il fresco gusto di menta sviluppato per la cura speciale dei denti e delle gengive. OG Smile contiene prodotti naturali che migliorano la salute della bocca, lasciandoti con denti più bianchi e un alito più fresco.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/soap.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Sapone G3 Premium Beauty</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Un'unica combinazione di glutatione, vinaccioli ed estratto di Ganoderma lucidum. La sua speciale formula pulisce, idrata ed è ipoallergenica. Un uso regolare migliora la giovanile vitalità della pelle.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

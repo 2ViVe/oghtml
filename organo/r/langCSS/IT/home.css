@@ -1,0 +1,57 @@
+.home #outer-wrapper #inner-wrapper #outer-content.home {
+	background: url(/r/langCSS/IT/images/bg_imgs/home_img1.1.jpg) 214px 5px no-repeat;
+}
+.home #outer-wrapper {
+	background: #fff;
+}
+.home #outer-content .content {
+	position: absolute;
+	width: 350px;
+	top: 120px;
+	left: 8px;
+	z-index: 1;
+}
+.home .content .content_header {
+	font-size: 29px;
+	color: #9B1112;
+	margin: 1em 0;
+	line-height: 35px;
+}
+.home .content .content_header h1 {
+	background: url(/r/langCSS/IT/images/bg_imgs/do_you.png) 0 0 no-repeat;
+	width: 370px;
+	height: 77px;
+	text-indent: -999em;
+}	
+.home .content .content_content {
+	width: 262px;
+	margin: 0 0 0 7.5em;
+	line-height: 1.5em;
+	text-align: justify;
+}
+.home #outer-content {/* sets the height for consistency of other pages */
+	min-height: 630px;
+}
+.home #business_content #leftImg { /* left image */
+	width: 200px;
+	float: left;
+	display: inline-block;
+}
+
+/* slideshow */
+#slideshow {
+    position:relative;
+    height:625px;
+    z-index: 0;
+}
+#slideshow img{
+    position:absolute;
+    left: 215px;
+    z-index:0;
+}
+#slideshow img.active {
+    z-index:2;
+}
+#slideshow img.last-active {
+    z-index:1;
+}

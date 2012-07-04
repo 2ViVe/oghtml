@@ -1,0 +1,129 @@
+.napoleon #business_content #leftImg {
+	width: 200px;
+	padding: 0 10px;
+	float: left;
+	display: inline-block;
+}
+.napoleon #business_content #leftImg h1 {
+	background: url(/c/langCSS/BP/images/bg_imgs/napoleon-hill-text.jpg) 0 0 no-repeat;
+	margin: 0 0 0.5em 0;
+	line-height: 30px;
+	width: 183px;
+	height: 60px;
+	text-indent: -999em;
+	/*font-size: 36px;
+	text-align: right;
+	float: right;
+	line-height: 40px;
+	width: 375px;
+	color: #999999;
+	font-family: 'HelveticaNeueLTStd45Light';*/
+}
+.napoleon #bottom_bar ul li a#button,
+.napoleon #bottom_bar ul li a#button:hover {
+	display: block;
+	width: 252px;
+	height: 30px;
+	margin-left: 17px;
+	text-indent: -999em;
+	z-index: 1;
+}
+.napoleon#bottom_bar ul li a#button {
+	background: url(/c/langCSS/BP/images/bg_imgs/btn/og_Vid_U.png) 0 0 no-repeat;
+}
+.napoleon #bottom_bar ul li a#button:hover {
+	background: url(/c/langCSS/BP/images/bg_imgs/btn/og_Vid_O.png) 0 0 no-repeat;
+}
+.napoleon #bottom_bar ul li a#button.down {
+	background: url(/c/langCSS/BP/images/bg_imgs/btn/og_Vid_Down.png) 0 0 no-repeat;
+}
+.napoleon #bottom_bar ul {
+	margin: 0 0 0 17px;
+}
+/*.business #outer-content .sliderUp,
+#outer-content .box,
+.business #outer-content .goUp {
+	padding: 0;
+
+}*/
+.napoleon #outer-content .business {
+	background: url(/c/langCSS/BP/images/bg_imgs/napoleon.jpg) 0 5px no-repeat;
+	width: 791px;
+	height: 358px;
+	height: 468px;
+	position: relative;
+	z-index: 0;
+}
+.napoleon #global-nav {
+	height: 120px;
+}
+/*.business #outer-content .btn {
+	display: block;
+	position: relative;
+	top: -30px;
+}*/
+.napoleon #business_content {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	margin: -50px 0 0 0;
+	min-height: 175px;
+	min-height: 200px;
+	left: 45px;
+}
+
+/* bottom tabs */
+.napoleon #tabs {
+	width: 600px;
+	display: inline-block;
+	float: left;
+}
+.napoleon #outer-content { /* needed for the video player to stay in place */
+	min-height: 360px;
+	position: relative;
+	top: -46px;
+	left: 45px;
+}
+.napoleon .ui-tabs .ui-tabs-nav {
+	width: 405px;
+	clear: both;
+	display: inline-block;
+	margin: 0 0 1em -15px;
+	padding: 0;
+}
+.napoleon .ui-tabs .ui-tabs-nav li {
+	display: inline-block;
+	float: left;
+	border-right: 2px solid #9B1112;
+	margin: 0;
+	padding: 0 15px;
+}
+.napoleon .ui-tabs .ui-tabs-nav li a {
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	padding: 0;
+	text-decoration: none;
+}
+.napoleon .ui-tabs .ui-tabs-panel {
+	clear: both;
+	display: inline-block;
+	padding:0;
+	width: 435px;
+}
+.napoleon .ui-tabs .ui-tabs-hide {
+    display: none !important;
+}
+.napoleon .ui-tabs .ui-state-default a {
+	color: #9B1112;	
+}
+.napoleon .ui-tabs .ui-state-active a {
+	color: #999;
+}
+.napoleon .ui-tabs .ui-tabs-nav li.last {
+	border-right: none;	
+}
+/*.business .slide {
+	background: url(../images/bg_imgs/ogm_bar.png) 0 0 repeat;
+}*/

@@ -1,0 +1,129 @@
+   <div class="items">  
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Cà Phê Gourmet Cafe Supreme</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Đặc trưng bởi cây Nhân Sâm Hảo Hạng, được coi là một loại thảo dược có giá trị lớn trong thế giới cổ đại tới mức chỉ dành cho những người có quyền lực và đặc quyền lớn.</p>
+                <p>&nbsp;</p>
+                <p>Nhân sâm vẫn được đánh giá cao và coi trọng ở châu Á như là nguồn sức khỏe thể chất và tinh thần quan trọng.</p>
+                <p>&nbsp;</p>
+                <p>Gourmet Café Supreme của Organo Gold kết hợp sức mạnh của Nhân Sâm và Linh Chi Hữu Cơ Được Chứng Nhận 100%, mang đến sự hòa quện êm dịu của cà phê latte hoàn hảo cho người uống cà phê đang tìm kiếm sự phấn chấn tự nhiên trong ngày.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Cà Phê Đen</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Cà Phê Đen Gourmet của Organo Gold chắc chắn sẽ thu hút và đánh thức cảm giác của bạn. Vị đắng và hương vị đậm đà với Linh Chi Hữu Cơ 100% mang đến cho người yêu cà phê một loại đồ uống thay thế có lợi cho sức khỏe. Với Cà Phê Đen của OG, hãy thưởng thức ngay hương vị của cà phê pha tươi.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Cà Phê Gourmet Mocha</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Cà phê thơm ngon của chúng tôi kết hợp với loại ca cao hảo hạng nhất mang lại cho bạn "Tách Cà Phê Tráng Miệng" miễn chê. Cà phê Gourmet Mocha của OG kết hợp vị cà phê ngọt đậm với Nấm Linh Chi Hữu Cơ 100% tạo nên đồ uống hoàn hảo cung cấp năng lượng sau bữa tối.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Cà Phê Gourmet Latte</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Là thức uống Yêu Thích Tại Nhà, OG Gourmet Latte pha lẫn các hạt cà phê  Arabica thơm ngon chất lượng cao với chiết xuất Linh Chi Hữu Cơ 100%. Hoàn hảo cho bữa sáng hoặc là đồ uống thư giãn, vị nhẹ nhàng, ngọt ngào và đầy kem của loại cà phê này kết hợp với Linh Chi tăng cường năng lượng khiến đồ uống này trở thành sự khởi đầu lý tưởng cho mọi buổi sáng.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Sôcôla Nóng Gourmet</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Sự pha lẫn đặc biệt của vị sôcôla đậm đà êm dịu và chiết xuất Linh Chi Hữu Cơ 100% giúp hâm nóng cơ thể bạn đồng thời hỗ trợ hệ miễn dịch của bạn trong những ngày lạnh giá. Với nhu cầu cao, OG tự hào mang đến đồ uống có vị ngon tuyệt vời mà mọi người đều có thể thưởng thức.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Trà Xanh Hữu Cơ</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Tính chất hương vị và êm dịu hiếm có của Trà Xanh kết hợp với lợi ích sức khỏe của Linh Chi Hữu Cơ 100% mang đến loại đồ uống giàu chất chống ô xi hóa.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">King of Coffee</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Được sản xuất độc quyền bởi Organo Gold, "King of Coffee" tự hào giới thiệu loại Cà Phê Hữu Cơ Hảo Hạng Được Chứng Nhận 100% kết hợp với Chiết Xuất Bào Tử Nấm Linh Chi Dạng Bột Được Chứng Nhận 100%". Hạt cà phê chất lượng cao và Linh Chi giàu chất chống ô xi hóa chỉ là một phần của loại cà phê tuyệt vời này. Có thể kết hợp tuyệt vời với bất kỳ loại thức ăn nào, vị cà phê nhẹ nhàng và hương vị tươi ngon sẽ khiến thức uống này trở thành một phần đồ uống có lợi cho sức khỏe hàng ngày.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Cà Phê Premium Gourmet Royal Brewed</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Jamaica đã và đang hoàn thiện việc trồng và chế biến hạt cà phê hơn 100 năm qua. Các công nhân dùng tay phân loại các hạt cà phê Arabica đậm đà, là cách tự nhiên để đảm bảo chất lượng hảo hạng. Loại cà phê này được chế biến theo một số tiêu chuẩn chất lượng khắt khe nhất trên thế giới, mang lại vị tươi ngon và hương vị đậm đà hàng đầu trong số các loại cà phê.</p>
+                <p>&nbsp;</p>
+                <p>Cà Phê Jamaica Blue Mountain® giờ đây được kết hợp với Chiết Xuất Bào Tử Nấm Linh Chi Dạng Bột Được Chứng Nhận 100% của Organo Gold. Với việc chỉ sử dụng các thành phần có chất lượng cao nhất sẵn có, Cà Phê Premium Gourmet Royal Brewed của Organo Gold là đồ uống pha rất phù hợp với hoàng gia.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

@@ -1,0 +1,257 @@
+/* header */
+
+#logo a#logo {
+	background: url(/r/langCSS/PL/images/logo_OG_seal-2.png) 0 0 no-repeat;
+	width:158px;
+	height: 166px;
+	float: left; /* for ie */
+	display: inline-block; /* for ie */
+	position: absolute;
+	position: relative;
+	z-index: 5;
+}
+#dist-info,
+#lang-region {
+	float: left;
+	display: inline-block;
+	width: 372px;
+	width: 380px;
+	width: 365px;
+	width: 385px;
+	height: 80px;
+	position: relative;
+	left: 30px;
+	left: 20px;
+}
+#dist-info {
+	margin: 10px 0 0 0;
+	line-height: 14px;
+	letter-spacing: 0.5px;
+}
+#dist-info .name {
+	font-size: 18px;
+	color: #9B1112;
+	margin: 0 0 2px 0;
+}
+#dist-info .distributor,
+#dist-info .ID,
+#dist-info .email,
+#dist-info .email a,
+#dist-info .sendEmail a,
+#dist-info .sendEmail {
+	font-size: 10px;
+	color: #c7b299;
+}
+#dist-info .email a:hover {
+	text-decoration: none;
+}
+#dist-info .sendEmail {
+	margin-top: 2px;
+}
+#dist-info .sendEmail a {
+	color: #666;
+}
+#lang-region select {
+	float: right;
+	width: 150px;
+	margin: 10px /*25px*/34px 0 0;
+}
+
+/* global navigation */
+#global-nav {
+	height: 120px;
+}
+#global-nav #menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	left: 149px;
+	z-index: 2;
+	top: -74px;
+}
+#global-nav #menu li ul {
+	position: absolute;
+	left: -9999em;
+	-moz-box-shadow: 0px 2px 6px 1px #ccc;
+	-webkit-box-shadow: 0px 2px 6px 1px #ccc;
+	box-shadow: 0px 2px 6px 1px #ccc;
+}
+#global-nav #menu li{
+	float:left;
+	position:relative;
+	display:block;
+}
+#global-nav #menu li a{
+	display:block;
+	height: 28px;
+	color:#000;
+	font-size: 9px;
+	letter-spacing: 2px;
+	text-decoration:none;
+}
+#global-nav #menu li a:hover{
+	color:#000;
+}
+
+/* dropdown menu */
+#global-nav #menu ul li{
+	float: none;
+	width: 150px;
+	background: url(/r/langCSS/PL/images/bg_imgs/menu-bg-3.png) 0 0 repeat;
+	padding: 0 10px;
+	position: relative;
+}
+#global-nav #menu li:hover ul{ /* Display the dropdown on hover */
+	top: 28px;
+	left: 0; /* Bring back on-screen when needed */
+}
+#global-nav #menu li:hover a{ /* Set styles for top level when dropdown is hovered */
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	width: 138px;
+}
+#global-nav #menu li:hover ul a{ /* Override some top level styles when dropdown is hovered */
+	text-decoration: none;
+	display: block;
+	width: 130px;
+	padding: 10px 10px 0 10px;
+	border-bottom: 0.75px dotted #fff;
+}
+#global-nav #menu li:hover ul li.last a { /* eliminates the border on the last item */
+	border-bottom: none;
+}
+#global-nav #menu li:hover ul li a:hover{ /* Set styles for dropdown when items are hovered */
+	display: block;
+	width: 130px;
+	padding: 10px 10px 0 10px;
+	color: #9B1112;
+	color: #fff;
+}
+
+/* individual items on global navigation */
+#global-nav #menu li a#home,
+#global-nav #menu li a#company,
+#global-nav #menu li a#products,
+#global-nav #menu li a#business,
+#global-nav #menu li a#join,
+#global-nav #menu li a#buy,
+#global-nav #menu li a#events,
+#global-nav #menu li a#login {
+	display: block;
+	height: 28px;
+	text-indent: -999em;
+}
+
+/* global navigation normal state */
+#global-nav #menu li a#home {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -35px 0 no-repeat;
+	width: 135px;
+}
+#global-nav #menu li a#company {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -170px 0 no-repeat;
+	width: 78px;
+}
+#global-nav #menu li a#products {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -248px 0 no-repeat;
+	width: 87px;
+}
+#global-nav #menu li a#business {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -335px 0 no-repeat;
+	width: 100px;
+}
+#global-nav #menu li a#events {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -436px 0 no-repeat;
+	width: 97px;
+}
+#global-nav #menu li a#join {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -532px 0 no-repeat;
+	width: 116px;
+}
+#global-nav #menu li a#buy {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -648px 0 no-repeat;
+	width: 152px;
+}
+#global-nav #menu li a#login{
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -801px 0 no-repeat;
+	width: 115px;
+}
+
+/* global navigation selected state */
+#global-nav #menu li.home a.selected,
+#global-nav #menu li.company a.selected,
+#global-nav #menu li.products a.selected,
+#global-nav #menu li.business a.selected {
+	text-indent: -999em;
+}
+#global-nav #menu li.events a.selected {
+	text-indent: -999em;
+}
+#global-nav #menu li.join a.selected {
+	text-indent: -999em;
+}
+#global-nav #menu li.buy a.selected {
+	text-indent: -999em;
+}
+#global-nav #menu li.home a.selected {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -249px -28px no-repeat;
+	width: 135px;
+}
+#global-nav #menu li.company a.selected,
+#global-nav #menu li a#company.selected {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -170px -28px no-repeat;
+	width: 78px;
+}
+#global-nav #menu li.products a.selected,
+#global-nav #menu li a#products.selected {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -248px -28px no-repeat;
+	width: 87px;
+}
+#global-nav #menu li.business a.selected,
+#global-nav #menu li a#business.selected {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -336px -28px no-repeat;
+	width: 100px;
+}
+#global-nav #menu li.events a.selected {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -436px -28px no-repeat;
+	width: 97px;
+}
+#global-nav #menu li.join a.selected {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -532px -28px no-repeat;
+	width: 116px;
+}
+#global-nav #menu li.buy a.selected {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -648px -28px no-repeat;
+	width: 152px;
+}
+
+/* global navigation hover state */
+#global-nav #menu li a#home:hover {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -35px -28px no-repeat;
+}
+#global-nav #menu li a#company:hover {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -170px -28px no-repeat;
+}
+#global-nav #menu li a#products:hover {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -248px -28px no-repeat;
+}
+#global-nav #menu li a#business:hover {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -336px -28px no-repeat;
+}
+#global-nav #menu li a#events:hover {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -436px -28px no-repeat;
+}
+#global-nav #menu li a#join:hover {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -533px -28px no-repeat;
+}
+#global-nav #menu li a#buy:hover {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -649px -28px no-repeat;
+}
+#global-nav #menu li a#login:hover {
+	background: url(/r/langCSS/PL/images/bg_imgs/btn/main-nav-bg.png) -801px -28px no-repeat;
+}
+a {
+	outline: 0;
+}

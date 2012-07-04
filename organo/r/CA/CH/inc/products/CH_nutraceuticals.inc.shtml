@@ -1,0 +1,77 @@
+   <div class="items">
+   
+   	<div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/Nutra_Canada.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">營養劑</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Organo Gold 提供天然健康產品，例如 100% 經有機認證的 靈芝、100% 經有機認證的孢子粉、靈芝菌絲和葡萄籽油萃取物。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display: none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">靈芝</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>靈芝受人推崇已有 5,000 多年，是古代草藥和醫藥書籍中記載的「高級藥草」。在全球經科學方法證明，靈芝是最具強身健體功效和調理作用的天然營養品。靈芝常與長壽、年輕和活力聯繫在一起。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display: none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">葡萄籽油精華</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>由以抗炎作用出名的植物化學素組成，可防止自由基的傷害，改善膚色。它還含有大量白藜蘆醇，這是另一種具有抗炎作用的物質。它包含類黃酮或低聚原花青素 (OPC)，提供比其他維生素 C 或維生素 E 高 50 倍的強力抗氧化劑保護。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display: none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">靈芝菌絲體</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>從 18 天的靈芝母體中提取，含有高濃度的天然有機鍺和多醣。靈芝菌絲體同時還能促進保健循環和氧氣供應。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display: none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">靈芝孢子粉</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>來自在天然段木中培植的靈芝種子，採用低溫破壁技術提取，純度達到 99.9%，通過了中國、美國、日本和歐盟的有機認證。孢子粉中富含天然靈芝多醣、三萜、有機鍺和硒。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->

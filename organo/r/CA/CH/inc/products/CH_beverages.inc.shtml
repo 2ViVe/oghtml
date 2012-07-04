@@ -1,0 +1,123 @@
+   <div class="items">  
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">高級精選咖啡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>人參粉和 100% 經有機認證的靈芝混合製成的濃郁拿鐵飲品。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">黑咖啡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>現磨咖啡的苦澀濃香融入 100% 經有機認證的靈芝。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">精選摩卡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>頂尖的可可和咖啡豆，和100％ 經有機認證的靈芝萃取物相結合，成就我們的『杯中甜點』。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">精選拿鐵</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>帶有拿鐵濃厚的香奶味，由優質阿拉比卡豆融入 100% 經有機認證的靈芝製成。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">精選熱巧克力</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>濃郁巧克力味和 100% 經有機認證靈芝的獨特混合，打造出每個人都樂於品嚐的美味飲品。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">有機綠茶</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>綠茶的溫和可口外加 100% 有機靈芝功效。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">至尊咖啡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>100% 經有機認證的上等咖啡融入 100% 經有機認證的靈芝孢子粉。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">高級精選皇家煮磨咖啡</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>牙買加藍山咖啡 (Jamaica Blue Mountain &reg;) 融入 100% 經有機認證的靈芝孢子粉。品質高貴的沖泡飲品。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

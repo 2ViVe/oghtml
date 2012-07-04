@@ -1,0 +1,17 @@
+<script type="text/javascript">
+$(document).ready(function(){
+	var products = $('body').hasClass("products");
+	var napoleon = $('body').hasClass("napoleon");
+	var company = $('body').hasClass("company");
+	var home = $('body').hasClass("home");
+	if(products){
+		$("a#products").css("background-position","-387px -28px");
+	} else if(napoleon){
+		$("a#company").css("background-position","-270px -28px");
+	} else if(company){
+		$("a#company").css("background-position","-270px -28px");
+	} else if(home){
+		$("a#home").css("background-position","-128px -28px");
+	}
+});
+</script>

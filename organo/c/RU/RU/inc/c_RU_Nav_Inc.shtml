@@ -1,0 +1,29 @@
+<div id="global-nav">
+			<ul id="menu" class="sf-menu">
+				<li class="menu1 selected"><a id="home" href="index.html">Стартовая</a></li>
+				<li class="menu2"><a id="company" href="javascript:;">компания</a>
+					<ul>
+						<li><a href="company.html">O Organo Gold</a></li>
+						<li><a href="napoleon.html">Наполеона Хилла</a></li>
+						<li class="last"><a href="dsa.html">Партнерство</a></li>
+						<!--<li><a href="leaders.html">Recognition Hall</a></li>-->
+					</ul>
+				</li>
+				<li class="menu3"><a id="products" href="javascript:;">Продукты</a>
+					<ul>
+						<li class="last"><a href="beverages.html">напитки</a></li>
+						<!--<li><a href="nutraceuticals.html">Nutraceuticals</a></li>-->
+					</ul>
+				</li>
+				<li class="menu4"><a id="business" href="javascript:;">Бизнес</a>
+
+					<ul>
+						<li><a href="business.html">возможность</a></li>
+						<li class="last"><a href="compensation.html">компенсация</a></li>
+					</ul>
+				</li>
+                <li class="menu5"><a id="events" href="events.html">События</a></li>
+                <li class="menu6"><a id="login" href="" target="_blank">Логин</a></li>
+
+			</ul>
+		</div>

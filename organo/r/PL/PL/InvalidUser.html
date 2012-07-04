@@ -1,0 +1,80 @@
+<%if request("act")="gotore" then
+
+
+
+	response.redirect("http://"&request("Site")&".OrGanoGold.com")
+end if
+site="corp"
+%>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Invalid User | Organo Gold</title>
+<link rel="stylesheet" href="/langCSS/EN/global.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/EN/globalNav-en.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/EN/InvalidUser.css" type="text/css" />
+<link rel="stylesheet" href="/langCSS/EN/scrollable.css" type="text/css" />
+<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+<script src="/langCSS/EN/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+<script type="text/javascript" src="/langCSS/EN/scripts/getdeletecookie.js" /></script>
+<script src="/langCSS/EN/scripts/foo.js"></script>
+<script type="text/javascript" src="/langCSS/EN/scripts/json.js" /></script>
+<!--[if IE 8]>
+	<link rel="stylesheet" href="/langCSS/EN/iefix.css" type="text/css" />	
+<![endif]-->
+<!--[if lte IE 7]>
+	<link rel="stylesheet" href="/langCSS/EN/iefix7.css" type="text/css" />
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="/langCSS/EN/scripts/DD_belatedPNG.js"></script>
+	<script>
+		DD_belatedPNG.fix('.png_bg');
+	</script>
+<![endif]-->
+</head>
+<body class="InvalidUser">
+<div id="top-wrapper" class="png_bg">
+	<div id="header">
+		<div id="logo"> <a id="logo" class="png_bg" href="r_default.asp"></a> </div>
+		<!-- /logo -->
+		<div id="dist-info">
+			<p class="name"> </p>
+			<p class="distributor"> </p>
+			<p class="ID"> </p>
+			<p class="email"> </p>
+			<p class="sendEmail"> </p>
+		</div>
+		<!-- lang-region -->
+		<!-- #include virtual ="/r_EN_Lang_Inc.asp" -->
+
+		<!-- global-nav -->
+		<!-- #include virtual ="/r_EN_Nav_Inc.asp" -->
+	</div>
+	<!-- /header -->
+</div>
+<!-- /top-wrapper -->
+<div id="outer-wrapper" class="png_bg">
+	<div id="inner-wrapper">
+		<div id="outer-content" class="clear">
+			<div id="effect" class="clear">
+				<h1 class="invalid_header">You Have Entered an Invalid Distributor Name</h1>
+                <form method="POST" action="<%=Request.ServerVariables("SCRIPT_NAME")%>" class="invalid">
+                    <p><strong>Please Try Again</strong></p>
+                    <p><input type="text" name="Site" size="20"> <strong>.organogold.com</strong>
+                    <input type="submit" value="Go" name="B1"></p>
+                    <input type="hidden" name="act" value="gotore">
+                </form>
+				<p>If you have reached this page by mistake, please click <a href="/">here</a> for the main Organo Gold page.</p>
+			</div>
+			<!-- /effect -->
+		</div>
+		<!-- /outer-content -->
+	</div>
+	<!-- /inner-wrapper -->
+</div>
+<!-- /outer-wrapper -->
+<!-- #include virtual ="/r_EN_Footer_Inc.asp" -->

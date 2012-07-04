@@ -1,0 +1,123 @@
+<div class="items">  
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Gourmet Cafe Supreme</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>The power of Ginseng and 100% Certified Organic Ganoderma combined for a smooth latte blend.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Black Coffee</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>The dark bitter taste and deep aroma of freshly brewed coffee, infused with 100% Organic Ganoderma</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Gourmet Cafe Mocha</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>The combination of the finest cocoa and coffee beans, with 100% Organic Ganoderma brings about our "Dessert in a Cup".</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Gourmet Latte</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>The rich and creamy taste of lattee, made with high quality Arabica beans and 100% Organic Ganoderma.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Gourmet Hot Chocolate</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>A unique blend of smooth rich chocolate taste and 100% Organic Ganoderma, a drink that everyone can enjoy.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Organic Green Tea</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>The soothing and flavorful character of Green Tea combined with the benefits of 100% Organic Ganoderma.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">King of Coffee</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Premium 100% Certified Organic Coffee infused with 100% Certified Ganoderma Spore Powder.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/EN/images/products_new/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">Premium Gourmet Royal Brewed</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Jamaica Blue Mountain &reg; Coffee infused with 100% Certified Organic Ganoderma Spore Powder. A brew fit for royalty.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

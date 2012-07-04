@@ -1,0 +1,82 @@
+<div id="outer-wrapper-footer-menu">   
+<style type="text/css">
+	.slide {
+		height: 220px;
+		width: 948px;
+	}
+</style>
+      <div id="mbar">
+		<div class="media-bar">
+			<a id="mediabar" class="png_bg">Run Effect</a>
+                <div class="slide">
+                </div><!-- /slide -->
+            </div><!-- /media-bar -->
+    
+            
+		<div class="og-university">	
+			<p><a href="http://www.oguniversity.com" target="_blank" id="oguniversity" class="png_bg">oguniveristy</a></p>
+		</div><!-- /og-university -->
+    </div><!-- /mbar -->
+<div id="inner-wrapper" class="clear">
+		<div class="col-1">
+			<h1>Inne strony</h1>
+			<ul>
+				<li><a href="http://www.organogold.com" target="_blank">Organo Gold</a></li>
+				<li><a href="http://www.oguniversity.com" target="_blank">Uniwersytet OG</a></li>
+				<li><a href="http://www.organogoldmedia.com/" target="_blank">Media Center OG</a></li>
+				<li><a href="http://ogbusinesstools.com" target="_blank">Narzędzia biznesowe OG</a></li>
+				<li><a href="http://ogcoffeeconcierge.com" target="_blank">Coffee Concierge OG</a></li>
+			</ul>
+		</div>
+		<!-- /col-1 -->
+		<div class="col-2">
+			<h1>Produkty</h1>
+			<ul>
+				<li><a href="beverages.html">Napoje</a></li>
+				<!--<li><a href="nutraceuticals.html">Nutraceuticals</a></li>
+				<li><a href="personal-care.html">Personal Care</a></li>-->
+			</ul>
+		</div>
+		<!-- /col-2 -->
+
+			<div class="col-3">
+			<h1>Działalność</h1>
+			<ul>
+            	<li><a href="contact-general.html">Kontakt</a></li>
+                <li><a href="executive-team.html">Zespół kierowniczy</a></li>
+                <li><a href="compensation.html">System wynagradzania</a></li>
+                <li><a href="terms.html">Warunki</a></li>
+                <!--<li><a href="privacy.asp">Privacy Policy</a></li>-->
+			</ul>
+		</div>
+
+		<!-- /col-3 -->
+		<div class="col-4">
+			<h1>Media</h1>
+			<ul>
+				<li><a href="testimonials.html">Opinie</a></li>
+				<li><a href="http://www.organogoldmedia.com/photos" target="_blank">Фотографии</a></li>
+				<li><a href="http://www.organogoldmedia.com/ogtv" target="_blank">Видео-материалы</a></li>
+			</ul>
+		</div>
+		<!-- /col-4 -->
+		<div class="col-5">
+			<div class="socialmedia">
+				<p><a id="fb" href="http://www.facebook.com/organogold" class="png_bg" target="_blank">Facebook</a></p>
+				<p><a id="twitter" href="http://twitter.com/organogold" class="png_bg" target="_blank">Twitter</a></p>
+				<p><a id="yt" href="http://youtube.com/organogoldtv" class="png_bg" target="_blank">Youtube</a></p>
+			</div><!-- /socialmedia -->
+		</div>
+
+
+		<!-- /col-5 -->
+	</div>
+	<!-- /inner-wrapper -->
+	<div class="copyright clear">
+		<p>&copy; 2012 Organo Gold. Wszystkie prawa zastrzeżone</p>
+	</div><!-- /copyright -->
+</div><!-- /outer-wrapper-footer-menu -->
+<script type="text/javascript" src="/c/langCSS/scripts/global.js"></script>
+
+</body>
+</html>

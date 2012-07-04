@@ -1,0 +1,29 @@
+<div id="global-nav">
+			<ul id="menu" class="sf-menu">
+				<li class="menu1"><a id="home" href="index.html">Trang chu</a></li>
+				<li class="menu2"><a id="company" href="javascript:;">Công ty</a>
+					<ul>
+						<li><a href="company.html">About Organo Gold</a></li>
+						<li class="last"><a href="napoleon.html">Napoleon Hill</a></li>
+						<!--<li><a href="leaders.html">Recognition Hall</a></li>-->
+					</ul>
+				</li>
+				<li class="menu3"><a id="products" href="javascript:;">Sản phẩm</a>
+					<ul>
+						<li><a href="beverages.html">Đồ uống</a></li>
+						<li><a href="nutraceuticals.html">Thực phẩm chức năng</a></li>
+						<li class="last"><a href="personal-care.html">Chăm Sóc Cá Nhân</a></li>
+					</ul>
+				</li>
+				<li class="menu4"><a id="business" href="javascript:;">Hoạt động kinh doanh</a>
+					<ul>
+						<li><a href="business.html">Hoạt động kinh doanh</a></li>
+						<li><a href="compensation.html">Compensation</a></li>
+						<li class="last"><a href="/ogbenzclub" target="_blank">Benz Club</a></li>
+					</ul>
+				</li>
+                <li class="menu5"><a id="events" href="events.html">Sự kiện</a></li>
+                <li class="menu6"><a id="login" href="" target="_blank">Đăng Nhập</a></li>
+			</ul>
+		</div>
+		<!-- /global-nav -->

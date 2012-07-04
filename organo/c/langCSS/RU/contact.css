@@ -1,0 +1,159 @@
+.contact #top-wrapper {
+	background: #fff url(/langCSS/EN/images/bg_imgs/header50_bg.png) 0 0 repeat-x;
+	height: 162px;
+	position: relative;
+	width: 100%;
+}
+.contact #outer-wrapper {
+	background: #fff;
+}
+.contact #business_content {
+	position: relative;
+	z-index: 1;
+}
+.contact #outer-content {
+	min-height: 630px;
+	padding: 0 0 0 0;
+}
+.contact #outer-content .sliderUp,
+.contact #outer-content .box,
+.contact #outer-content .goUp{
+	padding: 0;
+}
+.contact #outer-content .contact {
+	width: 600px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+.contact #outer-content .thankyou {
+	float: left;
+	width: 465px;
+}
+.contact #outer-content h1 {
+	background: url(/langCSS/EN/images/bg_imgs/send_distributor.png) 0 0 no-repeat;
+	width: 484px;
+	height: 38px;
+	line-height: 40px;
+	margin: 0;
+	position: relative;
+	text-indent: -999em;
+}
+.contact #outer-content h1.thankyou {
+	background: url(/langCSS/EN/images/bg_imgs/your_message.png) 0 0 no-repeat;
+	width: 4494px;
+	height: 38px;
+	line-height: 40px;
+	margin: 0 0 1em 0;
+	position: relative;
+	text-indent: -999em;
+}
+.contact .section {
+	display: inline-block;
+	margin: 5px 0;
+}
+.contact .section .label {
+	width: 116px;
+	float: left;
+	display: inline-block;
+	color: #666;
+}
+.contact .section .input {
+	width: 325px;
+	float: left;
+	display: inline-block;
+}
+.contact .section .input input {
+	width: 319px;	
+}
+.contact .section .input textarea {
+	width: 323px;	
+	min-height: 150px;
+}
+.contact .section .submit {
+	margin: 0 0 0 116px;	
+}
+.contact .section .submit input {
+	margin: 0 0 0 10px;	
+}
+.contact .reset {
+	margin: 0 25px 0 116px;
+	float: left;
+	display: inline-block;
+}
+.contact .submit {
+	float: left;
+	display: inline-block;
+}
+.contact .reset .label,
+.contact .reset .input,
+.contact .submit .label,
+.contact .submit .input {
+	float: left;
+	display: inline-block;
+	margin: 1px 0 0 0;
+}
+.contact .reset .label input {
+	width: auto;	
+}
+.contact .submit .label,
+.contact .reset .label {
+	margin: 0 10px 0 0;	
+}
+.contact #outer-content .submit .label input#submit {
+	background: url(/langCSS/EN/images/bg_imgs/btn/contact_btn.png) 0 0 no-repeat;
+	display: block;
+	width: 17px;
+	height: 17px;
+	text-indent: -999em;
+}
+.contact .reset .label a#reset {
+	background: url(/langCSS/EN/images/bg_imgs/btn/contact_btn.png) 0 0 no-repeat;
+	display: block;
+	width: 17px;
+	height: 17px;
+	text-indent: -999em;
+}
+.contact .submit .input label,
+.contact .reset .input label {
+	font-size: 12px;
+	font-weight: bold;
+	color: #9B1112;
+}
+.contact .section.form_text {
+	width: 323px;
+	margin: 2em 0 0 116px;
+}
+.contact .form_top {
+	width: 323px;
+}
+.contact .form_top p {
+	font-size: 16px;
+	color: #9B1112;
+	text-decoration: none;
+}
+.contact .sub_text {
+	display: inline-block;
+	margin: 15px 0;
+}
+.contact .sub_text .sub_left,
+.contact .sub_text .sub_right {
+	width: 150px;
+	float: left;
+	display: inline-block;
+}
+.contact .sub_text .sub_left p {
+	width: 140px;
+	padding: 5px 0;
+	border-right: 2px solid #9B1112;
+}
+.contact .sub_text .sub_right p {
+	width: 135px;
+	padding: 5px 0;
+}
+.contact .sub_text .sub_left p,
+.contact .sub_text .sub_right p {
+	font-size: 16px;
+	color: #9B1112;
+	text-decoration: none;
+}

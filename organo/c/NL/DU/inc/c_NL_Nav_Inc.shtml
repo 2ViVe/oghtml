@@ -1,0 +1,28 @@
+<div id="global-nav">
+			<ul id="menu" class="sf-menu">
+				<li class="menu1"><a id="home" href="index.html">Home</a></li>
+				<li class="menu2"><a id="company" href="javascript:;">Bedrijf</a>
+					<ul>
+						<li><a href="company.html">About Organo Gold</a></li>
+						<li class="last"><a href="napoleon.html">Napoleon Hill</a></li>
+					</ul>
+				</li>
+				<li class="menu3"><a id="products" href="javascript:;">Producten</a>
+					<ul>
+						<li class="last"><a href="beverages.html">Drankjes</a></li>
+						<!--<li><a href="nutraceuticals.html">Nutricijnen</a></li>
+						<li><a href="personal-care.html">Persoonlijke zorg</a></li>-->
+					</ul>
+				</li>
+				<li class="menu4"><a id="business" href="javascript:;">Zaak</a>
+					<ul>
+						<li class="last"><a href="business.html">Zaak</a></li>
+						<li style="display:none;"><a href="http://ogbenzclub.com" target="_blank">Benz Club</a></li>
+					</ul>
+				</li>
+                <li class="menu5"><a id="events" href="events.html">Evenementen</a></li>
+                <li class="menu6"><a id="login" href="" target="_blank">Inloggen</a></li>
+
+			</ul>
+		</div>
+		<!-- /global-nav -->

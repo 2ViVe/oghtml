@@ -1,0 +1,31 @@
+<div class="items">
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/PL/images/products_new/smile.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">OG Smile</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>A toothpaste with 100% Organic Ganoderma and the fresh taste of mint developed for the special care of your teeth and gums. OG Smile contains natural products that promote oral health and leave you with whiter teeth and fresher breath.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/PL/images/products_new/soap.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">&#8220;Where Ancient China meets Modern Science&#8221;</h1>
+			<h2 class="info_second_header">G3 Premium Beauty Soap</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>A unique combination of Glutathione, Grapeseed and Ganoderma Lucidum Extract. Its special formulation cleanses, moisturizes, and is hypoallergenic. Regular use promotes skin's youthful vibrancy.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

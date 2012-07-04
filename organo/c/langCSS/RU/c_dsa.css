@@ -1,0 +1,73 @@
+.dsa #outer-wrapper {
+	background: #fff;
+}
+.dsa #outer-content .left,
+.dsa #outer-content .right {
+	display: inline-block;	
+}
+.dsa #outer-content .left {
+	float: left;
+	width: 458px;
+	padding: 55px 0 0 57px;
+	margin: 6px 0 0 0;
+	position: relative;
+	z-index: 0;
+}
+.dsa #outer-content .right {
+	float: right;
+	width: 260px;
+	padding: 55px 145px 0 0;
+}
+.dsa #outer-content .right .right_header {
+	position: relative;
+	margin: 0;
+	top: -40px;
+	left: -111px;
+	line-height: 40px;
+	font-size: 29px;
+	color: #999;
+	z-index: 1;
+}
+.dsa #outer-content .right .right_header h1 {
+	background: url(../images/bg_imgs/we_are.png) 0 0 no-repeat;
+	width: 375px;
+	height: 75px;
+	z-index: 1;
+	text-indent: -999em;
+}
+.dsa #outer-content .right .right_content {
+	position: relative;
+	top: -30px;
+	text-align: justify;
+}
+.dsa #outer-content .right .right_content p {
+	margin: 0 0 2em 0;
+}
+.dsa #outer-content {
+	min-height: 630px;
+}
+.dsa h1.invalid_header {
+	color: #9B1112;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+.dsa #effect {
+	padding: 0 45px 0 16em;
+	/*margin-bottom: 25px;*/
+}
+.dsa #quotes {
+	height: 540px;
+}
+.dsa #effect p {
+	margin-bottom: 1em;
+}
+.dsa #quotes strong {
+	font-weight: bold;
+}
+.dsa #quotes h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 15px;
+}

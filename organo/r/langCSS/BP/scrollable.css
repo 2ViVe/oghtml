@@ -1,0 +1,131 @@
+.scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 910px;
+	min-height: 520px;
+	/* custom decorations */
+	background: transparent;
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accomodate scrollable items.
+	it's enough that you set the width and height for the root element and
+	not for this element.
+*/
+.scrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+	clear:both;
+}
+
+.items .item {
+	float:left;
+	width:580px;
+	width: 910px;
+	padding: 25px;
+	padding: 0;
+}
+
+/* single scrollable item */
+.scrollable img {
+	float:left;
+	margin: 0;
+	padding:0;
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+/* active item */
+.scrollable .active {
+	border:2px solid #000;
+	position:relative;
+	cursor:default;
+}
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+	float:left;	
+}
+
+/* prev, next, prevPage and nextPage buttons */
+.products .buttons a.browse {
+	background:url(/r/langCSS/BP/images/tabs/product_nav_R_O.png) no-repeat;
+	display:inline-block;
+	width:30px;
+	width: 49px;
+	height:30px;
+	height: 49px;
+	float:left;
+	margin:0 20px 0 0;
+	cursor:pointer;
+	font-size:1px;
+}
+
+/* right */
+.products .buttons a.right 				{ background-position: 0 0px; clear:right; margin-right: 0px;}
+.products .buttons a.right:hover 		{ background-position:0 0; background:url(/r/langCSS/BP/images/tabs/product_nav_R_U.png) no-repeat; }
+.products .buttons a.right:active 	{ background-position:-60px -30px; } 
+
+
+/* left */
+.products .buttons a.left				{ margin-left: 0px;background-position: 0 0px; background:url(/r/langCSS/BP/images/tabs/product_nav_L_O.png) no-repeat;} 
+.products .buttons a.left:hover  		{ background-position:0 0; background:url(/r/langCSS/BP/images/tabs/product_nav_L_U.png) no-repeat; }
+.products .buttons a.left:active  	{ background-position:-60px 0; }
+
+/* up and down */
+.products .buttons a.up, .products .buttons a.down		{ 
+	background:url(http://static.flowplayer.org/tools/img/scrollable/arrow/hori_large.png) no-repeat; 
+	float: none;
+	margin: 10px 50px;
+}
+
+/* up */
+.products .buttons a.up:hover  		{ background-position:-30px 0; }
+.products .buttons a.up:active  		{ background-position:-60px 0; }
+
+/* down */
+.products .buttons a.down 				{ background-position: 0 -30px; }
+.products .buttons a.down:hover  		{ background-position:-30px -30px; }
+.products .buttons a.down:active  	{ background-position:-60px -30px; } 
+
+
+/* disabled navigational button */
+.products .buttons a.disabled {
+	visibility:hidden !important;		
+}
+/* disabled navigational button */
+.products .buttons a.disabled {
+	visibility:visible !important;
+	cursor: default;
+}
+.products .buttons a.left.disabled {
+	background-position:0 0; background:url(/r/langCSS/BP/images/tabs/product_nav_L_U.png) no-repeat;}
+.products .buttons a.right.disabled {
+	background-position:0 0; background:url(/r/langCSS/BP/images/tabs/product_nav_R_U.png) no-repeat;}
+.products .buttons {
+	position: relative;
+	display: inline-block;
+	width: 120px;
+	top: 40em;
+	left: 49em;
+	z-index: 1;
+}
+.image {
+	float: left;
+	display: inline-block;
+	width: 160px;
+}
+.info {
+	float: left;
+	display: inline-block;
+	width: 400px;
+}
+.info p {
+	overflow-y: scroll;
+	height: 205px;	
+}

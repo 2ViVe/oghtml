@@ -1,0 +1,129 @@
+   <div class="items">  
+      <div class="item" style="display:none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Cafe Supreme</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Περιέχει το ξεχωριστό φυτό Panax Ginseng, το οποίο θεωρούνταν βότανο μεγάλης αξίας στην αρχαιότητα που ήταν διαθέσιμο μόνο στους ισχυρούς και στους προνομιούχους.</p>
+                <p>&nbsp;</p>
+                <p>Το Ginseng εξακολουθεί να είναι ακριβό και στην Ασία θεωρείται κύρια πηγή υγείας και ευεξίας.</p>
+                <p>&nbsp;</p>
+                <p>Ο Gourmet Café Supreme της Organo Gold συνδυάζει την ενέργεια του Ginseng και του 100% πιστοποιημένου οργανικού γανοδέρματος, προσφέροντας μία απαλή γεύση λάτε ιδανική για τους λάτρεις του καφέ που αναζητούν μία φυσική τόνωση στη διάρκεια της ημέρας.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Μαύρος καφές</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Ο μαύρος καφές Gourmet της Organo Gold είναι σίγουρο ότι θα μαγνητίσει και θα αφυπνίσει τις αισθήσεις σας. Η σκούρα πικρή γεύση και το έντονο άρωμα του με την έγχυση 100% οργανικού γανοδέρματος προσφέρει στους εραστές του καφέ μία υγιεινή εναλλακτική. Με το μαύρο καφέ της Organo Gold, απολαμβάνετε στη στιγμή ένα φρέσκο αλεσμένο καφέ.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Moca</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Ο αρωματικός μας καφές σε συνδυασμό με το εκλεκτό κακάο προσφέρει την αθώα και χωρίς τύψεις απόλαυση του "Επιδόρπιου στο ποτήρι". Ο Gourmet Mocha της Organo Gold συνδυάζει μία πλούσια γλυκιά γεύση καφέ και 100% οργανικό γανόδερμα Lucidum, καθιστώντας τον  το τέλειο ρόφημα ενέργειας μετά το φαγητό.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Gourmet Latte</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Όντας από τους αγαπημένους μας, ο OG Gourmet Latte συνδυάζει υψηλής ποιότητας αρωματικούς κόκκους Αραβικού καφέ με απόσταγμα από 100% οργανικό γανόδερμα. Ιδανικός με το πρωινό ή σαν χαλαρωτικό ρόφημα, η απαλή γλυκιά και κρεμώδης γεύση του σε συνδυασμό με το γανόδερμα τον καθιστά το ιδανικό ξεκίνημα για κάθε πρωινό.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ζεστή σοκολάτα Gourmet</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Ένα μοναδικό απόσταγμα που συνδυάζει μία απαλή πλούσια γεύση σοκολάτας και 100% οργανικό γανόδερμα και διατηρεί το σώμα ζεστό ενώ υποστηρίζει το ανοσοποιητικό σύστημα  τις κρύες μέρες. Μετά από την τεράστια ζήτηση, η OG παρουσιάζει με περηφάνια ένα ποτό με σπουδαία γεύση που μπορούν να το απολαύσουν όλοι.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Οργανικό Πράσινο Τσάι</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Ο εξαιρετικά πράος και πλούσιος σε γεύση χαρακτήρας του Πράσινου Τσαγιού σε συνδυασμό με τα οφέλη για την υγεία που προσφέρει το 100% οργανικό γανόδερμα δημιουργεί ένα ποτό πλούσιο σε αντιοξειδωτικά.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display:none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ο Βασιλιάς του Καφέ</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Παρασκευάζεται αποκλειστικά από την Organo Gold. Ο "Βασιλιάς του Καφέ" περιέχει κορυφαίο 100% πιστοποιημένο οργανικό καφέ με έγχυση αποστάγματος σκόνης σπόρων 100% πιστοποιημένου γανοδέρματος". Οι υψηλής ποιότητας κόκκοι καφέ και το γανόδερμα με την πλούσια συγκέντρωση αντιοξειδωτικών είναι απλά τμήματα αυτού του σπουδαίου καφέ. Συνδυάζεται άψογα με οποιοδήποτε φαγητό. Η απαλότερη γεύση καφέ και το φρέσκο άρωμά του θα το καταστήσουν αναπόσπαστό τμήμα της καθημερινότητας.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item" style="display:none;">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Premium Gourmet Royal Brewed</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Στη Τζαμάικα τελειοποιούν την καλλιέργεια σπόρων καφέ για περισσότερα από 100 χρόνια. Οι εργάτες ξεχωρίζουν με το χέρι τους πλούσιους κόκκους Αραβικού καφέ, κάτι το οποίο αποτελεί το φυσικό τρόπο για τη  διασφάλιση κορυφαίας ποιότητας. Ο καφές επεξεργάζεται σύμφωνα με μερικά από τα πιο αυστηρά πρότυπα ποιότητας στον κόσμο, και αυτό έχει σαν αποτέλεσμα μία γεύση φρεσκάδας και πλούσιο άρωμα που όμοιο του δεν υπάρχει.</p>
+                <p>&nbsp;</p>
+                <p>Ο Jamaica Blue Mountain&reg; Coffee εγχύεται με απόσταγμα σκόνης σπόρων 100% πιστοποιημένου οργανικού γανοδέρματος Organo Gold. Χρησιμοποιώντας μόνο υψηλότερης ποιότητας συστατικά, ο Premium Gourmet Royal Brewed Coffee της Organo Gold είναι το απόσταγμα των γαλαζοαίματων.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

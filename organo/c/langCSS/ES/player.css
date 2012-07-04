@@ -1,0 +1,25 @@
+a.player {	
+	display:block;
+	width:500px;
+	height:340px;
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+	background:#000 url(http://flowplayer.org/img/global/gradient/h500.png) repeat-x 0 0;
+	background:-moz-linear-gradient(top, rgba(55, 102, 152, 0.9), rgba(6, 6, 6, 0.9));
+	-moz-box-shadow:0 0 40px rgba(100, 118, 173, 0.5);
+}
+
+a.player:hover {
+	background:-moz-linear-gradient(center top, rgba(73, 122, 173, 0.898), rgba(6, 6, 6, 0.898));	
+}
+
+/* splash image */
+a.player img {
+	margin-top:125px;
+	border:0;	
+}
+a.player {
+	margin-top:0px;		
+}

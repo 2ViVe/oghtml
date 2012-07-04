@@ -1,0 +1,31 @@
+<div class="items">
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/smile.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Pasta dental OG Smile</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Una pasta dental con ganoderma org&aacute;nico 100% certificado y el sabor fresco de la menta, desarrollada para el cuidado especial de dientes y encías. OG Smile contiene productos naturales que promueven la salud bucal y deja unos dientes m&aacute;s blancos y un aliento m&aacute;s fresco.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/soap.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Jab&oacute;n de tocador de alta calidad G3</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Este jab&oacute;n es una combinaci&oacute;n &uacute;nica de glutatione, semillas de uva y extracto de Ganoderma Lucidum. Su f&oacute;rmula especial limpia, humecta y es hipoalergénica. El uso habitual estimula la vitalidad de la piel.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

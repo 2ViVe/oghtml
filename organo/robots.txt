@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /r/*
+Disallow: /cgi-bin/
+Sitemap: http://www.organogold.com/sitemap.xml.gz

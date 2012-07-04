@@ -1,0 +1,86 @@
+<div id="outer-wrapper-footer-menu">
+<style type="text/css">
+	.slide {
+		height: 220px;
+		width: 948px;
+	}
+</style>
+      <div id="mbar">
+		<div class="media-bar">
+			<a id="mediabar" class="png_bg">Run Effect</a>
+                <div class="slide">
+                </div><!-- /slide -->
+            </div><!-- /media-bar -->
+    
+            
+		<div class="og-university">	
+			<p><a href="http://www.oguniversity.com" target="_blank" id="oguniversity" class="png_bg">oguniveristy</a></p>
+		</div><!-- /og-university -->
+    </div><!-- /mbar -->
+<div id="inner-wrapper" class="clear">
+		<div class="col-1">
+			<h1>Other Sites</h1>
+			<ul>
+				<li><a href="http://www.organogold.com" target="_blank">Organo Gold</a></li>
+				<li><a href="http://www.oguniversity.com" target="_blank">OG University</a></li>
+				<li><a href="http://www.organogoldmedia.com/" target="_blank">OG Media Center</a></li>
+				<li><a href="http://ogbusinesstools.com" target="_blank">OG Business Tools</a></li>
+				<li><a href="http://ogcoffeeconcierge.com" target="_blank">OG Coffee Concierge</a></li>
+			</ul>
+		</div>
+		<!-- /col-1 -->
+		<div class="col-2">
+			<h1>Products</h1>
+			<ul>
+				<li><a href="beverages.html">Beverages</a></li>
+				<!--<li><a href="nutraceuticals.html">Nutraceuticals</a></li>
+				<li><a href="personal-care.html">Personal Care</a></li>-->
+			</ul>
+		</div>
+		<!-- /col-2 -->
+			<div class="col-3">
+			<h1>Business</h1>
+			<ul>
+				<li><a href="" target="_blank">Join Now</a></li>
+				<li><a href="" target="_blank">Buy Products</a></li>
+                <li><a href="contact-general.html">Contact Us</a></li>
+                <li><a href="executive-team.html">Executive Team</a></li>
+                <li><a href="compensation.html">Compensation</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+			</ul>
+		</div>
+		<!-- /col-3 -->
+		<div class="col-4">
+			<h1>Media</h1>
+			<ul>
+				<li><a href="testimonials.html">Testimonials</a></li>
+				<li><a href="http://www.organogoldmedia.com/photos" target="_blank">Photos</a></li>
+				<li><a href="http://www.organogoldmedia.com/ogtv" target="_blank">Videos</a></li>
+			</ul>
+		</div>
+		<!-- /col-4 -->
+		<div class="col-5">
+			<div class="socialmedia">
+				<p><a id="fb" href="http://www.facebook.com/organogold" class="png_bg" target="_blank">Facebook</a></p>
+				<p><a id="twitter" href="http://twitter.com/organogold" class="png_bg" target="_blank">Twitter</a></p>
+				<p><a id="yt" href="http://youtube.com/organogoldtv" class="png_bg" target="_blank">Youtube</a></p>
+			</div><!-- /socialmedia -->
+			<div class="click-to-action clear">
+				<p><a id="buy-products" href="" class="png_bg" target="_blank">Buy Products</a></p>
+				<p><a id="join-now" href="" class="png_bg" target="_blank">Join Now</a></p>
+			</div><!-- /click-to-action -->
+		</div>
+
+		<!-- /col-5 -->
+	</div>
+	<!-- /inner-wrapper -->
+	<div class="copyright clear">
+		<p>&copy; 2012 Organo Gold. All Rights Reserved</p>
+	</div><!-- /copyright -->
+</div><!-- /outer-wrapper-footer-menu -->
+<script type="text/javascript" src="/r/langCSS/scripts/global.js"></script>
+<!--Mas Test-->
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+.business #business_content #leftImg {
+	width: 340px;
+	padding: 0 10px;
+	float: left;
+	display: inline-block;
+}
+.business #business_content #leftImg h1 {
+	background: url(/c/langCSS/BP/images/bg_imgs/now-is-portugese.png) 0 0 no-repeat;
+	margin: 0 0 0.5em 0;
+	line-height: 30px;
+	width: 332px;
+	height: 118px;
+	text-indent: -999em;
+}
+.business #bottom_bar ul li a#button,
+.business #bottom_bar ul li a#button:hover {
+	display: block;
+	width: 252px;
+	height: 30px;
+	margin-left: 17px;
+	text-indent: -999em;
+	z-index: 1;
+}
+.business #bottom_bar ul li a#button {
+	background: url(/c/langCSS/BP/images/bg_imgs/btn/og_Vid_U.png) 0 0 no-repeat;
+}
+.business #bottom_bar ul li a#button:hover {
+	background: url(/c/langCSS/BP/images/bg_imgs/btn/og_Vid_O.png) 0 0 no-repeat;
+}
+.business #bottom_bar ul li a#button.down {
+	background: url(/c/langCSS/BP/images/bg_imgs/btn/og_Vid_Down.png) 0 0 no-repeat;
+}
+.business #bottom_bar ul {
+	margin: 0 0 0 17px;
+}
+/*.business #outer-content .sliderUp,
+#outer-content .box,
+.business #outer-content .goUp {
+	padding: 0;
+
+}*/
+.business #outer-content .business {
+	background: url(/c/langCSS/BP/images/bg_imgs/business_page.jpg) 0 5px no-repeat;
+	width: 803px;
+	height: 358px;
+	height: 550px;
+	position: relative;
+	z-index: 0;
+}
+.business #global-nav {
+	height: 120px;
+}
+/*.business #outer-content .btn {
+	display: block;
+	position: relative;
+	top: -30px;
+}*/
+.business #business_content {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	margin: -50px 0 0 0;
+	min-height: 175px;
+	min-height: 200px;
+	left: 45px;
+}
+
+/* bottom tabs */
+.business #tabs {
+	width: 470px;
+	display: inline-block;
+	float: left;
+}
+.business #outer-content { /* needed for the video player to stay in place */
+	min-height: 360px;
+	position: relative;
+	top: -46px;
+	left: 45px;
+}
+.business .ui-tabs .ui-tabs-nav {
+	width: 405px;
+	width: 495px;
+	clear: both;
+	display: inline-block;
+	margin: 0 0 1em -15px;
+	padding: 0;
+}
+.business .ui-tabs .ui-tabs-nav li {
+	display: inline-block;
+	float: left;
+	border-right: 2px solid #9B1112;
+	margin: 0;
+	padding: 0 15px;
+}
+.business .ui-tabs .ui-tabs-nav li a {
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	padding: 0;
+	text-decoration: none;
+}
+.business .ui-tabs .ui-tabs-panel {
+	clear: both;
+	display: inline-block;
+	padding:0;
+	width: 435px;
+}
+.business .ui-tabs .ui-tabs-hide {
+    display: none !important;
+}
+.business .ui-tabs .ui-state-default a {
+	color: #9B1112;	
+}
+.business .ui-tabs .ui-state-active a {
+	color: #999;
+}
+.business .ui-tabs .ui-tabs-nav li.last {
+	border-right: none;	
+}
+/*.business .slide {
+	background: url(../images/bg_imgs/ogm_bar.png) 0 0 repeat;
+}*/

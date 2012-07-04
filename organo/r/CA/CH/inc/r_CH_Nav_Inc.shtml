@@ -1,0 +1,33 @@
+<!--#include file="r_CH_english_specific.shtml" -->
+<div id="global-nav">
+			<ul id="menu" class="sf-menu">
+				<li class="menu1"><a id="home" href="index.html">首頁</a></li>
+            <li class="menu2"><a id="company"href="javascript:;">Company</a>
+               <ul>
+                  <li><a href="company.html">About</a></li>
+                  <li class="last"><a href="napoleon.html">Napoleon Hill</a></li>
+                  <!--<li><a href="leaders.html">Recognition Hall</a></li>-->
+              </ul>
+           </li>
+           <li class="menu3"><a id="products" href="javascript:;">產品</a>
+					<ul>
+						<li><a href="beverages.html">飲品</a></li>
+						<li><a href="nutraceuticals.html">營養劑</a></li>
+						<li class="last"><a href="personal-care.html">個人護理</a></li>
+					</ul>
+				</li>
+				<li class="menu4"><a id="business" href="javascript:;">業務</a>
+					<ul>
+						<li><a href="business.html">業務</a></li>
+						<li class="last"><a href="http://ogbenzclub.com" target="_blank">Benz Club</a></li>
+					</ul>
+				</li>
+                <li class="menu5"><a id="events" href="events.html">活動</a></li>
+				<li class="menu6"><a id="join" href="" target="_blank">立即加入</a></li>
+				<li class="menu7"><a id="buy" href="" target="_blank">購買產品 CACH</a></li>
+				<li class="menu8"><a id="login" href="" target="_blank">登入 CACH</a></li>
+
+			</ul>
+		</div>
+
+		<!-- /global-nav -->

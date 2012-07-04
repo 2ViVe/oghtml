@@ -1,0 +1,104 @@
+/* styles for ie8 */
+#logo a#logo {
+	position: relative;
+	z-index: 6;
+}
+#dist-info {
+	height: 82px;
+	left: 25px;
+}
+#lang-region {
+	position: relative;
+	left: 26px;
+}
+#dist-info {
+	margin: 10px 0 0 0;
+}
+#dist-info {
+    letter-spacing: 0px;
+}
+.business #global-nav {
+	height: 0px;
+}
+.business #outer-content .business {
+	background: url(/langCSS/EN/images/bg_imgs/business_page.jpg) 25px 0 no-repeat;
+}
+.business #tabs {
+	margin: 15px 0 0 0;
+}
+#global-nav #menu {
+	/*background: url(../images/bg_imgs/header50_bg.png) 0 -92px repeat-x;*/
+	margin: 0 0 0 0px;
+	z-index: 1;
+	top: 0;
+}
+.home #global-nav {
+	height: 0px;
+}
+.home #outer-content {
+	position: relative;
+	top: -8px;
+}
+.business #outer-wrapper,
+.home #outer-wrapper,
+.company #outer-wrapper,
+.contact-general #outer-wrapper {
+	z-index: -1;
+}
+.home .content .content_header {
+	font-size: 30px;
+	width: 338px;
+}
+
+.business #outer-content {
+    border: 1px solid transparent;
+}
+.company #outer-content .left {
+    padding-top: 0;
+}
+.company #outer-content {
+	padding: 55px 0 0 0;	
+}
+.company #outer-content .right .right_header {
+	width: 363px;
+	left: -110px;
+	left: -100px;
+}
+.company #outer-content .right {
+	width: 240px;
+	padding: 0 165px 0 0;
+}
+.products #outer-wrapper #inner-wrapper #outer-content .items .right {
+    padding-right: 95px;
+    width: 335px;
+}
+.products #outer-content {
+    padding: 0;
+}
+.business #outer-content .business {
+	margin-top: 0px;
+}
+.business #business_content {
+	
+}
+.contact #outer-content {
+	padding: 0 0 0 0;
+}
+.contact .sub_text .sub_left, .contact .sub_text .sub_right {
+    width: 140px;
+}
+.contact .sub_text .sub_left p {
+    width: 130px;
+}
+#about_popup {
+  bottom:30px;
+}
+#contact_popup {
+	width: 883px;
+}
+#contact_popup .footerUp .footer-section-1,
+#contact_popup .footerUp .footer-section-2,
+#contact_popup .footerUp .footer-section-3,
+#contact_popup .footerUp .footer-section-4 {
+    width: 200px;
+}

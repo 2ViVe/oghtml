@@ -1,0 +1,31 @@
+   <div class="items">
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/smile.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">OG 微笑牙膏</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>含 100% 有機靈芝及新鮮薄荷味的牙膏，專為您的牙齒和牙齦護理而研製。OG 微笑牙膏 包含促進口腔健康的天然物質，使您的牙齒更加亮白，口氣更加清新。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/soap.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">「古老的中國與現代科技碰撞的火花」</h1>
+			<h2 class="info_second_header">G3 高級美容皂</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>它是谷胱甘肽、葡萄籽和靈芝精華的獨特結合。它的特殊配方清潔保濕，並且防過敏。定期使用可使皮膚煥發青春活力。</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

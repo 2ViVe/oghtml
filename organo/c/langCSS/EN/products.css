@@ -1,0 +1,59 @@
+.products #top-wrapper {
+	background: #fff url(/c/langCSS/EN/images/bg_imgs/header50_bg.png) 0 0 repeat-x;
+	height: 162px;
+	position: relative;
+	width: 100%;
+}
+.products #outer-wrapper {
+	background: #fff;
+}
+.products #outer-content div.left,
+.products #outer-content div.right{
+	float: left;
+	display: inline-block;
+	/*width: 430px;*/
+}
+.products #outer-content div.left {
+	width: 432px;
+	height: 515px;
+}
+
+/* scrollable header */
+.products #outer-wrapper #inner-wrapper #outer-content h1.info_header {
+	margin: 1em 0 0.5em 0;
+	line-height: 30px;
+	width: 300px;
+}
+.products #outer-wrapper #inner-wrapper #outer-content h2.info_second_header {
+	font-size: 20px;
+	color: #9B1112;
+	margin: 0 0 5px 13px;
+	line-height: 35px;
+	width: 355px;
+	text-align: left;
+}
+.products #outer-wrapper #inner-wrapper #outer-content h1.gourmet_cafe_supreme {
+	background: url(/c/langCSS/EN/images/bg_imgs/where_ancient.png) 0 0 no-repeat;
+	width: 335px;
+	height: 67px;
+	text-indent: -999em;
+	/*font-size: 30px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #999999;
+	font-family: 'HelveticaNeueLTStd45Light';*/
+}
+.products #outer-wrapper #inner-wrapper #outer-content .right_content {
+	margin: 0 0 0 14px;
+}
+.products #outer-wrapper #inner-wrapper #outer-content .items .right {
+	width: 335px;
+	padding: 0 115px 0 0;
+	margin: 3em 0 0 0;
+	text-align: justify;
+}
+.products #outer-content {
+	min-height: 575px;
+	padding: 55px 0 0 0;
+}

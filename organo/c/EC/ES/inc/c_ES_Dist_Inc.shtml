@@ -1,0 +1,47 @@
+<%
+
+'response.write now()&"<HR>"
+
+
+site="rep"
+	fdomain=Request.ServerVariables("SERVER_NAME")
+	MysArray = Split(fdomain,".",-1,1)
+	place=ubound(MysArray,1)
+	Mypage = Split(Request.ServerVariables("SCRIPT_NAME"),"/",-1,1)
+	page=ubound(Mypage,1)
+	if page=1 then
+		pn=1
+	elseif page=2 then
+		r=ucase(Mypage(1))		
+	
+	elseif page=3 then
+		r=ucase(Mypage(1))&"/"&ucase(Mypage(2))
+	else
+		pn=1
+	end if
+	
+
+	if place<2 then
+		site="corp"
+	else
+		host=MysArray(place-2)
+	end if
+	if lcase(host)="www" then site="corp"
+
+
+
+If host="" or lcase(host)="www" then
+site="corp"
+
+	'response.redirect("http://organogold.com/DISTRIBUTOR_REPLICATING_SITE/r_InvalidUser.asp")
+	'response.end
+else
+
+
+end if
+
+%>
+
+
+
+

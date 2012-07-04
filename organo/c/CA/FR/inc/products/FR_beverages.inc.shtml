@@ -1,0 +1,124 @@
+   <div class="items">  
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_supreme.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Caf&eacute; Gastronomique Supr&ecirc;me</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Le pouvoir du ginseng et du Ganoderma Certifi&eacute; 100% Biologique, combin&eacute;s pour produire un doux m&eacute;lange de caf&eacute; au lait.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/black_coffee.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Caf&eacute; noir</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Un caf&eacute; prim&eacute; infus&eacute; avec de l'extrait de poudre Ganoderma Certifi&eacute; 100% Biologique.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+      
+      <!-- 10-15 -->
+      <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafe_mocha.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    	<div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Moka gastronomique</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>La combinaison d'un cacao de grande qualit&eacute; et de graines de caf&eacute; riche en go&ucirc;t avec du Ganoderma 100% Biologique nous amène à parler de &lt;&lt; Dessert dans une tasse &gt;&gt;</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item --> 
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/cafelatte.jpg" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Latt&eacute; gastronomique</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Le go&ucirc;t riche et cr&eacute;meux d'un caf&eacute; au lait, fait de graines arabica d'excellente qualit&eacute;, infus&eacute; avec du Ganoderma 100% Biologique.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/hot_chocolate.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Chocolat chaud gastronomique</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Un m&eacute;lange go&ucirc;teux et unique de chocolat onctueux avec du Ganoderma
+100% Biologique, une boisson dont tout le monde peut profiter.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/green_tea.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Th&eacute; vert biologique</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Le caract&egrave;re apaisant et savoureux du th&eacute; vert qui sont combin&eacute;s avec les avantages du Ganoderma qui est Certifi&eacute; 100% Biologique.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/king.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Le roi du Caf&eacute;</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Un caf&eacute; prim&eacute; 100 % Certifi&eacute; Biologique la infus&eacute; avec de poudre Ganoderma Spores Certifi&eacute; 100% Biologique.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/royalbrewed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Where Ancient China meets Modern Science"</h1>
+			<h2 class="info_second_header">Infusion Royale gastronomique haut de gamme</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Le caf&eacute; Jamaica Blue Mountain &reg; infus&eacute; avec de la poudre Ganoderma Certifi&eacute; 100% Biologique. Une infusion digne de la royaut&eacute;.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+   </div><!-- /items -->

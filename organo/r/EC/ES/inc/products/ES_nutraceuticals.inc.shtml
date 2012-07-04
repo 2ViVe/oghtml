@@ -1,0 +1,62 @@
+<div class="items">  
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/ganoderma.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>El Ganoderma Lucidum ha sido venerado durante m&aacute;s de 5000 a&ntilde;os como la "Hierba superior" de mayor jerarqu&iacute;a en los antiguos libros de hierbas y medicinas. Est&aacute; cient&iacute;ficamente probado en todo el mundo que es el refuerzo m&aacute;s potente de la salud que ofrece la naturaleza y un acondicionador general. El ganoderma suele asociarse con la longevidad, la juventud y la vitalidad.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/grapeseed.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Extracto de aceite de semillas de uva</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Este extracto est&aacute; compuesto por fitoqu&iacute;micos conocidos por su acci&oacute;n antiinflamatoria, por su protecci&oacute;n contra los radicales libres y por mejorar el tono muscular de la piel. Contiene gran cantidad de resveratrol, otra sustancia que act&uacute;a como agente antiinflamatorio. Incluye flavonoides o procianidinas oligom&eacute;ricas (OPC, por sus siglas en ingl&eacute;s), conocidos por brindar una potente protecci&oacute;n antioxidante, cincuenta veces superior a la de las vitaminas C o E.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="/c/langCSS/products/mycelium.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Ganoderma Lucidum Mycelium</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Ganoderma Lucidum Mycelium se extrae de un hongo de Ganoderma Lucidum de 18 d&iacute;as, con una alta concentraci&oacute;n de germanio org&aacute;nico y polisac&aacute;ridos. Tambi&eacute;n se conoce por estimular una buena circulaci&oacute;n de la sangre y el suministro de ox&iacute;geno.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->
+	 
+	 <div class="item">
+	 	<div class="left">
+         		<img src="c/langCSS/products/spore.jpg" width="432" height="480" />
+		</div><!-- /image -->
+         <div class="right">
+	    <div class="right_header">
+	    		<h1 class="info_header gourmet_cafe_supreme png_bg">"Donde la antigua China se encuentra con la ciencia moderna"</h1>
+			<h2 class="info_second_header">Polvo de esporas de ganoderma</h2>
+		</div><!-- /right -->
+		<div class="right_content">
+	    		<p>Este polvo se realiza con las semillas de Ganoderma Lucidum. Se cultiva a partir de madera natural y se extrae mediante una tecnolog&iacute;a de rotura de c&aacute;scaras a baja temperatura, lo que permite lograr un producto con una pureza del 99,9%. Es un producto org&aacute;nico certificado en China, los Estados Unidos, Jap&oacute;n y la Uni&oacute;n Europea. El polvo de esporas es naturalmente rico en Ganoderma Lucidum, polisac&aacute;ridos, triterpenos, germanio org&aacute;nico y selenio.</p>
+		</div><!-- /right_content -->
+	    </div><!-- /info -->
+      </div><!-- /item -->  
+   </div><!-- /items -->
