@@ -7,6 +7,7 @@
 <meta name="keywords" content="Organo Gold, Network Marketing" />
 <meta name="description" content="Organo Gold's mission is to improve the health, wealth, and balance in people's lives by sharing the knowledge of a healthy alternative to regular coffee. By partnering with thousands of people along the way, we have become a global family growing and thriving as we take part in a better future." />
 <link rel="icon" type="image/png" href="favicon.ico">
+<link href="css/overall.css" rel="stylesheet" type="text/css" />
 <!--[if !IE]><!-->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <!--<![endif]-->
@@ -45,8 +46,8 @@
       <li class="current"><a href="ogevents-findanevent.html">og events finder</a>
         <div class="submenu"><a href="ogevents-postajazzmixer.html">post a jazz mixer</a>|<a href="ogevents-postaregularevent.html">post a regular event</a>|<a href="ogevents-postaregionalmixer.html">post a regional mixer</a></div>
       </li>
-      <li><a href="#">og media</a></li>
-      <li class="loginopen"><a href="javascript:viod(0);">login</a></li>
+			<li><a href="http://media.organogold.com/" target="_blank">og media</a></li>
+      <li><a href="https://organogold.com/login" target="_blank">login</a></li>
     </ul>
   </div>
   <!-- menu end -->
@@ -143,36 +144,23 @@
 <!-- footer end -->
 <!-- popupbox -->
 <div class="popupboxbg"></div>
-<div class="loginbox">
+<div class="eventsbox">
   <div class="close">X</div>
-  <div class="logincont">
-    <div class="loginlogo"></div>
-    <div class="loginform">
-      <form action="" method="get">
-        <input name="" type="text" />
-        <br/>
-        Distributor ID<br/>
-        <input name="" type="password" />
-        <br/>
-        Password<br/>
-        <input name="checkbox" type="checkbox" value="" id="checkbox" />
-        <label for="checkbox">Remember me</label>
-        <input name="" type="submit" value="Login">
-      </form>
-    </div>
+  <div class="eventscont">
+    <img src="images/events.jpg" />
   </div>
 </div>
 <script type="text/javascript">
 jQuery(function($){
-	$(".loginopen").click(
+	$(".contlist dl").click(
 		function(){
 			$(".popupboxbg").show();
-			$(".loginbox").show();
+			$(".eventsbox").show();
 					});
 	$(".close").click(
 		function(){
 			$(".popupboxbg").hide();
-			$(".loginbox").hide();
+			$(".eventsbox").hide();
 					});
 });
 </script>

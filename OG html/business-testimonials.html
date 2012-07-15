@@ -7,6 +7,7 @@
 <meta name="keywords" content="Organo Gold, Network Marketing" />
 <meta name="description" content="Organo Gold's mission is to improve the health, wealth, and balance in people's lives by sharing the knowledge of a healthy alternative to regular coffee. By partnering with thousands of people along the way, we have become a global family growing and thriving as we take part in a better future." />
 <link rel="icon" type="image/png" href="favicon.ico">
+<link href="css/overall.css" rel="stylesheet" type="text/css" />
 <!--[if !IE]><!-->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <!--<![endif]-->
@@ -22,7 +23,7 @@
 </script>
 <!-- jScrollPane end -->
 </head>
-<body id="business-testimonials">
+<body id="business">
 <!-- header -->
 <div id="header">
   <h1 class="headerlogo"><a href="home.html" class="hide">Organo Gold</a></h1>
@@ -39,13 +40,13 @@
         <div class="submenu"><a href="products-beverages.html">beverages</a>|<a href="products-food.html">food</a>|<a href="products-nutraceuticals.html">nutraceuticals</a>|<a href="products-personalcare.html">personal care</a></div>
       </li>
       <li class="current"><a href="business.html">business</a>
-        <div class="submenu"><a href="business-overview.html">overview</a><a href="business-compensationplan.html">compensation plan</a>|<a href="business-specialevents.html">special events</a></div>
+        <div class="submenu"><a href="business-overview.html">overview</a>|<a href="business-compensationplan.html">compensation plan</a>|<a href="business-specialevents.html">special events</a></div>
       </li>
       <li><a href="ogevents-findanevent.html">og events finder</a>
         <div class="submenu"><a href="ogevents-postajazzmixer.html">post a jazz mixer</a>|<a href="ogevents-postaregularevent.html">post a regular event</a>|<a href="ogevents-postaregionalmixer.html">post a regional mixer</a></div>
       </li>
-      <li><a href="#">og media</a></li>
-      <li class="loginopen"><a href="javascript:viod(0);">login</a></li>
+			<li><a href="http://media.organogold.com/" target="_blank">og media</a></li>
+      <li><a href="https://organogold.com/login" target="_blank">login</a></li>
     </ul>
   </div>
   <!-- menu end -->
@@ -53,7 +54,7 @@
 <!-- header end -->
 <!-- container -->
 <div id="container">
-  <div class="wrapper">
+  <div class="wrapper business-testimonials">
     <div id="sidebar" class="f-l">
       <h3>Testimonials</h3>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui.</p>
@@ -74,6 +75,9 @@
   </div>
 </div>
 <!-- container end -->
+<!-- background -->
+<div id="background"><img src="images/business-testimonials-background.jpg"></div>
+<!-- background end -->
 <!-- footer -->
 <div id="footer">
   <div class="socialmedia">
@@ -86,25 +90,6 @@
 <!-- footer end -->
 <!-- popupbox -->
 <div class="popupboxbg"></div>
-<div class="loginbox">
-  <div class="close">X</div>
-  <div class="logincont">
-    <div class="loginlogo"></div>
-    <div class="loginform">
-      <form action="" method="get">
-        <input name="" type="text" />
-        <br/>
-        Distributor ID<br/>
-        <input name="" type="password" />
-        <br/>
-        Password<br/>
-        <input name="checkbox" type="checkbox" value="" id="checkbox" />
-        <label for="checkbox">Remember me</label>
-        <input name="" type="submit" value="Login">
-      </form>
-    </div>
-  </div>
-</div>
 <div class="videobox">
   <div class="close">X</div>
   <div class="videocont">
@@ -113,11 +98,6 @@
 </div>
 <script type="text/javascript">
 jQuery(function($){
-	$(".loginopen").click(
-		function(){
-			$(".popupboxbg").show();
-			$(".loginbox").show();
-					});
 	$(".videoopen").click(
 		function(){
 			$(".popupboxbg").show();
@@ -126,7 +106,6 @@ jQuery(function($){
 	$(".close").click(
 		function(){
 			$(".popupboxbg").hide();
-			$(".loginbox").hide();
 			$(".videobox").hide();
 					});
 });
