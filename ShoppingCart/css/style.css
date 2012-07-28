@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* Jary */
+/* July 18, 2012 */
+
+/* Common */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;}
+html,body{width:100%;height:100%;}
+body{font-family:Arial,sans-serif;color:#333;font-size:12px;line-height:170%;-webkit-text-size-adjust:none;background:#f6f6f6 url(../images/og-background.png) repeat;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a,a:visited{color:#007878;text-decoration:none;}
+a:focus,:focus{outline:none;}
+a:active,:active{outline:none;}
+a:hover{color:#007878;}
+li{list-style:none;}
+input,textarea,button{font-family:inherit;}
+button{cursor:pointer;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+blockquote,q{quotes:"" "";}
+
+.f-l{float:left;}
+.f-r{float:right;}
+.clear{clear:both;}
+.clearfix{zoom:1;}
+.clearfix:after{content:'\20';display:block;clear:both;}
+.wrapper{margin:0 auto;width:1175px;}
+.mar-b{margin-bottom:10px;}
+.ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.hide{display:block;font-size:0;line-height:0;text-indent:-999px;overflow:hidden;}
+#content{min-height:100%;}
+#content .cont-hack{padding-bottom:55px;}
+
+/* Header */
+#header{height:42px;line-height:42px;background:#a00000;text-align:center;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
+#header a{color:#fff;}
+#header .og-logo{width:75px;height:75px;background:url(../images/og-logo.png) no-repeat;}
+#header .og-logo a{display:block;width:75px;height:75px;}
+#header .og-login{color:#fff;}
+#header .og-login span{padding:0 8px;}
+#header .og-login a{font-weight:bold;}
+#header .og-login a:hover{text-decoration:underline;}
+#header .og-menu{display:inline-block;*width:454px;}
+#header .og-menu li{float:left;height:42px;border-right:1px solid #cb7580;color:#eccdd1;}
+#header .og-menu a{display:block;height:42px;padding:0 20px;}
+#header .og-menu a:hover,#header .og-menu .current a{background:url(../images/og-headerspirit.png) center 0 no-repeat;}
+#header .og-menu .cart{background:url(../images/og-headerspirit.png) 18px -42px no-repeat;}
+#header .og-menu .cart a{width:42px;}
+
+/* Navigation */
+#navigation{height:40px;line-height:40px;text-align:right;}
+#navigation span{padding:0 10px;font-weight:bold;}
+#navigation a{font-weight:normal;color:#007878;}
+
+/* Sidebar */
+#sidebar{width:214px;}
+
+#sidebar .userinfo{background:#fcfcfc;padding-bottom:10px;}
+#sidebar .userinfo img{display:block;width:214px;height:140px;margin-bottom:10px;}
+#sidebar .userinfo span{display:block;padding:0 10px;}
+#sidebar .userinfo em{font-weight:bold;}
+#sidebar .submenu{margin-bottom:20px;}
+#sidebar .submenu li{height:36px;background:url(../images/og-submenubg.png) no-repeat;}
+#sidebar .submenu li a{display:block;height:36px;line-height:36px;text-indent:40px;background:url(../images/og-submenuicon.png) no-repeat;color:#333;}
+#sidebar .submenu li a:hover,#sidebar .submenu .current a{background:#9a0a0a url(../images/og-submenuicon.png) no-repeat;color:#fff;}
+#sidebar .submenu .nav1{background-position:0 0;}
+#sidebar .submenu .nav1:hover,#sidebar .submenu .current .nav1{background-position:0 -36px;}
+#sidebar .submenu .nav2{background-position:0 -72px;}
+#sidebar .submenu .nav2:hover,#sidebar .submenu .current .nav2{background-position:0 -108px;}
+#sidebar .submenu .nav3{background-position:0 -144px;}
+#sidebar .submenu .nav3:hover,#sidebar .submenu .current .nav3{background-position:0 -180px;}
+#sidebar .submenu .nav4{background-position:0 -216px;}
+#sidebar .submenu .nav4:hover,#sidebar .submenu .current .nav4{background-position:0 -252px;}
+#sidebar .submenu .nav5{background-position:0 -288px;}
+#sidebar .submenu .nav5:hover,#sidebar .submenu .current .nav5{background-position:0 -324px;}
+#sidebar .submenu .nav6{background-position:0 -360px;}
+#sidebar .submenu .nav6:hover,#sidebar .submenu .current .nav6{background-position:0 -396px;}
+#sidebar .submenu .nav7{background-position:0 -432px;}
+#sidebar .submenu .nav7:hover,#sidebar .submenu .current .nav7{background-position:0 -468px;}
+#sidebar .submenu .nav8{background-position:0 -504px;}
+#sidebar .submenu .nav8:hover,#sidebar .submenu .current .nav8{background-position:0 -540px;}
+#sidebar .submenu .nav9{background-position:0 -576px;}
+#sidebar .submenu .nav9:hover,#sidebar .submenu .current .nav9{background-position:0 -612px;}
+#sidebar .submenu .nav10{background-position:0 -648px;}
+#sidebar .submenu .nav10:hover,#sidebar .submenu .current .nav10{background-position:0 -684px;}
+#sidebar .submenu .nav11{background-position:0 -720px;}
+#sidebar .submenu .nav11:hover,#sidebar .submenu .current .nav11{background-position:0 -756px;}
+#sidebar .submenu .nav12{background-position:0 -792px;}
+#sidebar .submenu .nav12:hover,#sidebar .submenu .current .nav12{background-position:0 -828px;}
+#sidebar .submenu .nav13{background-position:0 -864px;}
+#sidebar .submenu .nav13:hover,#sidebar .submenu .current .nav13{background-position:0 -900px;}
+#sidebar .contactus{background:#eee url(../images/og-contactusboxicon.png) center bottom no-repeat;margin-bottom:20px;padding-bottom:90px;*padding-bottom:100px;padding-bottom:100px\9;}
+#sidebar .contactus dt{height:36px;line-height:36px;text-align:center;background:#c6a85f url(../images/og-contactustitleicon.png) 30px 0 no-repeat;color:#fff;font-size:14px;}
+#sidebar .contactus dd{padding:15px 0;margin:0 25px;border-bottom:1px solid #ddd;}
+#sidebar .contactus dd:last-child{border-bottom:none;}
+#sidebar .contactus strong,#sidebar .contactus span{display:block;line-height:22px;}
+#sidebar .contactus strong{font-size:14px;}
+
+/* Container */
+#container{background:#fff;
+					 box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+					 -webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+					 -moz-box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+					 -o-box-shadow:0px 0px 10px rgba(0,0,0,0.1);}
+
+/* Page */
+#page{padding:20px 0;text-align:right;}
+#page a{display:inline-block;height:18px;line-height:18px;text-align:center;padding:0 5px;border:1px solid #ccc;margin:0 2px;background:#fff;}
+#page a:hover,#page a.current{background:#b7a35e;border:1px solid #b2973b;color:#fff;}
+#page a.current{cursor:default;}
+
+/* Footer */
+#footer{margin-top:-55px;position:relative;z-index:1;}
+#footer p{height:55px;line-height:55px;text-align:center;color:#fff;background:#696969;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
+
+/* Login */
+#login #content{position:relative;z-index:1;}
+#login #footer p{background:none;text-shadow:1px 1px 0 #333;}
+
+#background{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;}
+#background img{width:100%;height:auto;}
+
+#login .loginbox,#login .loginboxbg{width:830px;height:460px;position:absolute;top:50%;left:50%;margin:-230px 0 0 -415px;}
+#login .loginboxbg{background:#000;opacity:0.3;filter:alpha(opacity=30);border-radius:20px;z-index:1;}
+#login .loginbox{z-index:9;}
+#login .logo{width:75px;height:75px;background:url(../images/og-logo.png) no-repeat;margin:0 auto;}
+#login .logo a{display:block;width:75px;height:75px;}
+#login .tips{font-size:30px;text-align:center;line-height:100px;color:#f7f8d6;text-shadow:1px 1px 1px #333;}
+#login .logincont{width:390px;height:190px;background:#fff;border-radius:20px;margin:0 auto;padding:30px 60px 0 200px;position:relative;}
+#login .logincont p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;height:34px;margin-bottom:15px;}
+#login .logincont p input{border:none;background:none;width:370px;height:20px;padding:7px;}
+#login .logincont span input{vertical-align:middle;}
+#login .btn{padding-top:10px;}
+#login .btn input{width:72px;height:26px;border:none;background:url(../images/og-loginicon.png) no-repeat;}
+#login .photo{position:absolute;top:46px;left:64px;width:76px;height:76px;}
+#login .photo img{width:76px;height:76px;}
+#login .account{height:26px;line-height:26px;margin:20px 0 20px 280px;color:#fff;}
+#login .account a,#login .account a:hover{color:#fff;padding:0 10px 0 34px;display:inline-block;height:26px;background:url(../images/og-loginicon.png) no-repeat;}
+#login .account a.create{background-position:5px -26px;}
+#login .account a.forgot{background-position:5px -52px;}
+#login .language{margin:20px 90px 0 0;}
+
+/* Shopping Cart */
+#shoppingcart #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#shoppingcart #container h2,#shoppingcart #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:13px;font-weight:bold;color:#666;}
+#shoppingcart .productslist{border-top:1px solid #e2e2e2;padding-bottom:20px;}
+#shoppingcart .productslist li{float:left;width:210px;border-bottom:1px solid #dedede;padding:0 7px 15px 7px;margin-top:15px;}
+#shoppingcart .productslist li .listbox{border:1px solid #fff;border-right:1px dotted #dedede;width:180px;padding:14px;}
+#shoppingcart .productslist li:hover .listbox{border:1px solid #dedede;background:url(../images/og-productslistbg.png) center bottom no-repeat;}
+#shoppingcart .productslist li strong,#shoppingcart .productslist li span{display:block;}
+#shoppingcart .productslist li strong{font-weight:bold;color:#007878;}
+#shoppingcart .productslist li .number{color:#666;}
+#shoppingcart .productslist li .price{color:#a00000;}
+#shoppingcart .productslist li input{vertical-align:middle;}
+#shoppingcart .productslist li .addcart{position:relative;font-size:10px;color:#666;}
+#shoppingcart .productslist li .addcartpopup{display:none;position:absolute;bottom:-40px;right:-15px;width:198px;height:32px;line-height:32px;text-align:center;border:1px solid #c6c3ba;background:#fff;}
+#shoppingcart .productslist li .addcartpopup a,#shoppingcart .productslist li .addcartpopup a:hover{display:inline-block;width:96px;height:24px;line-height:24px;background:url(../images/og-addcartbtn.png) 0 0 no-repeat;text-indent:20px;color:#fff;margin-left:5px;}
+#shoppingcart .productslist li .addcartpopup .arrow{position:absolute;top:-5px;left:11px;width:7px;height:4px;background:url(../images/og-addcartpopuparrow.png) no-repeat;}
+
+#shoppingcart .productsinfo{margin-bottom:30px;}
+#shoppingcart .productsinfo dt{width:288px;height:288px;border:1px solid #dedede;text-align:center;line-height:288px;margin-right:46px;float:left;}
+#shoppingcart .productsinfo dt img{max-width:288px;max-height:288px;vertical-align:middle;}
+#shoppingcart .productsinfo dd{float:left;width:560px;}
+#shoppingcart .productsinfo dd h4{font-size:14px;font-weight:bold;color:#666;margin-bottom:20px;}
+#shoppingcart .productsinfo dd p{width:320px;height:40px;line-height:40px;border-bottom:1px solid #eee;}
+#shoppingcart .productsinfo dd span{display:inline-block;width:200px;}
+#shoppingcart .productsinfo .price{height:80px;line-height:80px;}
+#shoppingcart .productsinfo .price strong{font-size:24px;color:#a00000;margin-left:20px;vertical-align:middle;}
+#shoppingcart .productsinfo .btn a{display:block;width:142px;height:29px;line-height:29px;background:url(../images/og-addcartbtn.png) 0 -24px no-repeat;text-indent:50px;color:#fff;font-size:14px;}
+
+#shoppingcart .productsarticle{border-top:1px solid #e2e2e2;padding-bottom:40px;}
+#shoppingcart .productsarticle p{color:#666;}
+
+#shoppingcart .shoppingprocess{padding-bottom:40px;}
+#shoppingcart .shoppingprocess table{width:100%;border:1px solid #dfdfdf;}
+#shoppingcart .shoppingprocess th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left bottom repeat-x;padding:0 10px;border-bottom:1px solid #dfdfdf;}
+#shoppingcart .shoppingprocess td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;}
+#shoppingcart .shoppingprocess .item{width:76px;}
+#shoppingcart .shoppingprocess .item img{display:block;width:76px;height:76px;}
+#shoppingcart .shoppingprocess .iteminfo{width:420px;text-align:left;}
+#shoppingcart .shoppingprocess .iteminfo span{font-weight:bold;color:#007878;}
+#shoppingcart .shoppingprocess .iteminfo p{color:#666;}
+#shoppingcart .shoppingprocess .price,#shoppingcart .shoppingprocess .total{color:#a00000;}
+#shoppingcart .shoppingprocess .quantity input{width:40px;height:24px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;padding:0 10px;}
+#shoppingcart .shoppingprocess .del a{display:block;width:26px;height:26px;background:url(../images/og-shoppingprocesschoiceicon.png) 0 0 no-repeat;margin:0 auto;}
+#shoppingcart .shoppingprocess .subtotal{height:28px;line-height:28px;border-bottom:none;background:#f2f2f2;font-size:14px;color:#a00000;text-align:right;padding-right:20px;}
+#shoppingcart .shoppingprocess .subtotal strong{font-size:20px;}
+#shoppingcart .shoppingprocess .choice{height:26px;line-height:26px;margin-top:26px;}
+#shoppingcart .shoppingprocess .empty,#shoppingcart .shoppingprocess .update{display:inline-block;margin-left:10px;padding-left:26px;background:url(../images/og-shoppingprocesschoiceicon.png) no-repeat;height:26px;}
+#shoppingcart .shoppingprocess .empty{background-position:0 -26px;}
+#shoppingcart .shoppingprocess .update{background-position:0 -52px;}
+#shoppingcart .shoppingprocess .continue{display:inline-block;padding:0 20px;height:26px;color:#333;margin-right:10px;
+																				 background:#d8d8d8;
+																				 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#f4f4f4),color-stop(1,#d8d8d8));
+																				 background:-moz-linear-gradient(0 0 270deg,#f4f4f4 0,#d8d8d8 100%);
+																				 background:-o-linear-gradient(0 0 270deg,#f4f4f4 0,#d8d8d8 100%);}
+#shoppingcart .shoppingprocess .checkout{width:120px;*width:140px;height:26px;border:none;background:url(../images/og-addcartbtn.png) 0 -53px no-repeat;color:#fff;text-indent:20px;vertical-align:middle;}
+#shoppingcart .checkoutstep{position:absolute;top:40px;right:60px;width:310px;height:3px;background:#eee;}
+#shoppingcart .checkoutstep li{float:left;width:100px;height:3px;position:relative;}
+#shoppingcart .checkoutstep li.current{background:#c7b78f;}
+#shoppingcart .checkoutstep li.step4{width:10px;}
+#shoppingcart .checkoutstep li label{position:absolute;top:-3px;left:0;font-size:10px;color:#888;}
+#shoppingcart .checkoutstep li span{display:block;width:10px;height:10px;background:url(../images/og-checkoutstepicon.png) no-repeat;}
+#shoppingcart .checkoutstep li em{display:block;text-indent:-20px;font-style:normal;}
+#shoppingcart .checkoutstep li.current label{color:#a68233;}
+#shoppingcart .checkoutstep li.current span{background-position:0 -10px;}
+
+#shoppingcart .shoppingform{padding:30px 0 40px 0;}
+#shoppingcart .shoppingform .formcont{width:660px;}
+#shoppingcart .shoppingform .formcont dd.orderbtn{padding:0;text-align:right;}
+#shoppingcart .shoppingform .formcont dd.orderbtn input{width:130px;height:26px;padding:0;color:#fff;border:none;
+																												background:#a00000;
+																												background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																												background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																												background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#shoppingcart .shoppingform .formcont dt{height:1px;background:#ddd;position:relative;}
+#shoppingcart .shoppingform .formcont strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
+
+#shoppingcart .shoppingform .address dd{padding:30px 0 40px 0;}
+#shoppingcart .shoppingform .address table{width:100%;}
+#shoppingcart .shoppingform .address td{height:40px;line-height:40px;text-align:right;*text-align:left;padding:0 5px;}
+#shoppingcart .shoppingform .address p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
+#shoppingcart .shoppingform .address input{border:none;background:none;width:200px;height:21px;padding:2px;}
+#shoppingcart .shoppingform .address p.hack1{width:80px;float:left;margin-top:7px;}
+#shoppingcart .shoppingform .address p.hack1 input{width:75px;}
+#shoppingcart .shoppingform .address span{float:left;width:43px;text-align:left;text-indent:20px;}
+#shoppingcart .shoppingform .address p.hack2{border-color:#fff;}
+#shoppingcart .shoppingform .address select{width:124px;padding:4px;}
+
+#shoppingcart .shoppingform .shippingmethod dd{padding:30px 0 40px 0;}
+#shoppingcart .shoppingform .shippingmethod p{border:1px solid #dedede;height:178px;line-height:178px;text-align:center;background:url(../images/og-shippingmethodbg.png) right bottom no-repeat;}
+#shoppingcart .shoppingform .shippingmethod span{color:#a00000;}
+
+#shoppingcart .shoppingform .reviewyourorder dd{padding:30px 0 40px 0;}
+#shoppingcart .shoppingform .reviewyourorder table{width:100%}
+#shoppingcart .shoppingform .reviewyourorder .order td{width:140px;padding:13px;text-align:right;vertical-align:top;}
+#shoppingcart .shoppingform .reviewyourorder .order td span{display:block;text-align:left;color:#999;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard{padding-left:20px;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard h4{font-weight:bold;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard div label{display:inline-block;width:38px;height:28px;margin:20px;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard span{display:block;width:38px;height:28px;border:1px solid #fff;background:url(../images/og-creditcardicon.png) no-repeat;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard span.visa{background-position:0 0;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard span.mastercard{background-position:0 -28px;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard span.americanexpress{background-position:0 -56px;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard div label.current span{border-color:#dedede;}
+#shoppingcart .shoppingform .reviewyourorder .card{width:60%;}
+#shoppingcart .shoppingform .reviewyourorder .card td{padding:10px;text-align:right;*text-align:left;}
+#shoppingcart .shoppingform .reviewyourorder .card td span{display:block;text-align:left;color:#999;}
+#shoppingcart .shoppingform .reviewyourorder .card p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
+#shoppingcart .shoppingform .reviewyourorder .card input{border:none;background:none;width:200px;height:21px;padding:2px;}
+#shoppingcart .shoppingform .reviewyourorder .card p.hack1{border-color:#fff;float:left;width:106px;}
+#shoppingcart .shoppingform .reviewyourorder .card p.hack1 select{width:97px;padding:4px;}
+#shoppingcart .shoppingform .reviewyourorder .card p.hack2{width:160px;}
+#shoppingcart .shoppingform .reviewyourorder .card p.hack2 input{width:155px;}
+#shoppingcart .shoppingform .reviewyourorder .card a{display:block;margin-top:-23px;}
+
+#shoppingcart .ordersummary{width:200px;border-bottom:1px solid #f0cfc6;}
+#shoppingcart .ordersummary dt{height:36px;line-height:36px;border-radius:8px 8px 0 0;background:#a30000;color:#fff;font-weight:bold;text-indent:20px;}
+#shoppingcart .ordersummary dd{border:1px solid #f0cfc6;border-top:none;border-bottom:none;background:#feffef;padding:20px;}
+#shoppingcart .ordersummary dd table{width:100%;}
+#shoppingcart .ordersummary dd td{padding:2px 0;}
+#shoppingcart .ordersummary dd .total span{float:right;color:#a00000;}
+#shoppingcart .ordersummary dd h4{font-weight:bold;margin-top:-5px;}
+#shoppingcart .ordersummary dd .tax th{color:#999;font-weight:bold;}
+#shoppingcart .ordersummary dd .tax span{display:block;color:#a00000;}
+#shoppingcart .ordersummary .subtotal p{border:1px solid #dedede;border-left:none;border-right:none;margin:20px 0;padding:10px 0;}
+#shoppingcart .ordersummary .subtotal strong{display:block;font-size:20px;color:#a00000;line-height:40px;}
+
+#shoppingcart .shoppingtips{padding:40px 0;border:1px solid;margin-bottom:30px;padding-left:188px;width:710px;}
+#shoppingcart .shoppingtips p{background:url(../images/og-shoppingtipsicon.png) no-repeat;padding-left:90px;font-size:18px;line-height:24px;}
+#shoppingcart .shoppingtips.failure{border-color:#f0cfc6;background:#fffbf7;}
+#shoppingcart .shoppingtips.failure p{height:48px;padding-top:11px;padding-bottom:11px;color:#581804;background-position:0 0;}
+#shoppingcart .shoppingtips.success{border-color:#d3e5ca;background:#f8fff4;}
+#shoppingcart .shoppingtips.success p{height:24px;padding-top:23px;padding-bottom:23px;color:#163709;background-position:0 -70px;}
+
+#shoppingcart .shoppingorder table{width:440px;border:1px solid #dedede;}
+#shoppingcart .shoppingorder td{padding:15px 20px;vertical-align:top;}
+#shoppingcart .shoppingorder td span{display:block;color:#999;}
+#shoppingcart .shoppingorder td.title{width:80px;background:#f8f8f8;text-align:right;border-right:1px solid #f4f2ed;}
+#shoppingcart .shoppingorder .order{padding:30px 0 40px 0;}
+#shoppingcart .shoppingorder .order p{color:#999;}
+#shoppingcart .shoppingorder .order span{display:inline-block;width:80px;color:#333;}
+
+#shoppingcart .shoppingorderdata table{width:100%;border:1px solid #dedede;}
+#shoppingcart .shoppingorderdata th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left bottom repeat-x;padding:0 20px;border-bottom:1px solid #dfdfdf;}
+#shoppingcart .shoppingorderdata td{text-align:center;padding:10px 20px;border-bottom:1px solid #f2f2f2;}
+#shoppingcart .shoppingorderdata td a{font-weight:bold;}
+#shoppingcart .shoppingorderdata .item{width:310px;text-align:left;}
+#shoppingcart .shoppingorderdata .subtotal td{background:#f7f6f2;}
+#shoppingcart .shoppingorderdata .ordertotal td{border-bottom:none;}
+#shoppingcart .shoppingorderdata span{color:#a00000;}
+#shoppingcart .shoppingorderdata strong{font-weight:bold;}
+
+#shoppingcart .printbtn{padding-top:20px;}
+#shoppingcart .printbtn a,#shoppingcart .printbtn a:hover{float:right;width:120px;height:26px;line-height:26px;text-indent:35px;color:#fff;
+																													background:#a00000 url(../images/og-printicon.png) 5px center no-repeat;
+																													background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a30000)) url(../images/og-printicon.png) 5px center no-repeat;
+																													background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a30000 100%) url(../images/og-printicon.png) 5px center no-repeat;
+																													background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a30000 100%) url(../images/og-printicon.png) 5px center no-repeat;}
