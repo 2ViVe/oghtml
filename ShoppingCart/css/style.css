@@ -43,7 +43,7 @@ blockquote,q{quotes:"" "";}
 #header .og-menu{display:inline-block;*width:454px;}
 #header .og-menu li{float:left;height:42px;border-right:1px solid #cb7580;color:#eccdd1;}
 #header .og-menu a{display:block;height:42px;padding:0 20px;}
-#header .og-menu a:hover,#header .og-menu .current a{background:url(../images/og-headerspirit.png) center 0 no-repeat;}
+#header .og-menu a:hover,#header .og-menu a.current{background:url(../images/og-headerspirit.png) center 0 no-repeat;}
 #header .og-menu .cart{background:url(../images/og-headerspirit.png) 18px -42px no-repeat;}
 #header .og-menu .cart a{width:42px;}
 
@@ -61,34 +61,38 @@ blockquote,q{quotes:"" "";}
 #sidebar .userinfo em{font-weight:bold;}
 #sidebar .submenu{margin-bottom:20px;}
 #sidebar .submenu li{height:36px;background:url(../images/og-submenubg.png) no-repeat;}
-#sidebar .submenu li a{display:block;height:36px;line-height:36px;text-indent:40px;background:url(../images/og-submenuicon.png) no-repeat;color:#333;}
-#sidebar .submenu li a:hover,#sidebar .submenu .current a{background:#9a0a0a url(../images/og-submenuicon.png) no-repeat;color:#fff;}
+#sidebar .submenu dl{position:relative;}
+#sidebar .submenu dt a{display:block;height:36px;line-height:36px;text-indent:40px;background:url(../images/og-submenuicon.png) no-repeat;color:#333;}
+#sidebar .submenu dt a:hover,#sidebar .submenu dt a.current,#sidebar .submenu dl:hover dt a{background:#9a0a0a url(../images/og-submenuicon.png) no-repeat;color:#fff;}
+#sidebar .submenu dd{display:none;position:absolute;top:0;left:214px;border:1px solid #f58796;background:#fff;width:140px;padding:10px 15px;z-index:99;}
+#sidebar .submenu dd a{display:inline-block;min-width:50%;line-height:32px;color:#333;}
+#sidebar .submenu dl:hover dd{display:block;}
 #sidebar .submenu .nav1{background-position:0 0;}
-#sidebar .submenu .nav1:hover,#sidebar .submenu .current .nav1{background-position:0 -36px;}
+#sidebar .submenu .nav1:hover,#sidebar .submenu .current.nav1,#sidebar .submenu dl:hover .nav1{background-position:0 -36px;}
 #sidebar .submenu .nav2{background-position:0 -72px;}
-#sidebar .submenu .nav2:hover,#sidebar .submenu .current .nav2{background-position:0 -108px;}
+#sidebar .submenu .nav2:hover,#sidebar .submenu .current.nav2,#sidebar .submenu dl:hover .nav2{background-position:0 -108px;}
 #sidebar .submenu .nav3{background-position:0 -144px;}
-#sidebar .submenu .nav3:hover,#sidebar .submenu .current .nav3{background-position:0 -180px;}
+#sidebar .submenu .nav3:hover,#sidebar .submenu .current.nav3,#sidebar .submenu dl:hover .nav3{background-position:0 -180px;}
 #sidebar .submenu .nav4{background-position:0 -216px;}
-#sidebar .submenu .nav4:hover,#sidebar .submenu .current .nav4{background-position:0 -252px;}
+#sidebar .submenu .nav4:hover,#sidebar .submenu .current.nav4,#sidebar .submenu dl:hover .nav4{background-position:0 -252px;}
 #sidebar .submenu .nav5{background-position:0 -288px;}
-#sidebar .submenu .nav5:hover,#sidebar .submenu .current .nav5{background-position:0 -324px;}
+#sidebar .submenu .nav5:hover,#sidebar .submenu .current.nav5,#sidebar .submenu dl:hover .nav5{background-position:0 -324px;}
 #sidebar .submenu .nav6{background-position:0 -360px;}
-#sidebar .submenu .nav6:hover,#sidebar .submenu .current .nav6{background-position:0 -396px;}
+#sidebar .submenu .nav6:hover,#sidebar .submenu .current.nav6,#sidebar .submenu dl:hover .nav6{background-position:0 -396px;}
 #sidebar .submenu .nav7{background-position:0 -432px;}
-#sidebar .submenu .nav7:hover,#sidebar .submenu .current .nav7{background-position:0 -468px;}
+#sidebar .submenu .nav7:hover,#sidebar .submenu .current.nav7,#sidebar .submenu dl:hover .nav7{background-position:0 -468px;}
 #sidebar .submenu .nav8{background-position:0 -504px;}
-#sidebar .submenu .nav8:hover,#sidebar .submenu .current .nav8{background-position:0 -540px;}
+#sidebar .submenu .nav8:hover,#sidebar .submenu .current.nav8,#sidebar .submenu dl:hover .nav8{background-position:0 -540px;}
 #sidebar .submenu .nav9{background-position:0 -576px;}
-#sidebar .submenu .nav9:hover,#sidebar .submenu .current .nav9{background-position:0 -612px;}
+#sidebar .submenu .nav9:hover,#sidebar .submenu .current.nav9,#sidebar .submenu dl:hover .nav9{background-position:0 -612px;}
 #sidebar .submenu .nav10{background-position:0 -648px;}
-#sidebar .submenu .nav10:hover,#sidebar .submenu .current .nav10{background-position:0 -684px;}
+#sidebar .submenu .nav10:hover,#sidebar .submenu .current.nav10,#sidebar .submenu dl:hover .nav10{background-position:0 -684px;}
 #sidebar .submenu .nav11{background-position:0 -720px;}
-#sidebar .submenu .nav11:hover,#sidebar .submenu .current .nav11{background-position:0 -756px;}
+#sidebar .submenu .nav11:hover,#sidebar .submenu .current.nav11,#sidebar .submenu dl:hover .nav11{background-position:0 -756px;}
 #sidebar .submenu .nav12{background-position:0 -792px;}
-#sidebar .submenu .nav12:hover,#sidebar .submenu .current .nav12{background-position:0 -828px;}
+#sidebar .submenu .nav12:hover,#sidebar .submenu .current.nav12,#sidebar .submenu dl:hover .nav12{background-position:0 -828px;}
 #sidebar .submenu .nav13{background-position:0 -864px;}
-#sidebar .submenu .nav13:hover,#sidebar .submenu .current .nav13{background-position:0 -900px;}
+#sidebar .submenu .nav13:hover,#sidebar .submenu .current.nav13,#sidebar .submenu dl:hover .nav13{background-position:0 -900px;}
 #sidebar .contactus{background:#eee url(../images/og-contactusboxicon.png) center bottom no-repeat;margin-bottom:20px;padding-bottom:90px;*padding-bottom:100px;padding-bottom:100px\9;}
 #sidebar .contactus dt{height:36px;line-height:36px;text-align:center;background:#c6a85f url(../images/og-contactustitleicon.png) 30px 0 no-repeat;color:#fff;font-size:14px;}
 #sidebar .contactus dd{padding:15px 0;margin:0 25px;border-bottom:1px solid #ddd;}
@@ -144,11 +148,13 @@ blockquote,q{quotes:"" "";}
 #shoppingcart #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #shoppingcart #container h2,#shoppingcart #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:13px;font-weight:bold;color:#666;}
 #shoppingcart .productslist{border-top:1px solid #e2e2e2;padding-bottom:20px;}
-#shoppingcart .productslist li{float:left;width:210px;border-bottom:1px solid #dedede;padding:0 7px 15px 7px;margin-top:15px;}
+#shoppingcart .productslist li{float:left;width:210px;height:291px;border-bottom:1px solid #dedede;padding:0 7px 15px 7px;margin-top:15px;}
 #shoppingcart .productslist li .listbox{border:1px solid #fff;border-right:1px dotted #dedede;width:180px;padding:14px;}
 #shoppingcart .productslist li:hover .listbox{border:1px solid #dedede;background:url(../images/og-productslistbg.png) center bottom no-repeat;}
+#shoppingcart .productslist li .listpic{display:block;width:180px;height:180px;overflow:hidden;line-height:180px;text-align:center;*font-size:158px;}
+#shoppingcart .productslist li .listpic img{max-width:180px;max-height:180px;vertical-align:middle;}
 #shoppingcart .productslist li strong,#shoppingcart .productslist li span{display:block;}
-#shoppingcart .productslist li strong{font-weight:bold;color:#007878;}
+#shoppingcart .productslist li strong{font-weight:bold;color:#007878;height:20px;padding-right:20px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
 #shoppingcart .productslist li .number{color:#666;}
 #shoppingcart .productslist li .price{color:#a00000;}
 #shoppingcart .productslist li input{vertical-align:middle;}
@@ -166,7 +172,9 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .productsinfo dd span{display:inline-block;width:200px;}
 #shoppingcart .productsinfo .price{height:80px;line-height:80px;}
 #shoppingcart .productsinfo .price strong{font-size:24px;color:#a00000;margin-left:20px;vertical-align:middle;}
-#shoppingcart .productsinfo .btn a{display:block;width:142px;height:29px;line-height:29px;background:url(../images/og-addcartbtn.png) 0 -24px no-repeat;text-indent:50px;color:#fff;font-size:14px;}
+#shoppingcart .productsinfo .number{display:inline-block;*display:inline;width:40px;height:25px;line-height:25px;margin:0 30px 0 10px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;*border:none;}
+#shoppingcart .productsinfo .number input{width:36px;height:21px;height:18px\9;padding:2px;border:none;text-align:center;color:#666;}
+#shoppingcart .productsinfo .btn input.submit{border:none;width:142px;padding:5px 0;padding:6px 0 7px 0\9;*padding:4px 0 5px 0\9;background:url(../images/og-addcartbtn.png) 0 -24px no-repeat;text-indent:20px;*text-indent:40px;color:#fff;font-size:14px;}
 
 #shoppingcart .productsarticle{border-top:1px solid #e2e2e2;padding-bottom:40px;}
 #shoppingcart .productsarticle p{color:#666;}
@@ -187,14 +195,14 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingprocess .subtotal strong{font-size:20px;}
 #shoppingcart .shoppingprocess .choice{height:26px;line-height:26px;margin-top:26px;}
 #shoppingcart .shoppingprocess .empty,#shoppingcart .shoppingprocess .update{display:inline-block;margin-left:10px;padding-left:26px;background:url(../images/og-shoppingprocesschoiceicon.png) no-repeat;height:26px;}
-#shoppingcart .shoppingprocess .empty{background-position:0 -26px;}
+#shoppingcart .shoppingprocess .empty{background-position:0 -26px;border:none;font-size:12px;color:#007878;cursor:pointer;width:107px;*vertical-align:middle;}
 #shoppingcart .shoppingprocess .update{background-position:0 -52px;}
 #shoppingcart .shoppingprocess .continue{display:inline-block;padding:0 20px;height:26px;color:#333;margin-right:10px;
 																				 background:#d8d8d8;
 																				 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#f4f4f4),color-stop(1,#d8d8d8));
 																				 background:-moz-linear-gradient(0 0 270deg,#f4f4f4 0,#d8d8d8 100%);
 																				 background:-o-linear-gradient(0 0 270deg,#f4f4f4 0,#d8d8d8 100%);}
-#shoppingcart .shoppingprocess .checkout{width:120px;*width:140px;height:26px;border:none;background:url(../images/og-addcartbtn.png) 0 -53px no-repeat;color:#fff;text-indent:20px;vertical-align:middle;}
+#shoppingcart .shoppingprocess .checkout{display:inline-block;width:120px;*width:140px;height:26px;border:none;background:url(../images/og-addcartbtn.png) 0 -53px no-repeat;color:#fff;text-indent:45px;}
 #shoppingcart .checkoutstep{position:absolute;top:40px;right:60px;width:310px;height:3px;background:#eee;}
 #shoppingcart .checkoutstep li{float:left;width:100px;height:3px;position:relative;}
 #shoppingcart .checkoutstep li.current{background:#c7b78f;}
