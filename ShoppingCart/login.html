@@ -11,11 +11,11 @@
 <body id="login">
 <!-- content -->
 <div id="content">
-  <div class="loginboxbg"></div>
   <div class="loginbox">
     <h1 class="logo hide"><a href="shoppingcart.html">organo gold</a></h1>
     <p class="tips">WELCOME TO ORGANO GOLD</p>
     <div class="logincont">
+      <div class="error"> <span>Invalid distributor ID,username or password</span> </div>
       <form action="" method="get">
         <p>
           <input name="" type="text" placeholder="Login Name or Distributor ID" />
@@ -27,14 +27,19 @@
         <input name="" type="checkbox" value="" id="checkbox1" />
         <label for="checkbox1">Remember me</label>
         </span>
-        <div class="btn">
-          <input name="" type="submit" value=" " />
+        <div class="verificationcode">Type The Code Shown: <a href="#"><img src="images/verificationcode.png" width="70" height="30" /></a>
+          <p>
+            <input name="" type="text" />
+          </p>
         </div>
-        <div class="photo"><img src="images/photo.jpg"></div>
+        <div class="btn">
+          <input name="" type="submit" value="Login" />
+        </div>
+        <div class="photo"><img src="images/photo.jpg" width="76" height="76" /></div>
       </form>
     </div>
-    <div class="account f-l"><a href="#" class="create">Create a new account</a>|<a href="#" class="forgot">Forgot Password?</a></div>
-    <div class="language f-r">
+    <div class="account"><a href="#" class="create">Create a new account</a>|<a href="#" class="forgot">Forgot Password?</a></div>
+    <div class="language">
       <select name="" size="1">
         <option>English</option>
         <option>中文</option>

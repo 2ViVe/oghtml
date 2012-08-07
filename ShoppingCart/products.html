@@ -212,11 +212,12 @@
 <!-- footer end -->
 <script type="text/javascript">
 $(function(){
+	$(".addcart input:checked").siblings(".addcartpopup").show();
 	$(".addcart input").click(
 		function(){
 			$(this).siblings(".addcartpopup").toggle();
-					})
-			})
+					});
+			});
 </script>
 </body>
 </html>

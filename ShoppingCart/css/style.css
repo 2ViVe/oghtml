@@ -13,6 +13,7 @@ a:active,:active{outline:none;}
 a:hover{color:#007878;}
 li{list-style:none;}
 input,textarea,button{font-family:inherit;}
+input[type="submit"]{cursor:pointer;}
 button{cursor:pointer;}
 table{border-collapse:collapse;border-spacing:0;}
 caption,th,td{font-weight:normal;text-align:left;}
@@ -121,28 +122,52 @@ blockquote,q{quotes:"" "";}
 #login #content{position:relative;z-index:1;}
 #login #footer p{background:none;text-shadow:1px 1px 0 #333;}
 
-#background{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;}
-#background img{width:100%;height:auto;}
+#login #background{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;}
+#login #background img{width:100%;height:auto;}
 
-#login .loginbox,#login .loginboxbg{width:830px;height:460px;position:absolute;top:50%;left:50%;margin:-230px 0 0 -415px;}
-#login .loginboxbg{background:#000;opacity:0.3;filter:alpha(opacity=30);border-radius:20px;z-index:1;}
-#login .loginbox{z-index:9;}
+#login .loginbox{width:830px;position:absolute;top:50%;left:50%;margin:-250px 0 0 -415px;background:#000\9;filter:alpha(opacity=70)\9;background:rgba(0,0,0,0.3);border-radius:20px;z-index:9;}
+:root #login .loginbox{filter:alpha(opacity=100)\0;}
 #login .logo{width:75px;height:75px;background:url(../images/og-logo.png) no-repeat;margin:0 auto;}
 #login .logo a{display:block;width:75px;height:75px;}
 #login .tips{font-size:30px;text-align:center;line-height:100px;color:#f7f8d6;text-shadow:1px 1px 1px #333;}
-#login .logincont{width:390px;height:190px;background:#fff;border-radius:20px;margin:0 auto;padding:30px 60px 0 200px;position:relative;}
+#login .error{border:1px solid #efd3bb;background:#fffdf8;padding:12px;margin-bottom:15px;text-align:center;}
+#login .error span{display:inline-block;font-size:16px;color:#581804;padding-left:40px;line-height:24px;background:url(../images/og-loginerror.png) no-repeat;}
+#login .logincont{width:530px;background:#fff;border-radius:20px;margin:0 auto;padding:30px 60px 30px 60px;}
+#login .logincont form{margin-left:140px;position:relative;}
 #login .logincont p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;height:34px;margin-bottom:15px;}
 #login .logincont p input{border:none;background:none;width:370px;height:20px;padding:7px;}
 #login .logincont span input{vertical-align:middle;}
+#login .verificationcode{height:30px;line-height:30px;overflow:hidden;}
+#login .verificationcode img{width:70px;height:30px;vertical-align:middle;margin:0 5px;}
+#login .verificationcode p{display:inline-block;width:114px;height:28px;margin-bottom:0;}
+#login .verificationcode p input{width:100px;height:18px;padding:5px;}
 #login .btn{padding-top:10px;}
-#login .btn input{width:72px;height:26px;border:none;background:url(../images/og-loginicon.png) no-repeat;}
-#login .photo{position:absolute;top:46px;left:64px;width:76px;height:76px;}
+#login .btn input{padding:0 20px;height:26px;border:none;background:url(../images/og-loginicon.png) repeat-x;color:#fff;font-size:14px;}
+#login .photo{position:absolute;top:0;left:-140px;width:76px;height:76px;}
 #login .photo img{width:76px;height:76px;}
 #login .account{height:26px;line-height:26px;margin:20px 0 20px 280px;color:#fff;}
 #login .account a,#login .account a:hover{color:#fff;padding:0 10px 0 34px;display:inline-block;height:26px;background:url(../images/og-loginicon.png) no-repeat;}
 #login .account a.create{background-position:5px -26px;}
 #login .account a.forgot{background-position:5px -52px;}
-#login .language{margin:20px 90px 0 0;}
+#login .language{position:absolute;top:20px;right:20px;}
+
+/* Home */
+#home #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#home .container{width:650px;}
+#home .sidebar{width:220px;}
+#home .sidebarbox-a{margin:30px 0;postion:relative;}
+#home .sidebarbox-a .icon{width:42px;height:42px;background:url(../images/og-homesidebaricon.png) no-repeat;position:absolute;top:0;right:0;}
+#home .sidebarbox-a h2{background:#f2f2f2;border-top:1px solid #dedede;color:#c0943c;font-size:11px;padding:5px 10px;font-weight:bold;}
+#home .sidebarbox-a p{padding-top:10px;}
+#home .sidebarbox-a p span{display:inline-block;width:20px;height:20px;margin:0 5px;vertical-align:sub;background:url(../images/og-homesidebaricon.png) no-repeat;}
+#home .sidebarbox-a p span.start{background-position:0 -42px;}
+#home .sidebarbox-a p span.end{background-position:-20px -42px;}
+#home .sidebarbox-b h3{background:#f2f2f2;border-top:1px solid #dedede;color:#666;font-size:12px;padding:5px 10px;font-weight:bold;}
+#home .sidebarbox-b li{padding:20px 0;border-bottom:1px solid #dedede;}
+#home .sidebarbox-b li img{width:100px;height:66px;float:left;margin-right:10px;}
+#home .sidebarbox-b li p{height:66px;overflow:hidden;}
+#home .sidebarbox-c{border:1px solid #e2e2e2;margin:20px 0;}
+#home .sidebarbox-c h3{background:#f2f2f2;color:#666;font-size:12px;padding:5px 10px;font-weight:bold;}
 
 /* Shopping Cart */
 #shoppingcart #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
@@ -207,10 +232,10 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .checkoutstep li{float:left;width:100px;height:3px;position:relative;}
 #shoppingcart .checkoutstep li.current{background:#c7b78f;}
 #shoppingcart .checkoutstep li.step4{width:10px;}
-#shoppingcart .checkoutstep li label{position:absolute;top:-3px;left:0;font-size:10px;color:#888;}
+#shoppingcart .checkoutstep li label{position:absolute;top:-3px;left:0;font-size:10px;}
 #shoppingcart .checkoutstep li span{display:block;width:10px;height:10px;background:url(../images/og-checkoutstepicon.png) no-repeat;}
-#shoppingcart .checkoutstep li em{display:block;text-indent:-20px;font-style:normal;}
-#shoppingcart .checkoutstep li.current label{color:#a68233;}
+#shoppingcart .checkoutstep li em{display:block;text-indent:-20px;font-style:normal;color:#888;}
+#shoppingcart .checkoutstep li.current em{color:#a68233;}
 #shoppingcart .checkoutstep li.current span{background-position:0 -10px;}
 
 #shoppingcart .shoppingform{padding:30px 0 40px 0;}
@@ -304,7 +329,7 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingorderdata th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left bottom repeat-x;padding:0 20px;border-bottom:1px solid #dfdfdf;}
 #shoppingcart .shoppingorderdata td{text-align:center;padding:10px 20px;border-bottom:1px solid #f2f2f2;}
 #shoppingcart .shoppingorderdata td a{font-weight:bold;}
-#shoppingcart .shoppingorderdata .item{width:310px;text-align:left;}
+#shoppingcart .shoppingorderdata .item{text-align:left;}
 #shoppingcart .shoppingorderdata .subtotal td{background:#f7f6f2;}
 #shoppingcart .shoppingorderdata .ordertotal td{border-bottom:none;}
 #shoppingcart .shoppingorderdata span{color:#a00000;}
