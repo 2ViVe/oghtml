@@ -29,7 +29,7 @@ blockquote,q{quotes:"" "";}
 .mar-b{margin-bottom:10px;}
 .ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
 .hide{display:block;font-size:0;line-height:0;text-indent:-999px;overflow:hidden;}
-#content{min-height:100%;}
+#content{min-width:1175px;min-height:100%;}
 #content .cont-hack{padding-bottom:55px;}
 
 /* Header */
@@ -45,8 +45,7 @@ blockquote,q{quotes:"" "";}
 #header .og-menu li{float:left;height:42px;border-right:1px solid #cb7580;color:#eccdd1;}
 #header .og-menu a{display:block;height:42px;padding:0 20px;}
 #header .og-menu a:hover,#header .og-menu a.current{background:url(../images/og-headerspirit.png) center 0 no-repeat;}
-#header .og-menu .cart{background:url(../images/og-headerspirit.png) 18px -42px no-repeat;}
-#header .og-menu .cart a{width:42px;}
+#header .og-menu .cart{background:url(../images/og-headerspirit.png) right -42px no-repeat;padding-right:20px;}
 
 /* Navigation */
 #navigation{height:40px;line-height:40px;text-align:right;}
@@ -63,11 +62,21 @@ blockquote,q{quotes:"" "";}
 #sidebar .submenu{margin-bottom:20px;}
 #sidebar .submenu li{height:36px;background:url(../images/og-submenubg.png) no-repeat;}
 #sidebar .submenu dl{position:relative;}
-#sidebar .submenu dt a{display:block;height:36px;line-height:36px;text-indent:40px;background:url(../images/og-submenuicon.png) no-repeat;color:#333;}
-#sidebar .submenu dt a:hover,#sidebar .submenu dt a.current,#sidebar .submenu dl:hover dt a{background:#9a0a0a url(../images/og-submenuicon.png) no-repeat;color:#fff;}
-#sidebar .submenu dd{display:none;position:absolute;top:0;left:214px;border:1px solid #f58796;background:#fff;width:140px;padding:10px 15px;z-index:99;}
-#sidebar .submenu dd a{display:inline-block;min-width:50%;line-height:32px;color:#333;}
+#sidebar .submenu dt span{display:block;height:36px;line-height:36px;text-indent:40px;background:url(../images/og-submenuicon.png) no-repeat;color:#333;}
+#sidebar .submenu dt span:hover,#sidebar .submenu dt span.current,#sidebar .submenu dl:hover dt span{background:#9a0a0a url(../images/og-submenuicon.png) no-repeat;color:#fff;}
+#sidebar .submenu dt span a{display:block;height:36px;line-height:36px;color:#333;}
+#sidebar .submenu dt span:hover a,#sidebar .submenu dt span.current a,#sidebar .submenu dt span.current a:hover{color:#fff;}
+#sidebar .submenu dt .arrow{display:inline-block;width:4px;height:7px;background:url(../images/og-submenuarrow.png) 0 -9px no-repeat;margin-left:5px;}
+#sidebar .submenu dl:hover dt .arrow{display:none;}
+#sidebar .submenu dd{display:none;position:absolute;top:0;left:214px;border:1px solid #9a0a0a;background:#fff;min-width:120px;padding:10px 15px;z-index:99;
+										 box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+										 -webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+										 -moz-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+										 -o-box-shadow:2px 2px 2px rgba(0,0,0,0.2);}
+#sidebar .submenu dd a{display:block;line-height:32px;color:#333;padding:0 10px;white-space:nowrap;}
+#sidebar .submenu dd a:hover{background:#f0f0f0;}
 #sidebar .submenu dl:hover dd{display:block;}
+#sidebar .submenu dd .arrow{position:absolute;top:13px;left:-5px;width:5px;height:9px;background:url(../images/og-submenuarrow.png) no-repeat;}
 #sidebar .submenu .nav1{background-position:0 0;}
 #sidebar .submenu .nav1:hover,#sidebar .submenu .current.nav1,#sidebar .submenu dl:hover .nav1{background-position:0 -36px;}
 #sidebar .submenu .nav2{background-position:0 -72px;}
@@ -119,10 +128,10 @@ blockquote,q{quotes:"" "";}
 #footer p{height:55px;line-height:55px;text-align:center;color:#fff;background:#696969;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
 
 /* Login */
-#login #content{position:relative;z-index:1;}
+#login #content{position:relative;z-index:1;min-height:760px;}
 #login #footer p{background:none;text-shadow:1px 1px 0 #333;}
 
-#login #background{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;}
+#login #background{position:absolute;top:0;left:0;width:100%;min-width:1175px;height:100%;min-height:760px;overflow:hidden;z-index:0;}
 #login #background img{width:100%;height:auto;}
 
 #login .loginbox{width:830px;position:absolute;top:50%;left:50%;margin:-250px 0 0 -415px;background:#000\9;filter:alpha(opacity=70)\9;background:rgba(0,0,0,0.3);border-radius:20px;z-index:9;}
@@ -152,22 +161,66 @@ blockquote,q{quotes:"" "";}
 #login .language{position:absolute;top:20px;right:20px;}
 
 /* Home */
+#home .v-content{position:relative;}
+#home .v-content-list{width:12345px;position:absolute;top:0;left:0;}
+
 #home #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
-#home .container{width:650px;}
+#home .container{width:650px;margin-top:20px;}
+#home .container .banner{height:80px;margin-bottom:20px;}
+#home .container .banner img{display:block;width:650px;height:80px;}
+#home .containerbox{position:relative;}
+#home .containerbox h3{background:#f2f2f2;border-top:1px solid #dedede;color:#666;font-size:13px;padding:7px 20px;font-weight:bold;
+											 box-shadow:inset 0 1px 0 #fff;
+											 -moz-box-shadow:inset 0 1px 0 #fff;
+											 -webkit-box-shadow:inset 0 1px 0 #fff;
+											 -o-box-shadow:inset 0 1px 0 #fff;}
+#home .container .box-acont{margin:30px 0;}
+#home .container .box-acont dl{padding-bottom:40px;}
+#home .container .box-acont dt{height:1px;background:#ddd;position:relative;}
+#home .container .box-acont dt span{position:absolute;top:-11px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-size:14px;}	
+#home .container .box-acont dd{padding-top:20px;}										 
+#home .container .box-acont dd img{width:64px;height:64px;float:left;}
+#home .container .box-acont dd h4,#home .container .box-acont dd p{float:right;width:570px;}
+#home .container .box-acont dd h4{font-size:12px;font-weight:bold;line-height:22px;}
+#home .container .box-acont dd h4 .star{display:inline-block;width:10px;height:10px;background:url(../images/og-homeicon.png) -50px 0 no-repeat;margin-left:5px;}
+#home .container .box-acont dd p{min-height:40px;padding-bottom:10px;border-bottom:1px solid #dedede;}
+#home .container .box-acont dd span{color:#999;margin-left:5px;}
+#home .container .box-a .more,#home .container .box-a #page{position:absolute;right:10px;bottom:0;}
+#home .container .box-a #page{padding:0;}
+#home .container .box-a .more .arrow{display:inline-block;width:10px;height:10px;background:url(../images/og-homeicon.png) -60px 4px no-repeat;margin-left:3px;}
+
 #home .sidebar{width:220px;}
-#home .sidebarbox-a{margin:30px 0;postion:relative;}
-#home .sidebarbox-a .icon{width:42px;height:42px;background:url(../images/og-homesidebaricon.png) no-repeat;position:absolute;top:0;right:0;}
-#home .sidebarbox-a h2{background:#f2f2f2;border-top:1px solid #dedede;color:#c0943c;font-size:11px;padding:5px 10px;font-weight:bold;}
-#home .sidebarbox-a p{padding-top:10px;}
-#home .sidebarbox-a p span{display:inline-block;width:20px;height:20px;margin:0 5px;vertical-align:sub;background:url(../images/og-homesidebaricon.png) no-repeat;}
-#home .sidebarbox-a p span.start{background-position:0 -42px;}
-#home .sidebarbox-a p span.end{background-position:-20px -42px;}
-#home .sidebarbox-b h3{background:#f2f2f2;border-top:1px solid #dedede;color:#666;font-size:12px;padding:5px 10px;font-weight:bold;}
-#home .sidebarbox-b li{padding:20px 0;border-bottom:1px solid #dedede;}
-#home .sidebarbox-b li img{width:100px;height:66px;float:left;margin-right:10px;}
-#home .sidebarbox-b li p{height:66px;overflow:hidden;}
-#home .sidebarbox-c{border:1px solid #e2e2e2;margin:20px 0;}
-#home .sidebarbox-c h3{background:#f2f2f2;color:#666;font-size:12px;padding:5px 10px;font-weight:bold;}
+#home .sidebarbox h2,#home .sidebarbox h3{background:#f2f2f2;color:#666;font-size:12px;padding:5px 10px;font-weight:bold;}
+#home .sidebar .box-a{margin:30px 0;}
+#home .sidebar .box-a .icon{width:42px;height:42px;background:url(../images/og-homesidebaricon.png) no-repeat;position:absolute;top:0;right:0;}
+#home .sidebar .box-a h2{border-top:1px solid #dedede;color:#c0943c;font-size:11px;}
+#home .sidebar .box-a p{padding-top:10px;}
+#home .sidebar .box-a p span{display:inline-block;width:20px;height:20px;margin:0 5px;vertical-align:sub;background:url(../images/og-homesidebaricon.png) no-repeat;}
+#home .sidebar .box-a p span.start{background-position:0 -42px;}
+#home .sidebar .box-a p span.end{background-position:-20px -42px;}
+#home .sidebar .box-b{position:relative;}
+#home .sidebar .box-b h3{border-top:1px solid #dedede;}
+#home .sidebar .box-bbtn{position:absolute;top:11px;right:5px;}
+#home .sidebar .box-bbtn dt,#home .sidebar .box-bbtn dd li{background:url(../images/og-homeicon.png) no-repeat;width:10px;height:10px;}
+#home .sidebar .box-bbtn dt{cursor:pointer;margin:0 2px;float:left;}
+#home .sidebar .box-bbtn dt.prev{background-position:0 0;}
+#home .sidebar .box-bbtn dt.next{background-position:-30px 0;}
+#home .sidebar .box-bbtn dd{float:left;}
+#home .sidebar .box-bbtn dd li{background-position:-10px 0;float:left;}
+#home .sidebar .box-bbtn dd li.current{background-position:-20px 0;}
+#home .sidebar .box-bcont{height:321px;overflow:hidden;}
+#home .sidebar .box-bcont ul{float:left;width:220px;}
+#home .sidebar .box-bcont li{padding:20px 0;border-bottom:1px solid #dedede;}
+#home .sidebar .box-bcont li img{width:100px;height:66px;float:left;margin-right:10px;}
+#home .sidebar .box-bcont li p{height:66px;overflow:hidden;}
+#home .sidebar .box-c{border:1px solid #e2e2e2;margin:20px 0;}
+#home .sidebar .box-ccont div{padding:9px;display:none;}
+#home .sidebar .box-ccont div h4{font-weight:bold;}
+#home .sidebar .box-cbtn{padding:0 7px 10px 7px;}
+#home .sidebar .box-cbtn li{float:left;width:60px;height:33px;border:2px solid #fff;position:relative;margin:0 2px;}
+#home .sidebar .box-cbtn li img{width:60px;height:33px;cursor:pointer;display:block;}
+#home .sidebar .box-cbtn li.current{border-color:#b88f3a;}
+#home .sidebar .box-cbtn li.current .arrow{display:block;width:7px;height:4px;background:url(../images/og-homeicon.png) -40px 0 no-repeat;position:absolute;top:-6px;left:26px;}
 
 /* Shopping Cart */
 #shoppingcart #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
@@ -258,12 +311,12 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingform .address input{border:none;background:none;width:200px;height:21px;padding:2px;}
 #shoppingcart .shoppingform .address p.hack1{width:80px;float:left;margin-top:7px;}
 #shoppingcart .shoppingform .address p.hack1 input{width:75px;}
-#shoppingcart .shoppingform .address span{float:left;width:43px;text-align:left;text-indent:20px;}
+#shoppingcart .shoppingform .address em{float:left;width:43px;text-align:left;text-indent:20px;}
 #shoppingcart .shoppingform .address p.hack2{border-color:#fff;}
 #shoppingcart .shoppingform .address select{width:124px;padding:4px;}
 
 #shoppingcart .shoppingform .shippingmethod dd{padding:30px 0 40px 0;}
-#shoppingcart .shoppingform .shippingmethod ul{border:1px solid #dedede;padding:40px 0;line-height:30px;text-align:center;background:url(../images/og-shippingmethodbg.png) right bottom no-repeat;}
+#shoppingcart .shoppingform .shippingmethod ul{border:1px solid #dedede;padding:40px 0 40px 240px;line-height:30px;background:url(../images/og-shippingmethodbg.png) right bottom no-repeat;}
 #shoppingcart .shoppingform .shippingmethod span{color:#a00000;}
 
 #shoppingcart .shoppingform .reviewyourorder dd{padding:30px 0 40px 20px;}
@@ -303,7 +356,7 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .ordersummary dd .tax th{color:#999;font-weight:bold;}
 #shoppingcart .ordersummary dd .tax span{display:block;color:#a00000;}
 #shoppingcart .ordersummary .subtotal p{border:1px solid #dedede;border-left:none;border-right:none;margin:20px 0;padding:10px 0;}
-#shoppingcart .ordersummary .subtotal strong{display:block;font-size:20px;color:#a00000;line-height:40px;}
+#shoppingcart .ordersummary .subtotal strong{display:block;color:#a00000;line-height:30px;}
 
 #shoppingcart .shoppingtips{padding:40px 180px 40px 190px;border:1px solid;margin-bottom:30px;width:528px;min-height:70px;position:relative;}
 #shoppingcart .shoppingtips .icon{width:70px;height:70px;background:url(../images/og-shoppingtipsicon.png) no-repeat;position:absolute;left:100px;top:40px;}
