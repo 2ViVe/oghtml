@@ -67,7 +67,7 @@ blockquote,q{quotes:"" "";}
 #sidebar .submenu dt span a{display:block;height:36px;line-height:36px;color:#333;}
 #sidebar .submenu dt span:hover a,#sidebar .submenu dt span.current a,#sidebar .submenu dt span.current a:hover{color:#fff;}
 #sidebar .submenu dt .arrow{display:inline-block;width:4px;height:7px;background:url(../images/og-submenuarrow.png) 0 -9px no-repeat;margin-left:5px;}
-#sidebar .submenu dl:hover dt .arrow{display:none;}
+#sidebar .submenu dl:hover dt .arrow,#sidebar .submenu dt span.current .arrow{display:none;}
 #sidebar .submenu dd{display:none;position:absolute;top:0;left:214px;border:1px solid #9a0a0a;background:#fff;min-width:120px;padding:10px 15px;z-index:99;
 										 box-shadow:2px 2px 2px rgba(0,0,0,0.2);
 										 -webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
@@ -122,6 +122,16 @@ blockquote,q{quotes:"" "";}
 #page a{display:inline-block;height:18px;line-height:18px;text-align:center;padding:0 5px;border:1px solid #ccc;margin:0 2px;background:#fff;}
 #page a:hover,#page a.current{background:#b7a35e;border:1px solid #b2973b;color:#fff;}
 #page a.current{cursor:default;}
+
+/* Popup Box */
+.popupbox{display:none;background:#fff;width:50%;left:25%;top:25%;position:fixed;z-index:999;
+					box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+					-webkit-box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+					-moz-box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+					 -o-box-shadow:2px 2px 5px rgba(0,0,0,0.3);}
+.popupbox .close{width:26px;height:26px;background:url(../images/og-shoppingprocesschoiceicon.png) no-repeat;position:absolute;top:0;right:0;cursor:pointer;}
+.popupboxcont{padding:30px 20px;}
+.popupboxbg{display:none;background:#000;opacity:0.5;filter:alpha(opacity=50);width:100%;height:100%;position:fixed;left:0;top:0;z-index:99;}
 
 /* Footer */
 #footer{margin-top:-55px;position:relative;z-index:1;}
@@ -259,7 +269,7 @@ blockquote,q{quotes:"" "";}
 
 #shoppingcart .shoppingprocess{padding-bottom:40px;}
 #shoppingcart .shoppingprocess table{width:100%;border:1px solid #dfdfdf;}
-#shoppingcart .shoppingprocess th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left bottom repeat-x;padding:0 10px;border-bottom:1px solid #dfdfdf;}
+#shoppingcart .shoppingprocess th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 1px repeat-x;padding:0 10px;border-bottom:1px solid #dfdfdf;}
 #shoppingcart .shoppingprocess td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;}
 #shoppingcart .shoppingprocess .item{width:76px;}
 #shoppingcart .shoppingprocess .item img{display:block;width:76px;height:76px;}
@@ -272,15 +282,12 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingprocess .subtotal{height:28px;line-height:28px;border-bottom:none;background:#f2f2f2;font-size:14px;color:#a00000;text-align:right;padding-right:20px;}
 #shoppingcart .shoppingprocess .subtotal strong{font-size:20px;}
 #shoppingcart .shoppingprocess .choice{height:26px;line-height:26px;margin-top:26px;}
-#shoppingcart .shoppingprocess .empty,#shoppingcart .shoppingprocess .update{display:inline-block;margin-left:10px;padding-left:26px;background:url(../images/og-shoppingprocesschoiceicon.png) no-repeat;height:26px;}
+#shoppingcart .shoppingprocess .empty,#shoppingcart .shoppingprocess .continue{display:inline-block;margin-left:10px;padding-left:26px;background:url(../images/og-shoppingprocesschoiceicon.png) no-repeat;height:26px;}
 #shoppingcart .shoppingprocess .empty{background-position:0 -26px;border:none;font-size:12px;color:#007878;cursor:pointer;width:107px;*vertical-align:middle;}
-#shoppingcart .shoppingprocess .update{background-position:0 -52px;}
-#shoppingcart .shoppingprocess .continue{display:inline-block;padding:0 20px;height:26px;color:#333;margin-right:10px;
-																				 background:#d8d8d8;
-																				 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#f4f4f4),color-stop(1,#d8d8d8));
-																				 background:-moz-linear-gradient(0 0 270deg,#f4f4f4 0,#d8d8d8 100%);
-																				 background:-o-linear-gradient(0 0 270deg,#f4f4f4 0,#d8d8d8 100%);}
-#shoppingcart .shoppingprocess .checkout{display:inline-block;width:120px;*width:140px;height:26px;border:none;background:url(../images/og-addcartbtn.png) 0 -53px no-repeat;color:#fff;text-indent:45px;}
+#shoppingcart .shoppingprocess .continue{background-position:0 -52px;}
+#shoppingcart .shoppingprocess .update,#shoppingcart .shoppingprocess .checkout{display:inline-block;min-width:120px;*width:140px;height:26px;border:none;background:url(../images/og-addcartbtn.png) no-repeat;color:#fff;text-indent:45px;}
+#shoppingcart .shoppingprocess .update{background-position:0 -79px;margin-right:10px;}
+#shoppingcart .shoppingprocess .checkout{background-position:0 -53px;}
 #shoppingcart .checkoutstep{position:absolute;top:40px;right:60px;width:310px;height:3px;background:#eee;}
 #shoppingcart .checkoutstep li{float:left;width:100px;height:3px;position:relative;}
 #shoppingcart .checkoutstep li.current{background:#c7b78f;}
@@ -294,7 +301,7 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingform{padding:30px 0 40px 0;}
 #shoppingcart .shoppingform .formcont{width:660px;}
 #shoppingcart .shoppingform .formcont dd.orderbtn{padding:0;text-align:right;}
-#shoppingcart .shoppingform .formcont dd.orderbtn input{width:130px;height:26px;padding:0;color:#fff;border:none;
+#shoppingcart .shoppingform .formcont dd.orderbtn input{padding:0 10px;height:26px;color:#fff;border:none;
 																												background:#a00000;
 																												background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
 																												background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
@@ -329,12 +336,10 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingform .reviewyourorder .order span{display:inline-block;padding:15px 20px 15px 10px;width:100px;color:#333;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard{padding-left:20px;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard h4{font-weight:bold;}
-#shoppingcart .shoppingform .reviewyourorder .creditcard div label{display:inline-block;width:38px;height:28px;margin:20px;}
-#shoppingcart .shoppingform .reviewyourorder .creditcard span{display:block;width:38px;height:28px;border:1px solid #fff;background:url(../images/og-creditcardicon.png) no-repeat;}
-#shoppingcart .shoppingform .reviewyourorder .creditcard span.visa{background-position:0 0;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard span{display:inline-block;width:38px;height:28px;border:1px solid #fff;margin:20px;background:url(../images/og-creditcardicon.png) no-repeat;}
+#shoppingcart .shoppingform .reviewyourorder .creditcard span.visa{background-position:0 0;border-color:#dedede;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard span.mastercard{background-position:0 -28px;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard span.americanexpress{background-position:0 -56px;}
-#shoppingcart .shoppingform .reviewyourorder .creditcard div label.current span{border-color:#dedede;}
 #shoppingcart .shoppingform .reviewyourorder .card{width:60%;}
 #shoppingcart .shoppingform .reviewyourorder .card td{padding:10px;text-align:right;*text-align:left;}
 #shoppingcart .shoppingform .reviewyourorder .card td span{display:block;text-align:left;color:#999;}
@@ -394,3 +399,49 @@ blockquote,q{quotes:"" "";}
 																													background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a30000)) url(../images/og-printicon.png) 5px center no-repeat;
 																													background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a30000 100%) url(../images/og-printicon.png) 5px center no-repeat;
 																													background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a30000 100%) url(../images/og-printicon.png) 5px center no-repeat;}
+
+/* Commissions */
+#commissions #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#commissions #container h2,#shoppingcart #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:13px;font-weight:bold;color:#666;}
+#commissions .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
+#commissions .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
+#commissions .contsubmenu a.current,#commissions .contsubmenu a:hover{background:#9f0015;color:#fff;}
+#commissions .contlabel{margin:10px 0 30px 0;}
+#commissions .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:125px;text-align:center;}
+#commissions .contlabel li a{display:block;height:34px;}
+#commissions .contlabel li.current{width:146px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
+#commissions .contlabel li.current a{height:33px;}
+#commissions .contlabel li.summary{float:right;border-top-color:#fff;border-right:normal;width:500px;text-align:right;}
+#commissions .contlabel li.current a,#commissions .contlabel li.summary a{font-weight:bold;}
+#commissions .contlabel li.summary a{display:inline;}
+#commissions .contsearch{margin:10px 0 30px 0;font-size:11px;}
+#commissions .contsearch select{margin:0 2px;padding:4px;}
+#commissions .contsearch p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:200px;height:25px;line-height:25px;text-align:left;display:inline-block;margin:0 10px;}
+#commissions .contsearch p input{border:none;background:none;width:195px;height:21px;padding:2px;}
+#commissions .contsearch input[type="submit"]{padding:0 10px;height:27px;color:#fff;border:none;vertical-align:top;font-size:12px;
+																							background:#a00000;
+																							background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																							background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																							background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#commissions .conttable table{width:100%;border:1px solid #dfdfdf;}
+#commissions .conttable th,#commissions .conttable td{height:34px;line-height:34px;text-align:center;border-bottom:1px solid #dfdfdf;}
+#commissions .conttable td span{color:#a00000;}
+#commissions .conttable tr.even{background:url(../images/og-shoppingprocesstitlebg.png) left 1px repeat-x;}
+#commissions .conttable th{cursor:pointer;padding-right:10px;}
+#commissions .conttable th.sorting,#commissions .conttable th.sorting_asc,#commissions .conttable th.sorting_desc{background:url(../images/og-commissionsicon.png) no-repeat;}
+#commissions .conttable th.sorting{background-position:right -24px}
+#commissions .conttable th.sorting_asc{background-position:right -58px}
+#commissions .conttable th.sorting_desc{background-position:right -92px}
+#commissions .conttable td .btn-open,#commissions .conttable td .btn-close{width:13px;height:12px;background:url(../images/og-commissionsicon.png) no-repeat;cursor:pointer;display:inline-table;margin:0 5px;}
+#commissions .conttable td .btn-open{background-position:0 0;}
+#commissions .conttable td .btn-close{background-position:0 -12px;}
+#commissions .conttable td table{border:none;}
+#commissions .conttable td table th,#commissions .conttable td table td{background:#f3f3f3;border:none;height:24px;line-height:24px;}
+#commissions .conttable td table th{padding:10px 0 0 0;cursor:default;}
+#commissions .conttable td table td{color:#999;padding-bottom:10px;}
+
+#commissions .popupboxcont table{width:100%;border:1px solid #dfdfdf;}
+#commissions .popupboxcont th,#commissions .popupboxcont td{height:34px;line-height:34px;text-align:center;border-bottom:1px solid #dfdfdf;}
+#commissions .popupboxcont td span{color:#a00000;}
+#commissions .popupboxcont th{background:url(../images/og-shoppingprocesstitlebg.png) left 1px repeat-x;}
+#commissions .popupboxcont tr.total{background:#f7f6f2;}
