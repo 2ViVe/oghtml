@@ -128,7 +128,7 @@ blockquote,q{quotes:"" "";}
 					box-shadow:2px 2px 5px rgba(0,0,0,0.3);
 					-webkit-box-shadow:2px 2px 5px rgba(0,0,0,0.3);
 					-moz-box-shadow:2px 2px 5px rgba(0,0,0,0.3);
-					 -o-box-shadow:2px 2px 5px rgba(0,0,0,0.3);}
+					-o-box-shadow:2px 2px 5px rgba(0,0,0,0.3);}
 .popupbox .close{width:26px;height:26px;background:url(../images/og-shoppingprocesschoiceicon.png) no-repeat;position:absolute;top:0;right:0;cursor:pointer;}
 .popupboxcont{padding:30px 20px;}
 .popupboxbg{display:none;background:#000;opacity:0.5;filter:alpha(opacity=50);width:100%;height:100%;position:fixed;left:0;top:0;z-index:99;}
@@ -269,7 +269,7 @@ blockquote,q{quotes:"" "";}
 
 #shoppingcart .shoppingprocess{padding-bottom:40px;}
 #shoppingcart .shoppingprocess table{width:100%;border:1px solid #dfdfdf;}
-#shoppingcart .shoppingprocess th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 1px repeat-x;padding:0 10px;border-bottom:1px solid #dfdfdf;}
+#shoppingcart .shoppingprocess th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:0 10px;border-bottom:1px solid #dfdfdf;}
 #shoppingcart .shoppingprocess td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;}
 #shoppingcart .shoppingprocess .item{width:76px;}
 #shoppingcart .shoppingprocess .item img{display:block;width:76px;height:76px;}
@@ -384,7 +384,7 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingorder .order span{display:inline-block;width:80px;color:#333;}
 
 #shoppingcart .shoppingorderdata table{width:100%;border:1px solid #dedede;}
-#shoppingcart .shoppingorderdata th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left bottom repeat-x;padding:0 20px;border-bottom:1px solid #dfdfdf;}
+#shoppingcart .shoppingorderdata th{height:34px;line-height:34px;text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:0 20px;border-bottom:1px solid #dfdfdf;}
 #shoppingcart .shoppingorderdata td{text-align:center;padding:10px 20px;border-bottom:1px solid #f2f2f2;}
 #shoppingcart .shoppingorderdata td a{font-weight:bold;}
 #shoppingcart .shoppingorderdata .item{text-align:left;}
@@ -402,7 +402,7 @@ blockquote,q{quotes:"" "";}
 
 /* Commissions */
 #commissions #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
-#commissions #container h2,#shoppingcart #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:13px;font-weight:bold;color:#666;}
+#commissions #container h2,#commissions #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:13px;font-weight:bold;color:#666;}
 #commissions .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
 #commissions .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
 #commissions .contsubmenu a.current,#commissions .contsubmenu a:hover{background:#9f0015;color:#fff;}
@@ -426,7 +426,8 @@ blockquote,q{quotes:"" "";}
 #commissions .conttable table{width:100%;border:1px solid #dfdfdf;}
 #commissions .conttable th,#commissions .conttable td{height:34px;line-height:34px;text-align:center;border-bottom:1px solid #dfdfdf;}
 #commissions .conttable td span{color:#a00000;}
-#commissions .conttable tr.even{background:url(../images/og-shoppingprocesstitlebg.png) left 1px repeat-x;}
+#commissions .conttable tr.even{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
+#commissions .conttable tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -34px repeat-x;height:28px;line-height:28px;}
 #commissions .conttable th{cursor:pointer;padding-right:10px;}
 #commissions .conttable th.sorting,#commissions .conttable th.sorting_asc,#commissions .conttable th.sorting_desc{background:url(../images/og-commissionsicon.png) no-repeat;}
 #commissions .conttable th.sorting{background-position:right -24px}
@@ -443,5 +444,28 @@ blockquote,q{quotes:"" "";}
 #commissions .popupboxcont table{width:100%;border:1px solid #dfdfdf;}
 #commissions .popupboxcont th,#commissions .popupboxcont td{height:34px;line-height:34px;text-align:center;border-bottom:1px solid #dfdfdf;}
 #commissions .popupboxcont td span{color:#a00000;}
-#commissions .popupboxcont th{background:url(../images/og-shoppingprocesstitlebg.png) left 1px repeat-x;}
+#commissions .popupboxcont th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
 #commissions .popupboxcont tr.total{background:#f7f6f2;}
+
+/* Recent */
+#recent #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;padding-bottom:60px;}
+#recent #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:14px;font-weight:bold;color:#666;}
+#recent .continfo{padding:40px 0;border-bottom:1px dotted #dedede;background:url(../images/og-shippingmethodbg.png) right bottom no-repeat;}
+#recent .continfo p{text-align:center;line-height:34px;}
+#recent .continfo p span{margin-right:40px;}
+#recent .continfo p strong{font-weight:bold;}
+#recent .continfo p a,#recent .continfo p a:hover{display:inline-block;width:155px;height:34px;background:url(../images/og-recenticon.png) no-repeat;text-indent:65px;text-align:left;color:#666;padding-top:2px;margin-left:30px;}
+#recent .conttable1 table{width:49%;display:inline-table;*display:inline;}
+#recent .conttable1 td{line-height:24px;}
+#recent .conttable1 .icon{width:100px;height:80px;padding-top:20px;text-align:center;background:url(../images/og-recenticon.png) 0 -34px no-repeat;color:#fff;font-weight:bold;}
+#recent .conttable2 table,#recent .conttable3 table{width:100%;border:1px solid #dfdfdf;}
+#recent .conttable2 th,#recent .conttable2 td,#recent .conttable3 th,#recent .conttable3 td{height:34px;line-height:34px;text-align:center;border-bottom:1px solid #dfdfdf;}
+#recent .conttable2 tr.even th,#recent .conttable3 tr.even th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
+#recent .conttable2 tr.even td,#recent .conttable3 tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -34px repeat-x;height:28px;line-height:28px;}
+#recent .conttable2 td span{color:#a00000;}
+#recent .conttable3{position:relative;}
+#recent .conttable3.f-l{width:475px;}
+#recent .conttable3.f-r{width:400px;}
+#recent .conttable3 .more{position:absolute;top:35px;right:5px;}
+#recent .conttable3 td img{width:35px;height:24px;display:block;margin:0 auto;}
+#recent .conttable3 .icon{width:10px;height:10px;background:url(../images/og-recenticon.png) -100px -34px no-repeat;display:inline-table;margin:0 5px;}
