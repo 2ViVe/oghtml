@@ -119,9 +119,10 @@ blockquote,q{quotes:"" "";}
 
 /* Page */
 #page{padding:20px 0;text-align:right;}
-#page a{display:inline-block;height:18px;line-height:18px;text-align:center;padding:0 5px;border:1px solid #ccc;margin:0 2px;background:#fff;}
-#page a:hover,#page a.current{background:#b7a35e;border:1px solid #b2973b;color:#fff;}
-#page a.current{cursor:default;}
+#page span{display:inline-block;}
+#page .pagebtn{height:18px;line-height:18px;text-align:center;padding:0 5px;border:1px solid #ccc;margin:0 2px;background:#fff;cursor:pointer;color:#007878;}
+#page .pagebtn:hover,#page .pagebtn.current{background:#b7a35e;border:1px solid #b2973b;color:#fff;}
+#page .pagebtn.current{cursor:default;}
 
 /* Popup Box */
 .popupbox{display:none;background:#fff;width:50%;left:25%;top:25%;position:fixed;z-index:999;
@@ -414,8 +415,9 @@ blockquote,q{quotes:"" "";}
 #commissions .contlabel li.summary{float:right;border-top-color:#fff;border-right:normal;width:500px;text-align:right;}
 #commissions .contlabel li.current a,#commissions .contlabel li.summary a{font-weight:bold;}
 #commissions .contlabel li.summary a{display:inline;}
-#commissions .contsearch{margin:10px 0 30px 0;font-size:11px;}
-#commissions .contsearch select{margin:0 2px;padding:4px;}
+#commissions .contdata{font-size:11px;}
+#commissions .contlength,#commissions .contsearch{margin:10px 0;font-size:11px;}
+#commissions .contdata select,#commissions .contlength select{margin:0 2px;padding:4px;}
 #commissions .contsearch p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:200px;height:25px;line-height:25px;text-align:left;display:inline-block;margin:0 10px;}
 #commissions .contsearch p input{border:none;background:none;width:195px;height:21px;padding:2px;}
 #commissions .contsearch input[type="submit"]{padding:0 10px;height:27px;color:#fff;border:none;vertical-align:top;font-size:12px;
@@ -425,22 +427,21 @@ blockquote,q{quotes:"" "";}
 																							background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
 #commissions .conttable table{width:100%;border:1px solid #dfdfdf;}
 #commissions .conttable th,#commissions .conttable td{text-align:center;border-bottom:1px solid #dfdfdf;}
-#commissions .conttable td span{color:#a00000;}
 #commissions .conttable tr.odd td{padding:7px 0;}
 #commissions .conttable tr.even{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
 #commissions .conttable tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 0;}
 #commissions .conttable th{padding:7px 0;cursor:pointer;padding-right:10px;}
 #commissions .conttable th.sorting,#commissions .conttable th.sorting_asc,#commissions .conttable th.sorting_desc{background:url(../images/og-commissionsicon.png) no-repeat;}
-#commissions .conttable th.sorting{background-position:right -24px}
-#commissions .conttable th.sorting_asc{background-position:right -58px}
-#commissions .conttable th.sorting_desc{background-position:right -92px}
-#commissions .conttable td .btn-open,#commissions .conttable td .btn-close{width:13px;height:12px;background:url(../images/og-commissionsicon.png) no-repeat;cursor:pointer;margin:0 5px;}
-#commissions .conttable td .btn-open{background-position:0 0;}
-#commissions .conttable td .btn-close{background-position:0 -12px;}
+#commissions .conttable th.sorting{background-position:right 0}
+#commissions .conttable th.sorting_asc{background-position:right -35px}
+#commissions .conttable th.sorting_desc{background-position:right -68px}
+#commissions .conttable td.color{color:#a00000;}
+#commissions .conttable td img{margin:0 5px;cursor:pointer;}
 #commissions .conttable td table{border:none;}
 #commissions .conttable td table th,#commissions .conttable td table td{background:#f3f3f3;border:none;height:24px;line-height:24px;}
 #commissions .conttable td table th{padding:10px 0 0 0;cursor:default;}
 #commissions .conttable td table td{color:#999;padding-bottom:10px;}
+#commissions .conttableinfo{padding:20px 0;}
 
 #commissions .popupboxcont table{width:100%;border:1px solid #dfdfdf;}
 #commissions .popupboxcont th,#commissions .popupboxcont td{padding:7px 0;text-align:center;border-bottom:1px solid #dfdfdf;}
@@ -477,8 +478,9 @@ blockquote,q{quotes:"" "";}
 #report .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
 #report .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
 #report .contsubmenu a.current,#report .contsubmenu a:hover{background:#9f0015;color:#fff;}
-#report .contsearch{margin:10px 0 30px 0;font-size:11px;}
-#report .contsearch select{margin:0 2px;padding:4px;}
+#report .contdata{font-size:11px;}
+#report .contlength,#report .contsearch{margin:10px 0;font-size:11px;}
+#report .contdata select,#report .contlength select{margin:0 2px;padding:4px;}
 #report .contsearch p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:200px;height:25px;line-height:25px;text-align:left;display:inline-block;margin:0 10px;}
 #report .contsearch p input{border:none;background:none;width:195px;height:21px;padding:2px;}
 #report .contsearch input[type="submit"]{padding:0 10px;height:27px;color:#fff;border:none;vertical-align:top;font-size:12px;
