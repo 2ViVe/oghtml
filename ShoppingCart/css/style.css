@@ -134,14 +134,14 @@ blockquote,q{quotes:"" "";}
 .popupboxcont{padding:30px 20px;}
 .popupboxbg{display:none;background:#000;opacity:0.5;filter:alpha(opacity=50);width:100%;height:100%;position:fixed;left:0;top:0;z-index:99;}
 
-/* Loading Box */
-#loading{background:#eee;width:200px;height:40px;line-height:40px;text-align:center;left:50%;margin-left:-100px;top:0;position:absolute;z-index:999;font-size:14px;
+/* Progress Box */
+#progress{background:#eee;width:200px;height:40px;line-height:40px;text-align:center;left:50%;margin-left:-100px;top:0;position:absolute;z-index:999;font-size:14px;
 					border-radius:0 0 10px 10px;
 					box-shadow:1px 1px 3px rgba(0,0,0,0.3);
 					-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.3);
 					-moz-box-shadow:1px 1px 3px rgba(0,0,0,0.3);
 					-o-box-shadow:1px 1px 3px rgba(0,0,0,0.3);}
-#loading img{vertical-align:middle;width:16px;height:16px;}
+#progress img{vertical-align:middle;width:16px;height:16px;}
 
 /* Footer */
 #footer{margin-top:-55px;position:relative;z-index:1;}
