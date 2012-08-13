@@ -105,7 +105,7 @@
               </span></dt>
             <dd>
               <label class="arrow"></label>
-              <a href="#">Weekly</a><a href="#">Monthly</a><a href="#">Quarterly</a><a href="#">Rank</a><a href="#">Dualteam View</a></dd>
+              <a href="#">Weekly</a><a href="#" class="current">Monthly</a><a href="#">Quarterly</a><a href="#">Rank</a><a href="#">Dualteam View</a></dd>
           </dl>
         </li>
         <li>
@@ -158,20 +158,23 @@
           <option>2012</option>
         </select>
       </div>
-      <div class="conttable">
-        <div class="contlength f-l">Show:
-          <select name="" size="1">
-            <option>25</option>
+      <div class="dataTables_wrapper" id="tbl_commissions_monthly_wrapper">
+        <div id="tbl_commissions_monthly_length" class="dataTables_length">
+          <label>Show
+          <select size="1" name="tbl_commissions_monthly_length">
+            <option value="25" selected="selected">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
           </select>
-          entries </div>
-        <div class="contsearch f-r">Search by distributor ID:
-          <p>
-            <input name="" type="text" />
-          </p>
-          <input name="" type="submit" value="Search" />
+          entries</label>
+        </div>
+        <div class="dataTables_filter" id="tbl_commissions_monthly_filter">
+          <label>Search by dist ID or name:
+          <input type="text">
+          </label>
         </div>
         <table class="clear">
-          <tr class="even">
+          <tr>
             <th>Distributor ID</th>
             <th>Name</th>
             <th>Level</th>
@@ -354,7 +357,8 @@
             <td>0</td>
           </tr>
         </table>
-        <div id="page"><span class="pagebtn">First</span><span class="pagebtn">Previous</span><span><span class="pagebtn current">1</span><span class="pagebtn">2</span><span class="pagebtn">3</span><span class="pagebtn">4</span><span class="pagebtn">5</span></span><span class="pagebtn">Next</span><span class="pagebtn">Last</span></div>
+        <div class="dataTables_info" id="tbl_commissions_monthly_info">Showing 0 to 0 of 0 entries</div>
+        <div class="dataTables_paginate paging_full_numbers" id="tbl_commissions_monthly_paginate"><span class="first paginate_button paginate_button_disabled" id="tbl_commissions_monthly_first">First</span><span class="previous paginate_button paginate_button_disabled" id="tbl_commissions_monthly_previous">Previous</span><span><span class="paginate_active">1</span><span class="paginate_button">2</span><span class="paginate_button">3</span><span class="paginate_button">4</span><span class="paginate_button">5</span></span><span class="next paginate_button" id="tbl_commissions_monthly_next">Next</span><span class="last paginate_button" id="tbl_commissions_monthly_last">Last</span></div>
       </div>
     </div>
     <!-- container end -->

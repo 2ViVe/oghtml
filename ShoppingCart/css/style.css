@@ -74,7 +74,7 @@ blockquote,q{quotes:"" "";}
 										 -moz-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
 										 -o-box-shadow:2px 2px 2px rgba(0,0,0,0.2);}
 #sidebar .submenu dd a{display:block;line-height:32px;color:#333;padding:0 10px;white-space:nowrap;}
-#sidebar .submenu dd a:hover{background:#f0f0f0;}
+#sidebar .submenu dd a:hover,#sidebar .submenu dd a.current{background:#f0f0f0;}
 #sidebar .submenu dl:hover dd{display:block;}
 #sidebar .submenu dd .arrow{position:absolute;top:13px;left:-5px;width:5px;height:9px;background:url(../images/og-submenuarrow.png) no-repeat;}
 #sidebar .submenu .nav1{background-position:0 0;}
@@ -133,6 +133,15 @@ blockquote,q{quotes:"" "";}
 .popupbox .close{width:26px;height:26px;background:url(../images/og-shoppingprocesschoiceicon.png) no-repeat;position:absolute;top:0;right:0;cursor:pointer;}
 .popupboxcont{padding:30px 20px;}
 .popupboxbg{display:none;background:#000;opacity:0.5;filter:alpha(opacity=50);width:100%;height:100%;position:fixed;left:0;top:0;z-index:99;}
+
+/* Loading Box */
+#loading{background:#eee;width:200px;height:40px;line-height:40px;text-align:center;left:50%;margin-left:-100px;top:0;position:absolute;z-index:999;font-size:14px;
+					border-radius:0 0 10px 10px;
+					box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+					-webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+					-moz-box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+					-o-box-shadow:1px 1px 3px rgba(0,0,0,0.3);}
+#loading img{vertical-align:middle;width:16px;height:16px;}
 
 /* Footer */
 #footer{margin-top:-55px;position:relative;z-index:1;}
@@ -416,32 +425,33 @@ blockquote,q{quotes:"" "";}
 #commissions .contlabel li.current a,#commissions .contlabel li.summary a{font-weight:bold;}
 #commissions .contlabel li.summary a{display:inline;}
 #commissions .contdata{font-size:11px;}
-#commissions .contlength,#commissions .contsearch{margin:10px 0;font-size:11px;}
-#commissions .contdata select,#commissions .contlength select{margin:0 2px;padding:4px;}
-#commissions .contsearch p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:200px;height:25px;line-height:25px;text-align:left;display:inline-block;margin:0 10px;}
-#commissions .contsearch p input{border:none;background:none;width:195px;height:21px;padding:2px;}
-#commissions .contsearch input[type="submit"]{padding:0 10px;height:27px;color:#fff;border:none;vertical-align:top;font-size:12px;
-																							background:#a00000;
-																							background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
-																							background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
-																							background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
-#commissions .conttable table{width:100%;border:1px solid #dfdfdf;}
-#commissions .conttable th,#commissions .conttable td{text-align:center;border-bottom:1px solid #dfdfdf;}
-#commissions .conttable tr.odd td{padding:7px 0;}
-#commissions .conttable tr.even{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
-#commissions .conttable tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 0;}
-#commissions .conttable th{padding:7px 0;cursor:pointer;padding-right:10px;}
-#commissions .conttable th.sorting,#commissions .conttable th.sorting_asc,#commissions .conttable th.sorting_desc{background:url(../images/og-commissionsicon.png) no-repeat;}
-#commissions .conttable th.sorting{background-position:right 0}
-#commissions .conttable th.sorting_asc{background-position:right -35px}
-#commissions .conttable th.sorting_desc{background-position:right -68px}
-#commissions .conttable td.color{color:#a00000;}
-#commissions .conttable td img{margin:0 5px;cursor:pointer;}
-#commissions .conttable td table{border:none;}
-#commissions .conttable td table th,#commissions .conttable td table td{background:#f3f3f3;border:none;height:24px;line-height:24px;}
-#commissions .conttable td table th{padding:10px 0 0 0;cursor:default;}
-#commissions .conttable td table td{color:#999;padding-bottom:10px;}
-#commissions .conttableinfo{padding:20px 0;}
+#commissions .contdata select{margin:0 2px;padding:4px;}
+#commissions .dataTables_length,#commissions .dataTables_filter{margin:10px 0;font-size:11px;}
+#commissions .dataTables_length{float:left;}
+#commissions .dataTables_length select{margin:0 2px;padding:4px;}
+#commissions .dataTables_filter{float:right;}
+#commissions .dataTables_wrapper table{width:100%;border:1px solid #dfdfdf;}
+#commissions .dataTables_wrapper th,#commissions .dataTables_wrapper td{text-align:center;border-bottom:1px solid #dfdfdf;}
+#commissions .dataTables_wrapper th{background:#ebebeb;}
+#commissions .dataTables_wrapper tr.odd td{padding:7px 0;}
+#commissions .dataTables_wrapper tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 0;}
+#commissions .dataTables_wrapper th{padding:7px 0;cursor:pointer;padding-right:10px;}
+#commissions .dataTables_wrapper th.sorting,#commissions .dataTables_wrapper th.sorting_asc,#commissions .dataTables_wrapper th.sorting_desc{background:#ebebeb url(../images/og-commissionsicon.png) no-repeat;}
+#commissions .dataTables_wrapper th.sorting{background-position:right 0;}
+#commissions .dataTables_wrapper th.sorting_asc{background-position:right -35px;}
+#commissions .dataTables_wrapper th.sorting_desc{background-position:right -68px;}
+#commissions .dataTables_wrapper td.color{color:#a00000;}
+#commissions .dataTables_wrapper td img{margin:0 5px;cursor:pointer;}
+#commissions .dataTables_wrapper td table{border:none;}
+#commissions .dataTables_wrapper td table th,#commissions .dataTables_wrapper td table td{background:#f3f3f3;border:none;height:24px;line-height:24px;}
+#commissions .dataTables_wrapper td table th{padding:10px 0 0 0;cursor:default;}
+#commissions .dataTables_wrapper td table td{color:#999;padding-bottom:10px;}
+#commissions .dataTables_info{padding:20px 0;float:left;}
+#commissions .dataTables_paginate{padding:20px 0;float:right;}
+#commissions .dataTables_paginate span{display:inline-block;}
+#commissions .dataTables_paginate .paginate_button,#commissions .dataTables_paginate .paginate_active{height:18px;line-height:18px;text-align:center;padding:0 5px;border:1px solid #ccc;margin:0 2px;background:#fff;cursor:pointer;color:#007878;}
+#commissions .dataTables_paginate .paginate_button:hover,#commissions .dataTables_paginate .paginate_active{background:#b7a35e;border:1px solid #b2973b;color:#fff;}
+#commissions .dataTables_paginate .paginate_active{cursor:default;}
 
 #commissions .popupboxcont table{width:100%;border:1px solid #dfdfdf;}
 #commissions .popupboxcont th,#commissions .popupboxcont td{padding:7px 0;text-align:center;border-bottom:1px solid #dfdfdf;}
@@ -462,13 +472,14 @@ blockquote,q{quotes:"" "";}
 #recent .conttable1 .icon{width:100px;height:80px;padding-top:20px;text-align:center;background:url(../images/og-recenticon.png) 0 -34px no-repeat;color:#fff;font-weight:bold;}
 #recent .conttable2 table,#recent .conttable3 table{width:100%;border:1px solid #dfdfdf;}
 #recent .conttable2 th,#recent .conttable2 td,#recent .conttable3 th,#recent .conttable3 td{padding:7px 0;text-align:center;border-bottom:1px solid #dfdfdf;}
-#recent .conttable2 tr.even th,#recent .conttable3 tr.even th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
+#recent .conttable2 th,#recent .conttable3 th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
 #recent .conttable2 tr.even td,#recent .conttable3 tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 0;}
 #recent .conttable2 td span{color:#a00000;}
 #recent .conttable3{position:relative;}
 #recent .conttable3.f-l{width:475px;}
 #recent .conttable3.f-r{width:400px;}
 #recent .conttable3 .more{position:absolute;top:35px;right:5px;}
+#recent .conttable3 td.hack{width:200px;}
 #recent .conttable3 td img{width:35px;height:24px;display:block;margin:0 auto;}
 #recent .conttable3 .icon{width:10px;height:24px;background:url(../images/og-recenticon.png) -100px -34px no-repeat;margin:0 5px;}
 
@@ -479,25 +490,27 @@ blockquote,q{quotes:"" "";}
 #report .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
 #report .contsubmenu a.current,#report .contsubmenu a:hover{background:#9f0015;color:#fff;}
 #report .contdata{font-size:11px;}
-#report .contlength,#report .contsearch{margin:10px 0;font-size:11px;}
-#report .contdata select,#report .contlength select{margin:0 2px;padding:4px;}
-#report .contsearch p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:200px;height:25px;line-height:25px;text-align:left;display:inline-block;margin:0 10px;}
-#report .contsearch p input{border:none;background:none;width:195px;height:21px;padding:2px;}
-#report .contsearch input[type="submit"]{padding:0 10px;height:27px;color:#fff;border:none;vertical-align:top;font-size:12px;
-																							background:#a00000;
-																							background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
-																							background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
-																							background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
-#report .conttable table{width:100%;border:1px solid #dfdfdf;table-layout:fixed;}
-#report .conttable th,#report .conttable td{padding:7px 4px;text-align:center;border-bottom:1px solid #dfdfdf;}
-#report .conttable tr.even{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
-#report .conttable tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px;}
+#report .contdata select{margin:0 2px;padding:4px;}
+#report .dataTables_length,#report .dataTables_filter{margin:10px 0;font-size:11px;}
+#report .dataTables_length{float:left;}
+#report .dataTables_length select{margin:0 2px;padding:4px;}
+#report .dataTables_filter{float:right;}
+#report .dataTables_wrapper table{width:100%;border:1px solid #dfdfdf;table-layout:fixed;}
+#report .dataTables_wrapper th,#report .dataTables_wrapper td{padding:7px 4px;text-align:center;border-bottom:1px solid #dfdfdf;}
+#report .dataTables_wrapper th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
+#report .dataTables_wrapper tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px;}
+#report .dataTables_info{padding:20px 0;float:left;}
+#report .dataTables_paginate{padding:20px 0;float:right;}
+#report .dataTables_paginate span{display:inline-block;}
+#report .dataTables_paginate .paginate_button,#report .dataTables_paginate .paginate_active{height:18px;line-height:18px;text-align:center;padding:0 5px;border:1px solid #ccc;margin:0 2px;background:#fff;cursor:pointer;color:#007878;}
+#report .dataTables_paginate .paginate_button:hover,#report .dataTables_paginate .paginate_active{background:#b7a35e;border:1px solid #b2973b;color:#fff;}
+#report .dataTables_paginate .paginate_active{cursor:default;}
+
 
 /* Documents */
 #documents #container{width:900px;padding:0 30px 60px 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
-#documents #container h2,#documents #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:13px;font-weight:bold;color:#666;}
-#documents .conttable table{width:100%;border-left:1px solid #dfdfdf;border-top:1px solid #dfdfdf;table-layout:fixed;}
-#documents .conttable th,#documents .conttable td{text-align:center;}
-#documents .conttable th{background:#f4f4f4;font-weight:bold;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;padding:7px 0;}
-#documents .conttable td table{border:none;}
-#documents .conttable td th,#documents .conttable td td{border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;background:#fff;padding:7px 4px;}
+#documents #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:13px;font-weight:bold;color:#666;}
+#documents .conttable table{width:898px;border-left:1px solid #dfdfdf;border-top:1px solid #dfdfdf;}
+#documents .conttable td h3{background:#f4f4f4;font-weight:bold;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;padding:7px 0;text-align:center;}
+#documents .conttable td dl{width:299px;float:left;}
+#documents .conttable td dt,#documents .conttable td dd{border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;background:#fff;padding:7px 4px;text-align:center;}
