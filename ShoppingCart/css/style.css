@@ -651,7 +651,6 @@ blockquote,q{quotes:"" "";}
 #report .dataTables_paginate .paginate_button:hover,#report .dataTables_paginate .paginate_active{background:#b7a35e;border:1px solid #b2973b;color:#fff;}
 #report .dataTables_paginate .paginate_active{cursor:default;}
 
-
 /* Documents */
 #documents #container{width:900px;padding:0 30px 60px 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #documents #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
@@ -662,3 +661,49 @@ blockquote,q{quotes:"" "";}
 #documents .conttable td.title{width:260px;background:#fff;font-weight:bold;padding:0 10px;}
 #documents .conttable td a{display:block;text-align:left;padding:5px 20px;margin:2px;background:#fff;}
 #documents .conttable td a:hover{background:#fafafa;}
+
+/* My Profile */
+#myprofile #container{width:900px;padding:0 30px 60px 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#myprofile #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
+#myprofile .myprofileform table{width:100%;}
+#myprofile .myprofileform td{text-align:right;padding:5px;}
+#myprofile .myprofileform .btn input{padding:0 10px;height:26px;color:#fff;border:none;
+																		 background:#a00000;
+																		 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																		 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																		 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#myprofile .myprofileform .btn input:disabled{color:#999;
+																							background:#ddd;
+																							background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#eee),color-stop(1,#ccc));
+																							background:-moz-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);
+																							background:-o-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);}
+#myprofile .myprofileinfo{padding-top:30px;}
+#myprofile .myprofileform dt{height:1px;background:#ddd;position:relative;}
+#myprofile .myprofileform strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
+#myprofile .myprofileform dt input{width:auto;height:auto;padding:0;margin:0 5px 0 15px;vertical-align:middle;}
+#myprofile .myprofileform dt label{font-weight:normal;}
+#myprofile .myprofileform dd{padding:30px 0 40px 0;}
+#myprofile .myprofileform table{width:100%;}
+#myprofile .myprofileform td{height:40px;line-height:40px;text-align:right;*text-align:left;padding:0 10px;}
+#myprofile .myprofileform p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
+#myprofile .myprofileform input{border:none;background:none;width:190px;height:21px;padding:2px;}
+#myprofile .myprofileform p.hack1{width:80px;float:left;margin-top:7px;}
+#myprofile .myprofileform p.hack1 input{width:75px;}
+#myprofile .myprofileform p.hack2{border-color:#fff;}
+#myprofile .myprofileform p span.required{color:#d2001c;}
+#myprofile .myprofileform select{width:124px;padding:4px;}
+#myprofile .myprofileform td{line-height:inherit;}
+#myprofile .myprofileform .btn{padding:0;}
+#myprofile .myprofileform .btn input{width:auto;}
+#myprofile .myprofileinfo td.title{width:140px;vertical-align:top;}
+#myprofile .myprofileinfo .defaultpic img{margin-right:10px;width:74px;height:74px;}
+#myprofile .myprofileinfo input[type="checkbox"]{width:auto;height:auto;padding:0;}
+#myprofile .myprofileinfo .unable{color:#999;}
+#myprofile .myprofileinfo button{float:left;height:27px;margin-top:47px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
+#myprofile .myprofileinfo .unsubscribe{text-align:left;}
+#myprofile .myprofileinfo .unsubscribe input{float:left;}
+#myprofile .myprofileinfo .unsubscribe label{float:left;width:90%;color:#999;}
+#myprofile .address td.title{width:140px;}
+#myprofile .address em{float:left;width:43px;line-height:40px;text-align:left;text-indent:20px;}
+#myprofile .address p.hack1 input{width:65px;}
+#myprofile .address .unable{color:#999;line-height:40px;}
