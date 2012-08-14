@@ -29,6 +29,8 @@ blockquote,q{quotes:"" "";}
 .mar-b{margin-bottom:10px;}
 .ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
 .hide{display:block;font-size:0;line-height:0;text-indent:-999px;overflow:hidden;}
+.hidden{display:none}
+.show{display:block}
 #content{min-width:1175px;min-height:100%;}
 #content .cont-hack{padding-bottom:55px;}
 
@@ -208,6 +210,11 @@ blockquote,q{quotes:"" "";}
 #registration .registrationform{padding-bottom:40px;}
 #registration .registrationform table{width:100%;}
 #registration .registrationform td{text-align:right;padding:5px;}
+#registration .registrationform .btn input{padding:0 10px;height:26px;color:#fff;border:none;
+																					 background:#a00000;
+																					 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																					 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																					 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
 #registration .registrationstep1 p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
 #registration .registrationstep1 input{border:none;background:none;width:200px;height:21px;padding:2px;}
 #registration .registrationstep1 p.hack1{float:left;margin-right:10px;}
@@ -216,14 +223,17 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep1 em{float:left;color:#a00000;line-height:25px;margin-left:10px;}
 #registration .registrationstep1 select{width:124px;padding:4px;}
 #registration .registrationstep1 button{float:left;height:27px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
-#registration .registrationstep1 textarea{max-width:730px;min-width:730px;max-height:309px;min-height:309px;padding:10px;border:none;font-size:12px;line-height:22px;color:#999;}
+#registration .registrationstep1 #accept_tc_textarea{width:730px;height:309px;padding:10px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;font-size:12px;line-height:22px;color:#999;overflow:scroll;overflow-x:hidden;}
+#registration .registrationstep1 #accept_tc_textarea p{border:none;width:auto;height:auto;}
 #registration .registrationstep1 div input{width:auto;height:auto;padding:0;vertical-align:middle;}
+#registration .registrationstep1 div.error{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin:5px 0 0 10px;color:#a00000;}
+#registration .registrationstep1 div.loading{width:360px;text-align:left;border:1px solid #dedede;background:#eee;padding:10px 30px;margin-top:34px;}
+#registration .registrationstep1 div.loading img{margin-right:5px;vertical-align:middle;}
+#registration .registrationstep1 dl.info{text-align:left;}
+#registration .registrationstep1 dl.info dt{padding:5px 0;font-weight:bold;}
+#registration .registrationstep1 dl.info dt a{margin-left:10px;font-weight:normal;}
+#registration .registrationstep1 dl.info dd{font-size:11px;color:#581804;}
 #registration .registrationstep1 .tips{border:1px solid #f0cfc6;background:#fffffa;padding:6px 10px;color:#999;}
-#registration .registrationstep1 .btn input{padding:0 10px;height:26px;color:#fff;border:none;
-																						background:#a00000;
-																						background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
-																						background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
-																						background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
 #registration .registrationstep2{padding-top:30px;}
 #registration .registrationstep2 dt{height:1px;background:#ddd;position:relative;}
 #registration .registrationstep2 strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
@@ -260,12 +270,64 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep2 .select td input[type="text"]{width:40px;height:24px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;padding:0 10px;line-height:inherit;}
 #registration .registrationstep2 .select td input[type="checkbox"]{width:auto;height:auto;padding:0;}
 #registration .registrationstep2 .select td span{color:#a00000;}
-#registration .registrationstep2 .select td.item{max-width:200px;}
-#registration .registrationstep2 .btn input{padding:0 10px;width:auto;height:26px;color:#fff;border:none;
-																						background:#a00000;
-																						background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
-																						background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
-																						background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#registration .registrationstep2 .select .item{max-width:200px;text-align:left;}
+#registration .registrationstep2 .btn input{width:auto;}
+#registration .registrationstep3{padding-top:30px;}
+#registration .registrationstep3 td.title{width:140px;}
+#registration .registrationstep3 dt{height:1px;background:#ddd;position:relative;}
+#registration .registrationstep3 strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
+#registration .registrationstep3 dd{padding:30px 0 40px 0;}
+#registration .registrationstep3 .orderdetails table{width:100%;border:1px solid #dfdfdf;}
+#registration .registrationstep3 .orderdetails th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
+#registration .registrationstep3 .orderdetails td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
+#registration .registrationstep3 .orderdetails .item{max-width:200px;text-align:left;}
+#registration .registrationstep3 .orderdetails td span{color:#a00000;}
+#registration .registrationstep3 .paymentdetails table{width:300px;margin-left:30px;}
+#registration .registrationstep3 .paymentdetails td{text-align:left;}
+#registration .registrationstep3 .paymentdetails td span{color:#a00000;float:right;}
+#registration .registrationstep3 .paymentdetails .total td{font-weight:bold;}
+#registration .registrationstep3 .paymentdetails .title{width:140px;}
+#registration .registrationstep3 .creditcard{padding-left:20px;}
+#registration .registrationstep3 .creditcard h4{font-weight:bold;}
+#registration .registrationstep3 .creditcard span{display:inline-block;width:38px;height:28px;border:1px solid #fff;margin:20px;background:url(../images/og-creditcardicon.png) no-repeat;}
+#registration .registrationstep3 .creditcard span.visa{background-position:0 0;border-color:#dedede;}
+#registration .registrationstep3 .creditcard span.mastercard{background-position:0 -28px;}
+#registration .registrationstep3 .creditcard span.americanexpress{background-position:0 -56px;}
+#registration .registrationstep3 .card{width:45%;}
+#registration .registrationstep3 .card td{padding:10px;text-align:right;*text-align:left;}
+#registration .registrationstep3 .card td span{display:block;text-align:left;color:#999;}
+#registration .registrationstep3 .card p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
+#registration .registrationstep3 .card input{border:none;background:none;width:200px;height:21px;padding:2px;}
+#registration .registrationstep3 .card p.hack1{border-color:#fff;float:left;width:106px;}
+#registration .registrationstep3 .card p.hack1 select{width:97px;padding:4px;}
+#registration .registrationstep3 .card p.hack2{width:160px;}
+#registration .registrationstep3 .card p.hack2 input{width:155px;}
+#registration .registrationstep3 .card a{display:block;margin-top:-23px;}
+#registration .registrationstep3 .btn{padding:0;margin-top:-20px;}
+#registration .registrationautoship{padding-top:30px;}
+#registration .registrationautoship td.title{width:140px;}
+#registration .registrationautoship dt{height:1px;background:#ddd;position:relative;}
+#registration .registrationautoship strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
+#registration .registrationautoship dt em{font-weight:normal;}
+#registration .registrationautoship dd{padding:30px 0 40px 0;}
+#registration .registrationautoship .autoship table{width:100%;border:1px solid #dfdfdf;}
+#registration .registrationautoship .autoship th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
+#registration .registrationautoship .autoship td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
+#registration .registrationautoship .autoship .item{max-width:200px;text-align:left;}
+#registration .registrationautoship .autoship span{color:#a00000;}
+#registration .registrationautoship .paymentdetails table{width:300px;margin-left:30px;}
+#registration .registrationautoship .paymentdetails td{text-align:left;}
+#registration .registrationautoship .paymentdetails td span{color:#a00000;float:right;}
+#registration .registrationautoship .paymentdetails .total td{font-weight:bold;}
+#registration .registrationautoship .paymentdetails .title{width:140px;}
+#registration .registrationautoship .creditcard{padding-left:20px;}
+#registration .registrationautoship .creditcard h4{font-weight:bold;}
+#registration .registrationautoship .creditcard span{display:inline-block;width:38px;height:28px;border:1px solid #fff;margin:20px;background:url(../images/og-creditcardicon.png) no-repeat;}
+#registration .registrationautoship .creditcard span.visa{background-position:0 0;border-color:#dedede;}
+#registration .registrationautoship .creditcard span.mastercard{background-position:0 -28px;}
+#registration .registrationautoship .creditcard span.americanexpress{background-position:0 -56px;}
+#registration .registrationautoship .card{width:45%;}
+#registration .registrationautoship .card td{padding:10px;text-align:left;}
 
 /* Home */
 #home .v-content{position:relative;}
@@ -585,7 +647,9 @@ blockquote,q{quotes:"" "";}
 /* Documents */
 #documents #container{width:900px;padding:0 30px 60px 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #documents #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
-#documents .conttable table{width:898px;border-left:1px solid #dfdfdf;border-top:1px solid #dfdfdf;}
-#documents .conttable td h3{background:#f4f4f4;font-weight:bold;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;padding:7px 0;text-align:center;}
-#documents .conttable td dl{width:299px;float:left;}
-#documents .conttable td dt,#documents .conttable td dd{border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;background:#fff;padding:7px 4px;text-align:center;}
+#documents .conttable dl{width:898px;border-left:1px solid #dfdfdf;border-top:1px solid #dfdfdf;}
+#documents .conttable dt{background:#f4f4f4;font-weight:bold;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;padding:7px 0;text-align:center;}
+#documents .conttable table{width:100%;background:#fafafa;}
+#documents .conttable td{text-align:center;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;}
+#documents .conttable td.title{width:220px;background:#fff;font-weight:bold;}
+#documents .conttable td td{padding:7px;width:50%;border-right:none;border:2px solid #fff;text-align:left;}
