@@ -223,16 +223,17 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep1 em{float:left;color:#a00000;line-height:25px;margin-left:10px;}
 #registration .registrationstep1 select{width:124px;padding:4px;}
 #registration .registrationstep1 button{float:left;height:27px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
+#registration .registrationstep1 .sponsorid{vertical-align:top;line-height:27px;}
 #registration .registrationstep1 #accept_tc_textarea{width:730px;height:309px;padding:10px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;font-size:12px;line-height:22px;color:#999;overflow:scroll;overflow-x:hidden;}
 #registration .registrationstep1 #accept_tc_textarea p{border:none;width:auto;height:auto;}
 #registration .registrationstep1 div input{width:auto;height:auto;padding:0;vertical-align:middle;}
 #registration .registrationstep1 div.error{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin:5px 0 0 10px;color:#a00000;}
 #registration .registrationstep1 div.loading{width:360px;text-align:left;border:1px solid #dedede;background:#eee;padding:10px 30px;margin-top:34px;}
 #registration .registrationstep1 div.loading img{margin-right:5px;vertical-align:middle;}
-#registration .registrationstep1 dl.info{text-align:left;}
-#registration .registrationstep1 dl.info dt{padding:5px 0;font-weight:bold;}
-#registration .registrationstep1 dl.info dt a{margin-left:10px;font-weight:normal;}
-#registration .registrationstep1 dl.info dd{font-size:11px;color:#581804;}
+#registration .registrationstep1 div.text{padding:5px 0;font-weight:bold;text-align:left;}
+#registration .registrationstep1 div.text a{margin-left:10px;font-weight:normal;}
+#registration .registrationstep1 ul.info{text-align:left;}
+#registration .registrationstep1 ul.info li{font-size:11px;color:#581804;}
 #registration .registrationstep1 .tips{border:1px solid #f0cfc6;background:#fffffa;padding:6px 10px;color:#999;}
 #registration .registrationstep2{padding-top:30px;}
 #registration .registrationstep2 dt{height:1px;background:#ddd;position:relative;}
@@ -651,5 +652,6 @@ blockquote,q{quotes:"" "";}
 #documents .conttable dt{background:#f4f4f4;font-weight:bold;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;padding:7px 0;text-align:center;}
 #documents .conttable table{width:100%;background:#fafafa;}
 #documents .conttable td{text-align:center;border-right:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;}
-#documents .conttable td.title{width:220px;background:#fff;font-weight:bold;}
-#documents .conttable td td{padding:7px;width:50%;border-right:none;border:2px solid #fff;text-align:left;}
+#documents .conttable td.title{width:260px;background:#fff;font-weight:bold;padding:0 10px;}
+#documents .conttable td a{display:block;text-align:left;padding:5px 20px;margin:2px;background:#fff;}
+#documents .conttable td a:hover{background:#fafafa;}
