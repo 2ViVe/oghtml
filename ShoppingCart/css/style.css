@@ -154,6 +154,8 @@ blockquote,q{quotes:"" "";}
 .infotips li{font-size:14px;list-style:disc;}
 .infotips.failure{border-color:#f0cfc6;background:#fffbf7;color:#581804;}
 .infotips.failure .icon{background-position:0 0;}
+.infotips.failure2{border-color:#f0cfc6;background:#fffbf7;color:#581804;min-height:0;}
+.infotips.failure2 .icon{background-position:0 0;top:20px;}
 .infotips.success{border-color:#d3e5ca;background:#f8fff4;color:#163709;}
 .infotips.success .icon{background-position:0 -70px;}
 .infotips.success h4{line-height:70px;}
@@ -215,6 +217,11 @@ blockquote,q{quotes:"" "";}
 																					 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
 																					 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
 																					 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#registration .registrationform .btn input:disabled{color:#999;
+																										background:#ddd;
+																									  background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#eee),color-stop(1,#ccc));
+																									  background:-moz-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);
+																									  background:-o-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);}
 #registration .registrationstep1 p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
 #registration .registrationstep1 input{border:none;background:none;width:200px;height:21px;padding:2px;}
 #registration .registrationstep1 p.hack1{float:left;margin-right:10px;}
@@ -224,7 +231,7 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep1 select{width:124px;padding:4px;}
 #registration .registrationstep1 button{float:left;height:27px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
 #registration .registrationstep1 .sponsorid{vertical-align:top;line-height:27px;}
-#registration .registrationstep1 #accept_tc_textarea{width:730px;height:309px;padding:10px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;font-size:12px;line-height:22px;color:#999;overflow:scroll;overflow-x:hidden;}
+#registration .registrationstep1 #accept_tc_textarea{width:730px;height:309px;padding:10px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;font-size:12px;line-height:22px;color:#999;overflow:scroll;overflow-x:hidden;text-align:left;}
 #registration .registrationstep1 #accept_tc_textarea p{border:none;width:auto;height:auto;}
 #registration .registrationstep1 div input{width:auto;height:auto;padding:0;vertical-align:middle;}
 #registration .registrationstep1 div.error{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin:5px 0 0 10px;color:#a00000;}
