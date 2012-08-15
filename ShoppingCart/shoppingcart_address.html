@@ -48,130 +48,132 @@
       </ul>
       <div class="shoppingform clearfix">
         <form action="" method="get">
-          <dl class="formcont address f-l">
+          <dl class="formcont f-l">
             <dt class="clear"><strong>Bill Address</strong></dt>
-            <dd>
+            <dd class="address">
               <table>
-                <tr>
-                  <td>First Name</td>
-                  <td><p class="hack1">
-                      <input name="" type="text" placeholder="Jhon" />
-                    </p>
-                    <em><label style="float:none;padding-left:10px;width:20px;float:left">M.</label></em>
-                    <p class="hack1">
-                      <input name="" type="text" placeholder="Jhon" />
-                    </p></td>
-                  <td>Last Name</td>
-                  <td><p class="hack1">
-                      <input name="" type="text" placeholder="Trujillo" />
-                    </p>
-                    <em>&nbsp;</em></td>
-                </tr>
-                <tr>
-                  <td>Address</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="9820 sw frewing st" />
-                    </p></td>
-                  <td>Address (contd)</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="# 22" />
-                    </p></td>
-                </tr>
-                <tr>
-                  <td>City</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="TIGARD" />
-                    </p></td>
-                  <td>Zip</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="97223" />
-                    </p></td>
-                </tr>
-                <tr>
-                  <td>State</td>
-                  <td><p class="hack2">
-                      <span><select style="width:150px;" name="" size="1">
-                        <option>Oregon</option>
-                      </select></span>
-                    </p></td>
-                  <td>Country</td>
-                  <td><p class="hack2">
-                      <span><select style="width:150px;" name="" size="1">
-                        <option>United states</option>
-                      </select></span>
-                    </p></td>
-                </tr>
-                <tr>
-                  <td>Phone</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="971 275-7937" />
-                    </p></td>
-                  <td>&nbsp;</td>
-                  <td>&nbsp;</td>
-                </tr>
-              </table>
+                  <tbody>
+                    <tr>
+                      <td class="textright">First Name</td>
+                      <td><p class="width1">
+                          <input type="text" placeholder="Jhon" name="" class="required" />
+                        </p>
+                        <label>M.</label>
+                        <p class="width1">
+                          <input type="text" placeholder="Jhon" name="" />
+                        </p></td>
+                      <td class="textright">Last Name</td>
+                      <td><p class="width1">
+                          <input type="text" placeholder="Trujillo" name="" class="required" />
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">Address</td>
+                      <td><p>
+                          <input type="text" placeholder="9820 sw frewing st" name="" class="required" />
+                        </p></td>
+                      <td class="textright">Address (contd)</td>
+                      <td><p>
+                          <input type="text" placeholder="# 22" name="" />
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">City</td>
+                      <td><p>
+                          <input type="text" placeholder="TIGARD" name="" class="required" />
+                        </p></td>
+                      <td class="textright">Zip</td>
+                      <td><p>
+                          <input type="text" placeholder="97223" name="" class="required" />
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">State</td>
+                      <td><p> <span>
+                          <select size="1" name="" >
+                            <option>Oregon</option>
+                          </select>
+                          </span> </p></td>
+                      <td class="textright">Country</td>
+                      <td><p> <span>
+                          <select size="1" name="">
+                            <option>United states</option>
+                          </select>
+                          </span> </p></td>
+                    </tr>
+                    <tr>
+                      <td valign="top" class="textright">Phone</td>
+                      <td><p>
+                          <input type="text" placeholder="971 275-7937" name="" class="required" />
+                        </p><div class="error_tip">Only allowed 0-9, - . ()</div></td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table>
             </dd>
             <dt class="clear"><strong>Ship Address</strong></dt>
-            <dd>
+            <dd class="address">
               <table>
-                <tr>
-                  <td>First Name</td>
-                  <td><p class="hack1">
-                      <input name="" type="text" placeholder="Jhon" />
-                    </p>
-                    <em>M.</em>
-                    <p class="hack1">
-                      <input name="" type="text" placeholder="Jhon" />
-                    </p></td>
-                  <td>Last Name</td>
-                  <td><p class="hack1">
-                      <input name="" type="text" placeholder="Trujillo" />
-                    </p>
-                    <em>&nbsp;</em></td>
-                </tr>
-                <tr>
-                  <td>Address</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="9820 sw frewing st" />
-                    </p></td>
-                  <td>Address (contd)</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="# 22" />
-                    </p></td>
-                </tr>
-                <tr>
-                  <td>City</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="TIGARD" />
-                    </p></td>
-                  <td>Zip</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="97223" />
-                    </p></td>
-                </tr>
-                <tr>
-                  <td>State</td>
-                  <td><p class="hack2">
-                      <select name="" size="1">
-                        <option>Oregon</option>
-                      </select>
-                    </p></td>
-                  <td>Country</td>
-                  <td><p class="hack2">
-                      <select name="" size="1">
-                        <option>United states</option>
-                      </select>
-                    </p></td>
-                </tr>
-                <tr>
-                  <td>Phone</td>
-                  <td><p>
-                      <input name="" type="text" placeholder="971 275-7937" />
-                    </p></td>
-                  <td>&nbsp;</td>
-                  <td>&nbsp;</td>
-                </tr>
-              </table>
+                  <tbody>
+                    <tr>
+                      <td class="textright">First Name</td>
+                      <td><p class="width1">
+                          <input type="text" placeholder="Jhon" name="" class="required" />
+                        </p>
+                        <label>M.</label>
+                        <p class="width1">
+                          <input type="text" placeholder="Jhon" name="" />
+                        </p></td>
+                      <td class="textright">Last Name</td>
+                      <td><p class="width1">
+                          <input type="text" placeholder="Trujillo" name="" class="required" />
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">Address</td>
+                      <td><p>
+                          <input type="text" placeholder="9820 sw frewing st" name="" class="required" />
+                        </p></td>
+                      <td class="textright">Address (contd)</td>
+                      <td><p>
+                          <input type="text" placeholder="# 22" name="" />
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">City</td>
+                      <td><p>
+                          <input type="text" placeholder="TIGARD" name="" class="required" />
+                        </p></td>
+                      <td class="textright">Zip</td>
+                      <td><p>
+                          <input type="text" placeholder="97223" name="" class="required" />
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">State</td>
+                      <td><p> <span>
+                          <select size="1" name="" >
+                            <option>Oregon</option>
+                          </select>
+                          </span> </p></td>
+                      <td class="textright">Country</td>
+                      <td><p> <span>
+                          <select size="1" name="">
+                            <option>United states</option>
+                          </select>
+                          </span> </p></td>
+                    </tr>
+                    <tr>
+                      <td valign="top" class="textright">Phone</td>
+                      <td><p>
+                          <input type="text" placeholder="971 275-7937" name="" class="required" />
+                        </p><div class="error_tip">Only allowed 0-9, - . ()</div></td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table>
             </dd>
             <dd class="orderbtn">
               <input name="" type="submit" value="Save and Continue" />

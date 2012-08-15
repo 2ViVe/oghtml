@@ -34,6 +34,11 @@ blockquote,q{quotes:"" "";}
 #content{min-width:1175px;min-height:100%;}
 #content .cont-hack{padding-bottom:55px;}
 
+.tooltip{background-color:#ffd591;border:1px solid #fff;padding:10px 15px;width:300px;position:absolute;z-index:999;float:left;color:#000;text-align:left;font-size:11px;
+				 -webkit-box-shadow:0 0 10px #000;
+				 -moz-box-shadow:0 0 10px #000;
+				 -o-box-shadow:0 0 10px #000;}
+
 /* Header */
 #header{height:42px;line-height:42px;background:#a00000;text-align:center;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
 #header a{color:#fff;}
@@ -211,7 +216,12 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep li.current span{background-position:0 -10px;}
 #registration .registrationform{padding-bottom:40px;}
 #registration .registrationform table{width:100%;}
-#registration .registrationform td{text-align:right;padding:5px;}
+#registration .registrationform td{padding:5px;}
+#registration .registrationform td.textright{text-align:right;}
+#registration .registrationform td p{display:inline-block;}
+#registration .registrationform p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
+#registration .registrationform input[type="checkbox"]{vertical-align:middle;}
+#registration .registrationform input.required{background:url(../images/og-requiredicon.png) right 3px no-repeat;}
 #registration .registrationform .btn input{padding:0 10px;height:26px;color:#fff;border:none;
 																					 background:#a00000;
 																					 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
@@ -222,52 +232,43 @@ blockquote,q{quotes:"" "";}
 																									  background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#eee),color-stop(1,#ccc));
 																									  background:-moz-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);
 																									  background:-o-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);}
-#registration .registrationstep1 p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
-#registration .registrationstep1 input{border:none;background:none;width:200px;height:21px;padding:2px;}
-#registration .registrationstep1 p.hack1{float:left;margin-right:10px;}
-#registration .registrationstep1 p.hack2{float:left;width:auto;border-color:#fff;}
-#registration .registrationstep1 p.hack3{width:750px;height:330px;}
-#registration .registrationstep1 em{float:left;color:#a00000;line-height:25px;margin-left:10px;}
-#registration .registrationstep1 select{width:124px;padding:4px;}
-#registration .registrationstep1 button{float:left;height:27px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
+#registration .registrationstep1 em{color:#a00000;line-height:25px;margin-left:10px;}
+#registration .registrationstep1 em.error{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-left:10px;color:#a00000;}
+#registration .registrationstep1 select{max-width:204px;padding:4px;}
+#registration .registrationstep1 button{height:27px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
 #registration .registrationstep1 .sponsorid{vertical-align:top;line-height:27px;}
 #registration .registrationstep1 #accept_tc_textarea{width:730px;height:309px;padding:10px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;font-size:12px;line-height:22px;color:#999;overflow:scroll;overflow-x:hidden;text-align:left;}
-#registration .registrationstep1 #accept_tc_textarea p{border:none;width:auto;height:auto;}
-#registration .registrationstep1 div input{width:auto;height:auto;padding:0;vertical-align:middle;}
-#registration .registrationstep1 div.error{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin:5px 0 0 10px;color:#a00000;}
-#registration .registrationstep1 div.loading{width:360px;text-align:left;border:1px solid #dedede;background:#eee;padding:10px 30px;margin-top:34px;}
+#registration .registrationstep1 #accept_tc_textarea p{display:block;}
+#registration .registrationstep1 div.loading{width:360px;text-align:left;border:1px solid #dedede;background:#eee;padding:10px 30px;margin-top:10px;}
 #registration .registrationstep1 div.loading img{margin-right:5px;vertical-align:middle;}
 #registration .registrationstep1 div.text{padding:5px 0;font-weight:bold;text-align:left;}
 #registration .registrationstep1 div.text a{margin-left:10px;font-weight:normal;}
 #registration .registrationstep1 ul.info{text-align:left;}
 #registration .registrationstep1 ul.info li{font-size:11px;color:#581804;}
 #registration .registrationstep1 .tips{border:1px solid #f0cfc6;background:#fffffa;padding:6px 10px;color:#999;}
+
 #registration .registrationstep2{padding-top:30px;}
 #registration .registrationstep2 dt{height:1px;background:#ddd;position:relative;}
 #registration .registrationstep2 strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
-#registration .registrationstep2 dt input{width:auto;height:auto;padding:0;margin:0 5px 0 15px;vertical-align:middle;}
+#registration .registrationstep2 dt input{margin:0 5px 0 15px;}
 #registration .registrationstep2 dt label{font-weight:normal;}
 #registration .registrationstep2 dd{padding:30px 0 40px 0;}
-#registration .registrationstep2 td{height:40px;line-height:40px;text-align:right;*text-align:left;padding:0 5px;}
-#registration .registrationstep2 td.title{width:140px;}
-#registration .registrationstep2 p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
-#registration .registrationstep2 input{border:none;background:none;width:200px;height:21px;padding:2px;}
-#registration .registrationstep2 p.hack1{width:80px;float:left;margin-top:7px;}
-#registration .registrationstep2 p.hack1 input{width:75px;}
-#registration .registrationstep2 em{float:left;width:43px;text-align:left;text-indent:20px;}
-#registration .registrationstep2 p.hack2{border-color:#fff;}
-#registration .registrationstep2 select{width:124px;padding:4px;}
-#registration .registrationstep2 .logininfo td{line-height:inherit;}
-#registration .registrationstep2 .logininfo .title{vertical-align:top;line-height:28px;}
+#registration .registrationstep2 td{line-height:27px;}
+#registration .registrationstep2 td.textright{width:140px;text-align:right;}
+#registration .registrationstep2 p.width1 input{width:60px;}
+#registration .registrationstep2 select{max-width:204px;padding:4px;}
+#registration .registrationstep2 .example{color:#999;}
+#registration .registrationstep2 em{margin:0 10px;color:#a00000;}
+#registration .registrationstep2 em.error{background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-left:10px;color:#a00000;}
+#registration .registrationstep2 .error_tip{color:#a00000;}
+#registration .registrationstep2 .logininfo span{margin:0 10px;}
 #registration .registrationstep2 .logininfo .tips{line-height:30px;color:#999;text-align:left;}
 #registration .registrationstep2 .logininfo .test{padding:0 10px;height:27px;line-height:27px;}
-#registration .registrationstep2 .logininfo button{float:left;height:27px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
+#registration .registrationstep2 .logininfo button{height:27px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
+#registration .registrationstep2 .personalinfo span{margin:0 10px;}
 #registration .registrationstep2 .personalinfo .tips{padding-left:10px;text-align:left;color:#999;}
-#registration .registrationstep2 .personalinfo p.f-l{margin-top:6px;}
-#registration .registrationstep2 .personalinfo div input{width:auto;height:auto;padding:0;vertical-align:middle;}
+#registration .registrationstep2 .address label{padding:0 9px;}
 #registration .registrationstep2 .sponsorinfo td span{color:#a00000;float:left;}
-#registration .registrationstep2 .deliveryoptions div{padding-left:50px;}
-#registration .registrationstep2 .deliveryoptions div input{width:auto;height:auto;padding:0;vertical-align:inherit;}
 #registration .registrationstep2 .select{padding-bottom:0;}
 #registration .registrationstep2 .select h4{margin:0 0 20px 30px;font-weight:bold;}
 #registration .registrationstep2 .select h4 span{font-weight:normal;}
@@ -277,10 +278,11 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep2 .select td img{width:30px;height:26px;display:block;margin:0 auto;}
 #registration .registrationstep2 .select td input[type="text"]{width:40px;height:24px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;padding:0 10px;line-height:inherit;}
 #registration .registrationstep2 .select td input[type="checkbox"]{width:auto;height:auto;padding:0;}
+#registration .registrationstep2 .select td input:disabled{background:#eee;}
 #registration .registrationstep2 .select td span{color:#a00000;}
-#registration .registrationstep2 .select .item{max-width:200px;text-align:left;}
-#registration .registrationstep2 .select .item a{font-weight:bold;}
-#registration .registrationstep2 .btn input{width:auto;}
+#registration .registrationstep2 .select .item{text-align:left;}
+#registration .registrationstep2 .select .item a{display:inline-block;max-width:200px;font-weight:bold;}
+
 #registration .registrationstep3{padding-top:30px;}
 #registration .registrationstep3 td.title{width:140px;}
 #registration .registrationstep3 dt{height:1px;background:#ddd;position:relative;}
@@ -289,10 +291,10 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep3 .orderdetails table{width:100%;border:1px solid #dfdfdf;}
 #registration .registrationstep3 .orderdetails th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
 #registration .registrationstep3 .orderdetails td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
-#registration .registrationstep3 .orderdetails .item{max-width:200px;text-align:left;}
+#registration .registrationstep3 .orderdetails .item{text-align:left;}
+#registration .registrationstep3 .orderdetails .item a{display:inline-block;max-width:360px;font-weight:bold;}
 #registration .registrationstep3 .orderdetails td span{color:#a00000;}
 #registration .registrationstep3 .paymentdetails table{width:300px;margin-left:30px;}
-#registration .registrationstep3 .paymentdetails td{text-align:left;}
 #registration .registrationstep3 .paymentdetails td span{color:#a00000;float:right;}
 #registration .registrationstep3 .paymentdetails .total td{font-weight:bold;}
 #registration .registrationstep3 .paymentdetails .title{width:140px;}
@@ -303,16 +305,12 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep3 .creditcard span.mastercard{background-position:0 -28px;}
 #registration .registrationstep3 .creditcard span.americanexpress{background-position:0 -56px;}
 #registration .registrationstep3 .card{width:45%;}
-#registration .registrationstep3 .card td{padding:10px;text-align:right;*text-align:left;}
+#registration .registrationstep3 .card td{padding:10px;}
 #registration .registrationstep3 .card td span{display:block;text-align:left;color:#999;}
-#registration .registrationstep3 .card p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
-#registration .registrationstep3 .card input{border:none;background:none;width:200px;height:21px;padding:2px;}
-#registration .registrationstep3 .card p.hack1{border-color:#fff;float:left;width:106px;}
-#registration .registrationstep3 .card p.hack1 select{width:97px;padding:4px;}
-#registration .registrationstep3 .card p.hack2{width:160px;}
-#registration .registrationstep3 .card p.hack2 input{width:155px;}
-#registration .registrationstep3 .card a{display:block;margin-top:-23px;}
+#registration .registrationstep3 .card select{max-width:204px;padding:4px;}
+#registration .registrationstep3 .card p.width2 input{width:40px;margin-right:10px;}
 #registration .registrationstep3 .btn{padding:0;margin-top:-20px;}
+
 #registration .registrationautoship{padding-top:30px;}
 #registration .registrationautoship td.title{width:140px;}
 #registration .registrationautoship dt{height:1px;background:#ddd;position:relative;}
@@ -322,7 +320,8 @@ blockquote,q{quotes:"" "";}
 #registration .registrationautoship .autoship table{width:100%;border:1px solid #dfdfdf;}
 #registration .registrationautoship .autoship th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
 #registration .registrationautoship .autoship td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
-#registration .registrationautoship .autoship .item{max-width:200px;text-align:left;}
+#registration .registrationautoship .autoship .item{text-align:left;}
+#registration .registrationautoship .autoship .item a{display:inline-block;max-width:360px;font-weight:bold;}
 #registration .registrationautoship .autoship span{color:#a00000;}
 #registration .registrationautoship .paymentdetails table{width:300px;margin-left:30px;}
 #registration .registrationautoship .paymentdetails td{text-align:left;}
@@ -468,7 +467,7 @@ blockquote,q{quotes:"" "";}
 
 #shoppingcart .shoppingform{padding:30px 0 40px 0;}
 #shoppingcart .shoppingform .formcont{width:660px;}
-#shoppingcart .shoppingform .formcont dd.orderbtn{padding:0;text-align:right;}
+#shoppingcart .shoppingform .formcont dd.orderbtn{text-align:right;}
 #shoppingcart .shoppingform .formcont dd.orderbtn input{padding:0 10px;height:26px;color:#fff;border:none;
 																												background:#a00000;
 																												background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
@@ -479,16 +478,21 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingform .formcont dt{height:1px;background:#ddd;position:relative;}
 #shoppingcart .shoppingform .formcont strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
 
-#shoppingcart .shoppingform .address dd{padding:30px 0 40px 0;}
+#shoppingcart .shoppingform table{width:100%;}
+#shoppingcart .shoppingform td{padding:5px;}
+#shoppingcart .shoppingform td.textright{text-align:right;}
+#shoppingcart .shoppingform td p{display:inline-block;}
+#shoppingcart .shoppingform p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
+#shoppingcart .shoppingform input[type="checkbox"]{vertical-align:middle;}
+#shoppingcart .shoppingform input.required{background:url(../images/og-requiredicon.png) right 3px no-repeat;}
+#shoppingcart .shoppingform select{max-width:204px;padding:4px;}
+#shoppingcart .shoppingform .error_tip{color:#a00000;}
+
+#shoppingcart .shoppingform .address{padding:30px 0 40px 0;}
 #shoppingcart .shoppingform .address table{width:100%;}
-#shoppingcart .shoppingform .address td{height:40px;line-height:40px;text-align:right;*text-align:left;padding:0 5px;}
-#shoppingcart .shoppingform .address p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
-#shoppingcart .shoppingform .address input{border:none;background:none;width:200px;height:21px;padding:2px;}
-#shoppingcart .shoppingform .address p.hack1{width:80px;float:left;margin-top:7px;}
-#shoppingcart .shoppingform .address p.hack1 input{width:75px;}
-#shoppingcart .shoppingform .address em{float:left;width:43px;text-align:left;text-indent:20px;}
-#shoppingcart .shoppingform .address p.hack2{border-color:#fff;}
-#shoppingcart .shoppingform .address select{width:124px;padding:4px;}
+#shoppingcart .shoppingform .address td{line-height:27px;}
+#shoppingcart .shoppingform .address p.width1 input{width:60px;}
+#shoppingcart .shoppingform .address label{padding:0 10px;}
 
 #shoppingcart .shoppingform .shippingmethod dd{padding:30px 0 40px 0;}
 #shoppingcart .shoppingform .shippingmethod ul{border:1px solid #dedede;padding:40px 0 40px 240px;line-height:30px;background:url(../images/og-shippingmethodbg.png) right bottom no-repeat;}
@@ -509,15 +513,10 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingform .reviewyourorder .creditcard span.mastercard{background-position:0 -28px;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard span.americanexpress{background-position:0 -56px;}
 #shoppingcart .shoppingform .reviewyourorder .card{width:60%;}
-#shoppingcart .shoppingform .reviewyourorder .card td{padding:10px;text-align:right;*text-align:left;}
+#shoppingcart .shoppingform .reviewyourorder .card td{padding:10px;}
 #shoppingcart .shoppingform .reviewyourorder .card td span{display:block;text-align:left;color:#999;}
-#shoppingcart .shoppingform .reviewyourorder .card p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
-#shoppingcart .shoppingform .reviewyourorder .card input{border:none;background:none;width:200px;height:21px;padding:2px;}
-#shoppingcart .shoppingform .reviewyourorder .card p.hack1{border-color:#fff;float:left;width:106px;}
-#shoppingcart .shoppingform .reviewyourorder .card p.hack1 select{width:97px;padding:4px;}
-#shoppingcart .shoppingform .reviewyourorder .card p.hack2{width:160px;}
-#shoppingcart .shoppingform .reviewyourorder .card p.hack2 input{width:155px;}
-#shoppingcart .shoppingform .reviewyourorder .card a{display:block;margin-top:-23px;}
+#shoppingcart .shoppingform .reviewyourorder .card select{max-width:204px;padding:4px;}
+#shoppingcart .shoppingform .reviewyourorder .card p.width2 input{width:40px;margin-right:10px;}
 
 #shoppingcart .ordersummary{width:200px;border-bottom:1px solid #f0cfc6;}
 #shoppingcart .ordersummary dt{height:36px;line-height:36px;border-radius:8px 8px 0 0;background:#a30000;color:#fff;font-weight:bold;text-indent:20px;}
@@ -582,9 +581,11 @@ blockquote,q{quotes:"" "";}
 #commissions .conttable td span{color:#a00000;}
 #commissions .conttable tr.background{background:#f7f6f2;}
 #commissions .conttable h4{height:40px;line-height:40px;font-weight:bold;}
-#commissions .conttable .classified th{font-weight:normal;}
+#commissions .conttable .subtotal{background:#f2f2f2;font-size:14px;padding:15px 10px;color:#a00000;text-align:right;}
+#commissions .conttable .subtotal strong{font-size:20px;}
+#commissions .conttable .nodata{background:#f2f2f2;font-size:14px;padding:15px 10px;}
+#commissions .conttable .classified th,#commissions .conttable .classified2 th{font-weight:normal;}
 #commissions .conttable .classified2{width:440px;}
-#commissions .conttable .classified2 th{font-weight:normal;}
 #commissions .setdualteam h4{font-weight:bold;margin:20px 0 5px 0;}
 #commissions .setdualteam ul{margin:20px 0;}
 #commissions .setdualteam li{float:left;width:250px;padding:10px;margin-right:28px;text-align:center;border:1px solid #fff;}
@@ -699,7 +700,12 @@ blockquote,q{quotes:"" "";}
 #myprofile #container{width:900px;padding:0 30px 60px 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #myprofile #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
 #myprofile .myprofileform table{width:100%;}
-#myprofile .myprofileform td{text-align:right;padding:5px;}
+#myprofile .myprofileform td{padding:5px 10px;}
+#myprofile .myprofileform td.textright{text-align:right;}
+#myprofile .myprofileform td p{display:inline-block;}
+#myprofile .myprofileform p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
+#myprofile .myprofileform input[type="checkbox"]{vertical-align:middle;}
+#myprofile .myprofileform input.required{background:url(../images/og-requiredicon.png) right 3px no-repeat;}
 #myprofile .myprofileform .btn input{padding:0 10px;height:26px;color:#fff;border:none;
 																		 background:#a00000;
 																		 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
@@ -716,29 +722,20 @@ blockquote,q{quotes:"" "";}
 #myprofile .myprofileform dt input{width:auto;height:auto;padding:0;margin:0 5px 0 15px;vertical-align:middle;}
 #myprofile .myprofileform dt label{font-weight:normal;}
 #myprofile .myprofileform dd{padding:30px 0 40px 0;}
-#myprofile .myprofileform table{width:100%;}
-#myprofile .myprofileform td{height:40px;line-height:40px;text-align:right;*text-align:left;padding:0 10px;}
-#myprofile .myprofileform p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
-#myprofile .myprofileform input{border:none;background:none;width:190px;height:21px;padding:2px;}
-#myprofile .myprofileform p.hack1{width:80px;float:left;margin-top:7px;}
-#myprofile .myprofileform p.hack1 input{width:75px;}
-#myprofile .myprofileform p.hack2{border-color:#fff;}
-#myprofile .myprofileform p span.required{color:#d2001c;}
-#myprofile .myprofileform select{width:124px;padding:4px;}
-#myprofile .myprofileform td{line-height:inherit;}
+#myprofile .myprofileform p.width1 input{width:75px;}
+#myprofile .myprofileform select{max-width:204px;padding:4px;}
+#myprofile .myprofileform td{line-height:27px;}
+#myprofile .myprofileform .error_tip{color:#a00000;}
 #myprofile .myprofileform .btn{padding:0;}
 #myprofile .myprofileform .btn input{width:auto;}
-#myprofile .myprofileinfo td.title{width:140px;vertical-align:top;}
+#myprofile .myprofileinfo .defaultpic{display:inline;}
 #myprofile .myprofileinfo .defaultpic img{margin-right:10px;width:74px;height:74px;}
-#myprofile .myprofileinfo input[type="checkbox"]{width:auto;height:auto;padding:0;}
 #myprofile .myprofileinfo .unable{color:#999;}
-#myprofile .myprofileinfo button{float:left;height:27px;margin-top:47px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
-#myprofile .myprofileinfo .unsubscribe{text-align:left;}
-#myprofile .myprofileinfo .unsubscribe input{float:left;}
-#myprofile .myprofileinfo .unsubscribe label{float:left;width:90%;color:#999;}
-#myprofile .address td.title{width:140px;}
-#myprofile .address em{float:left;width:43px;line-height:40px;text-align:left;text-indent:20px;}
-#myprofile .address p.hack1 input{width:65px;}
+#myprofile .myprofileinfo button{height:27px;margin-top:47px;padding:0 20px;background:url(../images/og-registrationbg.png) left top repeat-x;border:none;}
+#myprofile .myprofileinfo .unsubscribe input{vertical-align:top;}
+#myprofile .myprofileinfo .unsubscribe label{display:inline-block;width:90%;color:#999;line-height:20px;}
+#myprofile .address label{padding:0 9px;}
+#myprofile .address p.width1 input{width:60px;}
 #myprofile .address .unable{color:#999;line-height:40px;}
 
 /* Autoship */
@@ -763,19 +760,17 @@ blockquote,q{quotes:"" "";}
 #autoship .autoshipform dt label{font-weight:normal;}
 #autoship .autoshipform dd{padding:30px 0 40px 0;}
 #autoship .autoshipform table{width:100%;}
-#autoship .autoshipform td{height:40px;line-height:40px;text-align:right;*text-align:left;padding:0 5px;}
-#autoship .autoshipform td.title{width:140px;}
-#autoship .autoshipform p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
-#autoship .autoshipform input{border:none;background:none;width:190px;height:21px;padding:2px;}
-#autoship .autoshipform p.hack1{width:80px;float:left;margin-top:7px;}
-#autoship .autoshipform p.hack1 input{width:65px;}
-#autoship .autoshipform em{float:left;width:43px;text-align:left;text-indent:20px;}
-#autoship .autoshipform p.hack2{border-color:#fff;}
-#autoship .autoshipform p span.required{color:#d2001c;}
-#autoship .autoshipform select{width:124px;padding:4px;}
-#autoship .autoshipform .basicinfo p.hack2{width:70px;}
-#autoship .autoshipform .basicinfo select{width:auto;}
-#autoship .autoshipform .deliveryoptions div input{width:auto;height:auto;padding:0;vertical-align:inherit;}
+#autoship .autoshipform td{padding:5px;line-height:27px;}
+#autoship .autoshipform td.textright{text-align:right;}
+#autoship .autoshipform td p{display:inline-block;}
+#autoship .autoshipform p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
+#autoship .autoshipform input[type="checkbox"]{vertical-align:middle;}
+#autoship .autoshipform input.required{background:url(../images/og-requiredicon.png) right 3px no-repeat;}
+#autoship .autoshipform p.width1 input{width:60px;}
+#autoship .autoshipform p.width2 input{width:70px;}
+#autoship .autoshipform select{max-width:204px;padding:4px;}
+#autoship .autoshipform .error_tip{color:#a00000;}
+#autoship .autoshipform .address label{padding:0 9px;}
 #autoship .autoshipform .select{padding:0 0 20px 0;}
 #autoship .autoshipform .select h4{margin:0 0 20px 30px;font-weight:bold;}
 #autoship .autoshipform .select h4 span{font-weight:normal;}

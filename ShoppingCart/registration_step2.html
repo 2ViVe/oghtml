@@ -63,25 +63,25 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td class="title">Username</td>
-                      <td><p class="f-l">
-                          <input type="text" name="" />
-                        </p>
-                        <div class="test f-l">organogold.com</div>
+                      <td valign="top" class="textright">Username</td>
+                      <td><p>
+                          <input type="text" name="" class="text required" />
+                        </p><span>organogold.com</span>
                         <button>Check</button>
-                        <div class="tips clear">Please enter the username for your personal Organo Gold site. Use the check button above to ensure the username is unique.</div></td>
+                        <div class="tips">Please enter the username for your personal Organo Gold site. Use the check button above to ensure the username is unique.</div></td>
                     </tr>
                     <tr>
-                      <td>Password</td>
+                      <td valign="top" class="textright">Password</td>
                       <td><p>
-                          <input type="text" name="" />
-                        </p></td>
+                          <input type="password" name="" class="text required" />
+                        </p><em>More Characters</em>
+                        <div class="example">Capitalization matters. Use 6 to 32 characters, and don't use your login ID.</div></td>
                     </tr>
                     <tr>
-                      <td>Password Confirmation</td>
+                      <td class="textright">Password Confirmation</td>
                       <td><p>
-                          <input type="text" name="" />
-                        </p></td>
+                          <input type="password" name="" class="text required" />
+                        </p><em class="error">This Sponsor ID is invalid</em></td>
                     </tr>
                   </tbody>
                 </table>
@@ -91,30 +91,39 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td class="title">Email</td>
+                      <td class="textright">Email</td>
                       <td><p>
-                          <input type="text" name="" />
+                          <input type="email" name="" class="required" /><em class="error">This is not a valid emaill address</em>
                         </p></td>
                     </tr>
                     <tr>
-                      <td>Date of Birth</td>
-                      <td><p class="f-l">
-                          <input type="text" name="" />
-                        </p>
-                        <div class="tips f-l">NO applicants under 18 years old</div></td>
-                    </tr>
-                    <tr>
-                      <td>Socoal Security Number</td>
+                      <td class="textright">Date of Birth</td>
                       <td><p>
-                          <input type="text" name="" />
-                        </p></td>
+                          <input type="text" name="" class="required" />
+                        </p><span>NO applicants under 18 years old</span></td>
                     </tr>
                     <tr>
-                      <td>Tax ID</td>
-                      <td><div class="f-l">
-                          <input name="checkbox" type="checkbox" id="checkbox1" value="" checked />
-                          <label for="checkbox1">Use Social Security Number</label>
-                        </div></td>
+                      <td class="textright">Socoal Security Number</td>
+                      <td><p>
+                          <input type="text" name="" class="required" />
+                        </p><input name="" type="checkbox" value="" id="checkbox" /><label for="checkbox">Use ID Number </label></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">Tax ID</td>
+                      <td><input name="checkbox" type="checkbox" id="checkbox1" value="" checked />
+                          <label for="checkbox1">Use Social Security Number</label><em class="error">This is not a valid emaill address</em></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">Tax ID</td>
+                      <td><p>
+                          <input type="text" name="" class="required" />
+                        </p><em class="error">This is not a valid emaill address</em></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">Tax ID</td>
+                      <td><p>
+                          <input type="text" name="" class="required" />
+                        </p><span>Use Social Security Number</span><em class="error">This is not a valid emaill address</em></td>
                     </tr>
                   </tbody>
                 </table>
@@ -124,7 +133,7 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td class="title">Sponsor ID</td>
+                      <td class="textright">Sponsor ID</td>
                       <td><span>1000101(Master Distributor)</span></td>
                     </tr>
                   </tbody>
@@ -135,61 +144,58 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td class="title">First Name</td>
-                      <td><p class="hack1">
-                          <input type="text" placeholder="Jhon" name="" />
+                      <td class="textright">First Name</td>
+                      <td><p class="width1">
+                          <input type="text" placeholder="Jhon" name="" class="required" />
                         </p>
-                        <em>
-                        <label style="float:none;padding-left:10px;width:20px;float:left">M.</label>
-                        </em>
-                        <p class="hack1">
+                        <label>M.</label>
+                        <p class="width1">
                           <input type="text" placeholder="Jhon" name="" />
                         </p></td>
-                      <td class="title">Last Name</td>
-                      <td><p class="hack1">
-                          <input type="text" placeholder="Trujillo" name="" />
-                        </p>
-                        <em>&nbsp;</em></td>
+                      <td class="textright">Last Name</td>
+                      <td><p class="width1">
+                          <input type="text" placeholder="Trujillo" name="" class="required" />
+                        </p></td>
                     </tr>
                     <tr>
-                      <td>Address</td>
+                      <td class="textright">Address</td>
                       <td><p>
-                          <input type="text" placeholder="9820 sw frewing st" name="" />
+                          <input type="text" placeholder="9820 sw frewing st" name="" class="required" />
                         </p></td>
-                      <td>Address (contd)</td>
+                      <td class="textright">Address (contd)</td>
                       <td><p>
                           <input type="text" placeholder="# 22" name="" />
                         </p></td>
                     </tr>
                     <tr>
-                      <td>City</td>
+                      <td class="textright">City</td>
                       <td><p>
-                          <input type="text" placeholder="TIGARD" name="" />
+                          <input type="text" placeholder="TIGARD" name="" class="required" />
                         </p></td>
-                      <td>Zip</td>
+                      <td class="textright">Zip</td>
                       <td><p>
-                          <input type="text" placeholder="97223" name="" />
+                          <input type="text" placeholder="97223" name="" class="required" />
                         </p></td>
                     </tr>
                     <tr>
-                      <td>State</td>
-                      <td><p class="hack2"> <span>
-                          <select size="1" name="" style="width:150px;">
+                      <td class="textright">State</td>
+                      <td><p> <span>
+                          <select size="1" name="" >
                             <option>Oregon</option>
                           </select>
                           </span> </p></td>
-                      <td>Country</td>
-                      <td><p class="hack2"> <span>
-                          <select size="1" name="" style="width:150px;">
+                      <td class="textright">Country</td>
+                      <td><p> <span>
+                          <select size="1" name="">
                             <option>United states</option>
                           </select>
                           </span> </p></td>
                     </tr>
                     <tr>
-                      <td>Phone</td>
+                      <td valign="top" class="textright">Phone</td>
                       <td><p>
-                          <input type="text" placeholder="971 275-7937" name="" />
-                        </p></td>
+                          <input type="text" placeholder="971 275-7937" name="" class="required" />
+                        </p><div class="error_tip">Only allowed 0-9, - . ()</div></td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                     </tr>
@@ -204,56 +210,55 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td class="title">First Name</td>
-                      <td><p class="hack1">
+                      <td class="textright">First Name</td>
+                      <td><p class="width1">
                           <input type="text" placeholder="Jhon" name="" />
                         </p>
-                        <em>M.</em>
-                        <p class="hack1">
+                        <label>M.</label>
+                        <p class="width1">
                           <input type="text" placeholder="Jhon" name="" />
                         </p></td>
-                      <td class="title">Last Name</td>
-                      <td><p class="hack1">
+                      <td class="textright">Last Name</td>
+                      <td><p class="width1">
                           <input type="text" placeholder="Trujillo" name="" />
-                        </p>
-                        <em>&nbsp;</em></td>
+                        </p></td>
                     </tr>
                     <tr>
-                      <td>Address</td>
+                      <td class="textright">Address</td>
                       <td><p>
                           <input type="text" placeholder="9820 sw frewing st" name="" />
                         </p></td>
-                      <td>Address (contd)</td>
+                      <td class="textright">Address (contd)</td>
                       <td><p>
                           <input type="text" placeholder="# 22" name="" />
                         </p></td>
                     </tr>
                     <tr>
-                      <td>City</td>
+                      <td class="textright">City</td>
                       <td><p>
                           <input type="text" placeholder="TIGARD" name="" />
                         </p></td>
-                      <td>Zip</td>
+                      <td class="textright">Zip</td>
                       <td><p>
                           <input type="text" placeholder="97223" name="" />
                         </p></td>
                     </tr>
                     <tr>
-                      <td>State</td>
-                      <td><p class="hack2">
+                      <td class="textright">State</td>
+                      <td><p>
                           <select size="1" name="">
                             <option>Oregon</option>
                           </select>
                         </p></td>
-                      <td>Country</td>
-                      <td><p class="hack2">
+                      <td class="textright">Country</td>
+                      <td><p>
                           <select size="1" name="">
                             <option>United states</option>
                           </select>
                         </p></td>
                     </tr>
                     <tr>
-                      <td>Phone</td>
+                      <td class="textright">Phone</td>
                       <td><p>
                           <input type="text" placeholder="971 275-7937" name="" />
                         </p></td>
@@ -271,56 +276,55 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td class="title">First Name</td>
-                      <td><p class="hack1">
+                      <td class="textright">First Name</td>
+                      <td><p class="width1">
                           <input type="text" placeholder="Jhon" name="" />
                         </p>
-                        <em>M.</em>
-                        <p class="hack1">
+                        <label>M.</label>
+                        <p class="width1">
                           <input type="text" placeholder="Jhon" name="" />
                         </p></td>
-                      <td class="title">Last Name</td>
-                      <td><p class="hack1">
+                      <td class="textright">Last Name</td>
+                      <td><p class="width1">
                           <input type="text" placeholder="Trujillo" name="" />
-                        </p>
-                        <em>&nbsp;</em></td>
+                        </p></td>
                     </tr>
                     <tr>
-                      <td>Address</td>
+                      <td class="textright">Address</td>
                       <td><p>
                           <input type="text" placeholder="9820 sw frewing st" name="" />
                         </p></td>
-                      <td>Address (contd)</td>
+                      <td class="textright">Address (contd)</td>
                       <td><p>
                           <input type="text" placeholder="# 22" name="" />
                         </p></td>
                     </tr>
                     <tr>
-                      <td>City</td>
+                      <td class="textright">City</td>
                       <td><p>
                           <input type="text" placeholder="TIGARD" name="" />
                         </p></td>
-                      <td>Zip</td>
+                      <td class="textright">Zip</td>
                       <td><p>
                           <input type="text" placeholder="97223" name="" />
                         </p></td>
                     </tr>
                     <tr>
-                      <td>State</td>
-                      <td><p class="hack2">
+                      <td class="textright">State</td>
+                      <td><p>
                           <select size="1" name="">
                             <option>Oregon</option>
                           </select>
                         </p></td>
-                      <td>Country</td>
-                      <td><p class="hack2">
+                      <td class="textright">Country</td>
+                      <td><p>
                           <select size="1" name="">
                             <option>United states</option>
                           </select>
                         </p></td>
                     </tr>
                     <tr>
-                      <td>Phone</td>
+                      <td class="textright">Phone</td>
                       <td><p>
                           <input type="text" placeholder="971 275-7937" name="" />
                         </p></td>
@@ -338,36 +342,35 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td class="title">First Name</td>
-                      <td><p class="hack1">
+                      <td class="textright">First Name</td>
+                      <td><p class="width1">
                           <input type="text" placeholder="Jhon" name="" />
                         </p>
-                        <em>M.</em>
-                        <p class="hack1">
+                        <label>M.</label>
+                        <p class="width1">
                           <input type="text" placeholder="Jhon" name="" />
                         </p></td>
-                      <td class="title">Last Name</td>
-                      <td><p class="hack1">
+                      <td class="textright">Last Name</td>
+                      <td><p class="width1">
                           <input type="text" placeholder="Trujillo" name="" />
-                        </p>
-                        <em>&nbsp;</em></td>
-                    </tr>
-                    <tr>
-                      <td>Phone</td>
-                      <td><p>
-                          <input type="text" placeholder="971 275-7937" name="" />
-                        </p></td>
-                      <td>Mobile</td>
-                      <td><p>
-                          <input type="text" placeholder="971 275-7937" name="" />
                         </p></td>
                     </tr>
                     <tr>
-                      <td>Email</td>
+                      <td class="textright">Phone</td>
                       <td><p>
                           <input type="text" placeholder="971 275-7937" name="" />
                         </p></td>
-                      <td>Fax Number</td>
+                      <td class="textright">Mobile</td>
+                      <td><p>
+                          <input type="text" placeholder="971 275-7937" name="" />
+                        </p></td>
+                    </tr>
+                    <tr>
+                      <td class="textright">Email</td>
+                      <td><p>
+                          <input type="text" placeholder="971 275-7937" name="" />
+                        </p></td>
+                      <td class="textright">Fax Number</td>
                       <td><p>
                           <input type="text" placeholder="971 275-7937" name="" />
                         </p></td>
@@ -380,10 +383,9 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td><div class="f-l">
-                          <input name="" type="radio" id="radio" value="" checked />
-                          <label for="radio">US Ground</label>
-                        </div></td>
+                    	<td>&nbsp;</td>
+                      <td><input name="" type="radio" id="radio" value="" checked />
+                          <label for="radio">US Ground</label></td>
                     </tr>
                   </tbody>
                 </table>
@@ -404,12 +406,12 @@
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                   </tbody>
                 </table>
@@ -429,7 +431,7 @@
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
@@ -438,7 +440,7 @@
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
@@ -447,7 +449,7 @@
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
@@ -456,7 +458,7 @@
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
@@ -483,113 +485,113 @@
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                     <tr>
                       <td><img src="images/pic1.jpg" width="214" height="140" alt="Product" /></td>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>1002</td>
                       <td>0.0</td>
                       <td>0.0</td>
                       <td><span>$49.95</span></td>
                       <td><input type="text" value="1" /></td>
                       <td><input name="" type="checkbox" value="" /></td>
-                      <td><input type="text" value="1" /></td>
+                      <td><input type="text" value="1" disabled="disabled" /></td>
                     </tr>
                   </tbody>
                 </table>
@@ -605,6 +607,55 @@
     <!-- container end -->
   </div>
 </div>
+<script>
+(function($){
+  $(document).ready(function(){
+		
+		$('.simpletip').mouseover(function() {
+			$(this).after("<div class='tooltip'>" + $(this).attr("data-desc") + "</div>")
+		}).mouseout(function() {
+			$(this).siblings(".tooltip").remove();
+		});;
+		
+    // Remove an item from the cart by setting its quantity to zero and posting the update form
+    $('form#updatecart a.delete').show().live('click', function(e){
+      $(this).parents('tr').find('input.line_item_quantity').val(0);
+      $(this).parents('form').submit();
+      e.preventDefault();
+    });
+
+	$('.number_only_input').live("keydown", function (event) { 
+	    if((!event.shiftKey && !event.ctrlKey && !event.altKey) && 
+	       ((event.keyCode >= 48 && event.keyCode <= 57) || (event.keyCode >= 96 && event.keyCode <= 105))) // 0-9 or numpad 0-9, disallow shift, ctrl, and alt
+		{
+		  // check textbox value now and tab over if necessary
+		} 
+		else if (event.keyCode != 8 && 
+				 event.keyCode != 46 && 
+				 event.keyCode != 37 && 
+				 event.keyCode != 39 && 
+				 event.keyCode != 9) // not esc, del, left or right
+		{
+		  event.preventDefault();
+		}
+	  });
+  });
+})(jQuery);
+
+// http://james.padolsey.com/javascript/regex-selector-for-jquery/
+jQuery.expr[':'].regex = function(elem, index, match) {
+    var matchParams = match[3].split(','),
+        validLabels = /^(data|css):/,
+        attr = {
+            method: matchParams[0].match(validLabels) ? 
+                        matchParams[0].split(':')[0] : 'attr',
+            property: matchParams.shift().replace(validLabels,'')
+        },
+        regexFlags = 'ig',
+        regex = new RegExp(matchParams.join('').replace(/^\s+|\s+$/g,''), regexFlags);
+    return regex.test(jQuery(elem)[attr.method](attr.property));
+}
+</script>
 <!-- content end -->
 <!-- footer -->
 <div id="footer">

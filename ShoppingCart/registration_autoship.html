@@ -57,17 +57,17 @@
                       <th>Quantity</th>
                     </tr>
                     <tr>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>100</td>
                       <td>1.0</td>
                     </tr>
                     <tr>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>100</td>
                       <td>1.0</td>
                     </tr>
                     <tr>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>100</td>
                       <td>1.0</td>
                     </tr>
@@ -86,21 +86,21 @@
                       <th>Item Total</th>
                     </tr>
                     <tr>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>100</td>
                       <td>1.0</td>
                       <td><span>C$93.00</span></td>
                       <td><span>C$93.00</span></td>
                     </tr>
                     <tr>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>100</td>
                       <td>1.0</td>
                       <td><span>C$93.00</span></td>
                       <td><span>C$93.00</span></td>
                     </tr>
                     <tr>
-                      <td class="item"><a href="#" target="_blank">Business Entry Kit</a></td>
+                      <td class="item"><a href="#" target="_blank" class="simpletip" data-desc="The pack content is valued at over $500.00 with (290CV). Pack Content 8-Gourmet Black 6-Gourmet Mocha 6-Gourmet Latte 3-Hot Chocolate(Paid Rank of Consultant). Qualifies You for a 10% Unilevel Matching Bonus">Business Entry Kit</a></td>
                       <td>100</td>
                       <td>1.0</td>
                       <td><span>C$93.00</span></td>
@@ -160,6 +160,55 @@
     <!-- container end -->
   </div>
 </div>
+<script>
+(function($){
+  $(document).ready(function(){
+		
+		$('.simpletip').mouseover(function() {
+			$(this).after("<div class='tooltip'>" + $(this).attr("data-desc") + "</div>")
+		}).mouseout(function() {
+			$(this).siblings(".tooltip").remove();
+		});;
+		
+    // Remove an item from the cart by setting its quantity to zero and posting the update form
+    $('form#updatecart a.delete').show().live('click', function(e){
+      $(this).parents('tr').find('input.line_item_quantity').val(0);
+      $(this).parents('form').submit();
+      e.preventDefault();
+    });
+
+	$('.number_only_input').live("keydown", function (event) { 
+	    if((!event.shiftKey && !event.ctrlKey && !event.altKey) && 
+	       ((event.keyCode >= 48 && event.keyCode <= 57) || (event.keyCode >= 96 && event.keyCode <= 105))) // 0-9 or numpad 0-9, disallow shift, ctrl, and alt
+		{
+		  // check textbox value now and tab over if necessary
+		} 
+		else if (event.keyCode != 8 && 
+				 event.keyCode != 46 && 
+				 event.keyCode != 37 && 
+				 event.keyCode != 39 && 
+				 event.keyCode != 9) // not esc, del, left or right
+		{
+		  event.preventDefault();
+		}
+	  });
+  });
+})(jQuery);
+
+// http://james.padolsey.com/javascript/regex-selector-for-jquery/
+jQuery.expr[':'].regex = function(elem, index, match) {
+    var matchParams = match[3].split(','),
+        validLabels = /^(data|css):/,
+        attr = {
+            method: matchParams[0].match(validLabels) ? 
+                        matchParams[0].split(':')[0] : 'attr',
+            property: matchParams.shift().replace(validLabels,'')
+        },
+        regexFlags = 'ig',
+        regex = new RegExp(matchParams.join('').replace(/^\s+|\s+$/g,''), regexFlags);
+    return regex.test(jQuery(elem)[attr.method](attr.property));
+}
+</script>
 <!-- content end -->
 <!-- footer -->
 <div id="footer">
