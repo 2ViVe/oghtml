@@ -557,12 +557,12 @@ blockquote,q{quotes:"" "";}
 																													background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a30000 100%) url(../images/og-printicon.png) 5px center no-repeat;}
 
 /* Commissions */
-#commissions #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#commissions #container{width:900px;min-height:1169px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #commissions #container h2,#commissions #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
 #commissions .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
 #commissions .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
 #commissions .contsubmenu a.current,#commissions .contsubmenu a:hover{background:#9f0015;color:#fff;}
-#commissions .contlabel{margin:10px 0 30px 0;}
+#commissions .contlabel{margin-top:10px;}
 #commissions .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:125px;text-align:center;}
 #commissions .contlabel li a{display:block;height:34px;}
 #commissions .contlabel li.current{width:146px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
@@ -570,8 +570,35 @@ blockquote,q{quotes:"" "";}
 #commissions .contlabel li.summary{float:right;border-top-color:#fff;border-right:normal;width:500px;text-align:right;}
 #commissions .contlabel li.current a,#commissions .contlabel li.summary a{font-weight:bold;}
 #commissions .contlabel li.summary a{display:inline;}
-#commissions .contdata{font-size:11px;}
+#commissions .contdata{font-size:11px;margin-top:30px;}
 #commissions .contdata select{margin:0 2px;padding:4px;}
+
+#commissions .conttable{padding:20px 0;}
+#commissions .conttable table{width:100%;border:1px solid #dedede;margin-bottom:20px;}
+#commissions .conttable th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;font-weight:bold;}
+#commissions .conttable td{text-align:center;padding:7px 10px;border-bottom:1px solid #f2f2f2;}
+#commissions .conttable .title{text-align:left;}
+#commissions .conttable tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 10px;}
+#commissions .conttable td span{color:#a00000;}
+#commissions .conttable tr.background{background:#f7f6f2;}
+#commissions .conttable h4{height:40px;line-height:40px;font-weight:bold;}
+#commissions .conttable .classified th{font-weight:normal;}
+#commissions .conttable .classified2{width:440px;}
+#commissions .conttable .classified2 th{font-weight:normal;}
+#commissions .setdualteam h4{font-weight:bold;margin:20px 0 5px 0;}
+#commissions .setdualteam ul{margin:20px 0;}
+#commissions .setdualteam li{float:left;width:250px;padding:10px;margin-right:28px;text-align:center;border:1px solid #fff;}
+#commissions .setdualteam li span{display:block;text-align:center;}
+#commissions .setdualteam li.current{border-color:#f0cfc6;background:#fff;}
+#commissions .setdualteam .btn button{padding:0 10px;height:30px;color:#fff;border:none;
+																		  background:#a00000;
+																		  background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																		  background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																		  background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#commissions .setdualteam .loading{padding:0 30px;height:28px;line-height:28px;border:1px solid #e3e3e3;color:#999;margin-left:20px;}
+#commissions .setdualteam .loading img{vertical-align:middle;margin-right:5px;}
+#commissions .setdualteam p{padding:20px 0 10px 0;color:#999;}
+
 #commissions .dataTables_length,#commissions .dataTables_filter{margin:10px 0;font-size:11px;}
 #commissions .dataTables_length{float:left;}
 #commissions .dataTables_length select{margin:0 2px;padding:4px;}
@@ -635,12 +662,12 @@ blockquote,q{quotes:"" "";}
 #recent .conttable3 .icon{width:10px;height:24px;background:url(../images/og-recenticon.png) -100px -34px no-repeat;margin:0 5px;}
 
 /* Report */
-#report #container{width:900px;min-height:1159px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#report #container{width:900px;min-height:1169px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #report #container h2,#report #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
 #report .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
 #report .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
 #report .contsubmenu a.current,#report .contsubmenu a:hover{background:#9f0015;color:#fff;}
-#report .contdata{font-size:11px;}
+#report .contdata{font-size:11px;margin-top:30px;}
 #report .contdata select{margin:0 2px;padding:4px;}
 #report .dataTables_length,#report .dataTables_filter{margin:10px 0;font-size:11px;}
 #report .dataTables_length{float:left;}
@@ -715,7 +742,7 @@ blockquote,q{quotes:"" "";}
 #myprofile .address .unable{color:#999;line-height:40px;}
 
 /* Autoship */
-#autoship #container{width:900px;min-height:1099px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#autoship #container{width:900px;min-height:1169px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #autoship #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
 #autoship .newlybuild{position:absolute;top:35px;right:30px;}
 #autoship .newlybuild a{display:block;padding:0 10px;height:26px;line-height:26px;color:#fff;
