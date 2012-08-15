@@ -274,11 +274,12 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep2 .select table{width:100%;border:1px solid #dfdfdf;}
 #registration .registrationstep2 .select th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
 #registration .registrationstep2 .select td{text-align:center;padding:5px 10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
-#registration .registrationstep2 .select td img{width:30px;height:26px;display:block;}
+#registration .registrationstep2 .select td img{width:30px;height:26px;display:block;margin:0 auto;}
 #registration .registrationstep2 .select td input[type="text"]{width:40px;height:24px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;padding:0 10px;line-height:inherit;}
 #registration .registrationstep2 .select td input[type="checkbox"]{width:auto;height:auto;padding:0;}
 #registration .registrationstep2 .select td span{color:#a00000;}
 #registration .registrationstep2 .select .item{max-width:200px;text-align:left;}
+#registration .registrationstep2 .select .item a{font-weight:bold;}
 #registration .registrationstep2 .btn input{width:auto;}
 #registration .registrationstep3{padding-top:30px;}
 #registration .registrationstep3 td.title{width:140px;}
@@ -612,10 +613,15 @@ blockquote,q{quotes:"" "";}
 #recent .continfo p span{margin-right:40px;}
 #recent .continfo p strong{font-weight:bold;}
 #recent .continfo p a,#recent .continfo p a:hover{display:inline-block;width:155px;height:34px;background:url(../images/og-recenticon.png) no-repeat;text-indent:65px;text-align:left;color:#666;padding-top:2px;margin-left:30px;}
-#recent .conttable1 table{width:49%;display:inline-table;*display:inline;}
+#recent .conttable1 table{width:49%;display:inline-table;*display:inline;margin-bottom:40px;}
 #recent .conttable1 td{line-height:24px;}
 #recent .conttable1 .icon{width:100px;height:80px;padding-top:20px;text-align:center;background:url(../images/og-recenticon.png) 0 -34px no-repeat;color:#fff;font-weight:bold;}
+#recent #container .conttable2 h3{padding-top:0;}
+#recent .conttable2 .basicinfo{margin:-10px 0 10px 0;}
+#recent .conttable2 .basicinfo span{margin-right:40px;}
+#recent .conttable2 .basicinfo strong{font-weight:bold;color:#999;margin-right:5px;}
 #recent .conttable2 table,#recent .conttable3 table{width:100%;border:1px solid #dfdfdf;}
+#recent .conttable2 table{margin-bottom:30px;}
 #recent .conttable2 th,#recent .conttable2 td,#recent .conttable3 th,#recent .conttable3 td{padding:7px 0;text-align:center;border-bottom:1px solid #dfdfdf;}
 #recent .conttable2 th,#recent .conttable3 th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
 #recent .conttable2 tr.even td,#recent .conttable3 tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 0;}
@@ -629,7 +635,7 @@ blockquote,q{quotes:"" "";}
 #recent .conttable3 .icon{width:10px;height:24px;background:url(../images/og-recenticon.png) -100px -34px no-repeat;margin:0 5px;}
 
 /* Report */
-#report #container{width:900px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#report #container{width:900px;min-height:1159px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #report #container h2,#report #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
 #report .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
 #report .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
@@ -707,3 +713,55 @@ blockquote,q{quotes:"" "";}
 #myprofile .address em{float:left;width:43px;line-height:40px;text-align:left;text-indent:20px;}
 #myprofile .address p.hack1 input{width:65px;}
 #myprofile .address .unable{color:#999;line-height:40px;}
+
+/* Autoship */
+#autoship #container{width:900px;min-height:1099px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#autoship #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
+#autoship .newlybuild{position:absolute;top:35px;right:30px;}
+#autoship .newlybuild a{display:block;padding:0 10px;height:26px;line-height:26px;color:#fff;
+												background:#a00000;
+												background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+												background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+												background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#autoship .autoshiptable table{width:100%;border:1px solid #dfdfdf;}
+#autoship .autoshiptable th,#autoship .autoshiptable td{padding:7px 5px;text-align:center;border-bottom:1px solid #dfdfdf;}
+#autoship .autoshiptable th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
+#autoship .autoshiptable tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 5px;}
+#autoship .autoshiptable td span{color:#a00000;}
+
+#autoship .autoshipform{padding-top:10px;}
+#autoship .autoshipform dt{height:1px;background:#ddd;position:relative;}
+#autoship .autoshipform strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
+#autoship .autoshipform dt input{width:auto;height:auto;padding:0;margin:0 5px 0 15px;vertical-align:middle;}
+#autoship .autoshipform dt label{font-weight:normal;}
+#autoship .autoshipform dd{padding:30px 0 40px 0;}
+#autoship .autoshipform table{width:100%;}
+#autoship .autoshipform td{height:40px;line-height:40px;text-align:right;*text-align:left;padding:0 5px;}
+#autoship .autoshipform td.title{width:140px;}
+#autoship .autoshipform p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:205px;height:25px;line-height:25px;text-align:left;}
+#autoship .autoshipform input{border:none;background:none;width:190px;height:21px;padding:2px;}
+#autoship .autoshipform p.hack1{width:80px;float:left;margin-top:7px;}
+#autoship .autoshipform p.hack1 input{width:65px;}
+#autoship .autoshipform em{float:left;width:43px;text-align:left;text-indent:20px;}
+#autoship .autoshipform p.hack2{border-color:#fff;}
+#autoship .autoshipform p span.required{color:#d2001c;}
+#autoship .autoshipform select{width:124px;padding:4px;}
+#autoship .autoshipform .basicinfo p.hack2{width:70px;}
+#autoship .autoshipform .basicinfo select{width:auto;}
+#autoship .autoshipform .deliveryoptions div input{width:auto;height:auto;padding:0;vertical-align:inherit;}
+#autoship .autoshipform .select{padding:0 0 20px 0;}
+#autoship .autoshipform .select h4{margin:0 0 20px 30px;font-weight:bold;}
+#autoship .autoshipform .select h4 span{font-weight:normal;}
+#autoship .autoshipform .select table{width:100%;border:1px solid #dfdfdf;}
+#autoship .autoshipform .select th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
+#autoship .autoshipform .select td{text-align:center;padding:5px 10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
+#autoship .autoshipform .select td img{width:30px;height:26px;display:block;margin:0 auto;}
+#autoship .autoshipform .select td input[type="text"]{width:40px;height:24px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;padding:0 10px;line-height:inherit;}
+#autoship .autoshipform .select td span{color:#a00000;}
+#autoship .autoshipform .select .item{max-width:200px;text-align:left;}
+#autoship .autoshipform .select .item a{font-weight:bold;}
+#autoship .autoshipform .btn input{padding:0 10px;width:auto;height:26px;color:#fff;border:none;
+																	 background:#a00000;
+																	 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																	 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																	 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
