@@ -281,7 +281,7 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep2 .select td img{width:30px;height:26px;display:block;margin:0 auto;}
 #registration .registrationstep2 .select td input[type="text"]{width:40px;height:24px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;padding:0 10px;line-height:inherit;}
 #registration .registrationstep2 .select td input[type="checkbox"]{width:auto;height:auto;padding:0;}
-#registration .registrationstep2 .select td input:disabled{background:#eee;}
+#registration .registrationstep2 .select td input[disabled],#registration .registrationstep2 .select td input[readonly]{background:#eee;}
 #registration .registrationstep2 .select td span{color:#a00000;}
 #registration .registrationstep2 .select .item{text-align:left;}
 #registration .registrationstep2 .select .item a{display:inline-block;max-width:200px;font-weight:bold;}
@@ -289,8 +289,15 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep3{padding-top:30px;}
 #registration .registrationstep3 td.title{width:140px;}
 #registration .registrationstep3 dt{height:1px;background:#ddd;position:relative;}
+#registration .registrationstep3 dt em{font-weight:normal;}
 #registration .registrationstep3 strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
 #registration .registrationstep3 dd{padding:30px 0 40px 0;}
+#registration .registrationstep3 .autoship table{width:100%;border:1px solid #dfdfdf;}
+#registration .registrationstep3 .autoship th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
+#registration .registrationstep3 .autoship td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
+#registration .registrationstep3 .autoship .item{text-align:left;}
+#registration .registrationstep3 .autoship .item a{display:inline-block;max-width:360px;font-weight:bold;}
+#registration .registrationstep3 .autoship span{color:#a00000;}
 #registration .registrationstep3 .orderdetails table{width:100%;border:1px solid #dfdfdf;}
 #registration .registrationstep3 .orderdetails th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
 #registration .registrationstep3 .orderdetails td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
@@ -326,6 +333,12 @@ blockquote,q{quotes:"" "";}
 #registration .registrationautoship .autoship .item{text-align:left;}
 #registration .registrationautoship .autoship .item a{display:inline-block;max-width:360px;font-weight:bold;}
 #registration .registrationautoship .autoship span{color:#a00000;}
+#registration .registrationautoship .orderdetails table{width:100%;border:1px solid #dfdfdf;}
+#registration .registrationautoship .orderdetails th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;}
+#registration .registrationautoship .orderdetails td{text-align:center;padding:10px;border-bottom:1px solid #f2f2f2;height:auto;line-height:inherit;}
+#registration .registrationautoship .orderdetails .item{text-align:left;}
+#registration .registrationautoship .orderdetails .item a{display:inline-block;max-width:360px;font-weight:bold;}
+#registration .registrationautoship .orderdetails td span{color:#a00000;}
 #registration .registrationautoship .paymentdetails table{width:300px;margin-left:30px;}
 #registration .registrationautoship .paymentdetails td{text-align:left;padding:5px 10px;}
 #registration .registrationautoship .paymentdetails td span{color:#a00000;float:right;}
