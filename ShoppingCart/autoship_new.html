@@ -563,7 +563,7 @@
 <div class="popupbox" style="display:block;">
   <div class="close"></div>
   <div class="popupboxcont">
-    <div class="popupboxautoship">
+    <div class="popupboxautoship clearfix">
       <form action="" method="get">
         <dl>
           <dt><strong>Autoship<em>(Valld from:08/15/2012)</em></strong></dt>
@@ -594,7 +594,7 @@
             </table>
           </dd>
         </dl>
-        <dl class="f-l">
+        <dl class="f-l" style="display:none;">
           <dt><strong>Payment Information</strong></dt>
           <dd class="creditcard">
             <div> <span class="visa hide">VISA</span> <span class="mastercard hide">MasterCard</span> <span class="americanexpress hide">AMERICAN EXPRESS</span> </div>
@@ -605,6 +605,60 @@
                   <td><p>
                       <input name="" type="text" />
                     </p></td>
+                </tr>
+                <tr>
+                  <td class="textright">Expiration:</td>
+                  <td><p>
+                      <select name="" size="1">
+                        <option>07</option>
+                      </select>
+                    </p>
+                    <p>
+                      <select name="" size="1">
+                        <option>2012</option>
+                      </select>
+                    </p></td>
+                </tr>
+                <tr>
+                  <td class="textright">Card Code:</td>
+                  <td><p class="width2">
+                      <input name="" type="text" />
+                    </p>
+                    <a href="#" target="_blank">(What's this)</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+          <dd class="btn">
+            <table>
+              <tbody>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td><input name="" type="submit" value="Submit" /></td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+        </dl>
+        <dl class="f-l">
+          <dt><strong>Payment Information</strong></dt>
+          <dd class="creditcard">
+            <table class="card hack">
+              <tbody>
+                <tr>
+                  <td class="textright">Card Number:</td>
+                  <td><p>
+                     4500****6790
+                    </p></td>
+                </tr>
+                <tr>
+                  <td class="textright">Expiration:</td>
+                  <td><p>
+                     5-2014
+                    </p></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><input type="checkbox" id="checkbox" value="" name="checkbox"><label for="checkbox">Use a new card(I agree to the above Terms and Conditions.)</label></td>
                 </tr>
                 <tr>
                   <td class="textright">Expiration:</td>

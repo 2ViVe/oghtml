@@ -818,13 +818,18 @@ blockquote,q{quotes:"" "";}
 																	 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
 																	 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
 																	 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#autoship .autoshipform .btn input:disabled{color:#999;
+																						background:#ddd;
+																						background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#eee),color-stop(1,#ccc));
+																						background:-moz-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);
+																						background:-o-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);}
 #autoship .popupbox{width:550px;left:50%;margin-left:-275px;}
 #autoship .popupboxcont ul{padding:20px;}
 #autoship .popupboxcont li{line-height:30px;border-bottom:1px dashed #dedede;padding-left:20px;background:url(../images/og-listicon.png) 0 5px no-repeat;}
 #autoship .popupboxcont li span{font-weight:bold;}
 
 
-#autoship .popupboxautoship{padding-top:30px;}
+#autoship .popupboxautoship{width:860px;padding-top:30px;}
 #autoship .popupboxautoship td.title{width:140px;}
 #autoship .popupboxautoship dt{height:1px;background:#ddd;position:relative;}
 #autoship .popupboxautoship strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
@@ -849,18 +854,23 @@ blockquote,q{quotes:"" "";}
 #autoship .popupboxautoship .creditcard span.mastercard{background-position:0 -28px;}
 #autoship .popupboxautoship .creditcard span.americanexpress{background-position:0 -56px;}
 #autoship .popupboxautoship .card{width:100%;}
-#autoship .popupboxautoship .card td{padding:10px;text-align:left;}
+#autoship .popupboxautoship .card td{padding:10px;}
+#autoship .popupboxautoship .card.hack td{padding:6px 10px;}
+#autoship .popupboxautoship .card p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
+#autoship .popupboxautoship .card select{padding:4px;}
+#autoship .popupboxautoship .card p.width2 input{width:40px;margin-right:10px;}
+#autoship .popupboxautoship .card td label{display:inline-block;width:340px;}
+#autoship .popupboxautoship .card input[type="checkbox"]{display:inline;vertical-align:top;}
 
 #autoship .popupboxautoship td.textright{text-align:right;}
 #autoship .popupboxautoship .btn{margin-top:-20px;}
-#autoship .popupboxautoship .btn td{min-width:160px;}
+#autoship .popupboxautoship .btn td{min-width:150px;}
 #autoship .popupboxautoship .btn input{padding:0 10px;height:26px;color:#fff;border:none;
-																					 background:#a00000;
-																					 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
-																					 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
-																					 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+																			 background:#a00000;
+																			 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																			 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																			 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
 #autoship .popupboxautoship dl.f-l,#autoship .popupboxautoship dl.f-r{width:48%;}
-#autoship .popupboxautoship .card p.width2 input{width:40px;margin-right:10px;}
 #autoship .popupbox{width:900px;left:50%;top:15%;margin-left:-450px;}
 
 /* Dashboard */
