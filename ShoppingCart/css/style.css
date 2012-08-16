@@ -582,7 +582,7 @@ blockquote,q{quotes:"" "";}
 #commissions .contlabel li a{display:block;height:34px;}
 #commissions .contlabel li.current{width:146px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
 #commissions .contlabel li.current a{height:33px;}
-#commissions .contlabel li.summary{float:right;border-top-color:#fff;border-right:normal;width:500px;text-align:right;}
+#commissions .contlabel li.summary{float:right;border-top-color:#fff;width:500px;text-align:right;}
 #commissions .contlabel li.current a,#commissions .contlabel li.summary a{font-weight:bold;}
 #commissions .contlabel li.summary a{display:inline;}
 #commissions .contdata{font-size:11px;margin-top:30px;}
@@ -848,3 +848,20 @@ blockquote,q{quotes:"" "";}
 #dashboard .popupboxcont dt{padding:10px 0;margin-top:-10px;}
 #dashboard .popupboxcont dt p{display:inline;}
 #dashboard .popupboxcont dt select{padding:4px;}
+
+/* Genealogy */
+#genealogy #container{width:900px;min-height:1169px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
+#genealogy #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
+#genealogy .contlabel{margin:10px 0 20px 0;}
+#genealogy .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:125px;text-align:center;}
+#genealogy .contlabel li a{display:block;height:34px;}
+#genealogy .contlabel li.current{width:146px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
+#genealogy .contlabel li.current a{height:33px;font-weight:bold;}
+#genealogy .contlabel li.search{float:right;border-top-color:#fff;width:626px;text-align:right;}
+#genealogy .contlabel li.search p{display:inline;}
+#genealogy .contlabel li.search p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
+#genealogy .contlabel li input[type="button"]{padding:0 10px;height:27px;color:#fff;border:none;margin-left:10px;cursor:pointer;vertical-align:middle;
+																							background:#a00000;
+																							background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																							background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																							background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
