@@ -171,7 +171,7 @@
             <td>112.0</td>
             <td>112.0</td>
             <td><span>C$128.00</span></td>
-            <td><a href="#">Change Log</a></td>
+            <td class="changelog"><a href="#">Change Log</a></td>
             <td><a href="#">Edit</a></td>
           </tr>
           <tr class="even">
@@ -182,7 +182,7 @@
             <td>112.0</td>
             <td>112.0</td>
             <td><span>C$128.00</span></td>
-            <td><a href="#">Change Log</a></td>
+            <td class="changelog"><a href="#">Change Log</a></td>
             <td><a href="#">Edit</a></td>
           </tr>
           <tr class="odd">
@@ -193,7 +193,7 @@
             <td>112.0</td>
             <td>112.0</td>
             <td><span>C$128.00</span></td>
-            <td><a href="#">Change Log</a></td>
+            <td class="changelog"><a href="#">Change Log</a></td>
             <td><a href="#">Edit</a></td>
           </tr>
           <tr class="even">
@@ -204,7 +204,7 @@
             <td>112.0</td>
             <td>112.0</td>
             <td><span>C$128.00</span></td>
-            <td><a href="#">Change Log</a></td>
+            <td class="changelog"><a href="#">Change Log</a></td>
             <td><a href="#">Edit</a></td>
           </tr>
           <tr class="odd">
@@ -215,7 +215,7 @@
             <td>112.0</td>
             <td>112.0</td>
             <td><span>C$128.00</span></td>
-            <td><a href="#">Change Log</a></td>
+            <td class="changelog"><a href="#">Change Log</a></td>
             <td><a href="#">Edit</a></td>
           </tr>
           <tr class="even">
@@ -226,7 +226,7 @@
             <td>112.0</td>
             <td>112.0</td>
             <td><span>C$128.00</span></td>
-            <td><a href="#">Change Log</a></td>
+            <td class="changelog"><a href="#">Change Log</a></td>
             <td><a href="#">Edit</a></td>
           </tr>
           <tr class="odd">
@@ -237,7 +237,7 @@
             <td>112.0</td>
             <td>112.0</td>
             <td><span>C$128.00</span></td>
-            <td><a href="#">Change Log</a></td>
+            <td class="changelog"><a href="#">Change Log</a></td>
             <td><a href="#">Edit</a></td>
           </tr>
           <tr class="even">
@@ -248,7 +248,7 @@
             <td>112.0</td>
             <td>112.0</td>
             <td><span>C$128.00</span></td>
-            <td><a href="#">Change Log</a></td>
+            <td class="changelog"><a href="#">Change Log</a></td>
             <td><a href="#">Edit</a></td>
           </tr>
         </table>
@@ -263,5 +263,34 @@
   <p>Copyright  ©  2012 organo gold All rights reserved</p>
 </div>
 <!-- footer end -->
+<!-- popupbox -->
+<div class="popupbox">
+  <div class="close"></div>
+  <div class="popupboxcont">
+    <ul>
+    	<li><strong>master</strong> updated <strong>valid</strong> from <strong>2012-02-15</strong> to <strong>2015-08-15 23:35:30 - 0700</strong></li>
+      <li><strong>master</strong> updated <strong>valid</strong> from <strong>2012-02-15</strong> to <strong>2015-08-15 23:35:30 - 0700</strong></li>
+      <li><strong>master</strong> updated <strong>valid</strong> from <strong>2012-02-15</strong> to <strong>2015-08-15 23:35:30 - 0700</strong></li>
+      <li><strong>master</strong> updated <strong>valid</strong> from <strong>2012-02-15</strong> to <strong>2015-08-15 23:35:30 - 0700</strong></li>
+      <li><strong>master</strong> updated <strong>valid</strong> from <strong>2012-02-15</strong> to <strong>2015-08-15 23:35:30 - 0700</strong></li>
+    </ul>
+  </div>
+</div>
+<div class="popupboxbg"></div>
+<script type="text/javascript">
+$(function($){
+	$(".changelog a").click(
+		function(){
+			$(".popupbox").show();
+			$(".popupboxbg").show();
+					});
+	$(".popupbox .close").click(
+		function(){
+			$(".popupbox").hide();
+			$(".popupboxbg").hide();
+					});
+});
+</script>
+<!-- popupbox end -->
 </body>
 </html>
