@@ -592,8 +592,6 @@ blockquote,q{quotes:"" "";}
 
 #commissions .conttable{padding:20px 0;}
 #commissions .conttable table{width:100%;border:1px solid #dedede;margin-bottom:20px;}
-#commissions .ranktable table{width:300px;float:left;}
-#commissions .ranktable table.hack{border-left:none;border-right:none;}
 #commissions .conttable th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;font-weight:bold;}
 #commissions .conttable td{text-align:center;padding:7px 10px;border-bottom:1px solid #f2f2f2;}
 #commissions .conttable .title{text-align:left;}
@@ -601,6 +599,14 @@ blockquote,q{quotes:"" "";}
 #commissions .conttable td span{color:#a00000;}
 #commissions .conttable tr.background{background:#f7f6f2;}
 #commissions .conttable h4{height:40px;line-height:40px;font-weight:bold;}
+
+#commissions .ranktable table{width:250px;float:left;}
+#commissions .ranktable table.titletable{width:400px;text-align:left;}
+#commissions .ranktable table.hack{border-left:none;border-right:none;}
+#commissions .ranktable th,#commissions .ranktable td{display:block;overflow:hidden;padding:0 10px;}
+#commissions .ranktable th,#commissions .ranktable tr.odd td{height:34px;line-height:34px;}
+#commissions .ranktable tr.even td{height:28px;line-height:28px;}
+
 #commissions .conttable .subtotal{background:#f2f2f2;font-size:14px;padding:15px 10px;color:#a00000;text-align:right;}
 #commissions .conttable .subtotal strong{font-size:20px;}
 #commissions .conttable .nodata{background:#f2f2f2;font-size:14px;padding:15px 10px;}
@@ -859,8 +865,8 @@ blockquote,q{quotes:"" "";}
 #autoship .popupboxautoship .card p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
 #autoship .popupboxautoship .card select{padding:4px;}
 #autoship .popupboxautoship .card p.width2 input{width:40px;margin-right:10px;}
-#autoship .popupboxautoship .card td label{display:inline-block;width:340px;}
-#autoship .popupboxautoship .card input[type="checkbox"]{display:inline;vertical-align:top;}
+#autoship .popupboxautoship .creditcard div label{display:inline-block;width:340px;}
+#autoship .popupboxautoship .creditcard input[type="checkbox"]{display:inline;vertical-align:top;}
 
 #autoship .popupboxautoship td.textright{text-align:right;}
 #autoship .popupboxautoship .btn{margin-top:-20px;}
