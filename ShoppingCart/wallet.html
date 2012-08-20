@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<title>Report</title>
+<title>Wallet</title>
 <meta name="keywords" content="shoppingcart" />
 <meta name="description" content="shoppingcart!" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script src="scripts/jquery.min.js"></script>
 </head>
-<body id="report">
+<body id="wallet">
 <!-- content -->
 <div id="content">
   <!-- header -->
@@ -26,7 +26,7 @@
   </div>
   <!-- header end -->
   <!-- navigation -->
-  <div id="navigation" class="wrapper"><span><a href="#">Home</a></span>&gt;<span>Orders</span></div>
+  <div id="navigation" class="wrapper"><span><a href="#">Home</a></span>&gt;<span>Wallet</span></div>
   <!-- navigation end -->
   <div class="wrapper cont-hack clearfix">
     <!-- sidebar -->
@@ -70,7 +70,7 @@
         </li>
         <li>
           <dl>
-            <dt><span class="nav5"><a href="#">My Wallet</a></span></dt>
+            <dt><span class="current nav5"><a href="#">My Wallet</a></span></dt>
           </dl>
         </li>
         <li>
@@ -100,7 +100,7 @@
         </li>
         <li>
           <dl>
-            <dt><span class="current nav9">Reports
+            <dt><span class="nav9">Reports
               <label class="arrow"></label>
               </span></dt>
             <dd>
@@ -148,42 +148,20 @@
     <!-- sidebar end -->
     <!-- container -->
     <div id="container" class="f-r">
-      <h2>Report</h2>
-      <div class="contsubmenu">--<a href="#">Orders</a>|<a href="#">Organization</a>|<a href="#">Returns</a>|<a href="#">Recent Growth</a>|<a href="#" class="current">Report Total</a></div>
-      <div class="contdata">Select Date:
-        <select name="" size="1">
-          <option>07</option>
-        </select>
-        <select name="" size="1">
-          <option>2012</option>
-        </select>
-      </div>
-      <div class="dataTables_filter" style="float:left;">
-        <label><input type="text" placeholder="Enter a distributor ID in your organization" /> <input type="submit" value="search" /></label>
-      </div>
-      <div class="dataTables_wrapper clear" id="tbl_commissions_monthly_wrapper">
-        <div class="downlinetotals clearfix">
-          <h4>Downline Totals for Levels</h4>
-          <dl>
-            <dt><strong>Downline Summary</strong></dt>
-            <dd>
-              <p><em>Total Number of Members:</em><span>17886</span></p>
-              <p><em>Number of Active Members:</em><span>773</span></p>
-              <p><em>Percentage of Active Members:</em><span>4.3218%</span></p>
-              <p><em>New Members Last Month (Jul 2012):</em><span>1016</span></p>
-              <p><em>New Members This Month (Aug 2012)</em><span>0</span></p>
-            </dd>
-          </dl>
-          <dl>
-            <dt><strong>Volume Summary</strong></dt>
-            <dd>
-              <p><em>Group Volume Last Bonus Run:</em><span>654110.69</span></p>
-              <p><em>Personal Volume Last Bonus Run:</em><span>293.00</span></p>
-              <p><em>Group Volume Current Period:</em><span>219002.35</span></p>
-              <p><em>Personal Volume Current Period:</em><span>0.00</span></p>
-            </dd>
-          </dl>
-        </div>
+      <h2>My Wallet</h2>
+      <div class="walletinfo clearfix">
+        <h4>My Wallet</h4>
+        <dl>
+          <dd>
+            <p><em>OG Wallet ID:</em><span>10008101</span></p>
+            <p><em>Full Name:</em><span>Chappell,Willam</span></p>
+            <p><em>Currency:</em><span>USD</span></p>
+            <p><em>Base Currency:</em><span>USD</span></p>
+            <p><em>Balance:</em><span>$2.00</span></p>
+            <p><em>Total Banlance:</em><span>$2.00</span></p>
+            <p><em>Converted Balance:</em><span>$2.00</span></p>
+          </dd>
+        </dl>
       </div>
     </div>
     <!-- container end -->
