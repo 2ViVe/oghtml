@@ -751,7 +751,7 @@ blockquote,q{quotes:"" "";}
 #myprofile #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
 #myprofile .myprofileform table{width:100%;}
 #myprofile .myprofileform td{padding:5px 10px;}
-#myprofile .myprofileform td.textright{text-align:right;}
+#myprofile .myprofileform td.textright{text-align:right;width:140px;}
 #myprofile .myprofileform td p{display:inline-block;}
 #myprofile .myprofileform p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
 #myprofile .myprofileform input[type="checkbox"]{vertical-align:middle;}
