@@ -171,20 +171,12 @@
           <li>Purchase limit exceeded. Please call Customer Services for the order placement.</li>
         </ul>
       </div>
-      <div class="contlabel">
-        <ul class="clearfix">
-          <li class="current"><a href="#">Post a Jazz Mixer Event</a></li>
-          <li><a href="#">Post a Regional Mixer</a></li>
-          <li><a href="#">Post a Regular Event</a></li>
-          <li class="line">&nbsp;</li>
-        </ul>
-      </div>
       <div class="contform">
-        <form action="" method="get">
+        <form action="" method="post">
           <table>
             <tbody>
               <tr>
-                <td valign="top" class="textright">Event Type</td>
+                <td valign="top" class="textright"><label>Event Type</label></td>
                 <td><p> <span>
                     <select size="1" name="" >
                       <option>Company</option>
@@ -193,13 +185,49 @@
                   <em>Company or distributor… e.g event is hosted by corporate or distributor</em></td>
               </tr>
               <tr>
-                <td class="textright">Event Title</td>
+                <td class="textright"><label>Event Title</label></td>
                 <td><p>
                     <input type="text" name="" class="required" />
                   </p></td>
               </tr>
               <tr>
-                <td class="textright">Event Date</td>
+      					<td class='textright'>
+        					<label for="client_event_venue">Venue</label>
+      					</td>
+      					<td>
+        					<p>
+         	 					<input class="required" type="text" />
+        					</p>
+      					</td>
+    					</tr>
+              <tr>
+                <td class="textright"><label>Event Date</label></td>
+                <td>
+                  <p>
+                    <input class="required" placeholder="yyyy-mm-dd" readonly="readonly" type="text">
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="textright"><label>Address1</label></td>
+                <td><p>
+                    <input type="text" name="" />
+                  </p></td>
+              </tr>
+              <tr>
+                <td class="textright"><label>Address2</label></td>
+                <td><p>
+                    <input type="text" name="" />
+                  </p></td>
+              </tr>
+              <tr>
+                <td class="textright"><label>City</label></td>
+                <td><p>
+                    <input type="text" name="" />
+                  </p></td>
+              </tr>
+              <tr>
+                <td class="textright"><label>State</label></td>
                 <td><p> <span>
                     <select size="1" name="" >
                       <option>Company</option>
@@ -207,25 +235,7 @@
                     </span> </p></td>
               </tr>
               <tr>
-                <td class="textright">Address1</td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td class="textright">Address2</td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td class="textright">City</td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td class="textright">State/Prov</td>
+                <td class="textright"><label>Country</label></td>
                 <td><p> <span>
                     <select size="1" name="" >
                       <option>Company</option>
@@ -233,54 +243,47 @@
                     </span> </p></td>
               </tr>
               <tr>
-                <td class="textright">Country</td>
-                <td><p> <span>
-                    <select size="1" name="" >
-                      <option>Company</option>
-                    </select>
-                    </span> </p></td>
-              </tr>
-              <tr>
-                <td class="textright">Postal Code</td>
+                <td class="textright"><label>Postal Code</label></td>
                 <td><p>
                     <input type="text" name="" />
                   </p></td>
               </tr>
               <tr>
-                <td class="textright">Email</td>
+                <td class="textright"><label>Email</label></td>
                 <td><p>
                     <input type="text" name="" />
                   </p></td>
               </tr>
               <tr>
-                <td class="textright">Phone</td>
+                <td class="textright"><label>Phone</label></td>
                 <td><p>
                     <input type="text" name="" />
                   </p></td>
               </tr>
               <tr>
-                <td valign="top" class="textright">Distributor ID</td>
+                <td valign="top" class="textright"><label>Distributor ID</label></td>
                 <td><div class="idcont">
                     <p>
                       123456789
+                      <input type="hidden" value="123456789">
                     </p>
-                    <button>remove</button>
+                    <a href="javascript:;">remove</a>
                   </div>
                   <div class="idcont">
                     <p>
                       <input type="text" name="" />
                     </p>
-                    <button>add</button>
+                    <a href="javascript:;">add</a>
                   </div></td>
               </tr>
               <tr>
-                <td class="textright">TktPrice</td>
+                <td class="textright"><label>Price</label></td>
                 <td><p>
                     <input type="text" name="" />
                   </p></td>
               </tr>
               <tr>
-                <td valign="top" class="textright">Rank</td>
+                <td valign="top" class="textright"><label>Rank</label></td>
                 <td><p>
                     <input type="text" name="" />
                   </p>
