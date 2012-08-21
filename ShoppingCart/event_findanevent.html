@@ -159,143 +159,63 @@
     <!-- container -->
     <div id="container" class="f-r">
       <h2>Company Event</h2>
-      <div class="contsubmenu">--<a href="#">Find an Event </a>|<a href="#" class="current">Post an Event</a></div>
-      <div class="infotips failure">
-        <div class="icon"></div>
-        <h4>Purchase limit exceeded. </h4>
-        <p>Please call Customer Services for the order placement：</p>
-        <ul>
-          <li>Purchase limit exceeded. Please call Customer Services for the order placement.</li>
-          <li>Purchase limit exceeded. Please call Customer Services.</li>
-          <li>Purchase limit exceeded. Please call Customer Services for the.</li>
-          <li>Purchase limit exceeded. Please call Customer Services for the order placement.</li>
-        </ul>
-      </div>
-      <div class="contform">
-        <form action="" method="post">
-          <table>
-            <tbody>
-              <tr>
-                <td valign="top" class="textright"><label>Event Type</label></td>
-                <td><p> <span>
-                    <select size="1" name="" >
-                      <option>Company</option>
-                    </select>
-                    </span> </p>
-                  <em>Company or distributor… e.g event is hosted by corporate or distributor</em></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>Event Title</label></td>
-                <td><p>
-                    <input type="text" name="" class="required" />
-                  </p></td>
-              </tr>
-              <tr>
-      					<td class='textright'>
-        					<label for="client_event_venue">Venue</label>
-      					</td>
-      					<td>
-        					<p>
-         	 					<input class="required" type="text" />
-        					</p>
-      					</td>
-    					</tr>
-              <tr>
-                <td class="textright"><label>Event Date</label></td>
-                <td>
-                  <p>
-                    <input class="required" placeholder="yyyy-mm-dd" readonly="readonly" type="text">
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="textright"><label>Address1</label></td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>Address2</label></td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>City</label></td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>State</label></td>
-                <td><p> <span>
-                    <select size="1" name="" >
-                      <option>Company</option>
-                    </select>
-                    </span> </p></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>Country</label></td>
-                <td><p> <span>
-                    <select size="1" name="" >
-                      <option>Company</option>
-                    </select>
-                    </span> </p></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>Postal Code</label></td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>Email</label></td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>Phone</label></td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td valign="top" class="textright"><label>Distributor ID</label></td>
-                <td><div class="idcont">
+      <div class="contsubmenu">--<a href="#" class="current">Find an Event </a>|<a href="#">Post an Event</a></div>
+      <div class="contlist">
+        <dl>
+          <dt><strong>Find an Event</strong></dt>
+          <dd class="search">
+            <form action="" method="get">
+              <table>
+                <tr>
+                  <td><label>Event Type</label>
                     <p>
-                      123456789
-                      <input type="hidden" value="123456789">
-                    </p>
-                    <a href="javascript:;">remove</a>
-                  </div>
-                  <div class="idcont">
+                      <select>
+                        <option value=""></option>
+                        <option value="2">OG Company</option>
+                      </select>
+                    </p></td>
+                  <td><label>Country</label>
                     <p>
-                      <input type="text" name="" />
-                    </p>
-                    <a href="javascript:;">add</a>
-                  </div></td>
-              </tr>
-              <tr>
-                <td class="textright"><label>Price</label></td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p></td>
-              </tr>
-              <tr>
-                <td valign="top" class="textright"><label>Rank</label></td>
-                <td><p>
-                    <input type="text" name="" />
-                  </p>
-                  <div class="error_tip">The admin will control this to determine which ones are display ahead of the lower priority ones, for example, high, medium, low</div></td>
-              </tr>
-              <tr>
-                <td class="textright">&nbsp;</td>
-                <td class="btn"><input name="" type="submit" value="Submit Posting" /></td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
+                      <input name="" type="text" />
+                    </p></td>
+                  <td><label>City</label>
+                    <p>
+                      <input name="" type="text" />
+                    </p></td>
+                  <td><label>Date</label>
+                    <select size="1" name="">
+                      <option>07</option>
+                    </select>
+                    <select size="1" name="">
+                      <option>2012</option>
+                    </select></td>
+                  <td><p>
+                      <input type="submit" value="Search" />
+                    </p></td>
+                </tr>
+              </table>
+            </form>
+          </dd>
+          <dd class="eventlist">
+            <ul>
+              <li class="clearfix">
+                <h3>AUG 10,2011</h3>
+                <span>One time|attended|children|One time|a</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|a</span></li>
+              <li class="clearfix">
+                <h3>AUG 10,2011</h3>
+                <span>One time|attended|children|One time|a</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|a</span></li>
+              <li class="clearfix">
+                <h3>AUG 10,2011</h3>
+                <span>One time|attended|children|One time|a</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|a</span></li>
+              <li class="clearfix">
+                <h3>AUG 10,2011</h3>
+                <span>One time|attended|children|One time|a</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|a</span></li>
+              <li class="clearfix">
+                <h3>AUG 10,2011</h3>
+                <span>One time|attended|children|One time|a</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|attended|children</span> <span>One time|attended|children|One time|a</span></li>
+            </ul>
+          </dd>
+        </dl>
       </div>
     </div>
   </div>
@@ -308,5 +228,26 @@
   <p>Copyright  ©  2012 organo gold All rights reserved</p>
 </div>
 <!-- footer end -->
+<!-- popupbox -->
+<div class="popupbox">
+  <div class="close"></div>
+  <div class="popupboxcont"><img src="images/pic2.jpg" width="716" height="277" /></div>
+</div>
+<div class="popupboxbg"></div>
+<script type="text/javascript">
+$(function($){
+	$(".eventlist li").click(
+		function(){
+			$(".popupbox").show();
+			$(".popupboxbg").show();
+					});
+	$(".popupbox .close").click(
+		function(){
+			$(".popupbox").hide();
+			$(".popupboxbg").hide();
+					});
+});
+</script>
+<!-- popupbox end -->
 </body>
 </html>
