@@ -929,6 +929,9 @@ blockquote,q{quotes:"" "";}
 /* Genealogy */
 #genealogy #container{width:900px;min-height:1205px;padding:0 30px;border-right:1px solid #dcdcdc;margin:0 auto;position:relative;}
 #genealogy #container h2{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
+#genealogy .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
+#genealogy .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
+#genealogy .contsubmenu a.current,#genealogy .contsubmenu a:hover{background:#9f0015;color:#fff;}
 #genealogy .contlabel{margin:10px 0 20px 0;position:relative;}
 #genealogy .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:125px;text-align:center;}
 #genealogy .contlabel li a{display:block;height:34px;}
