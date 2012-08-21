@@ -534,7 +534,8 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingform .reviewyourorder .creditcard span.visa{background-position:0 0;border-color:#dedede;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard span.mastercard{background-position:0 -28px;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard span.americanexpress{background-position:0 -56px;}
-#shoppingcart .shoppingform .reviewyourorder .card{width:60%;}
+#shoppingcart .shoppingform .reviewyourorder .textinfo{padding:10px 20px;border:1px solid #efefef;background:#fefefe;margin:20px 0;line-height:24px;}
+#shoppingcart .shoppingform .reviewyourorder .card table{width:60%;}
 #shoppingcart .shoppingform .reviewyourorder .card td{padding:10px;}
 #shoppingcart .shoppingform .reviewyourorder .card td span{display:block;text-align:left;color:#999;}
 #shoppingcart .shoppingform .reviewyourorder .card select{max-width:204px;padding:4px;}
