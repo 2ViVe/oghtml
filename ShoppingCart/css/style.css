@@ -968,7 +968,8 @@ blockquote,q{quotes:"" "";}
 #event .contlist .search table{width:100%;}
 #event .contlist .search td{padding:5px;}
 #event .contlist .search td p{display:inline-block;}
-#event .contlist .search p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:100px;height:21px;padding:2px 20px 2px 2px;}
+#event .contlist .search p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:100px;height:21px;padding:2px;margin:0 5px;}
+#event .contlist .search p.width2 input{width:40px;}
 #event .contlist .search select{max-width:204px;padding:4px;}
 #event .contlist .search input[type="submit"]{width:auto;padding:0 10px;height:27px;color:#fff;border:none;cursor:pointer;
 																					 	  background:#a00000;
@@ -978,11 +979,14 @@ blockquote,q{quotes:"" "";}
 #event .contlist .eventlist{margin-top:-10px;}
 #event .contlist .eventlist li{padding:20px 10px;border-bottom:1px solid #dedede;cursor:pointer;}
 #event .contlist .eventlist li h3{height:30px;line-height:30px;font-weight:bold;color:#007878;}
-#event .contlist .eventlist li span{float:left;width:420px;padding-left:20px;background:url(../images/og-listicon.png) no-repeat;color:#666;}
+#event .contlist .eventlist li a{float:left;width:420px;padding-left:20px;background:url(../images/og-listicon.png) no-repeat;color:#666;}
+#event .eventinfo table{width:100%;border:1px solid #dfdfdf;}
+#event .eventinfo th,#event .eventinfo td{padding:7px 5px;text-align:center;border-bottom:1px solid #dfdfdf;}
+#event .eventinfo th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
+#event .eventinfo tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 5px;}
+#event .eventinfo td img{width:48px;height:48px;display:block;}
+#event .eventinfo td span{color:#a00000;}
 
-#event .popupbox{display:none;background:#fff;width:720px;left:50%;margin-left:-360px;top:25%;position:fixed;z-index:999;}
-#event .popupboxcont{padding:0;}
-#event .popupboxcont img{width:716px;height:276px;margin:2px;display:block;}
 
 #event .contform{padding:30px 0;}
 #event .contform table{width:100%;}
