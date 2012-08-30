@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* Jary */
+/* August 30, 2012 */
+
+/* Common */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;}
+html,body{width:100%;height:100%;}
+body{font-family:Arial,sans-serif;color:#333;font-size:12px;line-height:170%;-webkit-text-size-adjust:none;background:#fff;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a,a:visited{color:#369;text-decoration:none;}
+a:focus,:focus{outline:none;}
+a:active,:active{outline:none;}
+a:hover{color:#369;}
+li{list-style:none;}
+input,textarea,button{font-family:inherit;}
+input[type="submit"]{cursor:pointer;}
+button{cursor:pointer;}
+table{border-collapse:collapse;border-spacing:0;}
+em{font-style:normal;}
+caption,th,td{font-weight:normal;text-align:left;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+blockquote,q{quotes:"" "";}
+
+.f-l{float:left;}
+.f-r{float:right;}
+.clear{clear:both;}
+.clearfix{zoom:1;}
+.clearfix:after{content:'\20';display:block;clear:both;}
+.wrapper{margin:0 auto;width:1080px;}
+.mar-b{margin-bottom:10px;}
+.ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.hide{display:block;font-size:0;line-height:0;text-indent:-999px;overflow:hidden;}
+.hidden{display:none}
+.show{display:block}
+#content{min-height:100%;}
+
+@font-face{font-family:'titlefonts';src:url('../fonts/impact.eot');src:local('impact Regular'),local('impact'),url('../fonts/impact.ttf') format('truetype');}
+
+
+/* Header */
+#header .vive-logo{width:160px;height:50px;margin:16px 0;background:url(../images/vive-logo.png) no-repeat;}
+#header .vive-logo a{display:block;width:160px;height:50px;}
+#header .vive-language{margin:28px 10px 0 0;height:25px;line-height:25px;background:url(../images/vive-languagebg.png) no-repeat;position:relative;z-index:999;}
+#header .vive-language dt{background:url(../images/vive-languagebg.png) right 0 no-repeat;padding-right:50px;margin-left:30px;cursor:pointer;}
+#header .vive-language dd{background:#f9f9f9;margin-top:1px;border:1px solid #ddd;display:none;
+													border-radius:5px;
+													-webkit-border-radius:5px;
+													-moz-border-radius:5px;
+													-o-border-radius:5px;}
+#header .vive-language dd a{display:block;height:25px;padding:0 30px;}
+#header .vive-language dd a:hover{background:#eee;}
+#header ul{background:url(../images/vive-menubg.png) 0 -54px repeat-x;}
+#header li{height:54px;line-height:54px;background:url(../images/vive-menubg.png) no-repeat;}
+#header .vive-menu{background-position:0 0;}
+#header .vive-menu a,#header .vive-menu a:hover{float:left;height:54px;padding:0 60px 0 40px;background:url(../images/vive-menubg.png) right -108px no-repeat;font-size:15px;color:#fff;
+																								text-shadow:2px 2px 0 #3c76b5;
+																								-webkit-text-shadow:2px 2px 0 #3c76b5;
+																								-moz-text-shadow:2px 2px 0 #3c76b5;
+																								-o-text-shadow:2px 2px 0 #3c76b5;}
+#header .vive-phone{padding-right:45px;background-position:right -162px;}
+#header .vive-phone strong{display:block;height:54px;padding-left:35px;background:url(../images/vive-menubg.png) 0 -216px no-repeat;color:#e0e5ed;font-size:20px;}
+
+
+/* Container */
+#container{padding:30px 30px 65px 30px;}
+
+/* Page */
+
+/* Footer */
+#footer{margin-top:-55px;position:relative;z-index:1;min-width:1080px;}
+#footer p{height:55px;line-height:55px;text-align:center;color:#000;background:#bebebe;}
+
+/* Home */
+#home .banner li{height:442px;overflow:hidden;position:relative;}
+#home .banner li h2,#home .banner li p{position:absolute;left:80px;}
+#home .banner li h2{top:80px;font-size:44px;color:#557c9e;font-family:titlefonts;line-height:100%;}
+#home .banner li p{top:130px;font-size:15px;line-height:24px;width:450px;color:#666;}
+#home .banner li a{display:block;width:151px;height:47px;padding:0 60px 0 20px;background:url(../images/vive-bannerbtn.png) no-repeat;margin-top:18px;color:#fff;font-size:28px;line-height:41px;text-align:center;overflow:hidden;font-family:titlefonts;}
+
+#home .contbox1 dl{width:320px;float:left;padding:40px 0 60px 0;background:url(../images/vive-line.png) left top repeat-x;}
+#home .contbox1 dt,#home .contbox1 dd{float:left;}
+#home .contbox1 dt{width:70px;height:60px;background:url(../images/vive-homeicon.png) no-repeat;}
+#home .contbox1 dd{width:250px;color:#666;line-height:24px;}
+#home .contbox1 dd strong{display:block;font-weight:bold;font-size:14px;}
+#home .contbox1 dl.b{margin:0 30px;}
+#home .contbox1 dl.a dt{background-position:0 0;}
+#home .contbox1 dl.b dt{background-position:-70px 0;}
+#home .contbox1 dl.c dt{background-position:-140px 0;}
+
+#home .contbox2{background:url(../images/vive-line.png) left top repeat-x;padding-top:4px;}
+#home .contbox2 dl{padding:0 30px;}
+#home .contbox2 dt{height:100px;padding-top:40px;font-size:36px;font-family:titlefonts;color:#666;line-height:100%;}
+#home .contbox2 dd{font-size:14px;padding-top:40px;}
+#home .contbox2 dd a{font-weight:bold;}
+#home .contbox2 dl.odd{background:url(../images/vive-homebgright.png) right bottom no-repeat;}
+#home .contbox2 dl.odd dt{float:left;margin-right:30px;}
+#home .contbox2 dl.even{background:url(../images/vive-homebgleft.png) left bottom no-repeat;}
+#home .contbox2 dl.even dt{float:right;margin-left:30px;}
