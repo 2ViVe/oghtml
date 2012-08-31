@@ -1025,3 +1025,28 @@ blockquote,q{quotes:"" "";}
 #wallet .walletinfo dd p{height:30px;line-height:30px;}
 #wallet .walletinfo dd em{float:left;}
 #wallet .walletinfo dd span{color:#a00000;float:right;}
+
+
+/* Distributor Agreement */
+#distributor #container{width:900px;padding:0 30px;margin:0 auto;position:relative;}
+#distributor #container h2,#shoppingcart #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
+#distributor .distributorform{padding-bottom:40px;}
+#distributor .distributorform table{width:100%;}
+#distributor .distributorform td{padding:5px;}
+#distributor .distributorform td.textright{width:40px;}
+#distributor .distributorform td p{display:inline-block;}
+#distributor .distributorform p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
+#distributor .distributorform input[type="checkbox"]{vertical-align:middle;}
+#distributor .distributorform input.required{background:url(../images/og-requiredicon.png) right 3px no-repeat;}
+#distributor .distributorform .btn input{padding:0 10px;height:26px;color:#fff;border:none;
+																					 background:#a00000;
+																					 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#a00000));
+																					 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
+																					 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
+#distributor .distributorform .btn input:disabled{color:#999;
+																										background:#ddd;
+																									  background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#eee),color-stop(1,#ccc));
+																									  background:-moz-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);
+																									  background:-o-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);}
+#distributor .distributorform #accept_tc_textarea{width:730px;height:509px;padding:10px;margin:20px 0;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;font-size:12px;line-height:22px;color:#999;overflow:scroll;overflow-x:hidden;text-align:left;}
+#distributor .distributorform #accept_tc_textarea p{display:block;}
