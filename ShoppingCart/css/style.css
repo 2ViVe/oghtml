@@ -1030,7 +1030,7 @@ blockquote,q{quotes:"" "";}
 /* Distributor Agreement */
 #distributor #container{width:900px;min-height:1205px;padding:0 30px;margin:0 auto;position:relative;}
 #distributor #container h2,#shoppingcart #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
-#distributor .distributorform{padding:0 0 40px 40px;}
+#distributor .distributorform{padding-bottom:40px;}
 #distributor .distributorform li{width:500px;margin:20px 0;line-height:24px;}
 #distributor .distributorform li textarea{max-width:100%;min-width:100%;min-height:80px;font-size:12px;}
 #distributor .distributorform li .cleartext{float:right;}
