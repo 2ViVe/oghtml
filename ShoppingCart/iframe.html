@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>iframe</title>
+<meta name="keywords" content="iframe" />
+<meta name="description" content="iframe" />
+<style type="text/css">
+* { margin:0; padding:0; }
+html, body { width:100%; height:100%; }
+body { font-family:Arial, sans-serif; color:#333; font-size:12px; line-height:170%; -webkit-text-size-adjust:none; background:#fff; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; }
+a, a:visited { color:#007878; text-decoration:none; }
+a:focus, :focus { outline:none; }
+a:active, :active { outline:none; }
+a:hover { color:#007878; }
+li { list-style:none; }
+input, textarea, button { font-family:inherit; }
+input[type="submit"] { cursor:pointer; }
+button { cursor:pointer; }
+table { border-collapse:collapse; border-spacing:0; }
+em { font-style:normal; }
+caption, th, td { font-weight:normal; text-align:left; }
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+.f-l { float:left; }
+.f-r { float:right; }
+.clear { clear:both; }
+.clearfix { zoom:1; }
+.clearfix:after { content:'\20'; display:block; clear:both; }
+.wrapper { margin:0 auto; width:1175px; }
+.mar-b { margin-bottom:10px; }
+.ellipsis { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.hide { display:block; font-size:0; line-height:0; text-indent:-999px; overflow:hidden; }
+.hidden { display:none }
+.show { display:block }
+#iframe #container { width:100%; margin:0 auto; position:relative; }
+#iframe #container h2 { height:50px; line-height:50px; padding:20px 0 5px 0; font-size:15px; font-weight:bold; color:#666; }
+#iframe .contsubmenu { position:absolute; top:33px; left:160px; max-width:680px; }
+#iframe .contsubmenu a { display:inline-block; padding:2px 9px; margin:0 9px 2px 9px; }
+#iframe .contsubmenu a.current, #iframe .contsubmenu a:hover { background:#9f0015; color:#fff; }
+#iframe .contlabel { margin:10px 0 20px 0; position:relative; }
+#iframe .contlabel li { float:left; height:34px; line-height:34px; border:1px solid #dedede; border-right:none; width:125px; text-align:center; }
+#iframe .contlabel li a { display:block; height:34px; }
+#iframe .contlabel li.current { width:146px; border-top:2px solid #b58e39; border-bottom-color:#fff; height:33px; }
+#iframe .contlabel li.current a { height:33px; font-weight:bold; }
+#iframe .contlabel li.line { border-top-color:#fff; min-width:400px; }
+#iframe dt { padding:10px 0; margin-top:-10px; }
+#iframe dt p { display:inline; }
+#iframe dt select { padding:4px; }
+</style>
+</head>
+<body id="iframe">
+<!-- content -->
+<div id="content">
+  <div class="wrapper clearfix">
+    <!-- container -->
+    <div id="container">
+      <h2>Genealogy</h2>
+      <div class="contsubmenu">--<a href="#">Weekly</a>|<a href="#" class="current">Monthly</a>|<a href="#">Quarterly</a>|<a href="#">Rank</a>|<a href="#">Dualteam View</a></div>
+      <div class="contlabel">
+        <ul class="clearfix">
+          <li><a href="#">Unilevel</a></li>
+          <li class="current"><a href="#">Dual Team</a></li>
+          <li><a href="#">Unilevel</a></li>
+          <li class="line">&nbsp;</li>
+        </ul>
+      </div>
+      <dl>
+        <dt class="f-l">Change Country:
+          <p> <span>
+            <select size="1" name="">
+              <option>Austria</option>
+            </select>
+            </span> </p>
+        </dt>
+        <dt class="f-r">Members By States</dt>
+        <dd class="clear"><img src="images/detail.jpg"></dd>
+      </dl>
+    </div>
+  </div>
+  <!-- container end -->
+</div>
+</div>
+<!-- content end -->
+</body>
+</html>
