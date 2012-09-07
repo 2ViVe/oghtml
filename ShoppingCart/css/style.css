@@ -428,6 +428,34 @@ blockquote,q{quotes:"" "";}
 #home .sidebar .box-cbtn li.current{border-color:#b88f3a;}
 #home .sidebar .box-cbtn li.current .arrow{display:block;width:7px;height:4px;background:url(../images/og-homeicon.png) -40px 0 no-repeat;position:absolute;top:-6px;left:26px;}
 
+#home .newslist{position:relative;}
+#home .newslist h3{background:#f2f2f2;border-top:1px solid #dedede;color:#666;font-size:13px;padding:7px 20px;font-weight:bold;
+											 box-shadow:inset 0 1px 0 #fff;
+											 -moz-box-shadow:inset 0 1px 0 #fff;
+											 -webkit-box-shadow:inset 0 1px 0 #fff;
+											 -o-box-shadow:inset 0 1px 0 #fff;}
+#home .newslist .newslistcont{margin-top:30px;}
+#home .newslist .newslistcont dl{padding-bottom:40px;}
+#home .newslist .newslistcont dt{height:1px;background:#ddd;position:relative;}
+#home .newslist .newslistcont dt span{position:absolute;top:-11px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-size:14px;}	
+#home .newslist .newslistcont dd{padding-top:20px;}										 
+#home .newslist .newslistcont dd img{width:64px;height:64px;float:left;}
+#home .newslist .newslistcont dd h4,#home .newslist .newslistcont dd p{float:right;width:570px;}
+#home .newslist .newslistcont dd h4{font-size:12px;font-weight:bold;line-height:22px;}
+#home .newslist .newslistcont dd h4 .star{display:inline-block;width:10px;height:10px;background:url(../images/og-homeicon.png) -50px 0 no-repeat;margin-left:5px;}
+#home .newslist .newslistcont dd p{min-height:40px;padding-bottom:10px;border-bottom:1px solid #dedede;}
+#home .newslist .newslistcont dd span{color:#999;margin-left:5px;}
+
+#home .newsselect{margin:-30px 10px 0 0;}
+#home .newsselect select{padding:4px;}
+
+#home .pagination{text-align:right;}
+#home .pagination a,#home .pagination span,#home .pagination em{display:inline-block;}
+#home .pagination a,#home .pagination span,#home .pagination em{height:18px;line-height:18px;text-align:center;padding:0 5px;border:1px solid #ccc;margin:0 1px;color:#007878;cursor:pointer;}
+#home .pagination a:hover,#home .pagination span:hover,#home .pagination em{background:#b7a35e;border:1px solid #b2973b;color:#fff;}
+#home .pagination .disabled,#home .pagination em{cursor:default;}
+#home .pagination .disabled:hover{background:#fff;color:#007878;border:1px solid #ccc;}
+
 /* Shopping Cart */
 #shoppingcart #container{width:900px;padding:0 30px;margin:0 auto;position:relative;}
 #shoppingcart #container h2,#shoppingcart #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}

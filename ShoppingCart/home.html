@@ -225,7 +225,7 @@
               </dd>
             </dl>
           </div>
-          <div id="page"><span class="pagebtn">First</span><span class="pagebtn">Previous</span><span><span class="pagebtn current">1</span><span class="pagebtn">2</span><span class="pagebtn">3</span><span class="pagebtn">4</span><span class="pagebtn">5</span></span><span class="pagebtn">Next</span><span class="pagebtn">Last</span></div>
+          <div class="more"><a href="#">View more <span class="arrow"></span></a></div>
         </div>
       </div>
       <div class="sidebar f-r">
@@ -380,5 +380,65 @@
   <p>Copyright  ©  2012 organo gold All rights reserved</p>
 </div>
 <!-- footer end -->
+
+<!-- popupbox -->
+<div class="popupbox" style="display:block;top:10%;">
+  <div class="close"></div>
+  <div class="popupboxcont">
+    <div class="newslist">
+          <h3>Company News</h3>
+          <div class="newsselect f-r">
+          	<select name="" size="1">
+          	  <option>select</option>
+          	</select>
+          </div>
+          <div class="newslistcont">
+            <dl>
+              <dt><span>Today</span></dt>
+              <dd class="clearfix"><img src="images/pic1.jpg" alt="Promotion" width="214" height="140" />
+                <h4><a href="#">Jennifer Lawrence</a></h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce<span>7/8/2012/ 11:16:28 AM</span></p>
+              </dd>
+              <dd class="clearfix"><img src="images/pic1.jpg" alt="Promotion" width="214" height="140" />
+                <h4><a href="#">Jennifer Lawrence</a></h4>
+                <p>Donec id elit non mi porta gravida at egeit non mi porta gravida atit non mi porta gravida atit non mi porta gravida att metus. Fusce<span>7/8/2012/ 11:16:28 AM</span></p>
+              </dd>
+            </dl>
+            <dl>
+              <dt><span>July 07</span></dt>
+              <dd class="clearfix"><img src="images/pic1.jpg" alt="Promotion" width="214" height="140" />
+                <h4><a href="#">Jennifer Lawrence</a>
+                  <label class="star"></label>
+                </h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce<span>7/8/2012/ 11:16:28 AM</span></p>
+              </dd>
+              <dd class="clearfix"><img src="images/pic1.jpg" alt="Promotion" width="214" height="140" />
+                <h4><a href="#">Jennifer Lawrence</a>
+                  <label class="star"></label>
+                </h4>
+                <p>Donec id elit non mi porta gravida at egeit non mi porta gravida atit non mi porta gravida atit non mi porta gravida att metus. Fusce<span>7/8/2012/ 11:16:28 AM</span></p>
+              </dd>
+            </dl>
+            <div class="ajax_pagination pagination"><span class="previous_page disabled">← Previous</span> <em>1</em> <a href="/home/team_flashlights?page=2">2</a> <a href="/home/team_flashlights?page=3">3</a> <a href="/home/team_flashlights?page=4">4</a> <a href="/home/team_flashlights?page=5">5</a> <a href="/home/team_flashlights?page=6">6</a> <a href="/home/team_flashlights?page=7">7</a> <a href="/home/team_flashlights?page=8">8</a> <a href="/home/team_flashlights?page=9">9</a> <span class="gap">…</span> <a href="/home/team_flashlights?page=432">432</a> <a href="/home/team_flashlights?page=433">433</a> <a href="/home/team_flashlights?page=2" class="next_page">Next →</a></div>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="popupboxbg" style="display:block;"></div>
+<script type="text/javascript">
+$(function($){
+	$(".containerbox .more a").click(
+		function(){
+			$(".popupbox").show();
+			$(".popupboxbg").show();
+					});
+	$(".popupbox .close").click(
+		function(){
+			$(".popupbox").hide();
+			$(".popupboxbg").hide();
+					});
+});
+</script>
+<!-- popupbox end -->
 </body>
 </html>
