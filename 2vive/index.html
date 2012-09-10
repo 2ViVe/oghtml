@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>home</title>
+<meta name="keywords" content="2vive" />
+<meta name="description" content="2vive" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="scripts/jquery.min.js"></script>
+</head>
+<body>
+<!-- content -->
+<div id="content">
+  <!-- header -->
+  <div id="header">
+    <div class="wrapper">
+      <h1 class="vive-logo hide f-l"><a href="home.html">2vive</a></h1>
+      <dl class="vive-language f-r">
+        <dt>English</dt>
+        <dd><a href="#">language</a><a href="#">language</a><a href="#">language</a><a href="#">language</a></dd>
+      </dl>
+      <script type="text/javascript">
+			$(function(){
+				$(".vive-language dt").click(
+					function(){
+						$(".vive-language dd").toggle();
+								})
+						})
+			</script>
+      <ul class="clearfix clear">
+        <li class="vive-menu"><a href="javascript:viod(0);" class="menu1">HOME</a>|<a href="javascript:viod(0);" class="menu2">SOLUTIONS</a>|<a href="javascript:viod(0);" class="menu3">TRIALS</a>|<a href="javascript:viod(0);" class="menu4">CONTACT US</a></li>
+        <li class="vive-phone f-r"><strong>86-021-65893255</strong></li>
+      </ul>
+    </div>
+  </div>
+  <!-- header end -->
+  <!-- container -->
+  <div id="home">
+    <div class="contbox">
+      <div class="wrapper clearfix">
+        <div class="slidebox">
+          <ul class="slidecont clearfix">
+            <li>
+              <h2>Success Store1</h2>
+              <p>Operating with maximum efficiency: Manage my cost; Explore new markets and opportunity,Operating with maximum efficiency: Manage my cost; Explore new markets </p>
+              <a href="#" class="more">Read more</a></li>
+            <li>
+              <h2>Success Store2</h2>
+              <p>Operating with maximum efficiency: Manage my cost; Explore new markets and opportunity,Operating with maximum efficiency: Manage my cost; Explore new markets </p>
+              <a href="#" class="more">Read more</a></li>
+            <li>
+              <h2>Success Store3</h2>
+              <p>Operating with maximum efficiency: Manage my cost; Explore new markets and opportunity,Operating with maximum efficiency: Manage my cost; Explore new markets </p>
+              <a href="#" class="more">Read more</a></li>
+            <li>
+              <h2>Success Store4</h2>
+              <p>Operating with maximum efficiency: Manage my cost; Explore new markets and opportunity,Operating with maximum efficiency: Manage my cost; Explore new markets </p>
+              <a href="#" class="more">Read more</a></li>
+          </ul>
+          <ul class="slidebtn">
+            <li class="current">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>
+          <script type="text/javascript">
+						$(function(){
+								var $cur = 1;
+								var $pages = $('.showbox>ul>li').size();
+								var $w = $('.slidebox').width();
+								var $showbox = $('.slidecont');
+								var $num = $('.slidebtn li')
+								$num.click(function(){
+										if (!$showbox.is(':animated')) {
+												var $index = $num.index(this);
+												$showbox.animate({
+														left: '-' + ($w * $index) 
+												}, 500);
+												$cur = $index + 1;
+												$(this).addClass('current').siblings().removeClass('current');}
+								});
+								function switchImages() {
+									var nextLi = $(".slidebtn li.current").next();
+									(nextLi.size() < 1 ? $(".slidebtn li:eq(0)") : nextLi).click();
+														}
+								setInterval(switchImages, 5000);
+						})
+				 </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contact">
+    <div class="contbox">
+      <div class="wrapper clearfix">
+        <div class="formbox">
+          <form action="" method="get">
+            <span>
+            <label>Company Name:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>Contact First Name:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>Address:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>City:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>State/Province:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>Country:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>Postal Code:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>Email:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>Phone:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>Preferred Contact:</label>
+            <input name="" type="text" />
+            </span> <span>
+            <label>&nbsp;</label>
+            <input name="" type="submit" value="Submit" />
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container end -->
+</div>
+<!-- content end -->
+<!-- footer -->
+<div id="footer">
+  <p>Copyright © 2012 2vive.com All rights reserved.</p>
+</div>
+<!-- footer end -->
+<script type="text/javascript">
+$(function(){
+	var $doc_h=$(document).height();
+	$(".contbox").css({height:$doc_h});
+	$(".vive-menu a").click(
+			function(){
+				$(this).addClass("current").siblings().removeClass("current");
+						});
+	$(".vive-menu a.menu1").click(
+			function(){
+				$("html,body").animate({scrollTop:$("#home").offset().top},'slow');
+						});
+	$(".vive-menu a.menu2").click(
+			function(){
+				$("html,body").animate({scrollTop:$("#solutions").offset().top},'slow');
+						});
+	$(".vive-menu a.menu3").click(
+			function(){
+				$("html,body").animate({scrollTop:$("#trials").offset().top},'slow');
+						});
+	$(".vive-menu a.menu4").click(
+			function(){
+				$("html,body").animate({scrollTop:$("#contact").offset().top},'slow');
+						});
+			});
+</script>
+</body>
+</html>
