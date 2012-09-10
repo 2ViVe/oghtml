@@ -38,7 +38,7 @@ blockquote,q{quotes:"" "";}
 
 
 /* Header */
-#header{position:fixed;top:0;left:50%;margin-left:-540px;z-index:9;}
+#header{position:fixed;top:0;left:50%;margin-left:-540px;z-index:9;*width:1080px;}
 #header .vive-logo{width:160px;height:50px;margin:16px 0;background:url(../images/vive-logo.png) no-repeat;}
 #header .vive-logo a{display:block;width:160px;height:50px;}
 #header .vive-language{margin:28px 20px 0 0;height:25px;line-height:25px;background:url(../images/vive-languagebg.png) no-repeat;position:relative;z-index:999;}
@@ -67,7 +67,7 @@ blockquote,q{quotes:"" "";}
 #content .contbox{background-position:center top;background-size:cover;width:100%;min-width:1080px;overflow:hidden;}
 
 /* Footer */
-#footer{margin-top:-55px;position:relative;z-index:99;min-width:1080px;}
+#footer{position:fixed;left:0;bottom:0;z-index:9;width:100%;}
 #footer p{height:55px;line-height:55px;text-align:center;color:#fff;background:#000;}
 
 /* Home */
@@ -83,13 +83,13 @@ blockquote,q{quotes:"" "";}
 																										background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#f1ac3e),color-stop(1,#ed5f17));
 																										background:-moz-linear-gradient(0 0 270deg,#f1ac3e 0,#ed5f17 100%);
 																										background:-o-linear-gradient(0 0 270deg,#f1ac3e 0,#ed5f17 100%);}
-#home .slidebtn{height:10px;position:absolute;right:15px;bottom:10px;}
-#home .slidebtn li{float:left;width:10px;height:10px;background:#f1f1f1;background:url(../images/vive-homeslidebtn.png) no-repeat\9;margin-left:10px;font-size:0;line-height:0;text-indent:-999px;overflow:hidden;cursor:pointer;
+#home .slidebtn{height:10px;position:absolute;right:15px;bottom:12px;}
+#home .slidebtn li{float:left;width:12px;height:12px;background:#f1f1f1;background:url(../images/vive-homeslidebtn.png) no-repeat\9;margin-left:12px;font-size:0;line-height:0;text-indent:-999px;overflow:hidden;cursor:pointer;
 									 border-radius:5px;
 									 -webkit-border-radius:5px;
 									 -moz-border-radius:5px;
 									 -o-border-radius:5px;}
-#home .slidebtn li.current{background:#f9b457;background:url(../images/vive-homeslidebtn.png) 0 -10px no-repeat\9;cursor:default;}
+#home .slidebtn li.current{background:#f9b457;background:url(../images/vive-homeslidebtn.png) 0 -12px no-repeat\9;cursor:default;}
 
 /* Contact */
 #contact{position:relative;}
