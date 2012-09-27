@@ -77,12 +77,12 @@ blockquote,q{quotes:"" "";}
 #sidebar .submenu dt .arrow{display:inline-block;width:4px;height:7px;background:url(../images/og-submenuarrow.png) 0 -9px no-repeat;margin-left:5px;}
 #sidebar .submenu dl:hover dt .arrow,#sidebar .submenu dt span.current .arrow{display:none;}
 #sidebar .submenu dd{display:none;position:absolute;top:0;left:215px;border:1px solid #9a0a0a;background:#fff;min-width:120px;padding:10px 15px;z-index:99;
-										 box-shadow:2px 2px 2px rgba(0,0,0,0.2);
-										 -webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
-										 -moz-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
-										 -o-box-shadow:2px 2px 2px rgba(0,0,0,0.2);}
+					 box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+					 -webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+					 -moz-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+					 -o-box-shadow:2px 2px 2px rgba(0,0,0,0.2);}
 #sidebar .submenu dd a{display:block;line-height:32px;color:#333;padding:0 10px;white-space:nowrap;}
-#sidebar .submenu dd a:hover,#sidebar .submenu dd a.current{background:#f0f0f0;}
+#sidebar .submenu dd a:hover,#sidebar .submenu dd a.current{background:#9b1112;color:#fff;}
 #sidebar .submenu dl:hover dd{display:block;}
 #sidebar .submenu dd .arrow{position:absolute;top:13px;left:-5px;width:5px;height:9px;background:url(../images/og-submenuarrow.png) no-repeat;}
 #sidebar .submenu .nav1{background-position:0 0;}
