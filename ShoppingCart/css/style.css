@@ -1042,6 +1042,7 @@ background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(
 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);
 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
 #event .contform .idcont a,#event .contform .idcont a:hover{display:inline-block;height:26px;background:none;}
+#event .contform .idcont a img{vertical-align:middle;}
 #event .contform .btn{padding:10px;}
 
 /* Wallet */
