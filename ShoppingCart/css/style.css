@@ -179,7 +179,7 @@ blockquote,q{quotes:"" "";}
 #login #footer p{background:none;text-shadow:1px 1px 0 #333;}
 
 #login #background{position:absolute;top:0;left:0;width:100%;min-width:1175px;height:100%;min-height:760px;overflow:hidden;z-index:0;}
-#login #background img{width:100%;height:auto;}
+#login #background img{width:auto;height:100%;}
 
 #login .loginbox{width:830px;position:absolute;top:50%;left:50%;margin:-250px 0 0 -415px;background:#000\9;filter:alpha(opacity=70)\9;background:rgba(0,0,0,0.3);border-radius:20px;z-index:9;}
 :root #login .loginbox{filter:alpha(opacity=100)\0;}
