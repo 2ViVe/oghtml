@@ -316,10 +316,6 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep3 .paymentdetails .title{width:140px;}
 #registration .registrationstep3 .creditcard{padding-left:20px;}
 #registration .registrationstep3 .creditcard h4{font-weight:bold;}
-#registration .registrationstep3 .creditcard span{display:inline-block;width:38px;height:28px;border:1px solid #fff;margin:20px;background:url(../images/og-creditcardicon.png) no-repeat;}
-#registration .registrationstep3 .creditcard span.visa{background-position:0 0;border-color:#dedede;}
-#registration .registrationstep3 .creditcard span.mastercard{background-position:0 -28px;}
-#registration .registrationstep3 .creditcard span.americanexpress{background-position:0 -56px;}
 #registration .registrationstep3 .card{width:45%;}
 #registration .registrationstep3 .card td{padding:10px;}
 #registration .registrationstep3 .card td span{display:block;text-align:left;color:#999;}
@@ -353,10 +349,6 @@ blockquote,q{quotes:"" "";}
 #registration .registrationautoship .creditcard{padding-left:20px;padding-bottom:0;}
 #registration .registrationautoship .creditcard h4{font-weight:bold;}
 #registration .registrationautoship .creditcard p{display:inline;}
-#registration .registrationautoship .creditcard span{display:inline-block;width:38px;height:28px;border:1px solid #fff;margin:0 20px;background:url(../images/og-creditcardicon.png) no-repeat;}
-#registration .registrationautoship .creditcard span.visa{background-position:0 0;border-color:#dedede;}
-#registration .registrationautoship .creditcard span.mastercard{background-position:0 -28px;}
-#registration .registrationautoship .creditcard span.americanexpress{background-position:0 -56px;}
 #registration .registrationautoship .card{width:60%;}
 #registration .registrationautoship .card td{padding:10px;text-align:left;}
 
@@ -567,10 +559,6 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingform .reviewyourorder .order span{display:inline-block;padding:15px 20px 15px 10px;width:100px;color:#333;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard{padding-left:20px;}
 #shoppingcart .shoppingform .reviewyourorder .creditcard h4{font-weight:bold;}
-#shoppingcart .shoppingform .reviewyourorder .creditcard span{display:inline-block;width:38px;height:28px;border:1px solid #fff;margin:20px;background:url(../images/og-creditcardicon.png) no-repeat;}
-#shoppingcart .shoppingform .reviewyourorder .creditcard span.visa{background-position:0 0;border-color:#dedede;}
-#shoppingcart .shoppingform .reviewyourorder .creditcard span.mastercard{background-position:0 -28px;}
-#shoppingcart .shoppingform .reviewyourorder .creditcard span.americanexpress{background-position:0 -56px;}
 #shoppingcart .shoppingform .reviewyourorder .textinfo{padding:10px 20px;border:1px solid #efefef;background:#fefefe;margin:20px 0;line-height:24px;}
 #shoppingcart .shoppingform .reviewyourorder .card table{width:60%;}
 #shoppingcart .shoppingform .reviewyourorder .card td{padding:10px;}
@@ -894,7 +882,7 @@ blockquote,q{quotes:"" "";}
 #autoship .popupboxautoship{width:860px;padding-top:30px;}
 #autoship .popupboxautoship td.title{width:140px;}
 #autoship .popupboxautoship dt{height:1px;background:#ddd;position:relative;}
-#autoship .popupboxautoship strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#fff;font-weight:bold;}
+#autoship .popupboxautoship strong{position:absolute;top:-9px;left:20px;padding:0 10px;display:block;height:20px;background:#f9f9f9;font-weight:bold;}
 #autoship .popupboxautoship dt em{font-weight:normal;}
 #autoship .popupboxautoship dd{padding:30px 0 40px 0;}
 #autoship .popupboxautoship .autoship table{width:100%;border:1px solid #dfdfdf;}
@@ -911,10 +899,6 @@ blockquote,q{quotes:"" "";}
 #autoship .popupboxautoship .creditcard{padding-left:20px;padding-bottom:0;}
 #autoship .popupboxautoship .creditcard h4{font-weight:bold;}
 #autoship .popupboxautoship .creditcard p{display:inline;}
-#autoship .popupboxautoship .creditcard span{display:inline-block;width:38px;height:28px;border:1px solid #fff;margin:0 20px;background:url(../images/og-creditcardicon.png) no-repeat;}
-#autoship .popupboxautoship .creditcard span.visa{background-position:0 0;border-color:#dedede;}
-#autoship .popupboxautoship .creditcard span.mastercard{background-position:0 -28px;}
-#autoship .popupboxautoship .creditcard span.americanexpress{background-position:0 -56px;}
 #autoship .popupboxautoship .card{width:100%;}
 #autoship .popupboxautoship .card td{padding:10px;}
 #autoship .popupboxautoship .card.hack td{padding:6px 10px;}
