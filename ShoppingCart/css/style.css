@@ -1078,3 +1078,10 @@ background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a00000 100%);}
 																									  background:-o-linear-gradient(0 0 270deg,#eee 0,#ccc 100%);}
 #distributor .distributorform #accept_tc_textarea{width:730px;height:509px;padding:10px;margin-top:20px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;font-size:12px;line-height:22px;color:#999;overflow:scroll;overflow-x:hidden;text-align:left;}
 #distributor .distributorform #accept_tc_textarea p{display:block;}
+
+/* Contact Us */
+#contact-us-page p{padding:5px 0;line-height:24px;}
+#contact-us-page dt{margin:25px 0 10px 0;font-size:16px;font-weight:bold;}
+#contact-us-page dd{padding-left:30px;line-height:24px;}
+#contact-us-page strong{font-weight:bold;margin-right:5px;}
+#contact-us-page img{vertical-align:middle;width:24px;height:auto;}
