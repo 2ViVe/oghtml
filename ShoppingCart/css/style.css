@@ -178,7 +178,7 @@ blockquote,q{quotes:"" "";}
 
 /* Login */
 #login #content{position:relative;z-index:1;min-height:760px;}
-#login #footer p{background:none;text-shadow:1px 1px 0 #333;}
+#login #footer p{background:none;text-shadow:none;color:#333;}
 
 #login #background{position:absolute;top:0;left:0;width:100%;min-width:1175px;height:100%;min-height:760px;overflow:hidden;z-index:0;}
 #login #background img{width:auto;height:100%;}
@@ -692,7 +692,7 @@ blockquote,q{quotes:"" "";}
 #commissions .popupboxcont tr.total{background:#f7f6f2;}
 
 /* Recent */
-#recent #container{width:900px;padding:0 30px;margin:0 auto;padding-bottom:60px;}
+#recent #container{width:900px;padding:0 30px 60px 30px;margin:0 auto;}
 #recent #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:14px;font-weight:bold;color:#666;}
 #recent .continfo{padding:40px 0;border-bottom:1px dotted #dedede;background:url(../images/og-shippingmethodbg.png) right bottom no-repeat;}
 #recent .continfo p{text-align:center;line-height:34px;}
@@ -721,7 +721,7 @@ blockquote,q{quotes:"" "";}
 #recent .conttable3 .icon{width:10px;height:24px;background:url(../images/og-recenticon.png) -100px -34px no-repeat;margin:0 5px;}
 
 /* Report */
-#report #container{width:900px;min-height:1205px;padding:0 30px;margin:0 auto;position:relative;}
+#report #container{width:900px;min-height:1145px;padding:0 30px 60px 30px;margin:0 auto;position:relative;}
 #report #container h2,#report #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
 #report .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
 #report .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
@@ -764,7 +764,7 @@ blockquote,q{quotes:"" "";}
 #report .downlinetotals th{font-weight:bold;}
 #report .downlinetotals td p{padding:0 30px;height:24px;line-height:24px;}
 #report .downlinetotals td em{float:left;}
-#report .downlinetotals td span{color:#9B1112;float:right;}
+#report .downlinetotals td span{color:#333;float:right;}
 
 /* Documents */
 #documents #container{width:900px;padding:0 30px 60px 30px;margin:0 auto;position:relative;}
