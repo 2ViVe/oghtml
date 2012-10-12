@@ -1013,6 +1013,7 @@ blockquote,q{quotes:"" "";}
 #event .contform table{width:100%;}
 #event .contform td{padding:5px 10px;line-height:27px;}
 #event .contform td p{display:inline-block;}
+#event .contform td a img{vertical-align:middle;margin-right:5px;}
 #event .contform p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
 #event .contform input.required{background:url(../images/og-requiredicon.png) right 3px no-repeat;}
 #event .contform td.textright{width:140px;text-align:right;}
