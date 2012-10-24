@@ -475,12 +475,12 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .productsinfo dd{float:left;width:560px;}
 #shoppingcart .productsinfo dd h4{font-size:14px;font-weight:bold;color:#666;margin-bottom:20px;}
 #shoppingcart .productsinfo dd p{width:320px;height:40px;line-height:40px;border-bottom:1px solid #eee;}
-#shoppingcart .productsinfo dd span{display:inline-block;width:200px;}
+#shoppingcart .productsinfo dd span{display:inline-block;width:240px;}
 #shoppingcart .productsinfo .price{height:80px;line-height:80px;}
 #shoppingcart .productsinfo .price strong{font-size:24px;color:#9B1112;margin-left:20px;vertical-align:middle;}
 #shoppingcart .productsinfo .number{display:inline-block;*display:inline;width:40px;height:25px;line-height:25px;margin-right:30px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;*border:none;}
 #shoppingcart .productsinfo .number input{width:36px;height:18px;padding:2px;border:none;text-align:center;color:#666;}
-#shoppingcart .productsinfo .btn input.submit{border:none;width:142px;padding:5px 0;padding:6px 0 7px 0\9;*padding:4px 0 5px 0\9;background:url(../images/og-addcartbtn.png) 0 -24px no-repeat;text-indent:20px;*text-indent:40px;color:#fff;font-size:14px;}
+#shoppingcart .productsinfo .btn input.submit{border:none;padding:5px 20px 5px 45px;padding:6px 10px 7px 25px\9;*padding:4px 10px 5px 25px\9;background:url(../images/og-addcartbtn.png) 0 -24px no-repeat;color:#fff;font-size:14px;}
 
 #shoppingcart .productsarticle{border-top:1px solid #e2e2e2;padding-bottom:40px;}
 #shoppingcart .productsarticle p{color:#666;}
@@ -610,11 +610,11 @@ blockquote,q{quotes:"" "";}
 #commissions .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
 #commissions .contsubmenu a.current,#commissions .contsubmenu a:hover{background:#9B1112;color:#fff;}
 #commissions .contlabel{margin-top:10px;}
-#commissions .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:125px;text-align:center;}
+#commissions .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:150px;text-align:center;}
 #commissions .contlabel li a{display:block;height:34px;}
-#commissions .contlabel li.current{width:146px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
+#commissions .contlabel li.current{width:166px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
 #commissions .contlabel li.current a{height:33px;}
-#commissions .contlabel li.summary{float:right;border-top-color:#fff;width:500px;text-align:right;}
+#commissions .contlabel li.summary{float:right;border-top-color:#fff;width:430px;text-align:right;}
 #commissions .contlabel li.current a,#commissions .contlabel li.summary a{font-weight:bold;}
 #commissions .contlabel li.summary a{display:inline;}
 #commissions .contdata{font-size:11px;margin-top:30px;}
@@ -954,11 +954,11 @@ blockquote,q{quotes:"" "";}
 #genealogy .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
 #genealogy .contsubmenu a.current,#genealogy .contsubmenu a:hover{background:#9B1112;color:#fff;}
 #genealogy .contlabel{margin:10px 0 20px 0;position:relative;}
-#genealogy .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:125px;text-align:center;}
+#genealogy .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:150px;text-align:center;}
 #genealogy .contlabel li a{display:block;height:34px;}
-#genealogy .contlabel li.current{width:146px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
+#genealogy .contlabel li.current{width:166px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
 #genealogy .contlabel li.current a{height:33px;font-weight:bold;}
-#genealogy .contlabel li.line{float:right;border-top-color:#fff;width:626px;}
+#genealogy .contlabel li.line{float:right;border-top-color:#fff;width:581px;}
 #genealogy .contlabel .search{position:absolute;top:4px;right:0;}
 #genealogy .contlabel .search p{display:inline;}
 #genealogy .contlabel .search p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
