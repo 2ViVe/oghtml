@@ -466,7 +466,7 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .productslist li input{vertical-align:middle;}
 #shoppingcart .productslist li .addcart{position:relative;font-size:10px;color:#666;}
 #shoppingcart .productslist li .addcartpopup{display:none;position:absolute;bottom:-40px;right:-57px;width:198px;height:32px;line-height:32px;text-align:center;border:1px solid #c6c3ba;background:#fff;}
-#shoppingcart .productslist li .addcartpopup a,#shoppingcart .productslist li .addcartpopup a:hover{display:inline-block;width:96px;height:24px;line-height:24px;background:url(../images/og-addcartbtn.png) 0 0 no-repeat;text-indent:20px;color:#fff;margin-left:5px;}
+#shoppingcart .productslist li .addcartpopup a,#shoppingcart .productslist li .addcartpopup a:hover{float:right;width:72px;height:24px;line-height:24px;overflow:hidden;background:url(../images/og-addcartbtn.png) 0 0 no-repeat;color:#fff;margin:4px 8px 4px 0;padding-left:30px;text-align:left;}
 #shoppingcart .productslist li .addcartpopup .arrow{position:absolute;top:-5px;left:11px;width:7px;height:4px;background:url(../images/og-addcartpopuparrow.png) no-repeat;}
 
 #shoppingcart .productsinfo{margin-bottom:30px;}
@@ -621,7 +621,7 @@ blockquote,q{quotes:"" "";}
 #commissions .contdata select{margin:0 2px;padding:4px;}
 
 #commissions .conttable{padding:20px 0;}
-#commissions .conttable table{width:100%;border:1px solid #dedede;margin-bottom:20px;}
+#commissions .conttable table{width:100%;border:1px solid #dedede;margin-bottom:20px;table-layout:fixed;word-wrap:break-word;}
 #commissions .conttable th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;font-weight:bold;}
 #commissions .conttable td{text-align:center;padding:7px 10px;border-bottom:1px solid #f2f2f2;}
 #commissions .conttable .textright{text-align:right;}
@@ -738,7 +738,7 @@ blockquote,q{quotes:"" "";}
 																					 background:-moz-linear-gradient(0 0 270deg,#d7000e 0,#9B1112 100%);
 																					 background:-o-linear-gradient(0 0 270deg,#d7000e 0,#9B1112 100%);}
 #report .dataTables_filter{float:right;}
-#report .dataTables_wrapper table{width:100%;border:1px solid #dfdfdf;table-layout:fixed;}
+#report .dataTables_wrapper table{width:100%;border:1px solid #dfdfdf;table-layout:fixed;word-wrap:break-word;}
 #report .dataTables_wrapper th,#report .dataTables_wrapper td{padding:7px 4px;text-align:center;border-bottom:1px solid #dfdfdf;}
 #report .dataTables_wrapper th{background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;}
 #report .dataTables_wrapper th.sorting,#report .dataTables_wrapper th.sorting_asc,#report .dataTables_wrapper th.sorting_desc{background:#ebebeb url(../images/og-commissionsicon.png) no-repeat;cursor:pointer;}
