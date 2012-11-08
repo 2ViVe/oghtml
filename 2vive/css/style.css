@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* Jary */
-/* August 30, 2012 */
+/* November 6, 2012 */
 
 /* Common */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;}
 html,body{width:100%;min-height:100%;}
-body{font-family:Arial,sans-serif;color:#333;font-size:12px;line-height:170%;-webkit-text-size-adjust:none;background:#fff;}
+body{font-family:Arial,sans-serif;color:#333;font-size:12px;line-height:170%;-webkit-text-size-adjust:none;background:#55c2c2;}
 h1,h2,h3,h4,h5,h6{font-weight:normal;}
 a,a:visited{color:#369;text-decoration:none;}
 a:focus,:focus{outline:none;}
@@ -32,16 +32,13 @@ blockquote,q{quotes:"" "";}
 .hide{display:block;font-size:0;line-height:0;text-indent:-999px;overflow:hidden;}
 .hidden{display:none}
 .show{display:block}
-#content{min-height:100%;}
-
-@font-face{font-family:'titlefonts';src:url('../fonts/impact.eot');src:local('impact Regular'),local('impact'),url('../fonts/impact.ttf') format('truetype');}
 
 
 /* Header */
-#header{position:fixed;top:0;left:50%;margin-left:-540px;z-index:9;*width:1080px;}
-#header .vive-logo{width:160px;height:50px;margin:16px 0;background:url(../images/vive-logo.png) no-repeat;}
+#header{position:fixed;top:0;left:0;width:100%;height:120px;z-index:99;background:#fff;}
+#header .vive-logo{width:160px;height:50px;margin:30px 0 40px 60px;background:url(../images/vive-logo.png) no-repeat;}
 #header .vive-logo a{display:block;width:160px;height:50px;}
-#header .vive-language{margin:28px 20px 0 0;height:25px;line-height:25px;background:url(../images/vive-languagebg.png) no-repeat;position:relative;z-index:999;}
+#header .vive-language{margin:41px 40px 0 0;height:25px;line-height:25px;background:url(../images/vive-languagebg.png) no-repeat;position:relative;z-index:999;}
 #header .vive-language dt{padding-right:50px;margin-left:30px;cursor:pointer;background:url(../images/vive-languagebg.png) right 0 no-repeat;margin-right:-10px;}
 #header .vive-language dd{background:#f9f9f9;margin-top:1px;border:1px solid #ddd;display:none;
 													border-radius:5px;
@@ -50,54 +47,49 @@ blockquote,q{quotes:"" "";}
 													-o-border-radius:5px;}
 #header .vive-language dd a{display:block;height:25px;padding:0 30px;}
 #header .vive-language dd a:hover{background:#eee;}
-#header ul{position:relative;background:rgba(252,168,57,0.8);background:url(../images/vive-menubg.png) repeat\9;
-					 box-shadow:0 2px 2px rgba(0,0,0,0.2);
-					 -webkit-box-shadow:0 2px 2px rgba(0,0,0,0.2);
-					 -moz-box-shadow:0 2px 2px rgba(0,0,0,0.2);
-					 -o-box-shadow:0 2px 2px rgba(0,0,0,0.2);}
-#header li{height:54px;line-height:54px;}
-#header .vive-menu{color:#fff;position:absolute;top:-3px;left:0;}
-#header .vive-menu a,#header .vive-menu a:hover{display:inline-block;height:54px;line-height:60px;padding:0 30px;margin:0 20px;font-size:15px;color:#fff;}
-#header .vive-menu a.current{background:rgba(255,255,255,0.6);background:url(../images/vive-menucurrentbg.png) repeat\9;color:#333;height:57px;}
+#header .vive-menu{height:50px;margin:30px 0 40px 0;}
+#header .vive-menu a,#header .vive-menu a:hover{display:inline-block;height:50px;line-height:64px;overflow:hidden;padding:0 20px;margin-left:40px;font-size:15px;color:#666;}
+#header .vive-menu a.current{color:#333;font-weight:bold;}
 #header .vive-phone{padding-right:45px;}
 #header .vive-phone strong{display:block;height:54px;padding-left:35px;background:url(../images/vive-menuicon.png) no-repeat;color:#fff;font-size:20px;}
 
 
-/* Container */
-#content .contbox{background-position:center top;background-size:cover;width:100%;min-width:1080px;overflow:hidden;}
-
 /* Footer */
-#footer{position:fixed;left:0;bottom:0;z-index:9;width:100%;}
-#footer p{height:55px;line-height:55px;text-align:center;color:#fff;background:#000;}
+#footer{width:100%;}
+#footer p{height:120px;line-height:120px;text-align:center;color:#000;background:#bebebe;}
 
 /* Home */
-#home{position:relative;}
-#home .contbox{background-image:url(../images/vive-homebanner.jpg);}
-#home .slidebox{width:530px;height:200px;overflow:hidden;background:rgba(44,44,44,0.25);background:url(../images/vive-boxbg.png) repeat\9;position:absolute;top:160px;}
+#home{margin-top:120px;}
+#home .slidebox{width:100%;height:538px;background:#55c2c2;overflow:hidden;position:relative;}
 #home .slidecont{width:12345px;position:absolute;}
-#home .slidecont li{float:left;width:450px;padding:20px 30px 20px 50px;color:#fff;}
-#home .slidecont h2{font-size:30px;font-family:"titlefonts";line-height:100%;}
-#home .slidecont p{font-size:15px;line-height:24px;margin:10px 0;}
-#home .slidecont .more,#home .slidecont .more:hover{display:inline-block;height:24px;line-height:24px;padding:0 20px;color:#fff;font-size:14px;
-																										background:url(../images/vive-morebtnbg.png) repeat-x;
-																										background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#f1ac3e),color-stop(1,#ed5f17));
-																										background:-moz-linear-gradient(0 0 270deg,#f1ac3e 0,#ed5f17 100%);
-																										background:-o-linear-gradient(0 0 270deg,#f1ac3e 0,#ed5f17 100%);}
-#home .slidebtn{height:10px;position:absolute;right:15px;bottom:12px;}
-#home .slidebtn li{float:left;width:12px;height:12px;background:#f1f1f1;background:url(../images/vive-homeslidebtn.png) no-repeat\9;margin-left:12px;font-size:0;line-height:0;text-indent:-999px;overflow:hidden;cursor:pointer;
-									 border-radius:5px;
-									 -webkit-border-radius:5px;
-									 -moz-border-radius:5px;
-									 -o-border-radius:5px;}
-#home .slidebtn li.current{background:#f9b457;background:url(../images/vive-homeslidebtn.png) 0 -12px no-repeat\9;cursor:default;}
+#home .slidecont li{float:left;width:1080px;color:#fff;}
+#home .slidecont h2{font-size:48px;line-height:60px;padding:70px 0 20px 0;}
+#home .slidecont p{font-size:15px;line-height:28px;margin:10px 0;}
+#home .slidecont .pic{width:620px;margin-left:40px;}
+#home .slidebtnbg{height:78px;position:absolute;left:0;bottom:0;background:#f99537;width:100%;}
+#home .slidebtn{width:1080px;margin:0 auto;}
+#home .slidebtn li{float:left;width:270px;height:78px;background:url(../images/vive-homeslidebtn.png) no-repeat;}
+#home .slidebtn li.step1{background-position:0 0;}
+#home .slidebtn li.step2{background-position:-270px 0;}
+#home .slidebtn li.step3{background-position:-540px 0;}
+#home .slidebtn li.step4{background-position:-810px 0;}
+#home .slidebtn li span{display:block;width:200px;height:78px;line-height:78px;overflow:hidden;padding-left:70px;text-align:center;cursor:pointer;font-size:14px;color:#fff;}
+#home .slidebtn li.current{cursor:default;}
+#home .slidebtn li.step1.current span,#home .slidebtn li.step2.current span{background:url(../images/vive-currentbtn.png) no-repeat;}
+#home .slidebtn li.step3.current span,#home .slidebtn li.step4.current span{background:url(../images/vive-currentbtn2.png) no-repeat;}
+
+/* Work */
+#work{background:#fff url(../images/vive-workbg.jpg) center bottom no-repeat;height:830px;}
+#work .workbox h2{font-size:40px;text-align:center;line-height:100%;color:#333;padding:60px 0;}
+#work .videobox{width:734px;height:420px;padding:6px 0 0 173px}
 
 /* Contact */
-#contact{position:relative;}
-#contact .contbox{background-image:url(../images/vive-contactbanner.jpg);}
-#contact .formbox{width:520px;background:rgba(44,44,44,0.60);background:url(../images/vive-boxbg.png) repeat\9;position:absolute;top:190px;padding:20px 30px 20px 50px;color:#fff;}
-#contact .formbox span{display:block;margin-bottom:20px;}
-#contact .formbox label{display:inline-block;width:150px;}
-#contact .formbox input{width:220px;background:#ced0cd;border:1px solid #333;padding:2px;}
+#contact .formbox{background:#55c2c2;height:580px;width:100%;}
+#contact .formbox h2{font-size:40px;text-align:center;line-height:100%;color:#fff;padding:90px 0;}
+#contact .formbox span{margin-bottom:20px;width:50%;float:left;}
+#contact .formbox form{display:block;width:900px;margin:0 auto;}
+#contact .formbox label{display:inline-block;width:150px;color:#fff;}
+#contact .formbox input{width:220px;background:#d0edea;border:1px solid #49a6a6;padding:2px;}
 #contact .formbox input[type="submit"]{display:inline-block;width:auto;padding:5px 20px;color:#fff;font-size:14px;border:none;
 																		 	 background:url(../images/vive-morebtnbg.png) repeat-x;
 																		   background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#f1ac3e),color-stop(1,#ed5f17));

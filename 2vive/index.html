@@ -9,17 +9,16 @@
 <script src="scripts/jquery.min.js"></script>
 </head>
 <body>
-<!-- content -->
-<div id="content">
-  <!-- header -->
-  <div id="header">
-    <div class="wrapper">
-      <h1 class="vive-logo hide f-l"><a href="home.html">2vive</a></h1>
-      <dl class="vive-language f-r">
-        <dt>English</dt>
-        <dd><a href="#">language</a><a href="#">language</a><a href="#">language</a><a href="#">language</a></dd>
-      </dl>
-      <script type="text/javascript">
+<!-- header -->
+<div id="header">
+  <div class="wrapper clearfix">
+    <h1 class="vive-logo hide f-l"><a href="home.html">2vive</a></h1>
+    <div class="vive-menu f-l"><a href="javascript:viod(0);" class="current menu1">HOME</a><a href="javascript:viod(0);" class="menu2">SEE OUR WORK</a><a href="javascript:viod(0);" class="menu3">CONTACT US</a></div>
+    <dl class="vive-language f-r">
+      <dt>English</dt>
+      <dd><a href="#">language</a><a href="#">language</a><a href="#">language</a><a href="#">language</a></dd>
+    </dl>
+    <script type="text/javascript">
 			$(function(){
 				$(".vive-language dt").click(
 					function(){
@@ -27,43 +26,51 @@
 								})
 						})
 			</script>
-      <ul class="clearfix clear">
-        <li class="vive-menu"><a href="javascript:viod(0);" class="menu1">HOME</a>|<a href="javascript:viod(0);" class="menu2">SOLUTIONS</a>|<a href="javascript:viod(0);" class="menu3">TRIALS</a>|<a href="javascript:viod(0);" class="menu4">CONTACT US</a></li>
-        <li class="vive-phone f-r"><strong>86-021-65893255</strong></li>
+  </div>
+</div>
+<!-- header end -->
+<!-- container -->
+<div id="home">
+  <div class="contbox slidebox">
+    <ul class="slidecont clearfix">
+      <li>
+        <div class="wrapper clearfix">
+          <div class="pic f-r"><img src="images/pic1.jpg" alt="Success Store1" width="620" height="466" /></div>
+          <h2>How we help you expand.</h2>
+          <p>Employer healthcare costs are skyrocketing. Employee health and happiness are at an all-time low. Bottom line? Wellness is no longer a “nice to have”; it’s a business strategy. Healthy employees have higher levels of engagement and productivity. Healthy companies outperform their competition. What are you waiting for?</p>
+        </div>
+      </li>
+      <li>
+        <div class="wrapper clearfix">
+          <div class="pic f-r"><img src="images/pic2.jpg" alt="Success Store1" width="620" height="466" /></div>
+          <h2>Enjoy our rich dirt</h2>
+          <p>Employer healthcare costs are skyrocketing. Employee health and happiness are at an all-time low. Bottom line? Wellness is no longer a “nice to have”; it’s a business strategy. Healthy employees have higher levels of engagement and productivity. Healthy companies outperform their competition. What are you waiting for?</p>
+        </div>
+      </li>
+      <li>
+        <div class="wrapper clearfix">
+          <div class="pic f-r"><img src="images/pic3.jpg" alt="Success Store1" width="620" height="466" /></div>
+          <h2>Expand step by step</h2>
+          <p>Employer healthcare costs are skyrocketing. Employee health and happiness are at an all-time low. Bottom line? Wellness is no longer a “nice to have”; it’s a business strategy. Healthy employees have higher levels of engagement and productivity. Healthy companies outperform their competition. What are you waiting for?</p>
+        </div>
+      </li>
+      <li>
+        <div class="wrapper clearfix">
+          <div class="pic f-r"><img src="images/pic4.jpg" alt="Success Store1" width="620" height="466" /></div>
+          <h2>Muti-system intergration</h2>
+          <p>Employer healthcare costs are skyrocketing. Employee health and happiness are at an all-time low. Bottom line? Wellness is no longer a “nice to have”; it’s a business strategy. Healthy employees have higher levels of engagement and productivity. Healthy companies outperform their competition. What are you waiting for?</p>
+        </div>
+      </li>
+    </ul>
+    <div class="slidebtnbg">
+      <ul class="slidebtn">
+        <li class="current step1"><span>How we help you expand</span></li>
+        <li class="step2"><span>Enjoy our rich dirt</span></li>
+        <li class="step3"><span>Expand step by step</span></li>
+        <li class="step4"><span>Muti-system intergration</span></li>
       </ul>
     </div>
-  </div>
-  <!-- header end -->
-  <!-- container -->
-  <div id="home">
-    <div class="contbox">
-      <div class="wrapper clearfix">
-        <div class="slidebox">
-          <ul class="slidecont clearfix">
-            <li>
-              <h2>Success Store1</h2>
-              <p>Operating with maximum efficiency: Manage my cost; Explore new markets and opportunity,Operating with maximum efficiency: Manage my cost; Explore new markets </p>
-              <a href="#" class="more">Read more</a></li>
-            <li>
-              <h2>Success Store2</h2>
-              <p>Operating with maximum efficiency: Manage my cost; Explore new markets and opportunity,Operating with maximum efficiency: Manage my cost; Explore new markets </p>
-              <a href="#" class="more">Read more</a></li>
-            <li>
-              <h2>Success Store3</h2>
-              <p>Operating with maximum efficiency: Manage my cost; Explore new markets and opportunity,Operating with maximum efficiency: Manage my cost; Explore new markets </p>
-              <a href="#" class="more">Read more</a></li>
-            <li>
-              <h2>Success Store4</h2>
-              <p>Operating with maximum efficiency: Manage my cost; Explore new markets and opportunity,Operating with maximum efficiency: Manage my cost; Explore new markets </p>
-              <a href="#" class="more">Read more</a></li>
-          </ul>
-          <ul class="slidebtn">
-            <li class="current">1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-          </ul>
-          <script type="text/javascript">
+    <script type="text/javascript">
 						$(function(){
 								var $cur = 1;
 								var $pages = $('.showbox>ul>li').size();
@@ -86,87 +93,106 @@
 								setInterval(switchImages, 5000);
 						})
 				 </script>
-        </div>
-      </div>
-    </div>
   </div>
-  <div id="contact">
-    <div class="contbox">
-      <div class="wrapper clearfix">
-        <div class="formbox">
-          <form action="" method="get">
-            <span>
-            <label>Company Name:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>Contact First Name:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>Address:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>City:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>State/Province:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>Country:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>Postal Code:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>Email:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>Phone:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>Preferred Contact:</label>
-            <input name="" type="text" />
-            </span> <span>
-            <label>&nbsp;</label>
-            <input name="" type="submit" value="Submit" />
-            </span>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- container end -->
 </div>
-<!-- content end -->
+<!-- container end -->
+<!-- container -->
+<div id="work">
+  <div class="contbox workbox">
+    <div class="wrapper clearfix">
+      <h2>See Our Work</h2>
+      <div class="videobox"><img src="images/vive-workpic.jpg"></div>
+    </div>
+  </div>
+</div>
+<!-- container end -->
+<!-- container -->
+<div id="contact">
+  <div class="contbox formbox">
+    <div class="wrapper clearfix">
+      <h2>Contact US</h2>
+      <form action="" method="get">
+        <span>
+        <label>Company Name:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>Country:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>Contact First Name:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>Postal Code:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>Address:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>Email:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>City:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>Phone:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>State/Province:</label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>Preferred Contact: </label>
+        <input name="" type="text" />
+        </span> <span>
+        <label>&nbsp;</label>
+        <input name="" type="submit" value="Submit" />
+        </span>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- container end -->
 <!-- footer -->
 <div id="footer">
   <p>Copyright © 2012 2vive.com All rights reserved.</p>
 </div>
 <!-- footer end -->
 <script type="text/javascript">
-$(function(){
-	var $doc_h=$(document).height();
-	$(".contbox").css({height:$doc_h});
-	$(".vive-menu a").click(
+$(function($){
+	var $doc_w=$(document).width();
+	var menu1=$("#header").find(".menu1");
+	var menu2=$("#header").find(".menu2");
+	var menu3=$("#header").find(".menu3");
+	$("#home").find(".slidecont li").css({width:$doc_w});
+	menu1.click(
 			function(){
-				$(this).addClass("current").siblings().removeClass("current");
+				$("html,body").animate({scrollTop:$("#home").offset().top-120},'slow');
 						});
-	$(".vive-menu a.menu1").click(
+	menu2.click(
 			function(){
-				$("html,body").animate({scrollTop:$("#home").offset().top},'slow');
+				$("html,body").animate({scrollTop:$("#work").offset().top-60},'slow');
 						});
-	$(".vive-menu a.menu2").click(
-			function(){
-				$("html,body").animate({scrollTop:$("#solutions").offset().top},'slow');
-						});
-	$(".vive-menu a.menu3").click(
-			function(){
-				$("html,body").animate({scrollTop:$("#trials").offset().top},'slow');
-						});
-	$(".vive-menu a.menu4").click(
+	menu3.click(
 			function(){
 				$("html,body").animate({scrollTop:$("#contact").offset().top},'slow');
 						});
 			});
+$(window).scroll(function(){
+	var home_h=$("#home").height();
+	var work_h=$("#home").height()+$("#work").height();
+	var s_h = $(document).scrollTop();
+	var menu1=$("#header").find(".menu1");
+	var menu2=$("#header").find(".menu2");
+	var menu3=$("#header").find(".menu3");
+	if(s_h>0){
+		menu1.addClass("current").siblings().removeClass("current");
+	}
+	if(s_h>home_h){
+		menu2.addClass("current").siblings().removeClass("current");
+	}
+	if(s_h>work_h){
+		menu3.addClass("current").siblings().removeClass("current");
+	}
+	});
 </script>
 </body>
 </html>
