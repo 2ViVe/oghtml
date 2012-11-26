@@ -35,6 +35,8 @@ blockquote,q{quotes:"" "";}
 #content{min-width:1175px;min-height:100%;}
 #content .cont-hack{padding-bottom:55px;}
 
+.closed-date{background-color:#cccccc;}
+
 .tooltip{background-color:#ffd591;border:1px solid #fff;padding:10px 15px;width:300px;position:absolute;z-index:999;float:left;color:#000;text-align:left;font-size:11px;
 				 -webkit-box-shadow:0 0 10px #000;
 				 -moz-box-shadow:0 0 10px #000;
