@@ -35,7 +35,7 @@ blockquote,q{quotes:"" "";}
 #content{min-width:1175px;min-height:100%;}
 #content .cont-hack{padding-bottom:55px;}
 
-.closed-date{background-color:#cccccc;}
+.closed-date{background-color:#9B1112;}
 
 .tooltip{background-color:#ffd591;border:1px solid #fff;padding:10px 15px;width:300px;position:absolute;z-index:999;float:left;color:#000;text-align:left;font-size:11px;
 				 -webkit-box-shadow:0 0 10px #000;
@@ -613,12 +613,12 @@ blockquote,q{quotes:"" "";}
 																													background:-o-linear-gradient(0 0 270deg,#d7000e 0,#a30000 100%) url(../images/og-printicon.png) 5px center no-repeat;}
 
 /* Commissions */
-#commissions #container{width:900px;min-height:1205px;padding:0 30px;margin:0 auto;position:relative;}
-#commissions #container h2,#commissions #container h3{height:50px;line-height:50px;padding:20px 0 5px 0;font-size:15px;font-weight:bold;color:#666;}
+#commissions #container{width:930px;min-height:1205px;padding:0 15px;margin:0 auto;position:relative;}
+#commissions #container h2,#commissions #container h3{height:50px;line-height:50px;padding:20px 15px 5px 15px;font-size:15px;font-weight:bold;color:#666;}
 #commissions .contsubmenu{position:absolute;top:33px;left:160px;max-width:680px;}
 #commissions .contsubmenu a{display:inline-block;padding:2px 9px;margin:0 9px 2px 9px;}
 #commissions .contsubmenu a.current,#commissions .contsubmenu a:hover{background:#9B1112;color:#fff;}
-#commissions .contlabel{margin-top:10px;}
+#commissions .contlabel{margin-top:10px;padding:0 15px;}
 #commissions .contlabel li{float:left;height:34px;line-height:34px;border:1px solid #dedede;border-right:none;width:150px;text-align:center;}
 #commissions .contlabel li a{display:block;height:34px;}
 #commissions .contlabel li.current{width:166px;border-top:2px solid #b58e39;border-bottom-color:#fff;height:33px;}
@@ -626,11 +626,11 @@ blockquote,q{quotes:"" "";}
 #commissions .contlabel li.summary{float:right;border-top-color:#fff;width:430px;text-align:right;}
 #commissions .contlabel li.current a,#commissions .contlabel li.summary a{font-weight:bold;}
 #commissions .contlabel li.summary a{display:inline;}
-#commissions .contdata{font-size:11px;margin-top:30px;}
+#commissions .contdata{font-size:11px;margin-top:30px;padding:0 15px}
 #commissions .contdata select{margin:0 2px;padding:4px;}
 
-#commissions .conttable{padding:20px 0;}
-#commissions .conttable table{width:100%;border:1px solid #dedede;margin-bottom:20px;table-layout:fixed;word-wrap:break-word;}
+#commissions .conttable{padding:20px 15px;margin-top:10px;background:url(../images/og-contbg.png) repeat;}
+#commissions .conttable table{width:100%;border:1px solid #dedede;margin-bottom:20px;table-layout:fixed;word-wrap:break-word;background:#fff;}
 #commissions .conttable th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;font-weight:bold;}
 #commissions .conttable td{text-align:center;padding:7px 10px;border-bottom:1px solid #f2f2f2;}
 #commissions .conttable .textright{text-align:right;}
@@ -665,6 +665,9 @@ blockquote,q{quotes:"" "";}
 #commissions .setdualteam .loading{padding:0 30px;height:28px;line-height:28px;border:1px solid #e3e3e3;color:#999;margin-left:20px;}
 #commissions .setdualteam .loading img{vertical-align:middle;margin-right:5px;}
 #commissions .setdualteam p{padding:20px 0 10px 0;color:#999;}
+
+#commissions .dataTables_wrapper{padding:0 15px;margin-top:10px;background:url(../images/og-contbg.png) repeat;}
+#commissions .dataTables_wrapper table{background:#fff;}
 
 #commissions .dataTables_length,#commissions .dataTables_filter{margin:10px 0;font-size:11px;}
 #commissions .dataTables_length{float:left;}
