@@ -648,7 +648,7 @@ blockquote,q{quotes:"" "";}
 #commissions .ranktable th,#commissions .ranktable tr.odd td{height:34px;line-height:34px;}
 #commissions .ranktable tr.even td{height:28px;line-height:28px;}
 
-#commissions .conttable .subtotal{background:#f2f2f2;font-size:14px;padding:15px 10px;color:#9B1112;text-align:right;}
+#commissions .conttable .subtotal{background:#f2f2f2;font-size:14px;padding:15px 10px;text-align:right;}
 #commissions .conttable .subtotal strong{font-size:20px;}
 #commissions .conttable .nodata{background:#f2f2f2;font-size:14px;padding:15px 10px;}
 #commissions .conttable .classified th,#commissions .conttable .classified2 th{font-weight:normal;}
