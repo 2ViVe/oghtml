@@ -35,7 +35,8 @@ blockquote,q{quotes:"" "";}
 #content{min-width:1175px;min-height:100%;}
 #content .cont-hack{padding-bottom:55px;}
 
-.closed-date{background-color:#9B1112;}
+.closed-date{color:#9B1112;}
+.bgimg_contbox{background:url(../images/og-contbg.png) repeat;margin-top:10px;}
 
 .tooltip{background-color:#ffd591;border:1px solid #fff;padding:10px 15px;width:300px;position:absolute;z-index:999;float:left;color:#000;text-align:left;font-size:11px;
 				 -webkit-box-shadow:0 0 10px #000;
@@ -629,7 +630,7 @@ blockquote,q{quotes:"" "";}
 #commissions .contdata{font-size:11px;margin-top:30px;padding:0 15px}
 #commissions .contdata select{margin:0 2px;padding:4px;}
 
-#commissions .conttable{padding:20px 15px;margin-top:10px;background:url(../images/og-contbg.png) repeat;}
+#commissions .conttable{padding:20px 15px;}
 #commissions .conttable table{width:100%;border:1px solid #dedede;margin-bottom:20px;table-layout:fixed;word-wrap:break-word;background:#fff;}
 #commissions .conttable th{text-align:center;background:url(../images/og-shoppingprocesstitlebg.png) left 0 repeat-x;padding:7px 10px;border-bottom:1px solid #dfdfdf;font-weight:bold;}
 #commissions .conttable td{text-align:center;padding:7px 10px;border-bottom:1px solid #f2f2f2;}
@@ -666,7 +667,7 @@ blockquote,q{quotes:"" "";}
 #commissions .setdualteam .loading img{vertical-align:middle;margin-right:5px;}
 #commissions .setdualteam p{padding:20px 0 10px 0;color:#999;}
 
-#commissions .dataTables_wrapper{padding:0 15px;margin-top:10px;background:url(../images/og-contbg.png) repeat;}
+#commissions .dataTables_wrapper{padding:0 15px;}
 #commissions .dataTables_wrapper table{background:#fff;}
 
 #commissions .dataTables_length,#commissions .dataTables_filter{margin:10px 0;font-size:11px;}
