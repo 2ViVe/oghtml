@@ -639,7 +639,7 @@ blockquote,q{quotes:"" "";}
 #commissions .conttable tr.even td{background:url(../images/og-shoppingprocesstitlebg.png) left -136px repeat-x;padding:4px 10px;}
 #commissions .conttable td span{color:#9B1112;}
 #commissions .conttable tr.background{background:#f7f6f2;}
-#commissions .conttable h4{height:40px;line-height:40px;font-weight:bold;}
+#commissions .conttable h4{height:40px;line-height:40px;font-weight:bold;margin-left:20px;}
 
 #commissions .ranktable table{width:250px;float:left;}
 #commissions .ranktable table.titletable{width:400px;text-align:left;}
