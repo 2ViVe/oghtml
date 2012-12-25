@@ -582,6 +582,7 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .ordersummary dd table{width:100%;}
 #shoppingcart .ordersummary dd td{padding:2px 0;}
 #shoppingcart .ordersummary dd .total span{float:right;color:#9B1112;}
+#shoppingcart .ordersummary dd .totaltitle{width:90px;word-break:break-all;}
 #shoppingcart .ordersummary dd h4{font-weight:bold;margin-top:-5px;}
 #shoppingcart .ordersummary dd .tax th{color:#999;font-weight:bold;}
 #shoppingcart .ordersummary dd .tax span{display:block;color:#9B1112;}
