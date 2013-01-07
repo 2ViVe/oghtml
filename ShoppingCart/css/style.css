@@ -239,6 +239,7 @@ blockquote,q{quotes:"" "";}
 #registration .registrationform p input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;width:180px;height:21px;padding:2px 20px 2px 2px;}
 #registration .registrationform input[type="checkbox"]{vertical-align:middle;}
 #registration .registrationform input.required{background:url(../images/og-requiredicon.png) right 3px no-repeat;}
+
 #registration .registrationform .btn input{padding:0 10px;height:26px;color:#fff;border:none;
 																					 background:#9B1112;
 																					 background:-webkit-gradient(linear ,0 0,0 100%,color-stop(0,#d7000e),color-stop(1,#9B1112));
@@ -1082,7 +1083,7 @@ background:-o-linear-gradient(0 0 270deg,#d7000e 0,#9B1112 100%);}
 #distributor .distributorform #accept_tc_textarea p{display:block;}
 
 /* Contact Us */
-#contact-us-page p{padding:5px 0;line-height:24px;}
+#contact-us-page p, #taxnumber-form p{padding:5px 0;line-height:24px;}
 #contact-us-page dt{margin:25px 0 10px 0;font-size:16px;font-weight:bold;}
 #contact-us-page dd{padding-left:30px;line-height:24px;}
 #contact-us-page strong{font-weight:bold;margin-right:5px;}
