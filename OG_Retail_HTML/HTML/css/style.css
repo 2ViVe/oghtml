@@ -168,9 +168,8 @@ table{width:100%;border-collapse:collapse;border-spacing:0;}
 .cartlist .total em{float:right;}
 .cartlist .total strong{font-weight:bold;}
 .btnbox{float:right;padding:20px 0;}
-.btnbox_c{float:left;}
-.btnbox .cancel,.btnbox .btn{display:inline-block;width:110px;height:35px;overflow:hidden;background:url(../images/retail/btn_checkout.png) no-repeat;font-size:16px;color:#790000;}
-.btnbox .cancel{line-height:35px;text-align:center;}
+.btnbox .cancel,.btnbox .btn{display:inline-block;padding:0 20px;margin:0 2px;height:30px;overflow:hidden;background:#d7d7d7;border-radius:3px;box-shadow:1px 1px 1px rgba(0,0,0,0.5);font-size:16px;color:#790000;}
+.btnbox .cancel{line-height:30px;text-align:center;}
 .btnbox .btn{vertical-align:top;border:none;cursor:pointer;}
 
 .actionbox{float:left;padding:20px 0;}
@@ -197,7 +196,8 @@ table{width:100%;border-collapse:collapse;border-spacing:0;}
 
 .infolist th{font-size:24px;line-height:40px;color:#790000;border-bottom:1px solid #dedede;}
 .infolist td{padding:5px;font-size:16px;color:#666;font-size:12px;}
-.infolist .title{width:100px;}
+.infolist .title,.infolist .textright{width:100px;}
+.infolist td .hack1,.infolist td .width2{display:inline-block;}
 
 .trybox{height:256px;}
 .trybox img{display:block;width:820px;height:256px;}
@@ -238,8 +238,8 @@ table{width:100%;border-collapse:collapse;border-spacing:0;}
 .completebox strong{display:block;font-size:50px;line-height:100%;font-weight:normal;}
 .completebox p{padding:20px 50px;line-height:20px;}
 .completebox em{color:#790000;}
-.completebox .btnbox{text-align:center;}
-.completebox .continue{display:inline-block;width:180px;height:35px;overflow:hidden;background:url(../images/retail/btn_checkout2.png) no-repeat;font-size:16px;color:#790000;line-height:35px;text-align:center;}
+.completebox .btnbox{text-align:center;float:none;}
+.completebox .continue{display:inline-block;padding:0 20px;margin:0 2px;height:30px;line-height:30px;overflow:hidden;background:#d7d7d7;border-radius:3px;box-shadow:1px 1px 1px rgba(0,0,0,0.5);font-size:16px;color:#790000;}
 
 /* Footer */
 #footer{height:130px;background:url(../images/retail/bg_footer.png) repeat-x;}
