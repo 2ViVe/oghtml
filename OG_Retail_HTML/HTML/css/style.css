@@ -141,6 +141,10 @@ table{width:100%;border-collapse:collapse;border-spacing:0;}
 .contbox2 .boxright .pirce a{display:block;width:220px;}
 .contbox2 .boxright .pirce a:hover{color:#790000;}
 
+.contbox2 .boxright .buy{padding:10px 0;}
+.contbox2 .boxright .buy input{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;height:20px;padding:2px;text-align:center;}
+.contbox2 .boxright .buy .btn{display:inline-block;border:none;padding:0 20px;margin:0 2px;height:30px;overflow:hidden;background:#d7d7d7;border-radius:3px;box-shadow:1px 1px 1px rgba(0,0,0,0.5);font-size:16px;color:#790000;cursor:pointer;}
+
 .checkstep{padding:10px 0;}
 .checkstep .stepbox li{float:left;width:240px;height:40px;line-height:40px;padding-left:60px;position:relative;font-size:20px;border-bottom:5px solid #ececec;}
 .checkstep .stepbox .step1{width:220px;padding:0;}
