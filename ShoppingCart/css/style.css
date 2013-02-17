@@ -278,7 +278,7 @@ blockquote,q{quotes:"" "";}
 #registration .registrationstep2 .example{color:#999;}
 #registration .registrationstep2 em{margin:0 10px;color:#9B1112;}
 #registration .registrationstep2 em.error{background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-left:10px;color:#9B1112;}
-#registration .registrationstep2 .error_tip{color:#9B1112;}
+#registration .registrationstep2 .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;}
 #registration .registrationstep2 .logininfo span{margin:0 10px;}
 #registration .registrationstep2 .logininfo .tips{line-height:30px;color:#999;text-align:left;}
 #registration .registrationstep2 .logininfo .test{padding:0 10px;height:27px;line-height:27px;}
@@ -548,7 +548,7 @@ blockquote,q{quotes:"" "";}
 #shoppingcart .shoppingform input[type="checkbox"]{vertical-align:middle;}
 #shoppingcart .shoppingform input.required{background:url(../images/og-requiredicon.png) right 3px no-repeat;}
 #shoppingcart .shoppingform select{max-width:204px;padding:4px;}
-#shoppingcart .shoppingform .error_tip{color:#9B1112;}
+#shoppingcart .shoppingform .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;}
 
 #shoppingcart .shoppingform .address{padding:30px 0 40px 0;}
 #shoppingcart .shoppingform .address table{width:100%;}
@@ -822,7 +822,7 @@ blockquote,q{quotes:"" "";}
 #myprofile .myprofileform p.width1 input{width:75px;}
 #myprofile .myprofileform select{max-width:204px;padding:4px;}
 #myprofile .myprofileform td{line-height:27px;}
-#myprofile .myprofileform .error_tip{color:#9B1112;}
+#myprofile .myprofileform .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;}
 #myprofile .myprofileform .btn{padding:0;}
 #myprofile .myprofileform .btn input{width:auto;}
 #myprofile .myprofileinfo .defaultpic{display:inline;}
@@ -866,7 +866,7 @@ blockquote,q{quotes:"" "";}
 #autoship .autoshipform p.width1 input{width:60px;}
 #autoship .autoshipform p.width2 input{width:70px;}
 #autoship .autoshipform select{max-width:204px;padding:4px;}
-#autoship .autoshipform .error_tip{color:#9B1112;}
+#autoship .autoshipform .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;}
 #autoship .autoshipform .address label{padding:0 9px;}
 #autoship .autoshipform .select{padding:0 0 20px 0;}
 #autoship .autoshipform .select h4{margin:0 0 20px 30px;font-weight:bold;}
@@ -1037,7 +1037,7 @@ blockquote,q{quotes:"" "";}
 #event .contform .example{color:#999;}
 #event .contform em{margin:0 10px;color:#9B1112;}
 #event .contform em.error{background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-left:10px;color:#9B1112;}
-#event .contform .error_tip{color:#9B1112;}
+#event .contform .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;}
 
 #event .contform .idcont a,#event .contform .btn input[type="submit"]{padding:0 10px;height:27px;color:#fff;border:none;cursor:pointer;
 background:#9B1112;
