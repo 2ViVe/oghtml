@@ -90,20 +90,19 @@
       <div class="contbox2 clearfix">
         <div class="boxleft f-l">
           <div class="prodpic"><img src="images/retail/pic6.jpg" /></div>
-          <div class="prodaction"><a href="#" target="_blank" class="likeus">Like Us on Facebook</a><!--<a href="#" target="_blank" class="addcart">Add to Shopping Cart</a>--></div>
+          <div class="prodaction"><a href="#" target="_blank" class="likeus">Like Us on Facebook</a>
+            <!--<a href="#" target="_blank" class="addcart">Add to Shopping Cart</a>-->
+          </div>
         </div>
         <div class="boxright f-r">
-          <h2>Premium Gourmet<br/><strong>ROYAL BREWED</strong></h2>
+          <h2>Premium Gourmet<br/>
+            <strong>ROYAL BREWED</strong></h2>
           <span>Jamaican Blue Mountain Coffee Blend</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia fermentum leo, ac pellentesque sem eleifend quis. Suspendisse semper erat id mi elementum eu eleifend ligula rhoncus. Mauris pharetra porta elit non molestie. Donec ut purus vel quam eleifend egestas nec et justo. Vivamus ipsum risus, faucibus a pharetra nec, scelerisque eu sapien. Nullam tincidunt fermentum dolor sed auctor. Nam eget magna non orci pharetra fermentum id eget massa. Nam elementum rutrum velit in tincidunt. Quisque porttitor velit nec dolor lacinia ornare. Suspendisse neque purus, mattis vitae rhoncus vitae, pellentesque vitae nisi. Nam non lectus sed orci auctor convallis et eget ante. Morbi et ligula velit. Cras iaculis magna sit amet metus aliquam vel ultricies tellus consequat. Nunc vestibulum mauris eget nisl dictum eget adipiscing lorem porttitor. Nunc facilisis lectus et felis luctus at sagittis justo dapibus. Nam elementum rutrum velit in tincidunt. Quisque porttitor velit nec dolor lacinia ornare. Suspendisse neque purus, mattis vitae rhoncus vitae, pellentesque vitae nisi. Nam non lectus sed orci auctor convallis et eget ante. Morbi et ligula velit. Cras iaculis magna sit amet metus aliquam vel ultricies tellus consequat. Nunc vestibulum mauris eget nisl dictum eget adipiscing lorem porttitor.</p>
-          <div class="pirce">
-          	<em>$24.95</em>
-            <a href="#" target="_blank">Preferred Customer Pricing is availableask us how &gt;&gt;</a>
-          </div>
+          <div class="pirce"> <em>$24.95</em> <a href="#" target="_blank">Preferred Customer Pricing is availableask us how &gt;&gt;</a> </div>
           <div class="buy">
-          	<input type="text" value="1" size="2" />
-          	<input type="button" value="Add To Cart"  class="btn" />
-          </div>
+            <input type="text" value="1" size="2" />
+            <a href="javascript:void(0);" class="btn">Add To Cart</a> </div>
         </div>
       </div>
       <div class="contbox1 recently">
@@ -156,5 +155,38 @@
   </div>
 </div>
 <!-- footer end -->
+<!-- Popup box -->
+<div class="popupbox">
+  <dl>
+    <dt><span class="close">关闭</span>
+      <h3><em>1</em>件商品加入购物车</h3>
+    </dt>
+    <dd class="clearfix">
+      <div class="prodpic f-l"><img src="images/retail/pic6.jpg"></div>
+      <div class="prodinfo f-r">
+        <h4>Jamaican Blue Mountain Coffee Blend</h4>
+        <p>加入数量：<em>1</em></p>
+        <p>总计金额：<em>￥4998</em></p>
+        <div class="btncont"><a href="javascript:void(0);" class="btn">继续购物</a><a href="javascript:void(0);" class="btn">去结算</a></div>
+      </div>
+    </dd>
+  </dl>
+</div>
+<div class="popupboxbg"></div>
+<script type="text/javascript">
+$(function($){
+	$(".contbox2 .buy .btn").click(
+		function(){
+			$(".popupbox").show();
+			$(".popupboxbg").show();
+					});
+	$(".popupbox .close").click(
+		function(){
+			$(".popupbox").hide();
+			$(".popupboxbg").hide();
+					});
+});
+</script>
+<!-- Popup box end -->
 </body>
 </html>
