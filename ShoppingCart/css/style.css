@@ -216,8 +216,8 @@ blockquote,q{quotes:"" "";}
 #login .photo img{width:76px;height:76px;}
 #login .account{height:26px;line-height:26px;margin:20px 0 20px 280px;color:#fff;}
 #login .account a,#login .account a:hover{color:#fff;padding:0 10px 0 34px;display:inline-block;height:26px;background:url(../images/og-loginicon.png) no-repeat;}
-#login .account a.create{background-position:5px -26px;}
-#login .account a.forgot{background-position:5px -52px;}
+#login .account a.create{background-position:5px -27px;}
+#login .account a.forgot{background-position:5px -54px;}
 #login .language{position:absolute;top:20px;right:20px;}
 
 /* Registration */
