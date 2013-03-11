@@ -17,21 +17,13 @@
     <div class="logincont">
       <div class="error"> <span>Invalid distributor ID,username or password</span> </div>
       <form action="" method="get">
-        <p>
-          <input name="" type="text" placeholder="Login Name or Distributor ID" />
-        </p>
-        <p>
-          <input name="" type="password" placeholder="Password" />
-        </p>
+        <p class="logininput"><input name="name" type="text" id="name" /><i>Login Name or Distributor ID</i></p>
+        <p class="logininput"><input name="password" type="password" id="password" /><i>Password</i></p>
         <span>
         <input name="" type="checkbox" value="" id="checkbox1" />
         <label for="checkbox1">Remember me</label>
         </span>
-        <div class="verificationcode">Type The Code Shown: <a href="#"><img src="images/verificationcode.png" width="70" height="30" /></a>
-          <p>
-            <input name="" type="text" />
-          </p>
-        </div>
+        <div class="verificationcode">Type The Code Shown: <a href="#"><img src="images/verificationcode.png" width="70" height="30" /></a><span><input name="" type="text" /></span></div>
         <div class="btn">
           <input name="" type="submit" value="Login" />
         </div>
@@ -57,5 +49,32 @@
   <p>Copyright  ©  2012 organo gold All rights reserved</p>
 </div>
 <!-- footer end -->
+<script type="text/javascript">
+$(function($){
+	$("#name").attr("value",'');
+});
+$("#name").each(function(){
+	$(this).focus(function(){  
+		$(this).css("background","#fff")
+			}).blur(function(){
+			if($(this).val()==""){
+				$(this).css("background","none");
+			}else{
+				$(this).css("background","#fff");
+			}
+	});  
+});
+$("#password").each(function(){
+	$(this).focus(function(){  
+		$(this).css("background","#fff")
+			}).blur(function(){
+			if($(this).val()==""){
+				$(this).css("background","none");
+			}else{
+				$(this).css("background","#fff");
+			}
+	});  
+});
+</script>
 </body>
 </html>

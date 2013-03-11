@@ -204,12 +204,12 @@ blockquote,q{quotes:"" "";}
 #login .logincont{width:530px;background:#fff;border-radius:20px;margin:0 auto;padding:30px 60px 30px 60px;}
 #login .logincont form{margin-left:140px;position:relative;}
 #login .logincont p{border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;height:34px;margin-bottom:15px;}
-#login .logincont p input{border:none;background:none;width:370px;height:20px;padding:7px;}
+#login .logincont p input{border:none;background:none;width:370px;height:20px;line-height:20px;padding:7px;}
 #login .logincont span input{vertical-align:middle;}
 #login .verificationcode{height:30px;line-height:30px;overflow:hidden;}
 #login .verificationcode img{width:70px;height:30px;vertical-align:middle;margin:0 5px;}
-#login .verificationcode p{display:inline-block;width:114px;height:28px;margin-bottom:0;}
-#login .verificationcode p input{width:100px;height:18px;padding:5px;}
+#login .verificationcode span{display:inline-block;width:114px;height:28px;border:1px solid;border-color:#989898 #e1e1e1 #e1e1e1 #989898;}
+#login .verificationcode span input{display:inline-block;border:none;background:none;width:100px;height:18px;padding:5px;}
 #login .btn{padding-top:10px;}
 #login .btn input{padding:0 20px;height:26px;border:none;background:url(../images/og-loginicon.png) repeat-x;color:#fff;font-size:14px;}
 #login .photo{position:absolute;top:0;left:-140px;width:76px;height:76px;}
@@ -219,6 +219,10 @@ blockquote,q{quotes:"" "";}
 #login .account a.create{background-position:5px -27px;}
 #login .account a.forgot{background-position:5px -54px;}
 #login .language{position:absolute;top:20px;right:20px;}
+
+#login .logininput{position:relative;}
+#login .logininput input{position:absolute;left:0;top:0;}
+#login .logininput i{display:inline-block;font-style:normal;height:34px;line-height:34px;padding-left:10px;color:#666;}
 
 /* Registration */
 #registration #container{width:900px;padding:0 30px;margin:0 auto;position:relative;}
