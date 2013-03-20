@@ -261,6 +261,7 @@ table{width:100%;border-collapse:collapse;border-spacing:0;}
 .popupbox .prodinfo p em{color:#911000;}
 .popupbox .btncont{padding-top:10px;margin-top:10px;border-top:1px dashed #ccc;width:395px;text-align:right;}
 .popupbox .btn{display:inline-block;border:none;padding:0 10px;margin-left:10px;height:30px;line-height:30px;overflow:hidden;background:#d7d7d7;border-radius:3px;box-shadow:1px 1px 1px rgba(0,0,0,0.5);font-size:16px;color:#790000;vertical-align:middle;}
+.popupbox .redbtn{background:#790000;color:#fff;}
 
 .popupbox .cart_details{width:158px;padding:20px 10px;border:1px solid #dedede;line-height:30px;text-align:center;background:#fff;font-size:14px;}
 .popupbox .cart_details span{display:block;font-weight:bold;}
