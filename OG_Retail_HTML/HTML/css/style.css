@@ -175,6 +175,7 @@ table{width:100%;border-collapse:collapse;border-spacing:0;}
 .btnbox .cancel,.btnbox .btn{display:inline-block;padding:0 20px;margin:0 2px;height:30px;overflow:hidden;background:#d7d7d7;border-radius:3px;box-shadow:1px 1px 1px rgba(0,0,0,0.5);font-size:16px;color:#790000;}
 .btnbox .cancel{line-height:30px;text-align:center;}
 .btnbox .btn{vertical-align:top;border:none;cursor:pointer;}
+.btnbox .redbtn{background:#790000;color:#fff;}
 
 .actionbox{float:left;padding:20px 0;}
 .actionbox .empty,.actionbox .btn{display:inline-block;height:24px;overflow:hidden;font-size:14px;color:#790000;margin-top:6px;}
@@ -210,10 +211,11 @@ table{width:100%;border-collapse:collapse;border-spacing:0;}
 
 .checkout2{margin:30px 0 10px 0;}
 .checkout2 .week{width:594px;height:280px;}
-.checkout2 .week img{display:block;width:594px;height:280px;}
+.checkout2 .week h3{height:35px;line-height:35px;text-align:center;font-size:18px;color:#790000;background:#fece4e url(../images/retail/icon_week.png) no-repeat;}
+.checkout2 .week img{display:block;width:594px;height:243px;}
 
 .checkout2 .seller li{float:left;width:198px;border:1px solid #dedede;margin:0 2px;}
-.checkout2 .seller h3{height:35px;line-height:35px;overflow:hidden;color:#fff;font-size:16px;text-align:center;background:url(../images/retail/icon_cont.png) 0 -35px no-repeat;}
+.checkout2 .seller h3{height:35px;line-height:35px;overflow:hidden;color:#fff;font-size:18px;text-align:center;background:url(../images/retail/icon_cont.png) 0 -35px no-repeat;}
 .checkout2 .seller img{display:block;width:198px;height:161px;}
 .checkout2 .seller p{padding:5px 10px;text-align:center;color:#666;height:32px;line-height:16px;overflow:hidden;}
 .checkout2 .seller .star{width:90px;height:25px;background:url(../images/retail/icon_cont.png) 0 -70px no-repeat;float:left;margin:0 0 5px 30px;}
