@@ -34,7 +34,6 @@ blockquote,q{quotes:"" "";}
 .text_c{text-align:center;}
 .text_r{text-align:right;}
 
-.btn,.btn:hover{display:block;text-align:center;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.3);border:none;cursor:pointer;}
 .wrapper{min-height:100%;}
 .wrape{width:1020px;margin:0 auto;}
 
@@ -82,6 +81,14 @@ blockquote,q{quotes:"" "";}
 #content{position:relative;padding:25px 0 116px 0;}
 #content .tem{padding:10px;background:#fff;box-shadow:0 0 3px rgba(0,0,0,0.1);}
 #content .main{width:795px;margin-bottom:15px;}
+
+#content .btn,#content .btn:hover{display:block;text-align:center;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.3);border:none;cursor:pointer;}
+#content .btn{display:block;text-align:center;text-shadow:0 1px 0 rgba(0,0,0,0.3);border:none;cursor:pointer;}
+#content .btn.style1,#content .btn.style2{width:120px;height:40px;line-height:40px;color:#fff;}
+#content .btn.style1{background:#277dcc;}
+#content .btn.style1:hover{background:#2e88da;}
+#content .btn.style2{background:#ffad46;}
+#content .btn.style2:hover{background:#ffbb65;}
 
 #content .sidebar{width:210px;}
 #content .sidebar .tem{margin-bottom:15px;position:relative;}
@@ -167,6 +174,24 @@ blockquote,q{quotes:"" "";}
 #content .basic_tb th.text_l,#content .basic_tb td.text_l{text-align:left;}
 #content .basic_tb th.text_c,#content .basic_tb td.text_c{text-align:center;}
 #content .basic_tb th.text_r,#content .basic_tb td.text_r{text-align:right;}
+
+#content .form_tb{table-layout:fixed;}
+#content .form_tb td{padding:5px 10px;line-height:36px;vertical-align:top;}
+#content .form_tb td.textright{width:140px;text-align:right;}
+#content .ship_contbox .form_tb td.textright{text-align: left!important;}
+#content .form_tb p input{border:1px solid #ccc;background:#f9f9f9;width:80%;height:30px;padding:2px 20px 2px 2px;text-indent:0.5em;}
+#content .form_tb p textarea{border:1px solid #ccc;background:#f9f9f9;width:80%;min-width:80%;max-width:80%;height:80px;min-height:80px;max-height:80px;padding:2px 11px;}
+#content .form_tb p.hack{display:inline-block;*float:left;}
+#content .form_tb p.hack input{width:60px;}
+#content .form_tb td label{padding:0 10px;*float:left;}
+#content .form_tb input[type="checkbox"]{vertical-align:middle;}
+#content .form_tb input.required{background:#f9f9f9 url(../images/icon_required.png) right center no-repeat;}
+#content .form_tb select{padding:4px;border:1px solid #ccc;background:#f9f9f9;}
+#content .form_tb .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;}
+#content .form_tb.style1{width:60%;}
+#content .form_tb.style1 .submit{margin:20px 0 20px 160px;}
+#content .form_tb.style2{width:100%;}
+#content .form_tb.style2 .submit{margin:20px auto;}
 
 /* dataTables_filter */
 #content .dataTables_wrapper .basic_tb{border:none;}
@@ -283,3 +308,13 @@ blockquote,q{quotes:"" "";}
 #commission .widget .dataTables_wrapper .volume{background:#f3f3f3;padding:20px 40px;}
 #commission .widget .dataTables_wrapper .volume dl{float:left;width:20%;}
 #commission .widget .dataTables_wrapper .volume dd{color:#999;padding-top:5px;}
+
+/* Profile */
+#profile #content .wrape{background:#f9f9f9;box-shadow:0 0 3px rgba(0,0,0,0.1);margin-bottom:15px;}
+#profile .sidebar{margin-bottom:0;}
+#profile .sidebar .profilemenu dt{height:56px;line-height:56px;padding-left:40px;border-bottom:1px solid #efefef;font-size:16px;color:#ac8834;font-family:Dosis;}
+#profile .sidebar .profilemenu dd{height:48px;border-bottom:1px solid #efefef;position:relative;}
+#profile .sidebar .profilemenu dd a{display:block;width:170px;height:48px;line-height:48px;position:absolute;top:0;left:0;color:#37a;padding-left:40px;font-size:14px;}
+#profile .sidebar .profilemenu dd a:hover,#profile .sidebar .profilemenu dd.active a{background:#fff;border-right:1px solid #fff;color:#666;}
+#profile .main{width:749px;background:#fff;border-left:1px solid #efefef;margin-bottom:0;padding:0 30px;}
+#profile .main h3{height:50px;line-height:50px;margin:20px 0;font-size:14px;font-family:Dosis;color:#ac8834;border-bottom:1px solid #efefef;}
