@@ -194,7 +194,7 @@ blockquote,q{quotes:"" "";}
 #content .widget .tab2 .contbox span{padding:0 20px;}
 #content .widget .tab2 .contbox strong{font-weight:bold;}
 
-#content .handlemore{position:relative;width:20px;margin:0 auto;}
+#content .handlemore{position:relative;width:20px;vertical-align:middle;display:inline-block;}
 #content .handlemore dt{display:block;width:20px;height:20px;margin:0 auto;background:url(../images/arrow_dataTables2.png) no-repeat;}
 #content .handlemore dd{display:none;background:#cfcfcf;position:absolute;top:20px;width:50px;}
 #content .handlemore dd a{display:block;height:20px;padding:5px;color:#333;}

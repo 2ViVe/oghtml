@@ -12,7 +12,23 @@
   <div id="header">
     <div class="wrape">
       <h1 class="logo"><a href="#" target="_blank" title="OG"><img src="images/og_logo.png" alt="OG" width="180" height="60" /></a></h1>
-      <div class="action"><span>HI Welcome<strong>famillatrujillo</strong></span>|<a class="hide" title="set" href="#">set</a></div>
+      <div class="action"><span>HI Welcome<strong>famillatrujillo</strong></span>|
+        <dl class="set">
+          <dt></dt>
+          <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+        </dl>
+        <script type="text/javascript">
+        	$(function(){
+						$("#header .set dt").toggle(
+						function () {
+							$("#header .set dd").show();
+						},
+						function () {
+							$("#header .set dd").hide();
+						});
+					})
+        </script>
+      </div>
       <ul class="menu clearfix">
         <li><a href="#">Home</a></li>
         <li class="active"><a href="#">Shopping</a></li>
