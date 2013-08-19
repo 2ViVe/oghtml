@@ -162,7 +162,7 @@ blockquote,q{quotes:"" "";}
 #content .form_tb td.textright{width:140px;text-align:right;}
 #content .ship_contbox .form_tb td.textright{text-align: left!important;}
 #content .form_tb p input{border:1px solid #ccc;background:#f9f9f9;width:80%;height:30px;padding:2px 20px 2px 2px;text-indent:0.5em;}
-#content .form_tb p textarea{border:1px solid #ccc;background:#f9f9f9;width:80%;min-width:80%;max-width:80%;height:80px;min-height:80px;max-height:80px;padding:2px 11px;}
+#content .form_tb p textarea{border:1px solid #ccc;background:#f9f9f9;padding:10px 11px;color:#333;font-size: 14px;}
 #content .form_tb p.hack{display:inline-block;*float:left;}
 #content .form_tb p.hack input{width:60px;}
 #content .form_tb td label{padding:0 10px;*float:left;}
@@ -203,8 +203,8 @@ blockquote,q{quotes:"" "";}
 #content .handlemore:hover dt{background-position:0 -20px;}
 #content .handlemore:hover dd{display:block;}
 
-#content .fieldset{border:2px groove threedface;margin:10px 0;padding:10px 20px;}
-#content .fieldset legend{margin:0 10px;padding:0 10px;font-size:16px;font-weight:bold;}
+#content .fieldset{border:1px groove #dfdfdf;margin:10px 0;padding:10px 20px;}
+#content .fieldset legend{margin:0 10px;padding:0 10px;font-size:16px;}
 #content .fieldset table{width:100%;}
 #content .fieldset td{padding:5px 0;}
 #content .fieldset td label{font-weight:bold;}
@@ -270,3 +270,6 @@ blockquote,q{quotes:"" "";}
 .footer p{text-align:center;font-size:14px;color:#333;}
 
 /* User */
+
+/* mao */
+.money_r{padding-right: 20px!important;text-align:right;}
