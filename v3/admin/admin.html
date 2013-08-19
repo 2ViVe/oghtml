@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <title>OG admin</title>
 <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body id="user">
 <div class="wrapper">
@@ -160,6 +161,19 @@
         </li>
       </ul>
     </div>
+    <div class="menu_arrow"></div>
+    <script type="text/javascript">
+			$("#sidebar .menu_arrow").toggle(
+				function () {
+					$("#sidebar").addClass("close");
+					$("#content").addClass("open");
+				},
+				function () {
+					$("#sidebar").removeClass("close");
+					$("#content").removeClass("open");
+				}
+			);
+    </script>
   </div>
   <div id="content">
     <div class="workplace">
