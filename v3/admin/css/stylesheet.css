@@ -177,7 +177,7 @@ blockquote,q{quotes:"" "";}
 #content .form_tb select{padding:4px;border:1px solid #ccc;background:#f9f9f9;}
 #content .form_tb .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;}
 #content .form_tb.style1{width:60%;}
-#content .form_tb.style1 .submit{margin:20px 10px;}
+#content .form_tb.style1 .submit{margin:20px 10px 20px 0;}
 #content .form_tb.style2{width:100%;}
 #content .form_tb.style2 .submit{margin:20px 10px;}
 
@@ -286,3 +286,6 @@ blockquote,q{quotes:"" "";}
 
 /* mao */
 .money_r{padding-right: 20px!important;text-align:right;}
+.fraud_order_detail h3{font-size: 1.5em;line-height: 1.25;margin-bottom: 0.6em;}
+.fraud_order_detail td.detail_td{font-weight: bold;width: 100px;}
+.fraud_order_detail th, .fraud_order_detail td{padding: 4px 10px 4px 5px;}
