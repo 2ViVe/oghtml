@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>OG admin</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body id="user">
+<div class="wrapper">
+  <div id="header"><a href="#" target="_blank" class="logo"><img title="OG" alt="OG" src="images/logo.png"></a>
+    <h1>SUPER USER</h1>
+    <div class="action"><span>Logged in as:<strong>schua</strong></span><a href="#" title="user center" class="user hide">user center</a><a href="#" title="exit" class="exit hide">exit</a></div>
+  </div>
+  <div id="sidebar">
+    <div class="classify">
+      <dl>
+        <dt>All Classify</dt>
+        <dd>
+          <ul>
+            <li class="menu_1"><a href="#">Reports</a></li>
+            <li class="menu_2"><a href="#">Users</a></li>
+            <li class="menu_3"><a href="#">Orders</a></li>
+            <li class="menu_4"><a href="#">Products</a></li>
+            <li class="menu_5"><a href="#">Configuration</a></li>
+            <li class="menu_6"><a href="#">Autoship</a></li>
+            <li class="menu_7"><a href="#">Commissions</a></li>
+            <li class="menu_8"><a href="#">Genealogy</a></li>
+            <li class="menu_9"><a href="#">Warehouse</a></li>
+            <li class="menu_10"><a href="#">Accounting</a></li>
+            <li class="menu_11"><a href="#">Communication</a></li>
+          </ul>
+        </dd>
+      </dl>
+    </div>
+    <div class="menu">
+      <ul>
+        <li class="menu_1 active"><a href="#">Reports</a></li>
+      </ul>
+    </div>
+    <div class="submenu">
+      <ul>
+        <li><a href="#" class="active">Main</a></li>
+        <li><a href="#">Password Reset</a></li>
+        <li><a href="#">Inside Position</a></li>
+        <li><a href="#">Administrators</a></li>
+        <li><a href="#">Export</a></li>
+        <li><a href="#">Send Welcome Email</a></li>
+        <li><a href="#">Validate Trees</a></li>
+        <li><a href="#">Move User</a></li>
+        <li><a href="#">Update_received_agreement</a></li>
+      </ul>
+    </div>
+    <div class="menu_arrow"></div>
+    <script type="text/javascript">
+			$("#sidebar .menu_arrow").toggle(
+				function () {
+					$("#sidebar").addClass("close");
+					$("#content").addClass("open");
+				},
+				function () {
+					$("#sidebar").removeClass("close");
+					$("#content").removeClass("open");
+				}
+			);
+    </script>
+  </div>
+  <div id="content">
+    <div class="nav_crumbs">
+      <ul>
+        <li class="menu_4">Products</li>
+      </ul>
+      <div class="action"><a href="#" target="_blank">New User</a><a href="#" target="_blank">New User</a></div>
+    </div>
+    <div class="workplace">
+      <div class="list_user tem tem_normal2">
+      	<div class="contbox position_fixed">
+        	<div class="filter">
+            <form action="" method="get">
+              <ul>
+                <li>
+                  <label>Select Date:</label>
+                  <select name="" size="1">
+                    <option>2013</option>
+                  </select>
+                  <select name="" size="1">
+                    <option>6</option>
+                  </select>
+                  <select name="" size="1">
+                    <option>30</option>
+                  </select>
+                </li>
+                <li>
+                  <label>Show:</label>
+                  <select name="" size="1">
+                    <option>25</option>
+                  </select>
+                  entries </li>
+                <li class="hack">
+                  <label>Search by distributor ID:</label>
+                  <input name="" type="text" />
+                  <input name="" type="submit" value="Search" />
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div class="filter">
+            <form action="" method="get">
+              <table>
+                <tr>
+                  <th>Distributor ID</th>
+                  <th>Login</th>
+                  <th>Email</th>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Role</th>
+                  <th>Entry Date</th>
+                  <th>Enter By</th>
+                  <th>Next Renewal Date</th>
+                  <th>Only Show</th>
+                  <th>Phone</th>
+                  <th>&nbsp;</th>
+                </tr>
+                <tr>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="checkbox" value="" />
+                    <label>Distributor</label>
+                    <input name="" type="checkbox" value="" />
+                    <label>Distributor</label>
+                    <input name="" type="checkbox" value="" />
+                    <label>Distributor</label></td>
+                  <td><input name="" type="text" /></td>
+                  <td><input name="" type="submit" value="Search" /></td>
+                </tr>
+              </table>
+            </form>
+          </div>
+          <div class="dataTables_wrapper">
+            <table class="basic_tb center_tb">
+              <tbody>
+                <tr>
+                  <th class="tablesorter-header"><span>Distributor ID</span></th>
+                  <th class="tablesorter-header tablesorter-headerSortDown"><span>Login</span></th>
+                  <th class="tablesorter-header tablesorter-headerSortUp"><span>Email</span></th>
+                  <th class="tablesorter-header"><span>Firstname</span></th>
+                  <th class="tablesorter-header"><span>Lastname</span></th>
+                  <th class="tablesorter-header"><span>Role</span></th>
+                  <th class="tablesorter-header"><span>Entry Date</span></th>
+                  <th class="tablesorter-header"><span>Enter By</span></th>
+                  <th class="tablesorter-header"><span>Next Renewal Date</span></th>
+                  <th class="tablesorter-header"></th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="contbox" style="padding-top:222px;">
+          <div id="tbl_commissions_monthly_wrapper" class="dataTables_wrapper">
+            <table class="basic_tb center_tb">
+              <tbody>
+                <tr class="odd">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="even">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="odd">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="even">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="odd">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="even">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="odd">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="even">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="odd">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+                <tr class="even">
+                  <td><a href="#" target="_blank">10000682422</a></td>
+                  <td>kerwin12345</td>
+                  <td>kerwin_tanlimco@yahoo.com</td>
+                  <td>chen</td>
+                  <td>chen</td>
+                  <td>Unregistered</td>
+                  <td>2013-06-18</td>
+                  <td><span>schua</span></td>
+                  <td>2013-06-18</td>
+                  <td><dl class="handlemore">
+                      <dt></dt>
+                      <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+                    </dl></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="page"><span class="pagebtn">First</span><span class="pagebtn">Prev</span><span><span class="pagebtn current">1</span><span class="pagebtn">2</span><span class="pagebtn">3</span><span class="pagebtn">4</span><span class="pagebtn">5</span></span><span class="pagebtn">Next</span><span class="pagebtn">Last</span></div>
+          <div class="pagination"><span class="previous_page disabled">← Previous</span><em>1</em><a href="/admin/company_messages?page=2">2</a><a href="/admin/company_messages?page=3">3</a><a href="/admin/company_messages?page=4">4</a><a href="/admin/company_messages?page=2" class="next_page">Next →</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <p>Copyright @ 2013 Organo Gold All Rights Reserved</p>
+</div>
+</body>
+</html>
