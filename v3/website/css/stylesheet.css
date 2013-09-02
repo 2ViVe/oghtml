@@ -312,6 +312,23 @@ blockquote,q{quotes:"" "";}
 #commission .widget .dataTables_wrapper .volume dl{float:left;width:20%;}
 #commission .widget .dataTables_wrapper .volume dd{color:#999;padding-top:5px;}
 
+#commission .widget .setdualteam h4{font-weight:bold;margin-bottom:5px;font-size:14px;}
+#commission .widget .setdualteam em{font-size:14px;}
+#commission .widget .setdualteam ul{margin:20px 0;}
+#commission .widget .setdualteam li{float:left;width:213px;padding:10px;text-align:center;border:1px solid #efefef;background:#fbfbfb;margin:0 10px;}
+#commission .widget .setdualteam li span{display:block;text-align:center;}
+#commission .widget .setdualteam li label{font-weight:bold;}
+#commission .widget .setdualteam li.current{border-color:#f0cfc6;background:#fffff6;}
+#commission .widget .setdualteam .btn{margin-left:10px;}
+#commission .widget .setdualteam .btn button{background:#ffad46;border:1px solid #ffad46;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.3);cursor:pointer;padding:5px 10px;}
+#commission .widget .setdualteam .btn button:hover{background:#ffcf71;border:1px solid #ffcf71;}
+#commission .widget .setdualteam .loading{padding:0 30px;height:30px;line-height:30px;border:1px solid #e3e3e3;color:#999;margin-left:20px;}
+#commission .widget .setdualteam .loading img{vertical-align:middle;margin-right:5px;}
+#commission .widget .setdualteam p{padding:20px 0 10px 0;color:#999;font-style:italic;}
+
+#commission .widget .conttable .classified2{width:372px;margin-bottom:20px;}
+#commission .widget .conttable .classified2 h3{height:50px;line-height:50px;margin-bottom:10px;font-size:20px;color:#d58e00;}
+
 /* Profile */
 #profile #content .wrape{background:#f9f9f9;box-shadow:0 0 3px rgba(0,0,0,0.1);margin-bottom:15px;}
 #profile .sidebar{margin-bottom:0;}
