@@ -391,3 +391,32 @@ blockquote,q{quotes:"" "";}
 #regedit .step4 .total_tb .total span{font-weight:bold;}
 #regedit .step4 .address_tb{width:450px;}
 #regedit .step4 .address_tb .basic_tb td{border:none;font-size:14px;line-height:24px;}
+
+/* Payment */
+#payment #content .wrape{background:#fff;box-shadow:0 0 3px rgba(0,0,0,0.1);margin-bottom:15px;}
+#payment #header{height:90px}
+#payment .menu{top:15px;right:0;left:inherit;}
+#payment .menu li a{padding-right:0;}
+#payment .main{width:100%;position:relative;}
+#payment .main h2{height:50px;line-height:50px;background:#f9f9f9;border:1px solid #fff;border-bottom-color:#efefef;padding-left:30px;font-size:20px;color:#d58e00;}
+#payment .step{position:absolute;top:1px;right:21px;height:50px;line-height:50px;}
+#payment .step span{display:inline-block;width:20px;line-height:20px;text-align:center;border:1px solid #999;border-radius:10px;margin-right:20px;}
+#payment .contbox{padding:30px 30px 0 30px;}
+#payment .contbox h3{height:50px;line-height:50px;margin-bottom:10px;font-size:22px;color:#d58e00;}
+#payment .contbox h3 span{float:right;font-size:14px;color:#333;}
+#payment .step1 .a,#payment .step2 .b,#payment .step3 .c{background:#d58e00;color:#fff;border-color:#d58e00;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
+#payment .cart .btn-top{position:absolute;top:35px;right:30px;}
+#payment .cart .basic_tb{border:none;}
+#payment .cart .basic_tb th{background:none;font-size:16px;padding:20px 5px;font-weight:normal;}
+#payment .cart .basic_tb td{padding:20px 5px;border:none;}
+#payment .cart .basic_tb td img{display:block;width:184px;height:160px;}
+#payment .cart .basic_tb td h4{width:460px;font-size:24px;color:#1570a6;padding:20px 0;line-height:30px;}
+#payment .cart .basic_tb td p{width:460px;margin-bottom:5px;}
+#payment .cart .basic_tb td select{padding:2px;border:1px solid #ddd;outline:none;margin-top:50px;}
+#payment .cart .basic_tb td span{display:inline-block;font-size:20px;margin-top:50px;}
+#payment .cart .basic_tb .img{width:184px;}
+#payment .cart .basic_tb .subtotal{border-top:1px solid #ddd;font-size:16px;font-weight:bold;}
+#payment .cart .basic_tb .subtotal span{margin-top:0;display:inline;font-size:20px;margin-left:20px;}
+#payment .cart .btn-bottom{text-align:right;padding:20px 0 30px 0;}
+#payment .cart .btn-bottom a{font-size:14px;margin-right:30px;color:#37a;}
+#payment .cart .btn-bottom a:hover{text-decoration:underline;}
