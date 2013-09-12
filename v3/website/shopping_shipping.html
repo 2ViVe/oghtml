@@ -12,7 +12,11 @@
   <div id="header">
     <div class="wrape">
       <h1 class="logo"><a href="#" target="_blank" title="OG"><img src="images/og_logo.png" alt="OG" width="180" height="60" /></a></h1>
-      <ul class="menu">
+    </div>
+  </div>
+  <div id="menu">
+    <div class="wrape">
+      <ul class="clearfix">
         <li><a href="#">Home</a></li>
       </ul>
     </div>
@@ -34,12 +38,12 @@
                     Phone: 621-32-0500</td>
                 </tr>
                 <tr>
-                  <td><a href="#" target="_blank" title="Eidt">Eidt</a></td>
+                  <td><a href="javascript:void(0);" title="Eidt" class="edit">Edit</a></td>
                 </tr>
               </table>
             </div>
           </div>
-          <div class="contbox addressbox f-r">
+          <div class="contbox addressbox f-l">
             <h3>Billing Address</h3>
             <div class="address_tb">
               <table class="basic_tb">
@@ -50,7 +54,7 @@
                     Phone: 621-32-0500</td>
                 </tr>
                 <tr>
-                  <td><a href="#" target="_blank" title="Eidt">Eidt</a></td>
+                  <td><a href="javascript:void(0);" title="Eidt" class="edit">Edit</a></td>
                 </tr>
               </table>
             </div>
@@ -121,7 +125,7 @@
 <div class="footer">
   <p>Copyright @ 2013 Organo Gold All Rights Reserved</p>
 </div>
-<div class="popupbox" style="display:block;">
+<div class="popupbox">
   <h2>Edit Shipping Address</h2>
   <div class="close">X</div>
   <div class="popupboxcont">
@@ -145,7 +149,7 @@
           </p></td>
       </tr>
       <tr>
-        <td>Address
+        <td>City
           <p>
             <input name="" type="text" value="LANCASTER" />
           </p></td>
@@ -194,6 +198,18 @@
     </table>
   </div>
 </div>
-<div class="popupboxbg" style="display:block;"></div>
+<div class="popupboxbg"></div>
+<script type="text/javascript">
+$(function(){
+	$("#payment .address_tb .edit").click(function(){
+		$(".popupbox").show();
+		$(".popupboxbg").show();
+	});
+	$(".popupbox .close").click(function(){
+		$(".popupbox").hide();
+		$(".popupboxbg").hide();
+	});
+})
+</script>
 </body>
 </html>
