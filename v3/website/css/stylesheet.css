@@ -27,8 +27,8 @@ blockquote,q{quotes:"" "";}
 .ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
 .hide{display:block;font-size:0;line-height:0;overflow:hidden;}
 
-@font-face{font-family:OpenSans Regular;src:url(../font/OpenSans-Regular.ttf) format(truetype);}
-@font-face{font-family:OpenSans Light;src:url(../font/OpenSans-Light.ttf) format(truetype);}
+@font-face{font-family:"OpenSans Regular";src:url("../font/OpenSans-Regular.ttf") format("truetype");}
+@font-face{font-family:"OpenSans Light";src:url("../font/OpenSans-Light.ttf") format("truetype");}
 
 .text_l{text-align:left;}
 .text_c{text-align:center;}
@@ -469,8 +469,11 @@ blockquote,q{quotes:"" "";}
 #payment .cart .btn-bottom a{font-size:14px;margin-right:30px;color:#37a;}
 #payment .cart .btn-bottom a:hover{text-decoration:underline;}
 
+#payment .step2 .contbox h3 .edit{font-size:16px;margin-left:20px;color:#37a;}
 #payment .step2 form{width:700px;}
-#payment .step2 .addressbox{width:290px;}
+/*#payment .step2 .addressbox{width:290px;}*/
+#payment .step2 .basic_tb em,#payment .step2 .form_tb em{margin-right:30px;}
+#payment .step2 .form_tb .edit{display:block;font-size:16px;margin-left:20px;color:#37a;}
 
 #payment .stepbox .basic_tb{border:none;}
 #payment .stepbox .basic_tb th{background:none;font-size:16px;padding:20px 5px;font-weight:normal;}
@@ -494,8 +497,13 @@ blockquote,q{quotes:"" "";}
 #payment .step3 .contbox .basic_tb{border-left:none;border-right:none;margin-bottom:30px;}
 #payment .step3 .contbox .basic_tb th,#payment .step3 .contbox .basic_tb td{padding:8px 10px;}
 #payment .step3 .contbox .basic_tb th{font-size:15px;font-weight:normal;vertical-align:middle;}
-#payment .step3 .contbox .basic_tb td{line-height:26px;padding:15px 10px;}
+#payment .step3 .contbox .basic_tb td{line-height:26px;padding:15px 10px;font-size:14px;}
 #payment .step3 .contbox .basic_tb td img{display:inline-block;vertical-align:middle;margin:0 5px;} 
 #payment .step3 .contbox .basic_tb input[type="text"]{float:right;border:1px solid #ccc;background:#f9f9f9;padding:5px 10px;width:30px;text-align:right;}
 #payment .step3 .contbox .total_tb .total{font-size:16px;font-weight:bold;border-bottom:none;}
-#payment .step3 .contbox .goback a{font-size:14px;color:#37a;}
+
+#payment .step3 .contbox .total_num{border:none;width:50%;float:right;}
+#payment .step3 .contbox .total_num td{padding:5px 0;border:none;}
+
+#payment .step3 .contbox .goback{clear:both;}
+#payment .step3 .contbox .goback a{font-size:16px;color:#37a;}
