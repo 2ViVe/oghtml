@@ -12,7 +12,11 @@
   <div id="header">
     <div class="wrape">
       <h1 class="logo"><a href="#" target="_blank" title="OG"><img src="images/og_logo.png" alt="OG" width="180" height="60" /></a></h1>
-      <ul class="menu">
+    </div>
+  </div>
+  <div id="menu">
+    <div class="wrape">
+      <ul class="clearfix">
         <li><a href="#">Home</a></li>
       </ul>
     </div>
@@ -28,7 +32,8 @@
             <div class="address_tb">
               <table class="basic_tb">
                 <tr>
-                  <td><em>(To) Jackson Kho</em><em>Phonel) 621-32-0500</em><br/><em>2222 Loma Vista Ln,</em><em>Santa Clara, California, 95051</em></td>
+                  <td><em>(To) Jackson Kho</em><em>Phonel) 621-32-0500</em><br/>
+                    <em>2222 Loma Vista Ln,</em><em>Santa Clara, California, 95051</em></td>
                 </tr>
                 <tr>
                   <td></td>
@@ -69,6 +74,9 @@
           </div>
           <div class="contbox">
             <h3>Payment Information</h3>
+            <div class="simple-infotips failure">
+              <p>Please enter a valid credit card number</p>
+            </div>
             <table class="form_tb style2">
               <tr>
                 <td class="textright">Payment Method</td>
@@ -77,6 +85,9 @@
                   <input name="" type="radio" value="" />
                   <label>Wire Transfer</label></td>
               </tr>
+            </table>
+            <table class="form_tb style2">
+              <!--
               <tr>
                 <td class="textright">Card Type</td>
                 <td><p><span>
@@ -84,7 +95,7 @@
                       <option>Visa</option>
                     </select>
                     </span></p></td>
-              </tr>
+              </tr>-->
               <tr>
                 <td class="textright">Card Number</td>
                 <td><p>
@@ -105,15 +116,20 @@
               </tr>
               <tr>
                 <td class="textright">Card Code</td>
-                <td><p>
+                <td><p class="hack">
                     <input type="text" class="required" name="" />
-                  </p></td>
+                  </p>
+                  <a href="#" target="_blank" title="what's this?" class="link">what's this?</a> </td>
               </tr>
+            </table>
+            <table class="form_tb style2">
               <tr>
                 <td class="textright">Billing Address<a class="edit" title="Eidt" href="javascript:void(0);">Edit</a></td>
                 <td><em>(To) Jackson Kho</em><em>Phonel) 621-32-0500</em><br/>
                   <em>2222 Loma Vista Ln,</em><em>Santa Clara, California, 95051</em></td>
               </tr>
+            </table>
+            <table class="form_tb style2">
               <tr>
                 <td class="textright">&nbsp;</td>
                 <td><input type="submit" name="" class="submit btn style2" value="Confirm & Submit" /></td>

@@ -83,7 +83,7 @@ blockquote,q{quotes:"" "";}
 #menu .cart:hover ul{display:block;}
 
 /* Content */
-#content{position:relative;padding:25px 0 124px 0;}
+#content{position:relative;padding:50px 0 124px 0;}
 #content .tem{padding:10px;background:#fff;box-shadow:0 0 3px rgba(0,0,0,0.1);}
 #content .main{width:795px;margin-bottom:15px;}
 
@@ -166,8 +166,9 @@ blockquote,q{quotes:"" "";}
 #content .filter th,#content .filter td{vertical-align:top;padding:5px;}
 #content .filter td input[type="text"]{width:100%;background:#fff;border:1px solid #e2e2e2;padding:5px;}
 
-#content .basic_tb{width:100%;border:1px solid #ddd;border-bottom:none;word-break:break-all;word-wrap:break-word;}
-#content .basic_tb th,#content .basic_tb td{padding:8px 5px;border-bottom:1px solid #ddd;vertical-align:top;}
+#content .basic_tb{width:100%;border:1px solid #ddd;border-bottom:none;border-top:none;word-break:break-all;word-wrap:break-word;}
+#content .basic_tb th,#content .basic_tb td{padding:10px 5px;vertical-align:top;}
+#content .basic_tb td{border-bottom:1px solid #ddd;}
 #content .basic_tb.left_tb th,#content .basic_tb.left_tb td{text-align:left;}
 #content .basic_tb.center_tb th,#content .basic_tb.center_tb td{text-align:center;}
 #content .basic_tb.right_tb th,#content .basic_tb.right_tb td{text-align:right;}
@@ -181,8 +182,8 @@ blockquote,q{quotes:"" "";}
 #content .basic_tb th.text_r,#content .basic_tb td.text_r{text-align:right;}
 
 #content .form_tb{table-layout:fixed;}
-#content .form_tb td{padding:10px;line-height:36px;vertical-align:top;}
-#content .form_tb td.textright{width:140px;text-align:right;font-size:14px;}
+#content .form_tb td{padding:10px;line-height:36px;vertical-align:top;font-size:14px;}
+#content .form_tb td.textright{width:140px;text-align:right;}
 #content .ship_contbox .form_tb td.textright{text-align: left!important;}
 #content .form_tb p input{border:1px solid #ccc;width:240px;height:30px;padding:2px 20px 2px 2px;text-indent:0.5em;}
 #content .form_tb p textarea{border:1px solid #ccc;width:260px;min-width:260px;max-width:260px;height:80px;min-height:80px;max-height:80px;padding:2px;}
@@ -192,7 +193,7 @@ blockquote,q{quotes:"" "";}
 #content .form_tb input[type="checkbox"]{vertical-align:middle;}
 #content .form_tb input.required{background:url(../images/icon_required.png) right center no-repeat;}
 #content .form_tb select{padding:7px;border:1px solid #ccc;}
-#content .form_tb .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;}
+#content .form_tb .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;font-size:12px;}
 #content .form_tb.style1{width:60%;}
 #content .form_tb.style1 .submit{margin:20px 0 20px 160px;}
 #content .form_tb.style2{width:100%;}
@@ -254,19 +255,22 @@ blockquote,q{quotes:"" "";}
 .popupboxbg{display:none;background:#000;opacity:0.5;filter:alpha(opacity=50);width:100%;height:100%;position:fixed;left:0;top:0;z-index:99;}
 
 /* Tips Box */
-.infotips{padding:40px 180px 40px 190px;margin:0 30px;border:1px solid;margin-bottom:30px;min-height:70px;position:relative;}
-.infotips .icon{width:70px;height:70px;background:url(../images/icon_tips.png) no-repeat;position:absolute;left:100px;top:40px;}
-.infotips h4{font-size:18px;line-height:24px;}
-.infotips p{font-size:12px;}
+.infotips{padding:10px;margin-bottom:30px;}
+.infotips h4{display:inline-block;font-size:18px;line-height:24px;}
+.infotips p{font-size:14px;}
 .infotips ul{padding-left:15px;}
 .infotips li{font-size:14px;list-style:disc;}
-.infotips.failure{border-color:#f0cfc6;background:#fffbf7;color:#581804;}
+.infotips.failure{background:#fffbf7;color:#581804;}
 .infotips.failure .icon{background-position:0 0;}
 .infotips.failure2{border-color:#f0cfc6;background:#fffbf7;color:#581804;min-height:0;}
 .infotips.failure2 .icon{background-position:0 0;top:20px;}
-.infotips.success{border-color:#d3e5ca;background:#f8fff4;color:#163709;}
-.infotips.success .icon{background-position:0 -70px;}
-.infotips.success h4{line-height:70px;}
+.infotips.success{background:#ccffcc;color:#007b00;text-align:center;}
+.infotips.success .icon{display:inline-block;width:30px;height:30px;background:url(../images/icon_tips.png) no-repeat;vertical-align:top;}
+.infotips.success h4{line-height:30px;}
+
+.simple-infotips{padding:10px 20px;margin-bottom:30px;}
+.simple-infotips p{font-size:14px;}
+.simple-infotips.failure{background:#ffcccc;color:#581804;}
 
 /* Footer */
 .footer{height:124px;line-height:124px;margin-top:-124px;background:#000;}
@@ -383,52 +387,52 @@ blockquote,q{quotes:"" "";}
 #profile .sidebar .profilemenu dd{height:40px;position:relative;}
 #profile .sidebar .profilemenu dd a{display:block;width:170px;height:40px;line-height:40px;color:#000;padding-left:40px;font-size:16px;}
 #profile .sidebar .profilemenu dd a:hover,#profile .sidebar .profilemenu dd.active a{color:#b60000;}
-#profile .main{width:720px;background:#fff;border-left:1px solid #efefef;margin-bottom:0;padding:0 30px;}
-#profile .main h3{height:50px;line-height:50px;margin:20px 0;font-size:30px;font-family:OpenSans Light;}
+#profile .main{width:700px;background:#fff;border-left:1px solid #efefef;margin-bottom:0;padding-left:50px;margin-left:30px;}
+#profile .main h3{height:50px;line-height:50px;margin-bottom:20px;font-size:30px;font-family:OpenSans Light;}
 
 /* Regedit */
-#regedit #content .wrape{background:#fff;box-shadow:0 0 3px rgba(0,0,0,0.1);margin-bottom:15px;}
+#regedit #content .wrape{background:#fff;margin-bottom:15px;}
 #regedit #header{height:90px}
-#regedit .menu{top:15px;right:0;left:inherit;}
-#regedit .menu li a{padding-right:0;}
+#regedit #menu{height:10px;}
+#regedit #menu li{position:absolute;top:-60px;right:0;}
+#regedit #menu li a{padding-right:0;color:#0077c8;text-shadow:0 1px 0 rgba(255,255,255,0.3);}
 #regedit .main{width:100%;position:relative;}
-#regedit .main h2{height:50px;line-height:50px;background:#f9f9f9;border:1px solid #fff;border-bottom-color:#efefef;padding-left:30px;font-size:20px;color:#d58e00;}
+#regedit .main h2{height:60px;line-height:60px;border-bottom:1px solid #efefef;padding-left:30px;font-size:30px;color:#000;font-family:OpenSans Light;}
 #regedit .step{position:absolute;top:1px;right:21px;height:50px;line-height:50px;}
-#regedit .step span{display:inline-block;width:20px;line-height:20px;text-align:center;border:1px solid #999;border-radius:10px;margin-right:20px;}
+#regedit .step span{display:inline-block;width:20px;line-height:20px;text-align:center;border:1px solid #999;border-radius:20px;margin-right:20px;}
+#regedit .step1 .a,#regedit .step2 .b,#regedit .step3 .c,#regedit .step4 .d{background:#ffab50;color:#fff;border-color:#ffab50;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
 #regedit .contbox{padding:30px 30px 0 30px;}
-#regedit .contbox h3{height:50px;line-height:50px;margin-bottom:10px;font-size:22px;color:#d58e00;}
-#regedit .contbox h3 span{float:right;font-size:14px;color:#333;}
+#regedit .contbox h3{height:60px;line-height:60px;margin-bottom:20px;font-size:24px;color:#000;font-family:OpenSans Light;}
+#regedit .contbox h3 span{float:right;font-size:14px;color:#333;font-size:12px;}
 
-#regedit .contbox .form_tb{border-top:1px solid #efefef;padding-top:20px;}
+#regedit .contbox .form_tb{padding-top:20px;}
 #regedit .contbox .form_tb.style2 .submit{margin:40px 10px 40px 0;}
 
 #regedit .contbox .basic_tb{border-left:none;border-right:none;}
-#regedit .contbox .basic_tb th,#regedit .contbox .basic_tb td{padding:8px 10px;}
+#regedit .contbox .basic_tb th,#regedit .contbox .basic_tb td{padding:10px;}
 #regedit .contbox .basic_tb th{font-size:15px;font-weight:normal;vertical-align:middle;}
 #regedit .contbox .basic_tb td{line-height:32px;}
 #regedit .contbox .basic_tb td img{display:inline-block;vertical-align:middle;margin:0 5px;} 
 #regedit .contbox .basic_tb input[type="text"]{float:right;border:1px solid #ccc;background:#f9f9f9;padding:5px 10px;width:30px;text-align:right;}
 
-#regedit .float-cart{position:fixed;left:50%;bottom:0;z-index:49;width:1020px;margin-left:-510px;height:50px;line-height:50px;background:#faf3e5;box-shadow:0 -2px 2px rgba(0,0,0,0.1);}
-#regedit .float-cart dt{padding-left:30px;font-size:20px;color:#d58e00;}
+#regedit .float-cart{position:fixed;left:50%;bottom:0;z-index:49;width:1020px;margin-left:-510px;height:70px;line-height:70px;background:#faf3e5;box-shadow:0 -2px 2px rgba(0,0,0,0.1);}
+#regedit .float-cart dt{padding-left:30px;font-size:26px;color:#d58e00;font-family:OpenSans Light;}
 #regedit .float-cart dd{padding-right:30px;font-size:14px;}
-#regedit .float-cart dd span{padding:0 10px;font-weight:bold;color:#333;}
-#regedit .float-cart dd i{font-weight:normal;color:#d58e00;margin-left:5px;}
+#regedit .float-cart dd span{padding:0 10px;font-weight:bold;color:#333;font-family:OpenSans Light;}
+#regedit .float-cart dd i{font-weight:normal;color:#d58e00;margin-left:5px;font-size:24px;}
 
-#regedit .step1 .a,#regedit .step2 .b,#regedit .step3 .c,#regedit .step4 .d{background:#d58e00;color:#fff;border-color:#d58e00;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
-
-#regedit .step1 .contbox td{position:relative;display:inline-block;}
+#regedit .step1 .contbox td{position:relative;}
 #regedit .step1 .contbox .button{position:absolute;top:5px;left:290px;}
 #regedit .step1 .contbox .button input{height:36px;padding:0 20px;background:#eee;border:none;cursor:pointer;margin-left:5px;}
-#regedit .step1 .contbox .txt{font-style:italic;}
-#regedit .step1 .contbox .loading{width:302px;border:1px solid #dedede;background:#eee;padding:0 30px;margin-top:10px;}
+#regedit .step1 .contbox .txt{font-size:12px;}
+#regedit .step1 .contbox .loading{background:#eee;padding:0 30px;margin-top:10px;font-size:12px;}
 #regedit .step1 .contbox .loading img{margin-right:5px;vertical-align:middle;}
 #regedit .step1 .contbox .text{padding:5px 0;font-weight:bold;line-height:20px;}
 #regedit .step1 .contbox .text a{margin-left:10px;font-weight:normal;color:#37a;}
 #regedit .step1 .contbox .info li{font-size:11px;color:#d58e00;line-height:20px;}
 #regedit .step1 .contbox  #accept_tc_textarea{width:730px;height:309px;padding:10px;border:1px solid #ccc;font-size:12px;line-height:22px;color:#999;overflow:scroll;overflow-x:hidden;background:#f6f6f6;}
 #regedit .step1 .contbox #accept_tc_textarea p{display:block;}
-#regedit .step1 .contbox .tips{background:#fff7e9;padding:0 20px;color:#897a63;}
+#regedit .step1 .contbox .tips{background:#fff7e9;padding:0 20px;color:#897a63;font-size:12px;}
 
 #regedit .step2{padding-bottom:25px;}
 
@@ -438,6 +442,10 @@ blockquote,q{quotes:"" "";}
 #regedit .step4 .total_tb .total td{font-weight:bold;}
 #regedit .step4 .address_tb{width:450px;}
 #regedit .step4 .address_tb .basic_tb td{border:none;font-size:14px;line-height:24px;}
+#regedit .step4 .form_tb.style2 .link{margin-left:10px;color:#37a;}
+#regedit .step4 .form_tb.style2 .link:hover{text-decoration:underline;}
+#regedit .step4 .form_tb .edit{display:block;font-size:16px;margin-left:20px;color:#37a;}
+#regedit .step4 .form_tb .edit:hover{text-decoration:underline;}
 
 /* Payment */
 #payment #content .wrape{background:#fff;margin-bottom:15px;}
@@ -456,24 +464,33 @@ blockquote,q{quotes:"" "";}
 #payment .cart .btn-top{position:absolute;top:30px;right:30px;}
 #payment .cart .basic_tb{border:none;}
 #payment .cart .basic_tb th{background:none;font-size:16px;padding:20px 5px;font-weight:normal;}
-#payment .cart .basic_tb td{padding:20px 5px;border:none;}
+#payment .cart .basic_tb td{padding:20px 5px;border:none;vertical-align:middle;}
 #payment .cart .basic_tb td img{display:block;width:184px;height:160px;}
 #payment .cart .basic_tb td h4{width:460px;font-size:24px;color:#1570a6;padding:20px 0;line-height:30px;}
 #payment .cart .basic_tb td p{width:460px;margin-bottom:5px;}
-#payment .cart .basic_tb td select{padding:2px;border:1px solid #ddd;outline:none;margin-top:50px;}
-#payment .cart .basic_tb td span{display:inline-block;font-size:20px;margin-top:50px;}
+/*#payment .cart .basic_tb td select{padding:2px;border:1px solid #ddd;outline:none;margin-top:50px;}*/
+#payment .cart .basic_tb td input{border:1px solid #ccc;width:60px;height:30px;padding:2px;text-indent:0.5em;}
+#payment .cart .basic_tb td span{display:inline-block;font-size:20px;}
 #payment .cart .basic_tb .img{width:184px;}
 #payment .cart .basic_tb .subtotal{border-top:1px solid #ddd;font-size:16px;font-weight:bold;}
 #payment .cart .basic_tb .subtotal span{margin-top:0;display:inline;font-size:20px;margin-left:20px;}
-#payment .cart .btn-bottom{text-align:right;padding:20px 0 30px 0;}
+#payment .cart .btn-bottom{text-align:right;padding:20px 0 30px 0;height:60px;line-height:60px;}
+#payment .cart .btn-bottom .empty{border:none;background:none;margin-right:20px;color:#9B1112;font-size:14px;cursor:pointer;}
+#payment .cart .btn-bottom .empty:hover{text-decoration:underline;}
 #payment .cart .btn-bottom a{font-size:14px;margin-right:30px;color:#37a;}
 #payment .cart .btn-bottom a:hover{text-decoration:underline;}
 
 #payment .step2 .contbox h3 .edit{font-size:16px;margin-left:20px;color:#37a;}
+#payment .step2 .contbox h3 .edit:hover{text-decoration:underline;}
 #payment .step2 form{width:700px;}
 /*#payment .step2 .addressbox{width:290px;}*/
+#payment .step2 .info-tips{font-size:20px;color:#fe0404;padding:20px;line-height:30px;}
 #payment .step2 .basic_tb em,#payment .step2 .form_tb em{margin-right:30px;}
+
+#payment .step2 .form_tb.style2 .link{margin-left:10px;color:#37a;}
+#payment .step2 .form_tb.style2 .link:hover{text-decoration:underline;}
 #payment .step2 .form_tb .edit{display:block;font-size:16px;margin-left:20px;color:#37a;}
+#payment .step2 .form_tb .edit:hover{text-decoration:underline;}
 
 #payment .stepbox .basic_tb{border:none;}
 #payment .stepbox .basic_tb th{background:none;font-size:16px;padding:20px 5px;font-weight:normal;}
