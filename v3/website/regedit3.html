@@ -173,7 +173,7 @@
           <div class="contbox">
             <h3><span>
               <input name="" type="checkbox" value="" />
-              Use Home Address</span>Shipment Address</h3>
+              <label>Use Home Address</label></span>Shipment Address</h3>
             <table class="form_tb style2">
               <tr>
                 <td class="textright">First Name</td>
@@ -238,20 +238,42 @@
           </div>
           <div class="contbox">
             <h3>Shipping Method</h3>
-            <table class="form_tb style2">
-              <tr>
-                <td class="textright">Delivery Options</td>
-                <td><input type="radio" value="" name="" />
-                  <label>Mexico Shipping</label>
-                  <input type="radio" value="" name="" />
-                  <label>Select Pick Up Location</label></td>
-              </tr>
-            </table>
+            <div class="address_tb">
+              <table class="basic_tb">
+                <tr>
+                  <td><input name="" type="radio" value="" checked />
+                    <label>Canada Ground C$0.00</label></td>
+                </tr>
+                <tr>
+                  <td><input name="" type="radio" value="" />
+                    <label>Warehouse Pick Up (Richmond, BC only) C$0.00</label></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="contbox">
+            <h3>Shipping Method</h3>
+            <div class="address_tb">
+              <table class="basic_tb">
+                <tr>
+                  <td><input name="" type="radio" value="" />
+                    <label>Canada Ground C$0.00</label></td>
+                </tr>
+                <tr>
+                  <td><input name="" type="radio" value="" checked />
+                    <label>Warehouse Pick Up (Richmond, BC only) C$0.00</label>
+                    <p class="info-more">Pickup Location:
+                      <input name="" type="radio" value="" checked />
+                      <label>Warehouse Pick Up (Richmond, BC only)</label>
+                    </p></td>
+                </tr>
+              </table>
+            </div>
           </div>
           <div class="contbox">
             <h3><span>
               <input name="" type="checkbox" value="" />
-              Use Home Address</span>For Display on Website</h3>
+              <label>Use Home Address</label></span>For Display on Website</h3>
             <table class="form_tb style2">
               <tr>
                 <td class="textright">First Name</td>
