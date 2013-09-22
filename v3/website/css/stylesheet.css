@@ -495,7 +495,7 @@ blockquote,q{quotes:"" "";}
 
 /* Profile */
 #profile #content .wrape{margin-bottom:15px;}
-#profile .sidebar{margin-bottom:0;}
+#profile .sidebar{margin-bottom:0;border-left:none;}
 #profile .sidebar .profilemenu{text-align:right;}
 #profile .sidebar .profilemenu dt{height:56px;line-height:56px;margin-bottom:30px;border-bottom:1px solid #efefef;font-size:30px;color:#000;}
 #profile .sidebar .profilemenu dd{height:40px;position:relative;}
