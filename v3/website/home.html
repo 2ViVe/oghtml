@@ -34,13 +34,43 @@
   <div id="menu">
     <div class="wrape">
       <ul class="clearfix">
-        <li class="cur"><a href="#">Home</a></li>
-        <li><a href="#">Shopping</a></li>
+        <li><span>Home</span>
+        	<div class="submenu">
+            <ul class="wrape clearfix">
+              <li><a href="#">Weekly0<span></span></a></li>
+              <li><a href="#">Monthly<span></span></a></li>
+              <li><a href="#">Quarterly<span></span></a></li>
+              <li><a href="#">Rank<span></span></a></li>
+              <li><a href="#">Dualteam View<span></span></a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="cur"><a href="#">Shopping</a></li>
         <li><a href="#">Autoship</a></li>
         <li><a href="#">Wallet</a></li>
         <li><a href="#">Genealogy</a></li>
-        <li><span>Commission</span></li>
-        <li><a href="#">Reports</a></li>
+        <li><span>Commission</span>
+          <div class="submenu">
+            <ul class="wrape clearfix">
+              <li><a href="#">Weekly1<span></span></a></li>
+              <li><a href="#">Monthly<span></span></a></li>
+              <li><a href="#">Quarterly<span></span></a></li>
+              <li><a href="#">Rank<span></span></a></li>
+              <li><a href="#">Dualteam View<span></span></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><span>Reports</span>
+        	<div class="submenu">
+            <ul class="wrape clearfix">
+              <li><a href="#">Weekly2<span></span></a></li>
+              <li><a href="#">Monthly<span></span></a></li>
+              <li><a href="#">Quarterly<span></span></a></li>
+              <li><a href="#">Rank<span></span></a></li>
+              <li><a href="#">Dualteam View<span></span></a></li>
+            </ul>
+          </div>
+        </li>
         <li><a href="#">Sponsor</a></li>
         <li><a href="#">Others</a></li>
       </ul>
@@ -55,6 +85,47 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript">
+  	$(function(){
+			var w = $(document).width();
+			var w2 = $("#menu .wrape").width();
+			var w3 = w-w2;
+			$("#menu li .submenu").css({width:w,left:-w3/2})
+		});
+		
+		$(function(){
+			$("#menu > .wrape > ul > li").mouseover(function(){
+				$(this).addClass("active");
+			}).mouseout(function(){
+				$(this).removeClass("active");
+			})
+		});
+  </script>
+  <!--<script type="text/javascript">
+  	$(function() {
+      $("#menu li").hover(
+        function(){
+          $(this).addClass("cur");
+          $("#menu li ul").hide();
+          if($(this).has("ul").length > 0){
+            $(this).find("ul").show();
+            $("#submenu").show();
+          }
+        }, 
+        function(){
+          $(this).removeClass("cur");
+          show_submenu()
+        }
+      );
+      function show_submenu(){
+        if($("#menu li.cur").has("ul").length > 0){
+          $("#menu li.cur").find("ul").show();
+          $("#submenu").show();
+        }
+      }
+      show_submenu();
+    });
+  </script>-->
   <div id="content">
     <div class="wrape clearfix">
       <div class="main f-l">

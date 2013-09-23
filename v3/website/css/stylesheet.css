@@ -91,12 +91,14 @@ blockquote,q{quotes:"" "";}
 #menu .wrape{position:relative;}
 #menu .wrape > ul > li{float:left;padding-right:35px;}
 #menu .wrape > ul > li > a,#menu .wrape > ul > li > span{display:inline-block;height:60px;line-height:60px;font-size:18px;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
-#menu .wrape > ul > li > a:hover,#menu .wrape > ul > li > span:hover,#menu .wrape > ul > .cur > a,#menu .wrape > ul > .cur > span{color:#ffac4d;background:url(../images/og_arrow_header.png) center 46px no-repeat;}
-#menu .wrape > ul > li ul{position:absolute;left:0;top:60px;}
+#menu .wrape > ul > .cur > a,#menu .wrape > ul > .cur > span,#menu .wrape > ul > .active > a,#menu .wrape > ul > .active > span{color:#ffac4d;background:url(../images/og_arrow_header.png) center 46px no-repeat;}
+#menu .wrape > ul > li .submenu{display:none;position:absolute;left:0;top:60px;width:100%;height:36px;background:#fafafa;border-bottom:1px solid #ddd;z-index:98;}
+#menu .wrape > ul > .cur .submenu,#menu .wrape > ul > .active .submenu{display:block;}
 #menu .wrape > ul > li li{float:left;height:36px;margin-right:20px;position:relative;}
 #menu .wrape > ul > li li a{display:inline-block;height:36px;line-height:36px;font-size:14px;}
 #menu .wrape > ul > li li a:hover,#menu .wrape > ul > li .cur a{color:#df8c2d;}
 #menu .wrape > ul > li li a:hover span,#menu .wrape > ul > li .cur a span{display:block;position:absolute;top:29px;left:50%;margin-left:-7px;width:15px;height:8px;background:url(../images/og_arrow_header.png) center -92px no-repeat;}
+
 #menu .cart{position:absolute;top:2px;right:0;height:60px;}
 #menu .cart > a{display:block;width:40px;height:60px;line-height:30px;text-align:center;background:url(../images/og_icon_header.png) right -52px no-repeat;position:relative;}
 #menu .cart > a i{display:inline-block;height:20px;line-height:20px;font-size:14px;background:#fff;color:#b60000;padding:0 5px;margin-left:6px;font-family:Arial, Helvetica, sans-serif;border-radius:20px;}
@@ -115,14 +117,12 @@ blockquote,q{quotes:"" "";}
 #menu .cart li.last .arrow{position:absolute;top:-8px;left:185px;width:17px;height:8px;background:url(../images/og_icon_header.png) 0 -192px no-repeat;}
 #menu .cart:hover ul{display:block;}
 
-#submenu{height:36px;background:#fafafa;border-bottom:1px solid #ddd;z-index:99;}
-
 #navigation{margin-top:20px;font-size:14px;}
 #navigation span{margin:0 10px;}
 #navigation a{color:#37a;}
 
 /* Content */
-#content{position:relative;padding:30px 0 124px 0;}
+#content{position:relative;padding:50px 0 124px 0;}
 #content .tem{padding:10px;background:#fff;}
 #content .main{width:935px;margin-bottom:15px;}
 
