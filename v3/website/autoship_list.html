@@ -39,15 +39,15 @@
         <li class="cur"><a href="#">Autoship</a></li>
         <li><a href="#">Wallet</a></li>
         <li><a href="#">Genealogy</a></li>
-        <li><a href="#">Commission</a></li>
+        <li><span>Commission</span></li>
         <li><a href="#">Reports</a></li>
         <li><a href="#">Sponsor</a></li>
         <li><a href="#">Others</a></li>
       </ul>
       <div class="cart"><a href="javascript:void(0);"> <i>2</i> </a>
         <ul>
-          <li><a href="#" title="King of Coffee 3 Pack"><img src="images/pic1.jpg" alt="King of Coffee 3 Pack" width="48" height="48" /><span>King of Coffee 3 PackKing of Coffee 3 Pack</span><em>1×$93</em></a></li>
-          <li><a href="#" title="King of Coffee 3 Pack"><img src="images/pic1.jpg" alt="King of Coffee 3 Pack" width="48" height="48" /><span>King of Coffee 3 Pack</span><em>1×$93</em></a></li>
+          <li><a href="#" title="King of Coffee 3 Pack"><img src="images/pic1.jpg" alt="King of Coffee 3 Pack" width="48" height="48" /><span>King of Coffee 3 PackKing of Coffee 3 Pack</span><em>1×$93</em></a><a href="#" class="del">remove</a></li>
+          <li><a href="#" title="King of Coffee 3 Pack"><img src="images/pic1.jpg" alt="King of Coffee 3 Pack" width="48" height="48" /><span>King of Coffee 3 Pack</span><em>1×$93</em></a><a href="#" class="del">remove</a></li>
           <li class="last"><span class="f-l">Subtotal:<em>$147.00</em></span><a href="#" class="btn f-r">Checkout</a>
             <div class="arrow"></div>
           </li>
@@ -260,10 +260,132 @@
     </ul>
   </div>
 </div>
+<div class="popupbox">
+  <div class="close">X</div>
+  <div class="popupboxcont autoshipnew clearfix">
+    <div class="contbox">
+    	<h2>Autoship(Valid from:09/15/2012)</h2>
+      <table class="basic_tb">
+        <tr>
+          <th>Item</th>
+          <th>SKU</th>
+          <th class="text_r">Quantity</th>
+        </tr>
+        <tr>
+          <td>OG Goument Hot Chocolate</td>
+          <td>504</td>
+          <td class="text_r">1</td>
+        </tr>
+        <tr>
+          <td>OG Goument Hot Chocolate</td>
+          <td>504</td>
+          <td class="text_r">1</td>
+        </tr>
+        <tr>
+          <td>OG Goument Hot Chocolate</td>
+          <td>504</td>
+          <td class="text_r">1</td>
+        </tr>
+        <tr>
+          <td>OG Goument Hot Chocolate</td>
+          <td>504</td>
+          <td class="text_r">1</td>
+        </tr>
+      </table>
+    </div>
+    <div class="contbox hack f-l">
+    	<h2>Payment</h2>
+      <table class="basic_tb">
+        <tr>
+          <td>Current Creditcard:</td>
+          <td>4111****1111</td>
+        </tr>
+        <tr>
+          <td>Expires:</td>
+          <td>8-2012</td>
+        </tr>
+        </table>
+       <div class="checkbox"><input name="" type="checkbox" value="" /><lable>Use a new card(this will remove any existingcards after saving the changes)</label></div>
+        <table class="form_tb card">
+              <tbody>
+                <tr>
+                  <td>Card Number:</td>
+                  <td><p>
+                      <input type="text" name="">
+                    </p></td>
+                </tr>
+                <tr>
+                  <td>Expiration:</td>
+                  <td><p>
+                      <select size="1" name="">
+                        <option>07</option>
+                      </select>
+                    </p>
+                    <p>
+                      <select size="1" name="">
+                        <option>2012</option>
+                      </select>
+                    </p></td>
+                </tr>
+                <tr>
+                  <td class="textright">Card Code:</td>
+                  <td><p class="width2">
+                      <input type="text" name="">
+                    </p>
+                    <a target="_blank" href="#">(What's this)</a></td>
+                </tr>
+              </tbody>
+            </table>
+      
+        <div class="submit"><input name="" type="submit" value="Submit" class="btn style2" /></div>
+    </div>
+    <div class="contbox hack f-r">
+    	<h2>Payment Details</h2>
+      <table class="basic_tb">
+        <tr>
+          <td>Item Total</td>
+          <td><span>C$2,117.00</span></td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td><span>C$0.00</span></td>
+        </tr>
+        <tr>
+          <td>gst</td>
+          <td><span>C$226.80</span></td>
+        </tr>
+        <tr>
+          <td>pst</td>
+          <td><span>C$0.00</span></td>
+        </tr>
+        <tr>
+          <td>gst_shipping</td>
+          <td><span>C$0.00</span></td>
+        </tr>
+        <tr>
+          <td>pst_shipping</td>
+          <td><span>C$0.00</span></td>
+        </tr>
+        <tr class="total">
+          <td>Order Total</td>
+          <td><span>C$2.343.80</span></td>
+        </tr>
+        <tr>
+          <td>Qualification Vol</td>
+          <td><span>2201.0</span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
 <div class="popupboxbg"></div>
 <script type="text/javascript">
 $(function(){
 	$("#autoship .autoshipbox .changelog a").click(function(){
+		$(".popupbox").show();
+		$(".popupboxbg").show();
+	});
+	$("#autoship .autoshipbox .style2").click(function(){
 		$(".popupbox").show();
 		$(".popupboxbg").show();
 	});
