@@ -15,7 +15,7 @@
       <div class="action"><span>HI Welcome<strong>famillatrujillo</strong></span>|
         <dl class="set">
           <dt></dt>
-          <dd><a href="#">del</a><a href="#">del</a><a href="#">del</a></dd>
+          <dd><a href="#">Weekly</a><a href="#">Monthly</a><a href="#">Quarterly</a></dd>
         </dl>
         <script type="text/javascript">
         	$(function(){
@@ -29,51 +29,6 @@
 					})
         </script>
       </div>
-    </div>
-  </div>
-  <div id="menu">
-    <div class="wrape">
-      <ul class="clearfix">
-        <li><span>Home</span>
-        	<div class="submenu">
-            <ul class="wrape clearfix">
-              <li><a href="#">Weekly0<span></span></a></li>
-              <li><a href="#">Monthly<span></span></a></li>
-              <li><a href="#">Quarterly<span></span></a></li>
-              <li><a href="#">Rank<span></span></a></li>
-              <li><a href="#">Dualteam View<span></span></a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="cur"><a href="#">Shopping</a></li>
-        <li><a href="#">Autoship</a></li>
-        <li><a href="#">Wallet</a></li>
-        <li><a href="#">Genealogy</a></li>
-        <li><span>Commission</span>
-          <div class="submenu">
-            <ul class="wrape clearfix">
-              <li><a href="#">Weekly1<span></span></a></li>
-              <li><a href="#">Monthly<span></span></a></li>
-              <li><a href="#">Quarterly<span></span></a></li>
-              <li><a href="#">Rank<span></span></a></li>
-              <li><a href="#">Dualteam View<span></span></a></li>
-            </ul>
-          </div>
-        </li>
-        <li><span>Reports</span>
-        	<div class="submenu">
-            <ul class="wrape clearfix">
-              <li><a href="#">Weekly2<span></span></a></li>
-              <li><a href="#">Monthly<span></span></a></li>
-              <li><a href="#">Quarterly<span></span></a></li>
-              <li><a href="#">Rank<span></span></a></li>
-              <li><a href="#">Dualteam View<span></span></a></li>
-            </ul>
-          </div>
-        </li>
-        <li><a href="#">Sponsor</a></li>
-        <li><a href="#">Others</a></li>
-      </ul>
       <div class="cart"><a href="javascript:void(0);"> <i>2</i> </a>
         <ul>
           <li><a href="#" title="King of Coffee 3 Pack"><img src="images/pic1.jpg" alt="King of Coffee 3 Pack" width="48" height="48" /><span>King of Coffee 3 PackKing of Coffee 3 Pack</span><em>1×$93</em></a><a href="#" class="del">remove</a></li>
@@ -85,14 +40,67 @@
       </div>
     </div>
   </div>
+  <div id="menu">
+    <div class="wrape">
+      <ul class="clearfix">
+        <li class="cur"><span>Home</span>
+          <dl class="clearfix">
+            <dd><a href="#">Weekly0</a></dd>
+            <dd><a href="#">Monthly</a></dd>
+            <dd><a href="#">Quarterly</a></dd>
+            <dd><a href="#">Rank</a></dd>
+            <dd><a href="#">Dualteam View</a></dd>
+          </dl>
+        </li>
+        <li><a href="#">Shopping</a></li>
+        <li><a href="#">Autoship</a></li>
+        <li><a href="#">Wallet</a></li>
+        <li><a href="#">Genealogy</a></li>
+        <li><span>Commission</span>
+          <dl class="clearfix">
+            <dd><a href="#">Weekly1</a></dd>
+            <dd><a href="#">Monthly</a></dd>
+            <dd><a href="#">Quarterly</a></dd>
+            <dd><a href="#">Rank</a></dd>
+            <dd><a href="#">Dualteam View</a></dd>
+          </dl>
+        </li>
+        <li><span>Reports</span>
+          <dl class="clearfix">
+            <dt>Title
+              <dl class="clearfix" style="left:118px;">
+                <dt>Title</dt>
+                <dd><a href="#">Weekly2</a></dd>
+                <dd><a href="#">Monthly</a></dd>
+                <dd><a href="#">Quarterly</a></dd>
+                <dd><a href="#">Rank</a></dd>
+                <dd><a href="#">Dualteam View</a></dd>
+              </dl>
+            </dt>
+            <dd><a href="#">Weekly2</a></dd>
+            <dd><a href="#">Monthly</a></dd>
+            <dd><a href="#">Quarterly</a></dd>
+            <dd><a href="#">Rank</a></dd>
+            <dd><a href="#">Dualteam View</a></dd>
+          </dl>
+        </li>
+        <li><a href="#">Sponsor</a></li>
+        <li><a href="#">Others</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="submenu">
+    <div class="wrape">
+      <ul class="clearfix" style="margin-left:200px;">
+        <li class="cur"><a href="#">Weekly0<span></span></a></li>
+        <li><a href="#">Monthly<span></span></a></li>
+        <li><a href="#">Quarterly<span></span></a></li>
+        <li><a href="#">Rank<span></span></a></li>
+        <li><a href="#">Dualteam View<span></span></a></li>
+      </ul>
+    </div>
+  </div>
   <script type="text/javascript">
-  	$(function(){
-			var w = $(document).width();
-			var w2 = $("#menu .wrape").width();
-			var w3 = w-w2;
-			$("#menu li .submenu").css({width:w,left:-w3/2})
-		});
-		
 		$(function(){
 			$("#menu > .wrape > ul > li").mouseover(function(){
 				$(this).addClass("active");
