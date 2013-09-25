@@ -562,7 +562,7 @@ blockquote,q{quotes:"" "";}
 #profile .sidebar .profilemenu dd{height:40px;position:relative;}
 #profile .sidebar .profilemenu dd a{display:block;width:170px;height:40px;line-height:40px;color:#000;padding-left:40px;font-size:16px;}
 #profile .sidebar .profilemenu dd a:hover,#profile .sidebar .profilemenu dd.active a{color:#b60000;}
-#profile .main{width:855px;background:#fff;border-left:1px solid #efefef;margin-bottom:0;padding-left:40px;margin-left:39px;}
+#profile .main{width:845px;background:#fff;border-left:1px solid #efefef;margin-bottom:0;padding-left:40px;margin-left:39px;}
 #profile .main h3{height:50px;line-height:50px;margin-bottom:20px;font-size:30px;font-family:OpenSans Light,Arial,Helvetica,sans-serif;}
 
 /* Regedit */
