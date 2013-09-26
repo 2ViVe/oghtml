@@ -48,7 +48,7 @@ blockquote,q{quotes:"" "";}
 .form_tem li p input.required{background:url(../images/icon_required.png) right center no-repeat;}
 .form_tem li p select{padding:7px;border:1px solid #ccc;}
 .form_tem li .hack1 input{width:74px;}
-.form_tem li .hack1 span{display:inline-block;text-align:center;width:68px;}
+.form_tem li .hack1 .hack2{float:none;padding-right:0;display:inline-block;text-align:center;width:68px;}
 .form_tem li .error_tip{position:absolute;top:55px;left:180px;height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;color:#9B1112;font-size:12px;}
 
 .form_tem.style1{width:100%;}
