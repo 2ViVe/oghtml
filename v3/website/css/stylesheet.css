@@ -45,7 +45,7 @@ blockquote,q{quotes:"" "";}
 .form_tem li label,.form_tem li p{float:left;height:36px;}
 .form_tem li label{width:160px;text-align:right;padding-right:20px;}
 .form_tem li p input{border:1px solid #ccc;width:240px;height:30px;padding:2px 20px 2px 2px;text-indent:0.5em;}
-.form_tem li p input.required{background:url(../images/icon_required.png) right center no-repeat;}
+.form_tem li p input.required{background:#fff url(../images/icon_required.png) right center no-repeat;}
 .form_tem li p select{padding:7px;border:1px solid #ccc;}
 .form_tem li .hack1 input{width:74px;}
 .form_tem li .hack1 .hack2{float:none;padding-right:0;display:inline-block;text-align:center;width:68px;}
