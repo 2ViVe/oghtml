@@ -47,37 +47,29 @@ blockquote,q{quotes:"" "";}
 .form_tem li p input{border:1px solid #ccc;width:240px;height:30px;padding:2px 20px 2px 2px;text-indent:0.5em;}
 .form_tem li p input.required{background:url(../images/icon_required.png) right center no-repeat;}
 .form_tem li p select{padding:7px;border:1px solid #ccc;}
+.form_tem li .hack1 input{width:74px;}
+.form_tem li .hack2{width:48px;}
 .form_tem li .error_tip{position:absolute;top:55px;left:180px;height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;color:#9B1112;font-size:12px;}
 
 .form_tem.style1{width:100%;}
 .form_tem.style1 li{width:50%;}
-.form_tem.style1 .hack1{width:26%;}
-.form_tem.style1 .hack2{width:24%;}
-.form_tem.style1 .hack1 input,.form_tem.style1 .hack2 input{width:74px;}
-.form_tem.style1 .hack2 label{width:20px;}
+
 
 .form_tem.style2{width:100%;}
 .form_tem.style2 li{width:100%;}
-.form_tem.style2 .hack1{width:26%;}
-.form_tem.style2 .hack2{width:24%;}
-.form_tem.style2 .hack1 input,.form_tem.style2 .hack2 input{width:74px;}
-.form_tem.style2 .hack2 label{width:20px;}
 
 .form_tem.style3{width:100%;}
 .form_tem.style3 li{width:50%;margin-bottom:20px;}
-.form_tem.style3 li label{width:100%;text-align:left;}
-.form_tem.style3 .hack1{width:12.5%;}
-.form_tem.style3 .hack2{width:37.5%;}
-.form_tem.style3 .hack1 input,.form_tem.style3 .hack2 input{width:92px;}
+.form_tem.style3 li label{width:100%;text-align:left;padding-right:0;}
 .form_tem.style3 li .error_tip{left:0;top:90px;}
 
 
 /* Header */
 #header{width:100%;height:90px;background:#fff;color:#333;}
 #header .wrape{position:relative;height:90px;}
-#header .logo{width:180px;height:60px;position:absolute;top:15px;left:0;}
-#header .logo img{display:block;width:180px;height:60px;}
-#header .action{position:absolute;top:32px;right:0;color:#bbb;*z-index:9;*width:193px;}
+#header .logo{width:150px;height:45px;position:absolute;top:22px;left:0;}
+#header .logo img{display:block;width:150px;height:45px;}
+#header .action{position:absolute;top:32px;right:7px;color:#bbb;*z-index:9;*width:193px;}
 #header .action span,#header .action a{display:inline-block;height:24px;line-height:24px;color:#666;}
 #header .action span strong{margin:0 10px 0 5px;}
 #header .action .set{position:relative;width:24px;vertical-align:middle;display:inline-block;margin-left:10px;z-index:100;*float:right;*margin-top:-22px;}
@@ -87,13 +79,13 @@ blockquote,q{quotes:"" "";}
 #header .action .set dd a:hover{background:#f5f5f5;text-decoration:none;color:#333;}
 
 /* Menu */
-#menu{height:60px;background:#b60000;z-index:99;position:relative;}
+#menu{height:30px;background:#b60000;z-index:99;position:relative;}
 #menu .wrape{position:relative;}
 #menu .wrape > ul > li{float:left;padding-right:35px;position:relative;}
-#menu .wrape > ul > li > a,#menu .wrape > ul > li > span{display:inline-block;height:60px;line-height:60px;font-size:18px;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
-#menu .wrape > ul > li > a:hover,#menu .wrape > ul > li > span:hover,#menu .wrape > ul > .cur > a,#menu .wrape > ul > .cur > span,#menu .wrape > ul > .active > a,#menu .wrape > ul > .active > span{background:url(../images/og_arrow_header.png) center 46px no-repeat;}
+#menu .wrape > ul > li > a,#menu .wrape > ul > li > span{display:inline-block;height:30px;line-height:30px;font-size:14px;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.3);font-family:OpenSans Light,Arial,Helvetica,sans-serif;}
+#menu .wrape > ul > li > a:hover,#menu .wrape > ul > li > span:hover,#menu .wrape > ul > .cur > a,#menu .wrape > ul > .cur > span,#menu .wrape > ul > .active > a,#menu .wrape > ul > .active > span{background:url(../images/og_arrow_header.png) center 26px no-repeat;}
 #menu .wrape > ul > li ul{display:none;}
-#menu .wrape > ul > .active ul{display:block;background:#fafafa;border:1px solid #ddd;border-top:none;border-bottom:none;position:absolute;top:60px;left:0;}
+#menu .wrape > ul > .active ul{display:block;background:#fafafa;border:1px solid #ddd;border-top:none;border-bottom:none;position:absolute;top:30px;left:0;}
 #menu .wrape > ul > .active .hack{width:140px;}
 #menu .wrape > ul > .active .hack li a{white-space:inherit;}
 #menu .wrape > ul > .active .menu2{left:-141px;}
@@ -103,9 +95,9 @@ blockquote,q{quotes:"" "";}
 #menu .wrape > ul > li li a{display:block;padding:10px;font-size:14px;white-space:nowrap;}
 #menu .wrape > ul > li li a:hover,#menu .wrape > ul > li .cur a{color:#df8c2d;background:#f2f2f2;}
 
-#menu .cart{position:absolute;top:2px;right:0;width:40px;height:60px;}
+#menu .cart{position:absolute;top:-22px;right:0;width:40px;height:60px;}
 #menu .cart > a{display:block;width:40px;height:60px;line-height:30px;text-align:center;background:url(../images/og_icon_header.png) right -52px no-repeat;position:relative;}
-#menu .cart > a i{display:inline-block;height:20px;line-height:20px;font-size:14px;background:#fff;color:#b60000;padding:0 5px;margin-left:6px;font-family:Arial, Helvetica, sans-serif;border-radius:20px;}
+#menu .cart > a i{display:inline-block;height:20px;line-height:20px;font-size:14px;background:#b60000;color:#fff;padding:0 5px;margin-left:6px;font-family:Arial, Helvetica, sans-serif;border-radius:15px;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
 #menu .cart ul{display:none;position:absolute;top:57px;left:-170px;border:1px solid #ddd;background:#fff;padding:10px;width:200px;}
 #menu .cart li{border-bottom:1px solid #eee;padding:5px 0;height:48px;position:relative;}
 #menu .cart li a{*cursor:pointer;}
@@ -121,7 +113,7 @@ blockquote,q{quotes:"" "";}
 #menu .cart li.last .arrow{position:absolute;top:-8px;left:185px;width:17px;height:8px;background:url(../images/og_icon_header.png) 0 -192px no-repeat;}
 #menu .cart:hover ul{display:block;}
 
-.float-menu{display:none;width:100%;height:60px;background:#b60000;z-index:100;position:fixed;top:0;}
+.float-menu{display:none;width:100%;height:30px;background:#b60000;z-index:100;position:fixed;top:0;}
 .float-menu .wrape{position:relative;}
 .float-menu .cart{position:absolute;top:2px;right:0;width:40px;height:60px;}
 .float-menu .cart > a{display:block;width:40px;height:60px;line-height:30px;text-align:center;background:url(../images/og_icon_header.png) right -52px no-repeat;position:relative;}
@@ -145,7 +137,7 @@ blockquote,q{quotes:"" "";}
 #submenu .wrape li{float:left;height:36px;margin-right:20px;position:relative;}
 #submenu .wrape li a{display:inline-block;height:36px;line-height:36px;font-size:14px;}
 #submenu .wrape li a:hover,#submenu .wrape .cur a{color:#df8c2d;}
-#submenu .wrape li a:hover span,#submenu .wrape .cur a span{display:block;position:absolute;top:29px;left:50%;margin-left:-7px;width:15px;height:8px;background:url(../images/og_arrow_header.png) center -92px no-repeat;}
+#submenu .wrape li a:hover span,#submenu .wrape .cur a span{display:block;position:absolute;top:29px;left:50%;margin-left:-7px;width:15px;height:8px;background:url(../images/og_arrow_header.png) center -89px no-repeat;}
 
 
 #navigation{margin-top:20px;font-size:14px;}
@@ -153,7 +145,7 @@ blockquote,q{quotes:"" "";}
 #navigation a{color:#37a;}
 
 /* Content */
-#content{position:relative;padding:50px 0 124px 0;}
+#content{position:relative;padding:10px 0 124px 0;}
 #content .tem{padding:10px;background:#fff;}
 #content .main{width:915px;margin-bottom:15px;}
 
@@ -258,22 +250,22 @@ blockquote,q{quotes:"" "";}
 #content .basic_tb td .item-tips{border:1px solid #e2e2e2;background:#fffde8;padding:0 10px;}
 
 #content .form_tb{table-layout:fixed;}
-#content .form_tb td{padding:10px;line-height:36px;vertical-align:top;font-size:14px;}
-#content .form_tb td.textright{width:140px;text-align:right;}
+#content .form_tb td{padding:8px 10px;line-height:36px;vertical-align:top;font-size:14px;font-family:OpenSans Light,Arial,Helvetica,sans-serif;}
+#content .form_tb td.textright{width:160px;text-align:right;}
 #content .ship_contbox .form_tb td.textright{text-align: left!important;}
-#content .form_tb p input{border:1px solid #ccc;width:240px;height:30px;padding:2px 20px 2px 2px;text-indent:0.5em;}
+#content .form_tb p input{border:1px solid #ccc;width:240px;height:22px;padding:2px 20px 2px 2px;text-indent:0.5em;}
 #content .form_tb p textarea{border:1px solid #ccc;width:260px;min-width:260px;max-width:260px;height:80px;min-height:80px;max-height:80px;padding:2px;}
 #content .form_tb p.hack{display:inline-block;*float:left;}
 #content .form_tb p.hack input{width:85px;}
 #content .form_tb td label{padding:0 10px;*float:left;}
 #content .form_tb input[type="checkbox"]{vertical-align:middle;}
 #content .form_tb input.required{background:url(../images/icon_required.png) right center no-repeat;}
-#content .form_tb select{padding:7px;border:1px solid #ccc;}
+#content .form_tb select{padding:5px;border:1px solid #ccc;}
 #content .form_tb .error_tip{height:16px;line-height:16px;background:url(../images/user_reg_sprites.png) no-repeat;padding-left:20px;margin-top:5px;color:#9B1112;font-size:12px;}
 #content .form_tb.style1{width:60%;}
 #content .form_tb.style1 .submit{margin:20px 0 20px 160px;}
 #content .form_tb.style2{width:100%;}
-#content .form_tb.style2 .submit{margin:20px 10px 20px 0;}
+#content .form_tb.style2 .submit{margin:0 10px 20px 0;}
 
 /* dataTables_filter */
 #content .dataTables_wrapper .basic_tb{border:none;}
@@ -425,7 +417,7 @@ blockquote,q{quotes:"" "";}
 #home .main .m-r .banner{height:72px;margin-bottom:15px;}
 #home .main .m-r .banner img{display:block;width:685px;height:72px;}
 #home .main .m-r .m-box{padding:0 10px;}
-#home .main .m-r .m-box h2{font-size:30px;font-family:OpenSans Light,Arial,Helvetica,sans-serif;margin-bottom:10px;}
+#home .main .m-r .m-box h2{font-size:18px;font-family:OpenSans Light,Arial,Helvetica,sans-serif;}
 #home .main .m-r .viewmore{width:124px;height:34px;margin:15px 0 10px 0;}
 #home .main .m-r .viewmore a{width:124px;height:34px;line-height:34px;background:#7b4;font-size:14px;}
 #home .main .m-r .viewmore a:hover{background:#88de48;}
@@ -444,7 +436,7 @@ blockquote,q{quotes:"" "";}
 #home .main .m-boxd .contbox li:hover{background:#f2f2f2;}
 #home .main .m-boxd .contbox li .pic{width:68px;height:68px;}
 #home .main .m-boxd .contbox li .pic img{display:block;width:68px;height:68px;}
-#home .main .m-boxd .contbox li .txt{width:587px;}
+#home .main .m-boxd .contbox li .txt{width:567px;}
 #home .main .m-boxd .contbox li .txt h3{font-weight:bold;font-size:14px;padding:5px 0;}
 #home .main .m-boxd .contbox li .txt p{margin-bottom:5px;}
 
@@ -568,20 +560,19 @@ blockquote,q{quotes:"" "";}
 /* Regedit */
 #regedit #content .wrape{margin-bottom:15px;}
 #regedit #header{height:90px}
-#regedit #menu{height:10px;}
+#regedit #menu{height:3px;}
 #regedit #menu li{position:absolute;top:-60px;right:0;}
 #regedit #menu li a{padding-right:0;color:#0077c8;text-shadow:0 1px 0 rgba(255,255,255,0.3);}
 #regedit .main{width:100%;position:relative;}
-#regedit .main h2{height:60px;line-height:60px;border-bottom:1px solid #efefef;padding-left:30px;font-size:30px;color:#000;font-family:OpenSans Light,Arial,Helvetica,sans-serif;}
+#regedit .main h2{height:60px;line-height:60px;border-bottom:1px solid #efefef;padding-left:30px;font-size:22px;color:#000;font-family:OpenSans Light,Arial,Helvetica,sans-serif;}
 #regedit .step{position:absolute;top:1px;right:21px;height:50px;line-height:50px;}
 #regedit .step span{display:inline-block;width:20px;line-height:20px;text-align:center;border:1px solid #999;border-radius:20px;margin-right:20px;}
 #regedit .step1 .a,#regedit .step2 .b,#regedit .step3 .c,#regedit .step4 .d{background:#ffab50;color:#fff;border-color:#ffab50;text-shadow:0 1px 0 rgba(0,0,0,0.3);}
-#regedit .contbox{padding:30px 30px 0 30px;}
-#regedit .contbox h3{height:60px;line-height:60px;margin-bottom:20px;font-size:24px;color:#000;font-family:OpenSans Light,Arial,Helvetica,sans-serif;}
+#regedit .contbox{padding:5px 5px 0 30px;}
+#regedit .contbox h3{height:60px;line-height:60px;font-size:18px;color:#000;font-family:OpenSans Light,Arial,Helvetica,sans-serif;}
 #regedit .contbox h3 span{float:right;font-size:14px;color:#333;font-size:12px;}
 
-#regedit .contbox .form_tb{padding-top:20px;}
-#regedit .contbox .form_tb.style2 .submit{margin:40px 10px 40px 0;}
+#regedit .contbox .form_tb.style2 .submit{margin:0 10px 40px 0;}
 
 #regedit .contbox .basic_tb{border-left:none;border-right:none;}
 #regedit .contbox .basic_tb th,#regedit .contbox .basic_tb td{padding:10px;}
@@ -609,13 +600,13 @@ blockquote,q{quotes:"" "";}
 #regedit .step1 .contbox #accept_tc_textarea p{display:block;}
 #regedit .step1 .contbox .tips{color:#666;font-size:12px;}
 #regedit .step1 .contbox .tips strong{font-weight:bold;}
+#regedit .step1 .form_tb input[type="checkbox"]{margin:0;}
 
 #regedit .step2{padding-bottom:25px;}
 
 #regedit .step3 .basic_tb{border:none;}
 #regedit .step3 .basic_tb th{background:none;font-size:16px;padding:20px 5px;font-weight:normal;}
 #regedit .step3 .basic_tb td{border:none;font-size:14px;line-height:24px;}
-#regedit .step3 .basic_tb td label{font-size:18px;}
 #regedit .step3 .basic_tb td .info-more{font-size:14px;margin-top:15px;color:#666;padding-left:26px;}
 #regedit .step3 .basic_tb td .info-more label{font-size:14px;}
 
