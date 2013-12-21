@@ -9,48 +9,59 @@
 </head>
 <body id="login">
 <div class="wrapper">
-  <div id="content">
-    <div class="loginbox">
-      <h1 class="logo hide"><a href="shoppingcart.html">organo gold</a></h1>
-      <div class="logincont">
-        <h2 class="title">Welcome To Organo Gold</h2>
-        <div class="simple-infotips failure">
-          <p>Invalid distributor ID,username or password</p>
-        </div>
-        <form action="" method="get">
-          <ul>
-            <li>
-              <input name="" type="text" placeholder="Login Name or Distributor ID" />
-            </li>
-            <li>
-              <input name="" type="password" placeholder="Password" />
-            </li>
-            <li class="verificationcode"><span>Type The Code Shown:</span><a href="#"><img src="images/verificationcode.png" width="70" height="30" /></a>
-              <p>
-                <input name="" type="text" />
-              </p>
-            </li>
-            <li class="clearfix">
-              <div class="remember f-l">
-                <input name="" type="checkbox" value="" id="checkbox1" />
-                <label for="checkbox1">Remember me</label>
-              </div>
-              <div class="submit f-r">
-                <input name="" type="submit" value="Login" class="btn style2" />
-              </div>
-            </li>
-          </ul>
-          <div class="account"><a href="#" class="create">Create a new account</a><span>|</span><a href="#" class="forgot">Forgot Password?</a></div>
-        </form>
-      </div>
-      <div class="language">
-        <select name="" size="1">
-          <option>English</option>
-          <option>中文</option>
-        </select>
-      </div>
-    </div>
-  </div>
+	<div id="content">
+		<div class="loginbox">
+			<div class="logintitle">
+				<h1 class="logo f-l hide"><a href="shoppingcart.html">organo gold</a></h1>
+				<div class="language f-r">
+					<select name="" size="1">
+						<option>English</option>
+						<option>中文</option>
+					</select>
+				</div>
+				<div class="mask"></div>
+			</div>
+			<div class="logincont">
+				<div class="simple-infotips failure">
+					<p>Invalid distributor ID,username or password</p>
+				</div>
+				<form action="" method="get">
+					<ul>
+						<li>
+							<input name="" type="text" placeholder="Login Name or Distributor ID" />
+						</li>
+						<li>
+							<input name="" type="password" placeholder="Password" />
+						</li>
+						<li class="verificationcode">
+							<p>
+								<input name="" type="text" />
+							</p>
+							<a href="#"><img src="images/verificationcode.png" width="70" height="30" /></a>
+						</li>
+						<li class="submit">
+							<input name="" type="submit" value="Sign In" class="btn style2" />
+						</li>
+						<li class="clearfix">
+							<div class="remember f-l">
+								<input name="" type="checkbox" value="" id="checkbox1" />
+								<label for="checkbox1">Remember me</label>
+							</div>
+							<div class="forgot f-r">
+								<a href="#" target="_blank">Forgot Password?</a>
+							</div>
+						</li>
+					</ul>
+					<div class="account"><span>or</span><a href="#" target="_blank" class="btn style1">Sign Up</a></div>
+				</form>
+			</div>
+			<div class="loginother">
+				<h2 class="title">Welcome To Organo Gold</h2>
+				<p>Ues your credentials to login<br/>and access the app</p>
+				<a href="#" class="a1 hide" title="Download on the App Store" target="_blank">Download on the App Store</a><a href="#" class="a2 hide" title="ANORID APP ON Google play" target="_blank">ANORID APP ON Google play</a>
+			</div>
+		</div>
+	</div>
 </div>
 <script type="text/javascript">
 $(function(){
