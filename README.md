@@ -1,3 +1,3 @@
 # oghtml
 
-face
+spec face
